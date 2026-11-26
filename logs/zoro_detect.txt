@@ -9119,3 +9119,27 @@
 2026-11-26 20:38:15.790 [!!DETECT!!] 11-26 20:38:11.664 19812 19812 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 20:38:15.809 [!!DETECT!!] 11-26 20:38:11.741 19814 19814 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-26 20:38:15.815 [!!DETECT!!] 11-26 20:38:11.741 19814 19814 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 20:38:24.855 [!!DETECT!!] 11-26 20:38:24.847 19315 19400 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 20:38:29.896 [!!DETECT!!] 11-26 20:38:29.888 19315 19632 W [CrashKit]: Game type has not been set.
+2026-11-26 20:38:29.903 [!!DETECT!!] 11-26 20:38:29.888 19315 19632 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 20:38:29.912 [!!DETECT!!] 11-26 20:38:29.889 19315 19315 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 20:38:29.921 [!!DETECT!!] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 20:38:29.929 [!!DETECT!!] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: cachedUuid: 2d959e97-87bf-409e-a8af-4aa43e54ce8b
+2026-11-26 20:38:29.937 [!!DETECT!!] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: currentVersionUuid: 
+2026-11-26 20:38:29.943 [!!DETECT!!] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: redisKeyUuid: 2d959e97-87bf-409e-a8af-4aa43e54ce8b
+2026-11-26 20:38:29.952 [!!DETECT!!] 11-26 20:38:29.903 19315 19315 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 20:38:29.958 [!!DETECT!!] 11-26 20:38:29.903 19315 19315 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 20:38:29.967 [!!DETECT!!] 11-26 20:38:29.903 19315 19315 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 20:38:30.967 [!!DETECT!!] 11-26 20:38:30.954 19315 20046 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 20:38:31.037 [!!DETECT!!] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 20:38:31.044 [!!DETECT!!] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 20:38:31.051 [!!DETECT!!] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 20:38:31.574 [!!DETECT!!] 11-26 20:38:31.568 19315 20075 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 20:38:33.060 [!!DETECT!!] 11-26 20:38:33.053 19315 19315 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 20:38:36.658 [!!DETECT!!] 11-26 20:38:36.647 19315 19632 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 20:38:39.589 [!!DETECT!!] 11-26 20:38:39.586 19315 20047 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f7965725-abf2-4240-8173-2f1121e25acd uc:1 re:true me:false mc:0
+2026-11-26 20:38:39.740 [!!DETECT!!] 11-26 20:38:39.725 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):2a7f3acd-a0e8-4d82-a2fd-95478fddd288 uc:1 re:true me:false mc:0
+2026-11-26 20:38:39.748 [!!DETECT!!] 11-26 20:38:39.729 19315 20046 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):b1ae39a1-0edd-4193-a089-442e39f5bc40 uc:1 re:true me:false mc:0
+2026-11-26 20:38:40.176 [!!DETECT!!] 11-26 20:38:40.168 19315 20047 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f4c22913-cc35-4452-b514-338b91992847 uc:1 re:true me:false mc:0
+2026-11-26 20:38:40.265 [!!DETECT!!] 11-26 20:38:40.261 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):aa95bcea-a65b-4eac-9fbc-182eb9c4c184 uc:1 re:true me:false mc:0
+2026-11-26 20:38:42.340 [!!DETECT!!] 11-26 20:38:42.336 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):664fee84-cf48-486c-9a63-fcb9f91224bd uc:1 re:true me:false mc:0
