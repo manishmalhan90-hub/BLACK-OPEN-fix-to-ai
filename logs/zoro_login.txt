@@ -2942,3 +2942,62 @@
 2026-11-26 21:31:26.687 [!!LOGIN!!] 11-26 21:31:26.540  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
 2026-11-26 21:31:27.113 [!!LOGIN!!] 11-26 21:31:27.004  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
 2026-11-26 21:31:27.140 [!!LOGIN!!] 11-26 21:31:27.038  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:27.382 [!!LOGIN!!] 11-26 21:31:27.377  5681  5708 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{7bb2c9c V.E...... R....... 0,0-720,1604 aid=0 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to true
+2026-11-26 21:31:29.234 [unknown/5681] login-host: page started | host=api.x.com
+2026-11-26 21:31:29.275 [!!LOGIN!!] 11-26 21:31:29.238  5681  5681 D WebLoginHost: page started | host=api.x.com
+2026-11-26 21:31:29.439 [unknown/5681] login-host: page finished | host=api.x.com
+2026-11-26 21:31:29.448 [!!LOGIN!!] 11-26 21:31:29.443  5681  5681 D WebLoginHost: page finished | host=api.x.com
+2026-11-26 21:31:32.158 [unknown/5681] login-host: page started | host=x.com
+2026-11-26 21:31:32.166 [!!LOGIN!!] 11-26 21:31:32.162  5681  5681 D WebLoginHost: page started | host=x.com
+2026-11-26 21:31:32.423 [unknown/5681] login-host: page finished | host=x.com
+2026-11-26 21:31:32.454 [!!LOGIN!!] 11-26 21:31:32.427  5681  5681 D WebLoginHost: page finished | host=x.com
+2026-11-26 21:31:32.753 [unknown/5681] login-host: page started | host=in-comm1.globh.com
+2026-11-26 21:31:32.764 [!!LOGIN!!] 11-26 21:31:32.757  5681  5681 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 21:31:33.360 [unknown/5681] login-host: page started | host=in-comm1.globh.com
+2026-11-26 21:31:33.368 [!!LOGIN!!] 11-26 21:31:33.364  5681  5681 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 21:31:33.480 [unknown/5681] login-host: page finished | host=in-comm1.globh.com
+2026-11-26 21:31:33.491 [!!LOGIN!!] 11-26 21:31:33.485  5681  5681 D WebLoginHost: page finished | host=in-comm1.globh.com
+2026-11-26 21:31:34.543 [unknown/5681] login-host: login result received | kind=twitter | length=243
+2026-11-26 21:31:34.562 [!!LOGIN!!] 11-26 21:31:34.554  5681  5782 D WebLoginHost: login result received | kind=twitter | length=243
+2026-11-26 21:31:34.572 [unknown/5681] login-bridge: pending result stored | kind=twitter | len=243
+2026-11-26 21:31:34.586 [!!LOGIN!!] 11-26 21:31:34.577  5681  5782 D WebLoginBridge: pending result stored | kind=twitter | len=243
+2026-11-26 21:31:34.599 [!!LOGIN!!] 11-26 21:31:34.577  5681  5782 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.deliverResult:29 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.sendJson:31 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.access$1900:0 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity$ResultInterface.onResult:52 android.os.MessageQueue.nativePollOnce:-2 android.os.MessageQueue.nextLegacy:934 android.os.MessageQueue.next:1046 android.os.Looper.loopOnce:221 
+2026-11-26 21:31:34.648 [!!LOGIN!!] 11-26 21:31:34.632  5681  5681 D VRI[TwitterWebHostActivity]: onFocusEvent false
+2026-11-26 21:31:34.668 [unknown/5681] login-bridge: virtual game task restore requested
+2026-11-26 21:31:34.698 [!!LOGIN!!] 11-26 21:31:34.673  5681  5681 D WebLoginBridge: virtual game task restore requested
+2026-11-26 21:31:35.198 [!!LOGIN!!] 11-26 21:31:35.133  5681  5960 D VRI[TwitterWebHostActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+2026-11-26 21:31:35.248 [!!LOGIN!!] 11-26 21:31:35.134  5681  5681 D VRI[TwitterWebHostActivity]: visibilityChanged oldVisibility=true newVisibility=false
+2026-11-26 21:31:35.367 [!!LOGIN!!] 11-26 21:31:35.219  5681  5681 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+2026-11-26 21:31:35.375 [!!LOGIN!!] 11-26 21:31:35.237  5681  5681 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+2026-11-26 21:31:35.381 [!!LOGIN!!] 11-26 21:31:35.238  5681  5681 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#0](f:0,a:1) destructor()
+2026-11-26 21:31:35.391 [!!LOGIN!!] 11-26 21:31:35.238  5681  5681 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#0(BLAST Consumer)0](id:163100000000,api:0,p:-1,c:5681) disconnect
+2026-11-26 21:31:35.399 [!!LOGIN!!] 11-26 21:31:35.256  5681  5681 D VRI[TwitterWebHostActivity]: setWindowStopped stopped:true
+2026-11-26 21:31:35.426 [!!LOGIN!!] 11-26 21:31:35.282  5681  5681 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,window dying
+2026-11-26 21:31:35.432 [!!LOGIN!!] 11-26 21:31:35.282  5681  5681 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,unregisterSystemUIBroadcastReceiver 
+2026-11-26 21:31:35.439 [!!LOGIN!!] 11-26 21:31:35.282  5681  5681 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@348b3a6
+2026-11-26 21:31:43.421 [!!LOGIN!!] 11-26 21:31:10.073  5681  5681 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 2
+2026-11-26 21:31:43.447 [!!LOGIN!!] 11-26 21:31:10.128  5681  5681 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+2026-11-26 21:31:43.457 [!!LOGIN!!] 11-26 21:31:10.128  5681  5681 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-2, blastBufferQueue:null
+2026-11-26 21:31:43.465 [!!LOGIN!!] 11-26 21:31:10.215  5681  5681 W VRI[TwitterWebHostActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2026-11-26 21:31:43.474 [!!LOGIN!!] 11-26 21:31:10.225  5681  5681 W VRI[TwitterWebHostActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2026-11-26 21:31:43.490 [!!LOGIN!!] 11-26 21:31:10.913  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.519 [!!LOGIN!!] 11-26 21:31:20.249  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.534 [!!LOGIN!!] 11-26 21:31:20.504  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.551 [!!LOGIN!!] 11-26 21:31:20.598  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.571 [!!LOGIN!!] 11-26 21:31:22.197  5681  5681 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 4
+2026-11-26 21:31:43.580 [!!LOGIN!!] 11-26 21:31:22.204  5681  5681 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+2026-11-26 21:31:43.587 [!!LOGIN!!] 11-26 21:31:22.204  5681  5681 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-2, blastBufferQueue:android.graphics.BLASTBufferQueue@af49d7c
+2026-11-26 21:31:43.597 [!!LOGIN!!] 11-26 21:31:22.688  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.603 [!!LOGIN!!] 11-26 21:31:22.961  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.611 [!!LOGIN!!] 11-26 21:31:23.011  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.619 [!!LOGIN!!] 11-26 21:31:24.308  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.626 [!!LOGIN!!] 11-26 21:31:24.927  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.635 [!!LOGIN!!] 11-26 21:31:25.051  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.653 [!!LOGIN!!] 11-26 21:31:26.362  5681  5681 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 4
+2026-11-26 21:31:43.665 [!!LOGIN!!] 11-26 21:31:26.369  5681  5681 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+2026-11-26 21:31:43.676 [!!LOGIN!!] 11-26 21:31:26.369  5681  5681 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-2, blastBufferQueue:android.graphics.BLASTBufferQueue@af49d7c
+2026-11-26 21:31:43.684 [!!LOGIN!!] 11-26 21:31:26.398  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.693 [!!LOGIN!!] 11-26 21:31:26.540  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.712 [!!LOGIN!!] 11-26 21:31:27.004  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.719 [!!LOGIN!!] 11-26 21:31:27.038  5681  5681 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 21:31:43.764 [!!LOGIN!!] 11-26 21:31:35.237  5681  5681 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
