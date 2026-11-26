@@ -1971,3 +1971,65 @@
 2026-11-26 16:33:21.918 [!!DETECT!!] 11-26 16:33:17.794  5764  5764 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-26 16:33:21.935 [!!DETECT!!] 11-26 16:33:17.794  5764  5764 E libsigchain:   #05 pc 000dffa0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 16:33:21.945 [!!DETECT!!] 11-26 16:33:17.794  5764  5764 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:22.932 [!!DETECT!!] 11-26 16:33:18.334  5791  5791 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:22.938 [!!DETECT!!] 11-26 16:33:18.334  5791  5791 E libsigchain:   #05 pc 000dffac  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:22.944 [!!DETECT!!] 11-26 16:33:18.334  5791  5791 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.054 [!!DETECT!!] 11-26 16:33:18.593  5320  5675 E FA      : Failed to get user properties; not connected to service
+2026-11-26 16:33:23.109 [!!DETECT!!] 11-26 16:33:18.810  5802  5802 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.114 [!!DETECT!!] 11-26 16:33:18.810  5802  5802 E libsigchain:   #05 pc 000dffb8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.120 [!!DETECT!!] 11-26 16:33:18.810  5802  5802 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.562 [!!DETECT!!] 11-26 16:33:19.048  5804  5804 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.571 [!!DETECT!!] 11-26 16:33:19.048  5804  5804 E libsigchain:   #05 pc 000dffc4  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.577 [!!DETECT!!] 11-26 16:33:19.048  5804  5804 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.595 [!!DETECT!!] 11-26 16:33:19.100  5320  5675 E FA      : Failed to get conditional properties; not connected to service: frc
+2026-11-26 16:33:23.617 [!!DETECT!!] 11-26 16:33:19.194  5806  5806 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.628 [!!DETECT!!] 11-26 16:33:19.194  5806  5806 E libsigchain:   #05 pc 000dffd0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.637 [!!DETECT!!] 11-26 16:33:19.194  5806  5806 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.682 [!!DETECT!!] 11-26 16:33:19.312  5807  5807 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.690 [!!DETECT!!] 11-26 16:33:19.312  5807  5807 E libsigchain:   #05 pc 000dffe0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.700 [!!DETECT!!] 11-26 16:33:19.312  5807  5807 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.745 [!!DETECT!!] 11-26 16:33:19.416  5808  5808 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.753 [!!DETECT!!] 11-26 16:33:19.416  5808  5808 E libsigchain:   #05 pc 000dffe8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.760 [!!DETECT!!] 11-26 16:33:19.416  5808  5808 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.793 [!!DETECT!!] 11-26 16:33:19.523  5809  5809 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.798 [!!DETECT!!] 11-26 16:33:19.523  5809  5809 E libsigchain:   #05 pc 000dfff8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.805 [!!DETECT!!] 11-26 16:33:19.523  5809  5809 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.842 [!!DETECT!!] 11-26 16:33:19.631  5811  5811 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.851 [!!DETECT!!] 11-26 16:33:19.631  5811  5811 E libsigchain:   #05 pc 000e0000  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.859 [!!DETECT!!] 11-26 16:33:19.631  5811  5811 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.874 [!!DETECT!!] 11-26 16:33:19.730  5320  5427 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:33:23.893 [!!DETECT!!] 11-26 16:33:19.730  5813  5813 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.900 [!!DETECT!!] 11-26 16:33:19.730  5813  5813 E libsigchain:   #05 pc 000e0010  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.907 [!!DETECT!!] 11-26 16:33:19.730  5813  5813 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.932 [!!DETECT!!] 11-26 16:33:19.821  5819  5819 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.939 [!!DETECT!!] 11-26 16:33:19.821  5819  5819 E libsigchain:   #05 pc 000e0018  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.945 [!!DETECT!!] 11-26 16:33:19.821  5819  5819 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:23.967 [!!DETECT!!] 11-26 16:33:19.915  5820  5820 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:33:23.975 [!!DETECT!!] 11-26 16:33:19.915  5820  5820 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:33:28.631 [!!DETECT!!] 11-26 16:33:28.624  5320  5427 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:33:45.952 [!!DETECT!!] 11-26 16:33:45.935  5320  5644 W [CrashKit]: Game type has not been set.
+2026-11-26 16:33:45.967 [!!DETECT!!] 11-26 16:33:45.935  5320  5644 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 16:33:45.980 [!!DETECT!!] 11-26 16:33:45.938  5320  5320 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 16:33:45.988 [!!DETECT!!] 11-26 16:33:45.965  5320  5644 I [CrashKitReport]: sdk uuid first install lastAppVersionCode: , currentAppVersionCode: 21735
+2026-11-26 16:33:45.995 [!!DETECT!!] 11-26 16:33:45.965  5320  5644 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 16:33:46.004 [!!DETECT!!] 11-26 16:33:45.965  5320  5644 I [CrashKitReport]: cachedUuid: 
+2026-11-26 16:33:46.013 [!!DETECT!!] 11-26 16:33:45.965  5320  5644 I [CrashKitReport]: currentVersionUuid: 03da98d9-ccd7-44c2-973d-947a8e6269dc
+2026-11-26 16:33:46.020 [!!DETECT!!] 11-26 16:33:45.965  5320  5644 I [CrashKitReport]: redisKeyUuid: 03da98d9-ccd7-44c2-973d-947a8e6269dc
+2026-11-26 16:33:46.032 [!!DETECT!!] 11-26 16:33:45.985  5320  5320 I [CrashKitReport]: localStrategy is null
+2026-11-26 16:33:46.040 [!!DETECT!!] 11-26 16:33:45.986  5320  5320 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 16:33:46.047 [!!DETECT!!] 11-26 16:33:45.986  5320  5320 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 16:33:46.053 [!!DETECT!!] 11-26 16:33:45.986  5320  5320 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 16:33:47.054 [!!DETECT!!] 11-26 16:33:47.039  5320  5961 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 16:33:47.140 [!!DETECT!!] 11-26 16:33:47.071  5320  5961 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 16:33:47.148 [!!DETECT!!] 11-26 16:33:47.071  5320  5961 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 16:33:47.155 [!!DETECT!!] 11-26 16:33:47.071  5320  5961 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 16:33:47.586 [!!DETECT!!] 11-26 16:33:47.563  5320  5976 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 16:33:49.836 [!!DETECT!!] 11-26 16:33:49.822  5320  5320 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 16:33:53.255 [!!DETECT!!] 11-26 16:33:53.241  5320  5644 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 16:33:56.807 [!!DETECT!!] 11-26 16:33:56.799  5320  5960 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):7cd47a92-37ee-47b9-aa90-71e08c2d31e3 uc:1 re:true me:false mc:0
+2026-11-26 16:33:56.821 [!!DETECT!!] 11-26 16:33:56.807  5320  5962 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):a2047ace-5cf6-4102-bae7-d7dc9c9ec302 uc:1 re:true me:false mc:0
+2026-11-26 16:33:56.833 [!!DETECT!!] 11-26 16:33:56.818  5320  5961 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):129edfe2-62c3-4c9e-9110-664de072040a uc:1 re:true me:false mc:0
+2026-11-26 16:33:57.249 [!!DETECT!!] 11-26 16:33:57.244  5320  5962 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):038e4ca8-4289-4c0c-8a1d-0cc2988b603f uc:1 re:true me:false mc:0
+2026-11-26 16:33:57.268 [!!DETECT!!] 11-26 16:33:57.250  5320  5960 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):01f8b51b-3255-49af-9df4-c327e6821874 uc:1 re:true me:false mc:0
+2026-11-26 16:34:03.434 [!!DETECT!!] 11-26 16:34:03.421  5320  5427 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:34:05.568 [!!DETECT!!] 11-26 16:34:05.559  5320  5644 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
