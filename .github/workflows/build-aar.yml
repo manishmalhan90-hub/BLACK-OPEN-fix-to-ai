@@ -28,7 +28,7 @@ jobs:
         run: |
           SDKMANAGER=$(find "$ANDROID_HOME/cmdline-tools" -path '*/bin/sdkmanager' | sort -V | tail -1)
           yes | "$SDKMANAGER" --licenses > /dev/null
-          "$SDKMANAGER" "platforms;android-34" "build-tools;34.0.4" "ndk;24.0.8215888"
+          "$SDKMANAGER" "platforms;android-34" "ndk;24.0.8215888"
 
       - name: Build library AAR
         run: |
