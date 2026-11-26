@@ -2229,3 +2229,32 @@
 2026-11-26 16:36:43.230 [!!DETECT!!] 11-26 16:36:42.975  7003  7008 E [CrashKitReport-Native]: get signal 6
 2026-11-26 16:36:43.244 [!!DETECT!!] 11-26 16:36:42.975  7003  7008 E [CrashKitReport-Native]: last errno is 14
 2026-11-26 16:36:43.261 [!!DETECT!!] 11-26 16:36:43.020  7003  7008 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 17:04:08.669 [!!DETECT!!] 11-26 17:04:08.435  4442  4442 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 17:04:08.838 [!!DETECT!!] 11-26 17:04:08.697  4442  4442 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 17:04:08.842 [!!DETECT!!] 11-26 17:04:08.702  4442  4442 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 17:04:09.006 [!!DETECT!!] 11-26 17:04:08.994  4442  4442 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@cb947d
+2026-11-26 17:04:09.149 [!!DETECT!!] 11-26 17:04:09.080  4442  4442 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@a9db53
+2026-11-26 17:04:09.241 [!!DETECT!!] 11-26 17:04:09.197  4442  4442 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 17:04:09.519 [!!DETECT!!] 11-26 17:04:09.511  4442  4442 W System  : Attempt to load writable file: /data/user/0/com.google/files/loader/libbgmi.so. This will throw on a future Android version. Current sdk version: 36
+2026-11-26 17:04:09.627 [!!DETECT!!] 11-26 17:04:09.575  4518  4518 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 17:04:09.642 [!!DETECT!!] 11-26 17:04:09.575  4518  4518 E libsigchain:   #05 pc 000dfea0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 17:04:09.660 [!!DETECT!!] 11-26 17:04:09.575  4518  4518 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 17:04:09.680 [!!DETECT!!] 11-26 17:04:09.583  4442  4442 D NativeCore: set addIORule: /data/data/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 17:04:09.741 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 17:04:09.800 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/data/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 17:04:09.848 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 17:04:09.884 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/misc/profiles -> /data/user/0/com.google/files/profiles
+2026-11-26 17:04:09.926 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/misc/profiles/cur/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/cur/0/com.pubg.imobile
+2026-11-26 17:04:10.015 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /data/misc/profiles/ref/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/ref/0/com.pubg.imobile
+2026-11-26 17:04:10.039 [!!DETECT!!] 11-26 17:04:09.584  4442  4442 D NativeCore: set addIORule: /sdcard -> /storage/emulated/0/SdCard
+2026-11-26 17:04:10.080 [!!DETECT!!] 11-26 17:04:09.588  4442  4442 D NativeCore: set addIORule: /storage/emulated/0 -> /storage/emulated/0/SdCard
+2026-11-26 17:04:10.114 [!!DETECT!!] 11-26 17:04:09.588  4442  4442 D NativeCore: set addIORule: /proc/4442/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 17:04:10.157 [!!DETECT!!] 11-26 17:04:09.588  4442  4442 D NativeCore: set addIORule: /proc/self/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 17:04:10.209 [!!DETECT!!] 11-26 17:04:09.588  4442  4442 D NativeCore: set enableIO
+2026-11-26 17:04:10.269 [!!DETECT!!] 11-26 17:04:09.588  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：getLastModifiedTime0 success!
+2026-11-26 17:04:10.441 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：setPermission0 success!
+2026-11-26 17:04:10.476 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：createFileExclusively0 success!
+2026-11-26 17:04:10.513 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：list0 success!
+2026-11-26 17:04:10.558 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：createDirectory0 success!
+2026-11-26 17:04:10.574 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：setLastModifiedTime0 success!
+2026-11-26 17:04:10.598 [!!DETECT!!] 11-26 17:04:09.589  4442  4442 D NativeCore: register class：java/io/UnixFileSystem, method：setReadOnly0 success!
