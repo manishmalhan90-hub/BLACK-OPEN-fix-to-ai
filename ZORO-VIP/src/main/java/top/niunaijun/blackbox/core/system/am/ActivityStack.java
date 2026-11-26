@@ -103,6 +103,10 @@ public class ActivityStack {
     }
 
     public int startActivityLocked(int userId, Intent intent, String resolvedType, IBinder resultTo, String resultWho, int requestCode, int flags, Bundle options) {
+        if (intent == null) {
+            Log.e(TAG, "startActivityLocked: null intent ignored");
+            return 0;
+        }
         synchronized (mTasks) {
             synchronizeTasks();
         }
@@ -298,8 +302,8 @@ public class ActivityStack {
     private int startActivityInNewTaskLocked(int userId, Intent intent, ActivityInfo activityInfo, IBinder resultTo, int launchMode) {
 		ActivityRecord record = newActivityRecord(intent, activityInfo, resultTo, userId);
 		Intent shadow = startActivityProcess(userId, intent, activityInfo, record);
-		if (shadow == null) {
-			Log.e(TAG, "Shadow intent is null, cannot start activity");
+		if (shadow == null || shadow.getComponent() == null) {
+			Log.e(TAG, "Shadow intent/component is null, cannot start activity");
 			return -1;
 		}
 		shadow.addFlags(Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
@@ -318,6 +322,10 @@ public class ActivityStack {
     private int startActivityInSourceTask(Intent intent, String resolvedType,IBinder resultTo, String resultWho, int requestCode, int flags,Bundle options,int userId, ActivityRecord sourceRecord, ActivityInfo activityInfo, int launchMode) {
         ActivityRecord selfRecord = newActivityRecord(intent, activityInfo, resultTo, userId);
         Intent shadow = startActivityProcess(userId, intent, activityInfo, selfRecord);
+        if (shadow == null || shadow.getComponent() == null) {
+            Log.e(TAG, "Shadow intent/component is null, source task launch skipped");
+            return -1;
+        }
         shadow.setAction(UUID.randomUUID().toString());
         shadow.addFlags(launchMode);
         if (resultTo == null) {
@@ -339,42 +347,62 @@ public class ActivityStack {
     }
 
     /**
-     * Bring the most recent virtual game task back to the front. Used after the
-     * isolated login page finishes so the loader launcher is never revealed.
+     * Bring the virtual game task (not the IMSDK login proxy task) back to the
+     * front. v15 moved the proxy task, which made the loader launcher visible as
+     * soon as the proxy finished.
      */
-    public void restoreGameTasks() {
+    public void restoreGameTasks(Bundle extras) {
+        String targetPackage = extras == null ? null : extras.getString("virtual_package");
         synchronized (mTasks) {
             synchronizeTasks();
-            TaskRecord target = null;
-            for (TaskRecord task : mTasks.values()) {
-                if (task == null || task.activities == null) {
-                    continue;
-                }
-                for (ActivityRecord activity : task.activities) {
-                    if (activity == null || activity.info == null) {
-                        continue;
-                    }
-                    String pkg = activity.info.packageName;
-                    if (pkg != null && !pkg.equals(BlackBoxCore.getHostPkg())) {
-                        target = task;
-                        break;
-                    }
-                }
-                if (target != null) {
-                    break;
-                }
-            }
-            if (target == null) {
-                ActivityRecord top = getTopActivityRecord();
-                target = top == null ? null : top.task;
-            }
+            TaskRecord target = findGameTask(targetPackage);
             if (target != null) {
-                Log.d(TAG, "restoreGameTasks: moving task " + target.id + " to front");
+                Log.d(TAG, "restoreGameTasks: moving game task " + target.id
+                        + " to front | pkg=" + targetPackage);
                 mAms.moveTaskToFront(target.id, 0);
             } else {
-                Log.d(TAG, "restoreGameTasks: no virtual task available");
+                Log.d(TAG, "restoreGameTasks: no safe virtual game task available");
             }
         }
+    }
+
+    /** Pick a real game task, never a login/proxy task. */
+    private TaskRecord findGameTask(String targetPackage) {
+        TaskRecord fallback = null;
+        for (TaskRecord task : mTasks.values()) {
+            if (task == null || task.activities == null || task.activities.isEmpty()) {
+                continue;
+            }
+            ActivityRecord top = task.getTopActivityRecord();
+            if (top == null || top.info == null) {
+                continue;
+            }
+            if (isLoginBridgeActivity(top.info.name)) {
+                Log.d(TAG, "restoreGameTasks: skipping login/proxy task " + task.id);
+                continue;
+            }
+            String pkg = top.info.packageName;
+            if (pkg == null || pkg.equals(BlackBoxCore.getHostPkg())) {
+                continue;
+            }
+            if (targetPackage != null && targetPackage.equals(pkg)) {
+                return task;
+            }
+            if (fallback == null) {
+                fallback = task;
+            }
+        }
+        return fallback;
+    }
+
+    private static boolean isLoginBridgeActivity(String className) {
+        if (className == null) {
+            return false;
+        }
+        return className.contains("IMSDKProxyActivity")
+                || className.contains("TwitterWebActivity")
+                || className.contains("WebLoginActivity")
+                || className.contains("TwitterWebHostActivity");
     }
 
     private ActivityRecord getTopActivityRecord() {

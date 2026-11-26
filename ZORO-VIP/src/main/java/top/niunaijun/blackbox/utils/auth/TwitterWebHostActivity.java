@@ -46,10 +46,11 @@ import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
  * <p>v13 keeps the OAuth flow inside the WebView: popups and {@code intent://}
  * redirects from the X login page are folded back into the same WebView, a
  * URL-delivered JSON result is accepted as a fallback, and a Retry button is
- * available if the current 2026 login page stops responding. v15 stores the
- * result before broadcasting, releases the guarded game process, and restores
- * the game task before finishing. No credentials are injected and no token or
- * full OAuth URL is ever logged.</p>
+ * available if the current 2026 login page stops responding. v16 stores the
+ * result before broadcasting and lets the virtual process consume it through
+ * the existing receiver or the pending-result poller. The game process is never
+ * stopped. No credentials are injected and no token or full OAuth URL is ever
+ * logged.</p>
  */
 public final class TwitterWebHostActivity extends Activity {
 
@@ -591,11 +592,11 @@ public final class TwitterWebHostActivity extends Activity {
     }
 
     /**
-     * Store, release, and only then broadcast. The virtual process is frozen
-     * until this point, so a broadcast alone can be lost if its receiver is not
-     * scheduled yet. The stored copy is retried by WebLoginBridge in the game
-     * process. The game task is moved forward before this WebView task is
-     * finished so launcher/MainActivity are never revealed on the way out.
+     * Store first, then broadcast. The receiver in the virtual process delivers
+     * the JSON to the game's own callback; WebLoginBridge also polls the stored
+     * copy so a missed broadcast cannot lose the result. v16 does not freeze or
+     * restore processes here: the game task is already in front and stopping it
+     * was causing the ANR/SIGKILL bounce seen in v15.
      */
     private void deliverResult(final Intent result) {
         if (mFinished) {
@@ -605,8 +606,6 @@ public final class TwitterWebHostActivity extends Activity {
         cancelStuckCheck();
         cancelTimeout();
         WebLoginBridge.savePending(this, result);
-        WebLoginBridge.resumeVirtualProcess(mVirtualPid);
-        WebLoginBridge.restoreGame(this);
         mMain.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -659,8 +658,8 @@ public final class TwitterWebHostActivity extends Activity {
         cancelStuckCheck();
         cancelTimeout();
         if (!mFinished) {
-            // System destroyed the page; never leave the game process frozen.
-            WebLoginBridge.resumeVirtualProcess(mVirtualPid);
+            // System destroyed the page without a result; the virtual process
+            // keeps running normally and the user can retry from the game.
             mFinished = true;
         }
         if (mWebView != null) {

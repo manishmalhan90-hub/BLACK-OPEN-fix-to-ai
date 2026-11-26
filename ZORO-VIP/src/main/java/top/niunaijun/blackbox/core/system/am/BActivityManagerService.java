@@ -385,14 +385,14 @@ public class BActivityManagerService extends IBActivityManagerService.Stub imple
     }
 
     /** Move the existing virtual game task in front of the loader UI. */
-    public void restoreGameTasks() {
+    public void restoreGameTasks(Bundle extras) {
         synchronized (mUserSpace) {
             for (UserSpace space : mUserSpace.values()) {
                 if (space == null || space.mStack == null) {
                     continue;
                 }
                 synchronized (space.mStack) {
-                    space.mStack.restoreGameTasks();
+                    space.mStack.restoreGameTasks(extras);
                 }
             }
         }

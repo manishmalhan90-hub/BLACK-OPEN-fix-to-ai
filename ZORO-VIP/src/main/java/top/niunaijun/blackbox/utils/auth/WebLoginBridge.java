@@ -55,12 +55,14 @@ public final class WebLoginBridge {
     public static final String EXTRA_VIRTUAL_PID = "virtual_pid";
     private static final String PROVIDER_METHOD = "START_WEB_LOGIN";
     private static final String RESTORE_METHOD = "RESTORE_GAME";
+    private static final String DONE_METHOD = "WEB_LOGIN_DONE";
     private static final String PENDING_FILE = "weblogin_pending.json";
     private static final long PENDING_MAX_AGE_MS = 10L * 60L * 1000L;
     private static final long PENDING_POLL_MS = 400L;
 
     private static final AtomicBoolean sReceiverRegistered = new AtomicBoolean(false);
     private static final AtomicBoolean sLoginActive = new AtomicBoolean(false);
+    private static final AtomicBoolean sResultConsumed = new AtomicBoolean(false);
     private static final AtomicBoolean sPendingPolling = new AtomicBoolean(false);
     private static final Object PENDING_LOCK = new Object();
     private static final Handler MAIN = new Handler(Looper.getMainLooper());
@@ -109,6 +111,14 @@ public final class WebLoginBridge {
         if (!twitter && !facebook) {
             return false;
         }
+        // The game can restart its own WebActivity while the isolated result is
+        // still in flight. Suppress that second launch instead of clearing the
+        // stored result and opening a fresh WebView.
+        if (sLoginActive.get() || hasPendingResult(context)) {
+            log("duplicate web login suppressed while isolated result is pending | kind="
+                    + (twitter ? "twitter" : "facebook"));
+            return true;
+        }
 
         String url = intent.getStringExtra("url");
         if (twitter && (url == null || url.isEmpty())) {
@@ -148,9 +158,9 @@ public final class WebLoginBridge {
         log("redirecting " + (twitter ? "twitter" : "facebook")
                 + " web login to isolated process | host=" + host + " | request=" + requestCode);
 
-        // Mark the game process as paused before the host freezes it. The
-        // provider call returns only after the result resumes this process, so
-        // setting the flag afterwards would leave it stuck true.
+        // A new tap starts a new OAuth attempt, so any result from the previous
+        // attempt must not be replayed. v16 never freezes the game process.
+        sResultConsumed.set(false);
         sLoginActive.set(true);
         TwitterLoginModeFix.setLoginActive(true);
         try {
@@ -183,6 +193,13 @@ public final class WebLoginBridge {
         String className = intent.getComponent() == null ? "" : intent.getComponent().getClassName();
         if (!"com.itop.twitterwrapper.TwitterWebActivity".equals(className)) {
             return false;
+        }
+        // The isolated WebView writes its result file before broadcasting. While
+        // that file is fresh, the game's duplicate WebActivity start must not
+        // open a second WebView task or reveal the loader launcher.
+        if (hasPendingResult(hostContext)) {
+            log("host-side duplicate web login suppressed while result is pending");
+            return true;
         }
         String url = intent.getStringExtra("url");
         if (TextUtils.isEmpty(url)) {
@@ -328,6 +345,10 @@ public final class WebLoginBridge {
         if (intent == null) {
             return false;
         }
+        if (sResultConsumed.get()) {
+            log("duplicate result ignored after successful delivery");
+            return true;
+        }
         String kind = intent.getStringExtra("kind");
         String json = intent.getStringExtra("result_json");
         int code = intent.getIntExtra("result_code", -1);
@@ -370,10 +391,12 @@ public final class WebLoginBridge {
             log("result delivery failed: " + t);
         }
         if (delivered) {
+            sResultConsumed.set(true);
             sLoginActive.set(false);
             TwitterLoginModeFix.setLoginActive(false);
             sPendingFailures = 0;
             clearPending(sAppContext);
+            notifyHostLoginDone(sAppContext);
             restoreGame(sAppContext);
         }
         return delivered;
@@ -417,7 +440,7 @@ public final class WebLoginBridge {
                     log("pending result rename failed");
                 }
                 log("pending result stored | kind=" + pending.getString("kind")
-                        + (json == null ? 0 : json.length()));
+                        + " | len=" + (json == null ? 0 : json.length()));
             } catch (Throwable t) {
                 ZoroRuntimeLogger.logThrowable("login-bridge", t);
                 log("pending result store failed: " + t);
@@ -493,6 +516,66 @@ public final class WebLoginBridge {
         log("pending result retry started");
     }
 
+    /** True while a fresh isolated result is waiting to be consumed. */
+    private static boolean hasPendingResult(Context context) {
+        try {
+            File file = pendingFile(context);
+            if (file == null || !file.exists()) {
+                return false;
+            }
+            JSONObject pending = new JSONObject(new String(
+                    readAll(file), StandardCharsets.UTF_8));
+            long ts = pending.optLong("ts", 0L);
+            long now = System.currentTimeMillis();
+            return ts > 0L && ts <= now && now - ts <= PENDING_MAX_AGE_MS;
+        } catch (Throwable ignored) {
+            return false;
+        }
+    }
+
+    private static byte[] readAll(File file) throws Exception {
+        FileInputStream in = new FileInputStream(file);
+        try {
+            byte[] bytes = new byte[(int) file.length()];
+            int read = in.read(bytes);
+            if (read != bytes.length) {
+                throw new java.io.IOException("short pending result read");
+            }
+            return bytes;
+        } finally {
+            in.close();
+        }
+    }
+
+    /**
+     * Tell the loader process that the result was delivered. The host-side
+     * ActivityStack checks the same pending file to suppress duplicate launches,
+     * so the ack is sent through the host provider instead of a local delete.
+     */
+    private static void notifyHostLoginDone(Context context) {
+        try {
+            String authority = hostPackage(context) + ".SystemCallProvider";
+            Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
+            ContentResolver resolver = hostResolver(context);
+            if (resolver != null) {
+                resolver.call(uri, DONE_METHOD, null, new Bundle());
+            }
+        } catch (Throwable t) {
+            log("host result ack failed: " + t);
+        }
+    }
+
+    private static ContentResolver hostResolver(Context context) {
+        Context host = null;
+        try {
+            host = top.niunaijun.blackbox.BlackBoxCore.getContext();
+        } catch (Throwable ignored) {
+            // Use the supplied context below.
+        }
+        Context target = host != null ? host : context;
+        return target == null ? null : target.getContentResolver();
+    }
+
     public static void clearPending(Context context) {
         synchronized (PENDING_LOCK) {
             File file = pendingFile(context);
@@ -528,15 +611,15 @@ public final class WebLoginBridge {
             if (resolver == null) {
                 return;
             }
-            resolver.call(uri, RESTORE_METHOD, null, new Bundle());
+            Bundle args = new Bundle();
+            if (context != null) {
+                args.putString("virtual_package", context.getPackageName());
+            }
+            resolver.call(uri, RESTORE_METHOD, null, args);
             log("virtual game task restore requested");
         } catch (Throwable t) {
             log("virtual game task restore failed: " + t);
         }
-    }
-
-    public static void resumeVirtualProcess(int pid) {
-        WebLoginProcessGuard.resumeIfDifferent(pid);
     }
 
     private static void invokeTwitterResult(ClassLoader cl, String json) throws Exception {

@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import top.niunaijun.blackbox.core.system.am.BActivityManagerService;
 import top.niunaijun.blackbox.utils.Slog;
 import top.niunaijun.blackbox.utils.auth.WebLoginBridge;
-import top.niunaijun.blackbox.utils.auth.WebLoginProcessGuard;
 import top.niunaijun.blackbox.utils.compat.BundleCompat;
 
 /**
@@ -48,7 +47,12 @@ public class SystemCallProvider extends ContentProvider {
         }
         if ("RESTORE_GAME".equals(method)) {
             Slog.d(TAG, "call: RESTORE_GAME");
-            restoreGameTask();
+            restoreGameTask(extras);
+            return new Bundle();
+        }
+        if ("WEB_LOGIN_DONE".equals(method)) {
+            Slog.d(TAG, "call: WEB_LOGIN_DONE");
+            WebLoginBridge.clearPending(getContext());
             return new Bundle();
         }
         Slog.d(TAG, "call: " + method + ", " + extras);
@@ -112,19 +116,17 @@ public class SystemCallProvider extends ContentProvider {
                     | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS
                     | Intent.FLAG_ACTIVITY_NO_HISTORY);
             getContext().startActivity(intent);
-            // Freeze only after a successful launch. The WebView result handler
-            // resumes this pid before delivering the JSON to the game callback.
-            WebLoginProcessGuard.freezeIfDifferent(virtualPid);
+            // v16: never stop the virtual process. A stopped process cannot
+            // answer Binder and was being ANR-killed before the result arrived.
             Slog.d(TAG, "launchWebLogin ok | virtual_pid=" + virtualPid);
         } catch (Throwable t) {
-            WebLoginProcessGuard.resumeIfDifferent(virtualPid);
             Slog.d(TAG, "launchWebLogin failed: " + t);
         }
     }
 
-    private void restoreGameTask() {
+    private void restoreGameTask(Bundle extras) {
         try {
-            BActivityManagerService.get().restoreGameTasks();
+            BActivityManagerService.get().restoreGameTasks(extras);
         } catch (Throwable t) {
             Slog.d(TAG, "restoreGameTask failed: " + t);
         }
