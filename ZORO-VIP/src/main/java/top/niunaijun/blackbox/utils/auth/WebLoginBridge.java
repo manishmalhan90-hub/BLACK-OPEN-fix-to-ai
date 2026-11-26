@@ -63,8 +63,12 @@ public final class WebLoginBridge {
         if (context == null || intent == null) {
             return false;
         }
-        if (sGameClassLoader == null) {
-            sGameClassLoader = activity != null ? activity.getClassLoader() : context.getClassLoader();
+        // Refresh on every attempt: the virtual activity classloader can change
+        // after the game process is restarted by the crash guard.
+        if (activity != null && activity.getClassLoader() != null) {
+            sGameClassLoader = activity.getClassLoader();
+        } else if (sGameClassLoader == null) {
+            sGameClassLoader = context.getClassLoader();
         }
         // Make sure the result receiver exists even if the early app hook was missed.
         register(context, sGameClassLoader);

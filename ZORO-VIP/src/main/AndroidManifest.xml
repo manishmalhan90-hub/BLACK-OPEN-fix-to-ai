@@ -271,9 +271,11 @@
              out of the virtual game process avoids its ART MarkCompact abort. -->
         <activity
             android:name="top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false"
             android:process=":login_web"
-            android:theme="@style/BTheme" />
+            android:theme="@style/BTheme"
+            android:windowSoftInputMode="adjustResize" />
 
         <provider
             android:name="top.niunaijun.blackbox.core.system.SystemCallProvider"

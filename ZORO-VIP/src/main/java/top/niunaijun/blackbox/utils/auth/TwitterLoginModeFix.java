@@ -44,6 +44,7 @@ public final class TwitterLoginModeFix {
     private static final String CONFIG_CLASS = "com.itop.imsdk.android.api.config.IMSDKConfig";
     private static final long WATCHDOG_DELAY_MS = 500L;
     private static final long LOGIN_WATCHDOG_DELAY_MS = 3000L;
+    private static final long LOGIN_PAUSED_DELAY_MS = 30000L;
 
     private static final String[][] FORCED_VALUES = {
             {"IMSDK_TWITTER_LOGIN_USING_WEB", "true"},
@@ -77,7 +78,7 @@ public final class TwitterLoginModeFix {
         WebLoginBridge.register(context, cl);
         if (sBridgeLogged.compareAndSet(false, true)) {
             ZoroRuntimeLogger.logLogin("web-login-fix",
-                    "isolated web login bridge v12 active (:login_web, host authority, cache clear, own data dir)");
+                    "isolated web login bridge v13 active (:login_web, host authority, cache clear, own data dir, popup/intent fix)");
         }
         initializeIfNeeded(context, cl);
         force(cl);
@@ -225,6 +226,13 @@ public final class TwitterLoginModeFix {
                 Context ctx = ref == null ? null : ref.get();
                 if (ctx == null) {
                     sScheduled.set(false);
+                    return;
+                }
+                // While the OAuth WebView owns the screen, stop reflecting on
+                // the game config entirely. Less allocation/GC churn in the
+                // virtual process means less chance of the ART mremap abort.
+                if (sLoginActive) {
+                    HANDLER.postDelayed(this, LOGIN_PAUSED_DELAY_MS);
                     return;
                 }
                 ClassLoader cl = classLoader(ctx);
