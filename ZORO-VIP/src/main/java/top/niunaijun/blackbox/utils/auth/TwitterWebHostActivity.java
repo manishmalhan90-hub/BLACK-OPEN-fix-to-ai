@@ -14,6 +14,7 @@ import android.webkit.ConsoleMessage;
 import android.webkit.CookieManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
+import android.webkit.WebStorage;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
@@ -107,8 +108,9 @@ public final class TwitterWebHostActivity extends Activity {
     /** Clears WebView cache and cookies before loading the OAuth page. */
     private void clearLoginCache() {
         try {
-            WebView.clearCache(getApplicationContext(), true);
-            log("webview cache cleared (memory + disk)");
+            WebView.clearCache(getApplicationContext());
+            WebStorage.getInstance().deleteAllData();
+            log("webview cache + storage cleared");
         } catch (Throwable t) {
             log("webview cache clear failed: " + t);
         }

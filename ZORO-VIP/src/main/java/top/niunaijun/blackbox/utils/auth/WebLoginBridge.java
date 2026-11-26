@@ -157,10 +157,10 @@ public final class WebLoginBridge {
     /** Last-resort cleanup if the isolated host could not be started. */
     private static void clearVirtualWebViewCache(Context context) {
         try {
-            android.webkit.WebView.clearCache(
-                    context.getApplicationContext() == null ? context : context.getApplicationContext(),
-                    true);
-            log("virtual WebView cache cleared before fallback");
+            Context app = context.getApplicationContext() == null ? context : context.getApplicationContext();
+            android.webkit.WebView.clearCache(app);
+            android.webkit.WebStorage.getInstance().deleteAllData();
+            log("virtual WebView cache + storage cleared before fallback");
         } catch (Throwable t) {
             log("virtual WebView cache clear failed: " + t);
         }
