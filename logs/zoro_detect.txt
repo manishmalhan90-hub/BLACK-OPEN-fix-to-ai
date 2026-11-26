@@ -10250,3 +10250,32 @@
 2026-11-26 21:49:02.631 [!!DETECT!!] 11-26 21:48:58.619 20339 20339 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 21:49:02.657 [!!DETECT!!] 11-26 21:48:59.042 20001 20073 W InstallReferrerClient: Connection to service is blocked.
 2026-11-26 21:49:07.778 [!!DETECT!!] 11-26 21:49:07.769 20001 20073 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 21:49:20.205 [!!DETECT!!] 11-26 21:49:20.195 20001 20241 W [CrashKit]: Game type has not been set.
+2026-11-26 21:49:20.225 [!!DETECT!!] 11-26 21:49:20.195 20001 20241 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 21:49:20.237 [!!DETECT!!] 11-26 21:49:20.198 20001 20001 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 21:49:20.250 [!!DETECT!!] 11-26 21:49:20.220 20001 20241 I [CrashKitReport]: sdk uuid first install lastAppVersionCode: , currentAppVersionCode: 21735
+2026-11-26 21:49:20.262 [!!DETECT!!] 11-26 21:49:20.220 20001 20241 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 21:49:20.270 [!!DETECT!!] 11-26 21:49:20.220 20001 20241 I [CrashKitReport]: cachedUuid: 
+2026-11-26 21:49:20.280 [!!DETECT!!] 11-26 21:49:20.220 20001 20241 I [CrashKitReport]: currentVersionUuid: 1d697c6a-e2f1-49f6-9430-7d20763817c5
+2026-11-26 21:49:20.292 [!!DETECT!!] 11-26 21:49:20.220 20001 20241 I [CrashKitReport]: redisKeyUuid: 1d697c6a-e2f1-49f6-9430-7d20763817c5
+2026-11-26 21:49:20.307 [!!DETECT!!] 11-26 21:49:20.247 20001 20001 I [CrashKitReport]: localStrategy is null
+2026-11-26 21:49:20.315 [!!DETECT!!] 11-26 21:49:20.248 20001 20001 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 21:49:20.322 [!!DETECT!!] 11-26 21:49:20.248 20001 20001 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 21:49:20.331 [!!DETECT!!] 11-26 21:49:20.248 20001 20001 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 21:49:21.331 [!!DETECT!!] 11-26 21:49:21.324 20001 20421 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 21:49:21.464 [!!DETECT!!] 11-26 21:49:21.353 20001 20421 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 21:49:21.475 [!!DETECT!!] 11-26 21:49:21.353 20001 20421 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 21:49:21.489 [!!DETECT!!] 11-26 21:49:21.353 20001 20421 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 21:49:21.871 [!!DETECT!!] 11-26 21:49:21.865 20001 20429 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 21:49:23.790 [!!DETECT!!] 11-26 21:49:23.783 20001 20001 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 21:49:26.731 [!!DETECT!!] 11-26 21:49:26.720 20001 20241 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 21:49:29.464 [!!DETECT!!] 11-26 21:49:29.332 20001 20421 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):dfdc3581-1cbd-46e2-9415-d2f87168d35f uc:1 re:true me:false mc:0
+2026-11-26 21:49:29.556 [!!DETECT!!] 11-26 21:49:29.541 20001 20423 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f18c8e0d-7343-42ea-a533-430392523bfd uc:1 re:true me:false mc:0
+2026-11-26 21:49:29.567 [!!DETECT!!] 11-26 21:49:29.556 20001 20422 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):97fac4c5-800c-4d33-9b92-c24bdc87ad0d uc:1 re:true me:false mc:0
+2026-11-26 21:49:29.913 [!!DETECT!!] 11-26 21:49:29.907 20001 20421 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):721a2952-d319-4ace-8972-4fe5a9f19309 uc:1 re:true me:false mc:0
+2026-11-26 21:49:29.982 [!!DETECT!!] 11-26 21:49:29.979 20001 20423 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):b24f7bc5-3ae5-4e62-b766-8326ad97502e uc:1 re:true me:false mc:0
+2026-11-26 21:49:33.123 [!!DETECT!!] 11-26 21:49:33.120 20001 20422 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):08d4ec61-5d4f-46b9-aea1-83e3a3465687 uc:1 re:true me:false mc:0
+2026-11-26 21:49:37.578 [!!DETECT!!] 11-26 21:49:37.558 20001 20073 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 21:49:38.369 [!!DETECT!!] 11-26 21:49:38.353 20575 20575 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 21:49:38.494 [!!DETECT!!] 11-26 21:49:38.430 20575 20575 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 21:49:38.506 [!!DETECT!!] 11-26 21:49:38.430 20575 20575 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
