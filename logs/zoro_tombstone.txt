@@ -3960,3 +3960,53 @@
 [logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Revision: '0'
 [logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : ABI: 'arm64'
 [logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Timestamp: 2026-11-26 20:34:30.127402802+0530
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:34:29.759 12119 12543 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58bf7e78 in tid 12543 (NativeThread), pid 12119 (MainThread-UE4)
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Process name is com.pubg.imobile, uid is 11318, not key_process
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : keyProcess: 0
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Revision: '0'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : ABI: 'arm64'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Timestamp: 2026-11-26 20:34:30.127402802+0530
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Process uptime: 20s
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Cmdline: com.pubg.imobile
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : pid: 12119, tid: 12543, name: NativeThread  >>> com.pubg.imobile <<<
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : uid: 11318
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0000000058bf7e78
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   :     x0  0000006d58bf7e00  x1  0000000000000008  x2  0000006d58bf6aa4  x3  0000006d58bf6fc0
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   :     x4  0000006d58bf7038  x5  0000000000000004  x6  0000000000000000  x7  0000000000000000
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   :     x8  0000000058bf7e68  x9  000000000000006d  x10 0000006d58bf7dd0  x11 0000000000000001
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   :     x12 0000000000000008  x13 0000000000000100  x14 0000000000000013  x15 0000000000080000
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   :     x16 0000006f4bd002d0  x17 0000006f4b320414  x18 0000006d582e0000  x19 000000000000006f
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :     x20 0000006d58bf8800  x21 0000006d58bf7b90  x22 0000006f4b77b03c  x23 0000006d58bf7e00
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :     x24 0000006f4b790168  x25 0000000000000000  x26 b400006f5c47c900  x27 0000000000000000
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :     x28 0000006d58bf8800  x29 0000006d58bf6b00
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :     lr  0000006f4b698b38  sp  0000006d58bf6aa0  pc  0000006f4b32047c  pst 0000000080001000
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   : 24 total frames
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   : backtrace:
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #00 pc 000000000024f47c  /apex/com.android.art/lib64/libart.so (art::ArtMethod::GetOatMethodQuickCode(art::PointerSize)+104) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #01 pc 00000000005c7b34  /apex/com.android.art/lib64/libart.so (void art::StackVisitor::WalkStack<(art::StackVisitor::CountTransitions)1, false>(bool)+408) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #02 pc 00000000005c75d0  /apex/com.android.art/lib64/libart.so (art::Thread::VisitRoots(art::RootVisitor*, art::VisitRootFlags)+1400) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #03 pc 00000000005c66f4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::CheckpointMarkThreadRoots::Run(art::Thread*)+148) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #04 pc 00000000002c3654  /apex/com.android.art/lib64/libart.so (art::Thread::RunCheckpointFunction()+192) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #05 pc 000000000033d668  /apex/com.android.art/lib64/libart.so (artTestSuspendFromCode+224) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #06 pc 0000000000287c5c  /apex/com.android.art/lib64/libart.so (art_quick_test_suspend+156) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #07 pc 00000000006c0e7c  /apex/com.android.art/lib64/libart.so (nterp_helper+7564) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #08 pc 00000000009a7638  /data/app/~~RNRL8IuI3dkLC6J2BtES-w==/com.google-bc_KJmHXmfJymdMYYe1xPg==/oat/arm64/base.vdex (top.niunaijun.blackbox.BlackBoxCore.getHostUid+0)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #09 pc 00000000006acc6c  /apex/com.android.art/lib64/libart.so (nterp0_op_invoke_static+44) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #10 pc 00000000009ac138  /data/app/~~RNRL8IuI3dkLC6J2BtES-w==/com.google-bc_KJmHXmfJymdMYYe1xPg==/oat/arm64/base.vdex (top.niunaijun.blackbox.core.RNative.getCallingUid+24)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #11 pc 0000000000270fc0  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #12 pc 0000000000270024  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+1304) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #13 pc 000000000064924c  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallStaticIntMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+176) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #14 pc 0000000000060770  /data/app/~~RNRL8IuI3dkLC6J2BtES-w==/com.google-bc_KJmHXmfJymdMYYe1xPg==/lib/arm64/libRIYAZcore.so (BuildId: 260571db00489da0b471615e865b69bd1706c4c3)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #15 pc 00000000000606c8  /data/app/~~RNRL8IuI3dkLC6J2BtES-w==/com.google-bc_KJmHXmfJymdMYYe1xPg==/lib/arm64/libRIYAZcore.so (BuildId: 260571db00489da0b471615e865b69bd1706c4c3)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #16 pc 00000000006bf164  /apex/com.android.art/lib64/libart.so (nterp_helper+116) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #17 pc 000000000021d7ae  /system/framework/oplus-framework.jar (android.media.AudioManagerExtImpl.isBluetoothA2dpOnCacheAPP+6)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #18 pc 0000000000b8ac2c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.media.AudioManager.isBluetoothA2dpOn+124)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #19 pc 0000000000270cf4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #20 pc 000000000026eed4  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+872) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #21 pc 0000000000623c6c  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+184) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #22 pc 0000000008e62488  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
+[logcat] 11-26 20:34:31.176 12827 12827 F DEBUG   :       #23 pc 000000000c237bb8  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
