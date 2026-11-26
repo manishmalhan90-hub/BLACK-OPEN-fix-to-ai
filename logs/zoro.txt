@@ -27456,3 +27456,84 @@
 [logcat] 11-26 18:31:42.866 27339 27804 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
 [logcat] 11-26 18:31:42.873 27339 27804 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
 [logcat] 11-26 18:31:42.964 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+[logcat] 11-26 18:31:44.231 27339 27804 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 18:31:44.253 27339 27804 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 18:31:44.406 26235 26239 W com.google: Suspending all threads took: 126.779ms
+[logcat] 11-26 18:31:45.340 27339 27346 F com.google:p0: mark_compact.cc:4496] Check failed: ret == static_cast<void*>(from_addr) (ret=0xffffffffffffffff, static_cast<void*>(from_addr)=0x6e00000000) mremap to move pages failed: Bad address. space-addr=0x6e40000000 size=1024MB
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] Runtime aborting...
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] Skipping all-threads dump as locks are held: mutator_lock (exclusively)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] Aborting thread:
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] "HeapTaskDaemon" prio=5 tid=6 WaitingPerformingGc
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   | group="" sCount=0 ucsCount=0 flags=64 obj=0 self=0x6f5c4c6c00
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   | sysTid=27346 nice=0 cgrp=top-app sched=0/0 handle=0x6f1ac00480
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   | state=R schedstat=( 511652932 1091086680 760 ) utm=37 stm=13 core=7 HZ=100
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   | stack=0x6f1aafd000-0x6f1aaff000 stackSize=1037KB
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   | held mutexes= "abort lock" "gc-visited arena-pool"(exclusive held) "mutator lock"(exclusive held)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #00 pc 00423758  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack+112) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #01 pc 00598d08  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack const+172) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #02 pc 0096cda4  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack const+108) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #03 pc 0095d068  /apex/com.android.art/lib64/libart.so (art::AbortState::DumpThread const+60) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #04 pc 00953964  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort+836) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #05 pc 00016438  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter::$_0::__invoke+84) (BuildId: 7dc1c498b08b3374928e8d043f574325)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #06 pc 00015b78  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage+556) (BuildId: 7dc1c498b08b3374928e8d043f574325)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #07 pc 002cf8c4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::KernelPrepareRangeForUffd+480) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #08 pc 002cd164  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::CompactionPause+4968) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #09 pc 002d3430  /apex/com.android.art/lib64/libart.so (art::ThreadList::FlipThreadRoots+420) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #10 pc 003590f8  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::RunPhases+11964) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #11 pc 003b30b0  /apex/com.android.art/lib64/libart.so (art::gc::collector::GarbageCollector::Run+328) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #12 pc 00239028  /apex/com.android.art/lib64/libart.so (art::gc::Heap::CollectGarbageInternal+572) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #13 pc 0049aea4  /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGC+140) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #14 pc 0049c3c0  /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGCTask::Run+80) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #15 pc 00379914  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks+428) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #16 pc 01466d9c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+108)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #17 pc 006fe098  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+184)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #18 pc 006fc550  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$Daemon.run+256)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #19 pc 004c99d0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Thread.run+64)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #20 pc 00270cf4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #21 pc 0023ba68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke+224) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #22 pc 0055c204  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback+1400) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #23 pc 0055bc78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #24 pc 0009c978  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start+232) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #25 pc 0008eed0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$Daemon.run(Daemons.java:135)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   at java.lang.Thread.run(Thread.java:1571)
+[logcat] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] 
+[logcat] 11-26 18:31:45.584 27339 27346 E [CrashKitReport-Native]: get signal 6
+[logcat] 11-26 18:31:45.584 27339 27346 E [CrashKitReport-Native]: last errno is 14
+[logcat] 11-26 18:31:45.624 27339 27346 E [CrashKitReport-Native]: try to unwind full native stack
+[logcat] 11-26 18:31:51.829 26235 26271 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 18:31:51.829 26235 26271 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6e802bb4c0
+[logcat] 11-26 18:31:51.829 26235 26271 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6f19c5a500
+[logcat] 11-26 18:31:51.844 26235 26271 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6f19c29500, mCurrentSurface=0x0
+[logcat] 11-26 18:31:53.861 26235 26235 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{6fa51ef V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout alpha=1.0 viewInfo = },pkg= com.google
+[logcat] 11-26 18:31:53.862 26235 26271 D skia    : setRusSupported enable 0
+[logcat] 11-26 18:31:53.870 26235 26235 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@aaa54e8
+[logcat] 11-26 18:31:53.880 26235 26235 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@aaa54e8
+[logcat] 11-26 18:31:53.907 26235 26235 D BufferQueueConsumer: [](id:667b0000000e,api:0,p:-1,c:26235) connect: controlledByApp=false
+[logcat] 11-26 18:31:53.907 26235 26235 D BufferQueueConsumer: [VRI[Toast]#14(BLAST Consumer)14](id:667b0000000e,api:0,p:-1,c:26235) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 18:31:53.943 26235 26271 D HWUI    : createSurface new attribs array
+[logcat] 11-26 18:31:53.943 26235 26271 D libEGL  : this is from skia gles
+[logcat] 11-26 18:31:53.944 26235 26235 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x78a9539,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 18:31:53.958 26235 26271 D BLASTBufferQueue: [VRI[Toast]#14](f:0,a:1) acquireNextBufferLocked size=438x174 mFrameNumber=1 applyTransaction=true mTimestamp=127007792667646(auto) mPendingTransactions.size=0 graphicBufferId=112678467010665 transform=0
+[logcat] 11-26 18:31:53.958 26235 26271 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 18:31:53.959 26235 26235 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 18:31:53.964 26235 26271 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+[logcat] 11-26 18:31:53.964 26235 26235 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 18:31:55.861 26235 26235 D OplusScrollToTopManager: Toast,window dying
+[logcat] 11-26 18:31:55.861 26235 26235 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 18:31:55.861 26235 26235 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@3de3ea9
+[logcat] 11-26 18:31:55.861 26235 26235 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@59c79a6
+[logcat] 11-26 18:31:55.863 26235 26235 D HWUI    : RenderProxy::destroy: this=0x6e9554aa00, mContext=0x6e98378d40
+[logcat] 11-26 18:31:55.863 26235 26271 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c5b2c0, surface=NULL
+[logcat] 11-26 18:31:55.873 26235 26235 D BLASTBufferQueue: [VRI[Toast]#14](f:0,a:1) destructor()
+[logcat] 11-26 18:31:55.874 26235 26235 D BufferQueueConsumer: [VRI[Toast]#14(BLAST Consumer)14](id:667b0000000e,api:0,p:-1,c:26235) disconnect
+[logcat] 11-26 18:32:17.944 27339 27339 E [CrashKitReport-Native]: get signal 3
+[logcat] 11-26 18:32:17.944 27339 27339 E [CrashKitReport-Native]: last errno is 11
+[logcat] 11-26 18:32:17.945 27339 27339 E [CrashKitReport-Native]: Catch a sigquit now.
+[logcat] 11-26 18:32:27.968 27339 27339 I libc    : Requested dump for pid 27339 (MainThread-UE4)
+[logcat] 11-26 18:32:28.243 29584 29584 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+[logcat] 11-26 18:32:28.245 29584 29584 I crash_dump64: performing dump of process 27339 (target tid = 27339)
+[logcat] 11-26 18:32:28.258 29584 29584 I crash_dump64: ***crash_dump->dump_backtrace***
+[logcat] 11-26 18:32:31.010 26235 26271 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c5b2c0, surface=NULL
