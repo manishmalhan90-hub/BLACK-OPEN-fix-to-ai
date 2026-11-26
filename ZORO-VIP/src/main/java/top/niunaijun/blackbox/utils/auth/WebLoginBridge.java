@@ -11,6 +11,7 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Process;
 import android.text.TextUtils;
 import android.os.Handler;
@@ -495,6 +496,7 @@ public final class WebLoginBridge {
                     }
                 } else {
                     sPendingFailures = 0;
+                    log("shared pending result consumed | kind=" + pending.optString("kind"));
                 }
             } catch (Throwable t) {
                 log("pending result read failed: " + t);
@@ -585,18 +587,37 @@ public final class WebLoginBridge {
         }
     }
 
+    /**
+     * One shared store for the host/:login_web processes and the virtual game
+     * process. The game process reports the virtual package name from
+     * {@code getFilesDir()}, so using that context here made the stored result
+     * invisible after an ART crash and respawn. Both processes share the host
+     * uid, so the loader's real internal files directory is readable from both.
+     */
     private static File pendingFile(Context context) {
         if (context == null) {
             return null;
         }
-        Context app = context.getApplicationContext();
-        Context target = app != null ? app : context;
-        File dir = target.getFilesDir();
-        return dir == null ? null : new File(dir, PENDING_FILE);
+        try {
+            int userId = Process.myUid() / 100000;
+            File dir = new File(Environment.getDataDirectory(),
+                    "user/" + userId + "/" + hostPackage(context) + "/files");
+            return new File(dir, PENDING_FILE);
+        } catch (Throwable ignored) {
+            Context app = context.getApplicationContext();
+            Context target = app != null ? app : context;
+            File dir = target.getFilesDir();
+            return dir == null ? null : new File(dir, PENDING_FILE);
+        }
     }
 
     /** Ask the host process to bring the existing virtual game task forward. */
     public static void restoreGame(Context context) {
+        restoreGame(context, context == null ? null : context.getPackageName());
+    }
+
+    /** Ask the host process to bring a specific virtual game task forward. */
+    public static void restoreGame(Context context, String virtualPackage) {
         try {
             String authority = hostPackage(context) + ".SystemCallProvider";
             Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
@@ -612,7 +633,9 @@ public final class WebLoginBridge {
                 return;
             }
             Bundle args = new Bundle();
-            if (context != null) {
+            if (virtualPackage != null && !virtualPackage.isEmpty()) {
+                args.putString("virtual_package", virtualPackage);
+            } else if (context != null) {
                 args.putString("virtual_package", context.getPackageName());
             }
             resolver.call(uri, RESTORE_METHOD, null, args);

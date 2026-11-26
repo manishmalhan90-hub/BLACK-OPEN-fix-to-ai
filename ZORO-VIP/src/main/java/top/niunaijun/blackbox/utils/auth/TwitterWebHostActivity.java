@@ -46,11 +46,11 @@ import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
  * <p>v13 keeps the OAuth flow inside the WebView: popups and {@code intent://}
  * redirects from the X login page are folded back into the same WebView, a
  * URL-delivered JSON result is accepted as a fallback, and a Retry button is
- * available if the current 2026 login page stops responding. v16 stores the
- * result before broadcasting and lets the virtual process consume it through
- * the existing receiver or the pending-result poller. The game process is never
- * stopped. No credentials are injected and no token or full OAuth URL is ever
- * logged.</p>
+ * available if the current 2026 login page stops responding. v17 stores the
+ * result in a shared loader directory before broadcasting, so the receiver or
+ * the pending-result poller can still deliver it after a virtual-process
+ * restart. The game process is never stopped. No credentials are injected and
+ * no token or full OAuth URL is ever logged.</p>
  */
 public final class TwitterWebHostActivity extends Activity {
 
@@ -65,6 +65,7 @@ public final class TwitterWebHostActivity extends Activity {
     private Button mRetry;
     private String mKind = "twitter";
     private String mUrl;
+    private String mVirtualPackage = "com.pubg.imobile";
     private boolean mFinished;
     private boolean mPageFinished;
     private int mLoadAttempts;
@@ -85,6 +86,10 @@ public final class TwitterWebHostActivity extends Activity {
         mUrl = getIntent() == null ? null : getIntent().getStringExtra("url");
         mVirtualPid = getIntent() == null ? 0
                 : getIntent().getIntExtra(WebLoginBridge.EXTRA_VIRTUAL_PID, 0);
+        if (getIntent() != null && !TextUtils.isEmpty(
+                getIntent().getStringExtra("virtual_package"))) {
+            mVirtualPackage = getIntent().getStringExtra("virtual_package");
+        }
         if (TextUtils.isEmpty(mUrl)) {
             log("host started without url");
             sendFailure(codeForClose(), messageForClose());
@@ -594,9 +599,10 @@ public final class TwitterWebHostActivity extends Activity {
     /**
      * Store first, then broadcast. The receiver in the virtual process delivers
      * the JSON to the game's own callback; WebLoginBridge also polls the stored
-     * copy so a missed broadcast cannot lose the result. v16 does not freeze or
-     * restore processes here: the game task is already in front and stopping it
-     * was causing the ANR/SIGKILL bounce seen in v15.
+     * copy in a shared directory so a virtual-process restart cannot lose the
+     * result. v17 never freezes the game process. If the game task was removed
+     * after an ART abort, ask the host to bring it back before this WebView goes
+     * away so the user is not left on the loader launcher.
      */
     private void deliverResult(final Intent result) {
         if (mFinished) {
@@ -614,6 +620,7 @@ public final class TwitterWebHostActivity extends Activity {
                 } catch (Throwable t) {
                     log("result broadcast failed: " + t);
                 }
+                WebLoginBridge.restoreGame(this, mVirtualPackage);
             }
         }, 80L);
         finish();
