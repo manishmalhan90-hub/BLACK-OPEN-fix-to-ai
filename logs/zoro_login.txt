@@ -2743,3 +2743,32 @@
 2026-11-26 21:28:38.524 [!!LOGIN!!] 11-26 21:28:38.310  1669  1680 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
 2026-11-26 21:28:40.167 [unknown/3832] login-host: page finished | host=m.facebook.com
 2026-11-26 21:28:40.179 [!!LOGIN!!] 11-26 21:28:40.174  3832  3832 D WebLoginHost: page finished | host=m.facebook.com
+2026-11-26 21:28:59.959 [unknown/3832] login-host: page started | host=m.facebook.com
+2026-11-26 21:28:59.982 [!!LOGIN!!] 11-26 21:28:59.963  3832  3832 D WebLoginHost: page started | host=m.facebook.com
+2026-11-26 21:29:01.541 [unknown/3832] login-host: page finished | host=m.facebook.com
+2026-11-26 21:29:01.557 [!!LOGIN!!] 11-26 21:29:01.548  3832  3832 D WebLoginHost: page finished | host=m.facebook.com
+2026-11-26 21:29:04.472 [unknown/3832] login-host: page started | host=in-comm1.globh.com
+2026-11-26 21:29:04.483 [!!LOGIN!!] 11-26 21:29:04.477  3832  3832 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 21:29:04.949 [unknown/3832] login-host: page started | host=in-comm1.globh.com
+2026-11-26 21:29:04.956 [!!LOGIN!!] 11-26 21:29:04.952  3832  3832 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 21:29:05.127 [unknown/3832] login-host: page finished | host=in-comm1.globh.com
+2026-11-26 21:29:05.137 [!!LOGIN!!] 11-26 21:29:05.131  3832  3832 D WebLoginHost: page finished | host=in-comm1.globh.com
+2026-11-26 21:29:05.652 [unknown/3832] login-host: login result received | kind=facebook | length=442
+2026-11-26 21:29:05.666 [!!LOGIN!!] 11-26 21:29:05.658  3832  3929 D WebLoginHost: login result received | kind=facebook | length=442
+2026-11-26 21:29:05.678 [unknown/3832] login-bridge: pending result stored | kind=facebook | len=442
+2026-11-26 21:29:05.697 [!!LOGIN!!] 11-26 21:29:05.684  3832  3929 D WebLoginBridge: pending result stored | kind=facebook | len=442
+2026-11-26 21:29:05.717 [!!LOGIN!!] 11-26 21:29:05.686  3832  3929 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.deliverResult:29 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.sendJson:31 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.access$1900:0 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity$ResultInterface.onResult:52 android.os.MessageQueue.nativePollOnce:-2 android.os.MessageQueue.nextLegacy:934 android.os.MessageQueue.next:1046 android.os.Looper.loopOnce:221 
+2026-11-26 21:29:05.745 [!!LOGIN!!] 11-26 21:29:05.737  3832  3832 D VRI[TwitterWebHostActivity]: onFocusEvent false
+2026-11-26 21:29:05.801 [unknown/3832] login-bridge: virtual game task restore requested
+2026-11-26 21:29:05.811 [!!LOGIN!!] 11-26 21:29:05.804  3832  3832 D WebLoginBridge: virtual game task restore requested
+2026-11-26 21:29:06.626 [!!LOGIN!!] 11-26 21:29:06.503  3832  4347 D VRI[TwitterWebHostActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+2026-11-26 21:29:06.640 [!!LOGIN!!] 11-26 21:29:06.503  3832  3832 D VRI[TwitterWebHostActivity]: visibilityChanged oldVisibility=true newVisibility=false
+2026-11-26 21:29:06.733 [!!LOGIN!!] 11-26 21:29:06.517  3832  3832 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+2026-11-26 21:29:06.895 [!!LOGIN!!] 11-26 21:29:06.587  3832  3832 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+2026-11-26 21:29:06.938 [!!LOGIN!!] 11-26 21:29:06.588  3832  3832 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#0](f:0,a:2) destructor()
+2026-11-26 21:29:06.946 [!!LOGIN!!] 11-26 21:29:06.588  3832  3832 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#0(BLAST Consumer)0](id:ef800000000,api:0,p:-1,c:3832) disconnect
+2026-11-26 21:29:07.138 [!!LOGIN!!] 11-26 21:29:06.773  3832  3848 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ca1356e V.E...... R.....ID 0,0-720,1604 aid=0 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to false
+2026-11-26 21:29:15.729 [!!LOGIN!!] 11-26 21:29:15.723  3832  3832 D VRI[TwitterWebHostActivity]: setWindowStopped stopped:true
+2026-11-26 21:29:15.762 [!!LOGIN!!] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,window dying
+2026-11-26 21:29:15.778 [!!LOGIN!!] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,unregisterSystemUIBroadcastReceiver 
+2026-11-26 21:29:15.790 [!!LOGIN!!] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@2b177af
