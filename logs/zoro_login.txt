@@ -1183,3 +1183,11 @@
 2026-11-26 19:12:26.705 [!!LOGIN!!] 11-26 19:12:26.674 29780 29780 W VRI[TwitterWebActivity]: handleResized abandoned!
 2026-11-26 19:12:27.164 [!!LOGIN!!] 11-26 19:12:27.159 29780 29780 W VRI[TwitterWebActivity]: handleResized abandoned!
 2026-11-26 19:12:27.278 [!!LOGIN!!] 11-26 19:12:27.257 29780 29780 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 19:12:44.059 [!!LOGIN!!] 11-26 19:12:44.025 29780 29785 F com.google:p0: mark_compact.cc:4496] Check failed: ret == static_cast<void*>(from_addr) (ret=0xffffffffffffffff, static_cast<void*>(from_addr)=0x6e00000000) mremap to move pages failed: Bad address. space-addr=0x6e40000000 size=1024MB
+2026-11-26 19:12:44.251 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769] Runtime aborting...
+2026-11-26 19:12:44.271 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769] "HeapTaskDaemon" prio=5 tid=8 WaitingPerformingGc
+2026-11-26 19:12:44.345 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769]   native: #07 pc 002cf8c4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::KernelPrepareRangeForUffd+480) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 19:12:44.391 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769]   native: #17 pc 006fe098  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+184)
+2026-11-26 19:12:44.444 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769]   native: #23 pc 0055bc78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 19:12:44.471 [!!LOGIN!!] 11-26 19:12:44.247 29780 29785 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
+2026-11-26 19:13:40.350 [!!LOGIN!!] 11-26 19:13:37.037 32421 32421 D TwitterLoginRedirect: environment: mode=sdk, X app installed=false, legacy SSO activity=false, forced web login=twitter+facebook
