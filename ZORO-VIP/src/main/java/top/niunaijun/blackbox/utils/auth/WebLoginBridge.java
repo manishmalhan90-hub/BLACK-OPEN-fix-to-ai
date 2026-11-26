@@ -4,12 +4,14 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -116,13 +118,12 @@ public final class WebLoginBridge {
                 + " web login to isolated process | host=" + host + " | request=" + requestCode);
 
         try {
-            // The virtual context reports the game package (com.pubg.imobile).
-            // The provider lives in the host app (com.google), so always resolve
-            // the authority from the host context, never from the virtual one.
-            String hostPackage = hostPackage(context);
-            String authority = hostPackage + ".SystemCallProvider";
-            Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
-            context.getContentResolver().call(uri, PROVIDER_METHOD, null, extras);
+            // The virtual context reports the game package (com.pubg.imobile) and
+            // can also carry a different uid/user. Calling the provider with that
+            // resolver produced "Calling uid ... doesn't match source uid ...".
+            // Always call through the loader's own host context.
+            String authority = hostPackage(context) + ".SystemCallProvider";
+            callHostProvider(context, extras);
             sLoginActive.set(true);
             TwitterLoginModeFix.setLoginActive(true);
             log("isolated login launched via " + authority);
@@ -131,6 +132,71 @@ public final class WebLoginBridge {
             log("isolated login launch failed: " + t + "; clearing virtual WebView cache before fallback");
             clearVirtualWebViewCache(context);
             return false;
+        }
+    }
+
+    /**
+     * Host-process fallback for intents that never reach the virtual
+     * instrumentation hook. It only starts the isolated WebView; result
+     * delivery stays with the receiver registered in the virtual process.
+     */
+    public static boolean launchHostForTwitter(Context hostContext, Intent intent) {
+        if (hostContext == null || intent == null) {
+            return false;
+        }
+        String className = intent.getComponent() == null ? "" : intent.getComponent().getClassName();
+        if (!"com.itop.twitterwrapper.TwitterWebActivity".equals(className)) {
+            return false;
+        }
+        String url = intent.getStringExtra("url");
+        if (TextUtils.isEmpty(url)) {
+            log("host-side twitter launch skipped: empty url");
+            return false;
+        }
+        Bundle extras = new Bundle();
+        extras.putString("kind", "twitter");
+        extras.putString("url", url);
+        extras.putString("virtual_package", hostContext.getPackageName());
+        extras.putString("channel", intent.getStringExtra("channel"));
+        extras.putInt("channel_id", intent.getIntExtra("channel_id", 0));
+        extras.putString("app_id", intent.getStringExtra("app_id"));
+        extras.putInt("request_code", 0);
+        log("host-side redirecting twitter web login | host=" + safeUrlHost(url));
+        try {
+            String authority = hostPackage(hostContext) + ".SystemCallProvider";
+            callHostProvider(hostContext, extras);
+            log("host-side isolated login launched via " + authority);
+            return true;
+        } catch (Throwable t) {
+            log("host-side isolated login launch failed: " + t);
+            return false;
+        }
+    }
+
+    /** Call the loader provider as the loader uid, never as a virtual uid. */
+    private static void callHostProvider(Context fallback, Bundle extras) throws Throwable {
+        String authority = hostPackage(fallback) + ".SystemCallProvider";
+        Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
+        Context host = null;
+        try {
+            host = top.niunaijun.blackbox.BlackBoxCore.getContext();
+        } catch (Throwable ignored) {
+            // Fall back to the supplied context below.
+        }
+        ContentResolver resolver = host != null ? host.getContentResolver()
+                : (fallback != null ? fallback.getContentResolver() : null);
+        if (resolver == null) {
+            throw new IllegalStateException("host content resolver unavailable");
+        }
+        resolver.call(uri, PROVIDER_METHOD, null, extras);
+    }
+
+    private static String safeUrlHost(String url) {
+        try {
+            String host = Uri.parse(url).getHost();
+            return host == null ? "(none)" : host;
+        } catch (Throwable t) {
+            return "(invalid)";
         }
     }
 

@@ -107,6 +107,13 @@ public class ActivityStack {
             synchronizeTasks();
         }
 
+        // Some 2026 game builds start TwitterWebActivity without going through
+        // the virtual Instrumentation hook. Launch the isolated WebView here
+        // with the host resolver so the game's own WebView is never created.
+        if (top.niunaijun.blackbox.utils.auth.WebLoginBridge.launchHostForTwitter(
+                BlackBoxCore.getContext(), intent)) {
+            return 0;
+        }
         top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.observe(intent);
         if (top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.shouldIntercept(intent)) {
             top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.intercept(intent);
