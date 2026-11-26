@@ -34708,3 +34708,13 @@
 [logcat] 11-26 15:15:04.452  8037  8037 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 115198287, mIsMoving = false, mUpdated = true
 [logcat] 11-26 15:15:04.453  8037  8037 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
 [logcat] 11-26 15:15:04.453  8037  8037 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 15:15:04.592  8037  8041 I com.zoro.loader: Background young concurrent mark compact GC freed 8896KB AllocSpace bytes, 18(3272KB) LOS objects, 0% free, 37MB/37MB, paused 1.896ms,6.302ms total 72.273ms
+[logcat] 11-26 15:15:04.594  8037  8067 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e95f99680, surface=NULL
+[logcat] 11-26 15:15:04.644  8037  8067 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e8e8c4540, surface=NULL
+[logcat] 11-26 15:15:05.551  8037  8050 I com.zoro.loader: Waiting for a blocking GC ProfileSaver
+[logcat] 11-26 15:15:05.573  8037  8050 I com.zoro.loader: WaitForGcToComplete blocked ProfileSaver on Background for 22.538ms
+[logcat] 11-26 15:15:10.168  8037  8037 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 115204002, mIsMoving = true, mUpdated = true
+[logcat] 11-26 15:15:10.168  8037  8037 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 15:15:10.199  8037  8037 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 115204034, mIsMoving = false, mUpdated = true
+[logcat] 11-26 15:15:10.199  8037  8037 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 15:15:10.200  8037  8037 D ViewRootImplExtImpl: the up motion event handled by client, just return
