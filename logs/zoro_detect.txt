@@ -5038,3 +5038,188 @@
 2026-11-26 18:54:27.427 [!!DETECT!!] 11-26 18:54:24.381 15013 15013 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 18:54:27.438 [!!DETECT!!] 11-26 18:54:24.445 14605 14694 W InstallReferrerClient: Connection to service is blocked.
 2026-11-26 18:54:32.874 [!!DETECT!!] 11-26 18:54:32.862 14605 14694 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 18:54:46.013 [!!DETECT!!] 11-26 18:54:46.004 14605 14904 W [CrashKit]: Game type has not been set.
+2026-11-26 18:54:46.039 [!!DETECT!!] 11-26 18:54:46.004 14605 14904 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 18:54:46.056 [!!DETECT!!] 11-26 18:54:46.006 14605 14605 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 18:54:46.078 [!!DETECT!!] 11-26 18:54:46.035 14605 14904 I [CrashKitReport]: sdk uuid first install lastAppVersionCode: , currentAppVersionCode: 21735
+2026-11-26 18:54:46.084 [!!DETECT!!] 11-26 18:54:46.035 14605 14904 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 18:54:46.091 [!!DETECT!!] 11-26 18:54:46.035 14605 14904 I [CrashKitReport]: cachedUuid: 
+2026-11-26 18:54:46.099 [!!DETECT!!] 11-26 18:54:46.035 14605 14904 I [CrashKitReport]: currentVersionUuid: 12a43739-ccab-457d-8274-034d4ff87a84
+2026-11-26 18:54:46.106 [!!DETECT!!] 11-26 18:54:46.035 14605 14904 I [CrashKitReport]: redisKeyUuid: 12a43739-ccab-457d-8274-034d4ff87a84
+2026-11-26 18:54:46.115 [!!DETECT!!] 11-26 18:54:46.063 14605 14605 I [CrashKitReport]: localStrategy is null
+2026-11-26 18:54:46.121 [!!DETECT!!] 11-26 18:54:46.063 14605 14605 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 18:54:46.126 [!!DETECT!!] 11-26 18:54:46.064 14605 14605 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 18:54:46.134 [!!DETECT!!] 11-26 18:54:46.064 14605 14605 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 18:54:47.171 [!!DETECT!!] 11-26 18:54:47.162 14605 15608 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 18:54:47.283 [!!DETECT!!] 11-26 18:54:47.187 14605 15608 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 18:54:47.292 [!!DETECT!!] 11-26 18:54:47.187 14605 15608 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 18:54:47.300 [!!DETECT!!] 11-26 18:54:47.187 14605 15608 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 18:54:48.005 [!!DETECT!!] 11-26 18:54:47.998 14605 15615 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 18:54:49.982 [!!DETECT!!] 11-26 18:54:49.976 14605 14605 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 18:54:53.698 [!!DETECT!!] 11-26 18:54:53.680 14605 14904 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 18:54:56.221 [!!DETECT!!] 11-26 18:54:56.215 14605 15609 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):84269f97-0358-4b18-859d-7a92634a5e73 uc:1 re:true me:false mc:0
+2026-11-26 18:54:56.244 [!!DETECT!!] 11-26 18:54:56.224 14605 15607 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):a7627f18-ea90-47c8-853e-e17060e6aa62 uc:1 re:true me:false mc:0
+2026-11-26 18:54:56.259 [!!DETECT!!] 11-26 18:54:56.230 14605 15608 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):00d4a4e9-739b-406e-8bdb-fe9662497a5f uc:1 re:true me:false mc:0
+2026-11-26 18:54:56.656 [!!DETECT!!] 11-26 18:54:56.642 14605 15607 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):dc399669-b13d-4f65-9901-89f631adbbd0 uc:1 re:true me:false mc:0
+2026-11-26 18:54:56.663 [!!DETECT!!] 11-26 18:54:56.650 14605 15608 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):88e0d44d-d0b7-4581-a6a5-ea7d400e5e59 uc:1 re:true me:false mc:0
+2026-11-26 18:54:59.915 [!!DETECT!!] 11-26 18:54:59.908 14605 15609 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):ef532493-921f-4611-9127-8275a6057dbd uc:1 re:true me:false mc:0
+2026-11-26 18:55:03.335 [!!DETECT!!] 11-26 18:55:03.329 14605 14694 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 18:55:05.315 [!!DETECT!!] 11-26 18:55:05.224 15819 15819 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:05.368 [!!DETECT!!] 11-26 18:55:05.285 15819 15819 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:05.376 [!!DETECT!!] 11-26 18:55:05.285 15819 15819 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:05.542 [!!DETECT!!] 11-26 18:55:05.438 15819 15819 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@c1a56f9
+2026-11-26 18:55:05.583 [!!DETECT!!] 11-26 18:55:05.448 15819 15819 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@98bd749
+2026-11-26 18:55:05.603 [!!DETECT!!] 11-26 18:55:05.458 15819 15819 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:07.756 [!!DETECT!!] 11-26 18:55:07.485 15904 15904 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:07.793 [!!DETECT!!] 11-26 18:55:07.524 15904 15904 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:07.799 [!!DETECT!!] 11-26 18:55:07.524 15904 15904 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:07.908 [!!DETECT!!] 11-26 18:55:07.640 15904 15904 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@1002a25
+2026-11-26 18:55:07.926 [!!DETECT!!] 11-26 18:55:07.646 15904 15904 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@a524268
+2026-11-26 18:55:07.940 [!!DETECT!!] 11-26 18:55:07.651 15904 15904 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:07.947 [!!DETECT!!] 11-26 18:55:07.651 15904 15919 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:07.957 [!!DETECT!!] 11-26 18:55:07.653 15904 15919 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:07.964 [!!DETECT!!] 11-26 18:55:07.654 15904 15919 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:09.850 [!!DETECT!!] 11-26 18:55:09.605 15968 15968 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:09.896 [!!DETECT!!] 11-26 18:55:09.642 15968 15968 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:09.902 [!!DETECT!!] 11-26 18:55:09.642 15968 15968 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:09.985 [!!DETECT!!] 11-26 18:55:09.732 15968 15968 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@e3a4b91
+2026-11-26 18:55:10.028 [!!DETECT!!] 11-26 18:55:09.755 15968 15968 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@8cf7f33
+2026-11-26 18:55:10.052 [!!DETECT!!] 11-26 18:55:09.761 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.058 [!!DETECT!!] 11-26 18:55:09.762 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.063 [!!DETECT!!] 11-26 18:55:09.763 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.069 [!!DETECT!!] 11-26 18:55:09.763 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.076 [!!DETECT!!] 11-26 18:55:09.764 15968 15968 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.082 [!!DETECT!!] 11-26 18:55:09.764 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.088 [!!DETECT!!] 11-26 18:55:09.765 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:10.096 [!!DETECT!!] 11-26 18:55:09.766 15968 15985 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.149 [!!DETECT!!] 11-26 18:55:11.725 16044 16044 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:12.181 [!!DETECT!!] 11-26 18:55:11.767 16044 16044 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:12.186 [!!DETECT!!] 11-26 18:55:11.767 16044 16044 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:12.291 [!!DETECT!!] 11-26 18:55:11.876 16044 16044 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@e8d8c9f
+2026-11-26 18:55:12.313 [!!DETECT!!] 11-26 18:55:11.886 16044 16044 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@799184e
+2026-11-26 18:55:12.324 [!!DETECT!!] 11-26 18:55:11.888 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.331 [!!DETECT!!] 11-26 18:55:11.889 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.337 [!!DETECT!!] 11-26 18:55:11.890 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.343 [!!DETECT!!] 11-26 18:55:11.891 16044 16044 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.350 [!!DETECT!!] 11-26 18:55:11.891 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.356 [!!DETECT!!] 11-26 18:55:11.892 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:12.363 [!!DETECT!!] 11-26 18:55:11.893 16044 16059 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.184 [!!DETECT!!] 11-26 18:55:13.862 16105 16105 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:14.225 [!!DETECT!!] 11-26 18:55:13.897 16105 16105 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:14.231 [!!DETECT!!] 11-26 18:55:13.897 16105 16105 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:14.317 [!!DETECT!!] 11-26 18:55:13.990 16105 16105 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@d5802ce
+2026-11-26 18:55:14.358 [!!DETECT!!] 11-26 18:55:14.011 16105 16105 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@f098aee
+2026-11-26 18:55:14.391 [!!DETECT!!] 11-26 18:55:14.017 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.401 [!!DETECT!!] 11-26 18:55:14.018 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.407 [!!DETECT!!] 11-26 18:55:14.019 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.412 [!!DETECT!!] 11-26 18:55:14.020 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.418 [!!DETECT!!] 11-26 18:55:14.021 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.424 [!!DETECT!!] 11-26 18:55:14.021 16105 16105 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.431 [!!DETECT!!] 11-26 18:55:14.021 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.437 [!!DETECT!!] 11-26 18:55:14.022 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:14.443 [!!DETECT!!] 11-26 18:55:14.023 16105 16121 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.295 [!!DETECT!!] 11-26 18:55:15.985 16183 16183 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:16.329 [!!DETECT!!] 11-26 18:55:16.024 16183 16183 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:16.334 [!!DETECT!!] 11-26 18:55:16.025 16183 16183 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:16.401 [!!DETECT!!] 11-26 18:55:16.121 16183 16183 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@4fe8af6
+2026-11-26 18:55:16.439 [!!DETECT!!] 11-26 18:55:16.141 16183 16183 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@6a11a6d
+2026-11-26 18:55:16.467 [!!DETECT!!] 11-26 18:55:16.148 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.478 [!!DETECT!!] 11-26 18:55:16.149 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.485 [!!DETECT!!] 11-26 18:55:16.150 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.492 [!!DETECT!!] 11-26 18:55:16.151 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.499 [!!DETECT!!] 11-26 18:55:16.151 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.507 [!!DETECT!!] 11-26 18:55:16.152 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.515 [!!DETECT!!] 11-26 18:55:16.152 16183 16183 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.528 [!!DETECT!!] 11-26 18:55:16.153 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.536 [!!DETECT!!] 11-26 18:55:16.154 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:16.544 [!!DETECT!!] 11-26 18:55:16.155 16183 16198 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.421 [!!DETECT!!] 11-26 18:55:18.108 16246 16246 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:18.457 [!!DETECT!!] 11-26 18:55:18.185 16246 16246 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:18.462 [!!DETECT!!] 11-26 18:55:18.185 16246 16246 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:18.569 [!!DETECT!!] 11-26 18:55:18.285 16246 16246 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@b871164
+2026-11-26 18:55:18.633 [!!DETECT!!] 11-26 18:55:18.307 16246 16246 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@2f53e1c
+2026-11-26 18:55:18.666 [!!DETECT!!] 11-26 18:55:18.317 16246 16261 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.672 [!!DETECT!!] 11-26 18:55:18.319 16246 16261 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.679 [!!DETECT!!] 11-26 18:55:18.319 16246 16246 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.686 [!!DETECT!!] 11-26 18:55:18.320 16246 16261 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.695 [!!DETECT!!] 11-26 18:55:18.321 16246 16261 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.703 [!!DETECT!!] 11-26 18:55:18.322 16246 16261 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:18.980 [!!DETECT!!] 11-26 18:55:18.415 14605 14627 E [CrashKitReport-Native]: get signal 6
+2026-11-26 18:55:18.985 [!!DETECT!!] 11-26 18:55:18.415 14605 14627 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 18:55:18.994 [!!DETECT!!] 11-26 18:55:18.423 14605 14627 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 18:55:20.529 [!!DETECT!!] 11-26 18:55:20.265 16309 16309 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:20.561 [!!DETECT!!] 11-26 18:55:20.299 16309 16309 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:20.567 [!!DETECT!!] 11-26 18:55:20.300 16309 16309 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:20.643 [!!DETECT!!] 11-26 18:55:20.393 16309 16309 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@7270fcd
+2026-11-26 18:55:20.684 [!!DETECT!!] 11-26 18:55:20.412 16309 16309 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@7c1f069
+2026-11-26 18:55:20.710 [!!DETECT!!] 11-26 18:55:20.419 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.717 [!!DETECT!!] 11-26 18:55:20.420 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.723 [!!DETECT!!] 11-26 18:55:20.421 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.730 [!!DETECT!!] 11-26 18:55:20.421 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.736 [!!DETECT!!] 11-26 18:55:20.422 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.744 [!!DETECT!!] 11-26 18:55:20.422 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.752 [!!DETECT!!] 11-26 18:55:20.423 16309 16309 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.757 [!!DETECT!!] 11-26 18:55:20.423 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.763 [!!DETECT!!] 11-26 18:55:20.423 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:20.769 [!!DETECT!!] 11-26 18:55:20.424 16309 16324 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.631 [!!DETECT!!] 11-26 18:55:22.365 16379 16379 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:22.664 [!!DETECT!!] 11-26 18:55:22.399 16379 16379 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:22.670 [!!DETECT!!] 11-26 18:55:22.400 16379 16379 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:22.768 [!!DETECT!!] 11-26 18:55:22.500 16379 16379 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@b781cea
+2026-11-26 18:55:22.783 [!!DETECT!!] 11-26 18:55:22.506 16379 16379 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@e8d8c9f
+2026-11-26 18:55:22.851 [!!DETECT!!] 11-26 18:55:22.518 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.864 [!!DETECT!!] 11-26 18:55:22.518 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.869 [!!DETECT!!] 11-26 18:55:22.519 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.875 [!!DETECT!!] 11-26 18:55:22.520 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.881 [!!DETECT!!] 11-26 18:55:22.520 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.886 [!!DETECT!!] 11-26 18:55:22.521 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.894 [!!DETECT!!] 11-26 18:55:22.522 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.900 [!!DETECT!!] 11-26 18:55:22.522 16379 16379 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.907 [!!DETECT!!] 11-26 18:55:22.523 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:22.913 [!!DETECT!!] 11-26 18:55:22.524 16379 16396 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.748 [!!DETECT!!] 11-26 18:55:24.468 16448 16448 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:24.784 [!!DETECT!!] 11-26 18:55:24.503 16448 16448 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:24.790 [!!DETECT!!] 11-26 18:55:24.503 16448 16448 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:24.877 [!!DETECT!!] 11-26 18:55:24.606 16448 16448 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@8c9e71d
+2026-11-26 18:55:24.894 [!!DETECT!!] 11-26 18:55:24.613 16448 16448 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@8a389c0
+2026-11-26 18:55:24.919 [!!DETECT!!] 11-26 18:55:24.625 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.968 [!!DETECT!!] 11-26 18:55:24.626 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.976 [!!DETECT!!] 11-26 18:55:24.626 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.982 [!!DETECT!!] 11-26 18:55:24.627 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.989 [!!DETECT!!] 11-26 18:55:24.628 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:24.998 [!!DETECT!!] 11-26 18:55:24.628 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:25.007 [!!DETECT!!] 11-26 18:55:24.629 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:25.012 [!!DETECT!!] 11-26 18:55:24.629 16448 16448 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:25.018 [!!DETECT!!] 11-26 18:55:24.630 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:25.024 [!!DETECT!!] 11-26 18:55:24.630 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:25.030 [!!DETECT!!] 11-26 18:55:24.632 16448 16466 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:26.849 [!!DETECT!!] 11-26 18:55:26.572 16513 16513 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:26.882 [!!DETECT!!] 11-26 18:55:26.609 16513 16513 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:26.888 [!!DETECT!!] 11-26 18:55:26.609 16513 16513 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:26.983 [!!DETECT!!] 11-26 18:55:26.709 16513 16513 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@ff7c2bf
+2026-11-26 18:55:27.003 [!!DETECT!!] 11-26 18:55:26.718 16513 16513 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@9f0d0d8
+2026-11-26 18:55:27.033 [!!DETECT!!] 11-26 18:55:26.731 16513 16528 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:27.040 [!!DETECT!!] 11-26 18:55:26.732 16513 16528 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:27.046 [!!DETECT!!] 11-26 18:55:26.732 16513 16513 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:27.052 [!!DETECT!!] 11-26 18:55:26.733 16513 16528 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:27.058 [!!DETECT!!] 11-26 18:55:26.733 16513 16528 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:27.064 [!!DETECT!!] 11-26 18:55:26.734 16513 16528 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:28.933 [!!DETECT!!] 11-26 18:55:28.685 16573 16573 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 18:55:28.972 [!!DETECT!!] 11-26 18:55:28.718 16573 16573 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 18:55:28.977 [!!DETECT!!] 11-26 18:55:28.718 16573 16573 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 18:55:29.076 [!!DETECT!!] 11-26 18:55:28.824 16573 16573 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@ff7c2bf
+2026-11-26 18:55:29.093 [!!DETECT!!] 11-26 18:55:28.831 16573 16573 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@8a389c0
+2026-11-26 18:55:29.124 [!!DETECT!!] 11-26 18:55:28.842 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.173 [!!DETECT!!] 11-26 18:55:28.843 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.179 [!!DETECT!!] 11-26 18:55:28.844 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.185 [!!DETECT!!] 11-26 18:55:28.845 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.191 [!!DETECT!!] 11-26 18:55:28.845 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.197 [!!DETECT!!] 11-26 18:55:28.846 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.204 [!!DETECT!!] 11-26 18:55:28.846 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.211 [!!DETECT!!] 11-26 18:55:28.847 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.217 [!!DETECT!!] 11-26 18:55:28.847 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.223 [!!DETECT!!] 11-26 18:55:28.848 16573 16573 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.229 [!!DETECT!!] 11-26 18:55:28.848 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.236 [!!DETECT!!] 11-26 18:55:28.849 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.242 [!!DETECT!!] 11-26 18:55:28.849 16573 16588 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 18:55:29.248 [!!DETECT!!] 11-26 18:55:28.850 16573 16588 W StorageManager: Missing package names; no storage volumes available
