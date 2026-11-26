@@ -58,9 +58,6 @@ public final class TwitterWebHostActivity extends Activity {
             return;
         }
 
-        // Fresh WebView state for every login attempt. No tokens are logged.
-        clearLoginCache();
-
         log("host started | kind=" + mKind + " | host=" + safeHost(url));
 
         LinearLayout root = new LinearLayout(this);
@@ -87,6 +84,8 @@ public final class TwitterWebHostActivity extends Activity {
         mWebView = new WebView(this);
         mWebView.setLayoutParams(new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, 0, 1f));
+        // Fresh WebView state for every login attempt. No tokens are logged.
+        clearLoginCache();
         configureWebView(mWebView);
         root.addView(mWebView);
 
@@ -108,7 +107,9 @@ public final class TwitterWebHostActivity extends Activity {
     /** Clears WebView cache and cookies before loading the OAuth page. */
     private void clearLoginCache() {
         try {
-            WebView.clearCache(getApplicationContext());
+            if (mWebView != null) {
+                mWebView.clearCache(true);
+            }
             WebStorage.getInstance().deleteAllData();
             log("webview cache + storage cleared");
         } catch (Throwable t) {
