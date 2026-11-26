@@ -38,6 +38,7 @@ import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
 public final class TwitterWebHostActivity extends Activity {
 
     private static final String TAG = "WebLoginHost";
+    private static boolean sDataDirSet;
 
     private WebView mWebView;
     private ProgressBar mProgress;
@@ -46,6 +47,9 @@ public final class TwitterWebHostActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Must run before any WebView is created in this process. The main
+        // com.google process already owns the default WebView data directory.
+        configureWebViewDataDirectory();
         super.onCreate(savedInstanceState);
         mKind = getIntent() == null ? "twitter" : getIntent().getStringExtra("kind");
         if (!"facebook".equals(mKind)) {
@@ -102,6 +106,24 @@ public final class TwitterWebHostActivity extends Activity {
 
         setContentView(root);
         mWebView.loadUrl(url);
+    }
+
+    /** Give :login_web its own WebView data directory before WebView is created. */
+    private static void configureWebViewDataDirectory() {
+        if (sDataDirSet) {
+            return;
+        }
+        sDataDirSet = true;
+        try {
+            if (Build.VERSION.SDK_INT >= 28) {
+                WebView.setDataDirectorySuffix("login_web");
+                log("webview data dir suffix set to login_web");
+            } else {
+                log("webview data dir suffix skipped (old Android)");
+            }
+        } catch (Throwable t) {
+            log("webview data dir suffix failed: " + t);
+        }
     }
 
     /** Clears WebView cache and cookies before loading the OAuth page. */

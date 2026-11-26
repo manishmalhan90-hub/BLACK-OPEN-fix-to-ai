@@ -77,7 +77,7 @@ public final class TwitterLoginModeFix {
         WebLoginBridge.register(context, cl);
         if (sBridgeLogged.compareAndSet(false, true)) {
             ZoroRuntimeLogger.logLogin("web-login-fix",
-                    "isolated web login bridge v11 active (:login_web, host authority, cache clear)");
+                    "isolated web login bridge v12 active (:login_web, host authority, cache clear, own data dir)");
         }
         initializeIfNeeded(context, cl);
         force(cl);
