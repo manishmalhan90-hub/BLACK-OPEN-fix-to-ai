@@ -1890,3 +1890,54 @@
 2026-11-26 20:04:21.724 [!!LOGIN!!] 11-26 20:04:21.718 18115 18115 D WebLoginHost: page started | host=m.facebook.com
 2026-11-26 20:04:24.151 [unknown/18115] login-host: page finished | host=m.facebook.com
 2026-11-26 20:04:24.158 [!!LOGIN!!] 11-26 20:04:24.155 18115 18115 D WebLoginHost: page finished | host=m.facebook.com
+2026-11-26 20:04:26.199 [unknown/18115] login-host: page started | host=in-comm1.globh.com
+2026-11-26 20:04:26.215 [!!LOGIN!!] 11-26 20:04:26.204 18115 18115 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 20:04:26.588 [unknown/18115] login-host: page started | host=in-comm1.globh.com
+2026-11-26 20:04:26.598 [!!LOGIN!!] 11-26 20:04:26.591 18115 18115 D WebLoginHost: page started | host=in-comm1.globh.com
+2026-11-26 20:04:26.710 [unknown/18115] login-host: page finished | host=in-comm1.globh.com
+2026-11-26 20:04:26.719 [!!LOGIN!!] 11-26 20:04:26.714 18115 18115 D WebLoginHost: page finished | host=in-comm1.globh.com
+2026-11-26 20:04:27.551 [unknown/18115] login-host: login result received | kind=facebook | length=434
+2026-11-26 20:04:27.577 [!!LOGIN!!] 11-26 20:04:27.562 18115 18192 D WebLoginHost: login result received | kind=facebook | length=434
+2026-11-26 20:04:27.600 [!!LOGIN!!] 11-26 20:04:27.574 18115 18192 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.sendJson:40 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.access$1900:0 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity$ResultInterface.onResult:52 android.os.MessageQueue.nativePollOnce:-2 android.os.MessageQueue.nextLegacy:934 android.os.MessageQueue.next:1046 android.os.Looper.loopOnce:221 android.os.Looper.loop:412 
+2026-11-26 20:04:27.657 [!!LOGIN!!] 11-26 20:04:27.650 18115 18115 D VRI[TwitterWebHostActivity]: onFocusEvent false
+2026-11-26 20:04:28.146 [!!LOGIN!!] 11-26 20:04:28.133 18115 18131 D VRI[TwitterWebHostActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+2026-11-26 20:04:28.185 [!!LOGIN!!] 11-26 20:04:28.142 18115 18115 D VRI[TwitterWebHostActivity]: visibilityChanged oldVisibility=true newVisibility=false
+2026-11-26 20:04:28.252 [!!LOGIN!!] 11-26 20:04:28.179 18115 18115 D VRI[TwitterWebHostActivity]: setWindowStopped stopped:true
+2026-11-26 20:04:28.285 [!!LOGIN!!] 11-26 20:04:28.202 18115 18115 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,window dying
+2026-11-26 20:04:28.298 [!!LOGIN!!] 11-26 20:04:28.202 18115 18115 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,unregisterSystemUIBroadcastReceiver 
+2026-11-26 20:04:28.309 [!!LOGIN!!] 11-26 20:04:28.203 18115 18115 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@287fbe1
+2026-11-26 20:04:28.328 [!!LOGIN!!] 11-26 20:04:28.212 18115 18135 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#0](f:0,a:3) destructor()
+2026-11-26 20:04:28.335 [!!LOGIN!!] 11-26 20:04:28.213 18115 18135 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#0(BLAST Consumer)0](id:46c300000000,api:0,p:-1,c:18115) disconnect
+2026-11-26 20:04:38.027 [!!LOGIN!!] 11-26 20:03:49.201 18115 18115 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 2
+2026-11-26 20:04:38.036 [!!LOGIN!!] 11-26 20:03:49.263 18115 18115 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+2026-11-26 20:04:38.041 [!!LOGIN!!] 11-26 20:03:49.263 18115 18115 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-2, blastBufferQueue:null
+2026-11-26 20:04:38.047 [!!LOGIN!!] 11-26 20:03:49.338 18115 18115 W VRI[TwitterWebHostActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2026-11-26 20:04:38.055 [!!LOGIN!!] 11-26 20:03:49.377 18115 18115 W VRI[TwitterWebHostActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2026-11-26 20:04:38.063 [!!LOGIN!!] 11-26 20:03:50.051 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.075 [!!LOGIN!!] 11-26 20:03:57.001 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.084 [!!LOGIN!!] 11-26 20:03:57.229 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.092 [!!LOGIN!!] 11-26 20:03:57.340 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.100 [!!LOGIN!!] 11-26 20:04:00.042 18115 18115 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 4
+2026-11-26 20:04:38.109 [!!LOGIN!!] 11-26 20:04:00.055 18115 18115 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+2026-11-26 20:04:38.116 [!!LOGIN!!] 11-26 20:04:00.055 18115 18115 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-2, blastBufferQueue:android.graphics.BLASTBufferQueue@2d8a1a2
+2026-11-26 20:04:38.131 [!!LOGIN!!] 11-26 20:04:00.764 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.138 [!!LOGIN!!] 11-26 20:04:01.001 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.146 [!!LOGIN!!] 11-26 20:04:01.010 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.162 [!!LOGIN!!] 11-26 20:04:01.326 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.172 [!!LOGIN!!] 11-26 20:04:01.618 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.189 [!!LOGIN!!] 11-26 20:04:01.710 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.214 [!!LOGIN!!] 11-26 20:04:02.810 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.221 [!!LOGIN!!] 11-26 20:04:03.027 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.232 [!!LOGIN!!] 11-26 20:04:03.348 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.241 [!!LOGIN!!] 11-26 20:04:03.419 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.251 [!!LOGIN!!] 11-26 20:04:03.497 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:04:38.259 [!!LOGIN!!] 11-26 20:04:03.746 18115 18115 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+2026-11-26 20:34:12.189 [!!LOGIN!!] 11-26 20:34:12.021 12119 12119 I ZoroNative: [JNI_OnLoad] libMCoreEsp loaded v15 (com.google, web login process guard)
+2026-11-26 20:34:12.420 [!!LOGIN!!] 11-26 20:34:12.371 12119 12119 D TwitterLoginRedirect: environment: mode=sdk, X app installed=false, legacy SSO activity=false, forced web login=twitter+facebook
+2026-11-26 20:34:12.440 [!!LOGIN!!] 11-26 20:34:12.433 12119 12119 D WebLoginBridge: pending result retry started
+2026-11-26 20:34:18.224 [!!LOGIN!!] 11-26 20:34:13.034 12119 12119 W y1.j0   : Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+2026-11-26 20:34:18.318 [!!LOGIN!!] 11-26 20:34:13.034 12119 12119 W y1.j0   : You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+2026-11-26 20:34:18.681 [!!LOGIN!!] 11-26 20:34:13.107 12119 12213 W n2.g0   : Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+2026-11-26 20:34:19.722 [!!LOGIN!!] 11-26 20:34:14.658 12119 12119 D WebLoginModeFix: IMSDK config initialized early by loader web login fix
+2026-11-26 20:34:19.727 [!!LOGIN!!] 11-26 20:34:14.667 12119 12119 D WebLoginModeFix: web login forced for both channels: IMSDK_TWITTER_LOGIN_USING_WEB=true IMSDK_TWITTER_LOGIN_MODE_SWITCH=0 IMSDK_TWITTER_PRIOR_LOGIN_MODE=1 IMSDK_TWITTER_USE_BROWSER_LOGIN=0 IMSDK_FACEBOOK_LOGIN_USING_WEB=true IMSDK_FACEBOOK_USE_BROWSER_LOGIN=0
+2026-11-26 20:34:19.768 [!!LOGIN!!] 11-26 20:34:14.714 12119 12119 D WebLoginModeFix: effective web login config: IMSDK_TWITTER_LOGIN_USING_WEB=true, IMSDK_TWITTER_LOGIN_MODE_SWITCH=false, IMSDK_TWITTER_PRIOR_LOGIN_MODE=false, IMSDK_TWITTER_USE_BROWSER_LOGIN=false, IMSDK_FACEBOOK_LOGIN_USING_WEB=true, IMSDK_FACEBOOK_USE_BROWSER_LOGIN=false
