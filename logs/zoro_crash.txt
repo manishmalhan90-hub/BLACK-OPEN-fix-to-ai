@@ -5142,3 +5142,5 @@
 2026-11-26 20:34:29.773 [!!CRASH!!] 11-26 20:34:29.759 12119 12543 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58bf7e78 in tid 12543 (NativeThread), pid 12119 (MainThread-UE4)
 2026-11-26 20:34:30.129 [!!CRASH!!] 11-26 20:34:30.102 12827 12827 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
 2026-11-26 20:34:31.634 [!!CRASH!!] 11-26 20:34:31.514 11620 11992 D BProcessManager: App Died: com.pubg.imobile
+2026-11-26 20:35:36.561 [!!CRASH!!] 11-26 20:35:36.527 11620 12491 D BProcessManager: App Died: com.pubg.imobile
+2026-11-26 20:36:19.922 [!!CRASH!!] 11-26 20:34:29.759 12119 12543 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58bf7e78 in tid 12543 (NativeThread), pid 12119 (MainThread-UE4)
