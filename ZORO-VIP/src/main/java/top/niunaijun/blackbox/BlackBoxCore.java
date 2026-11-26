@@ -182,17 +182,23 @@ public class BlackBoxCore extends ClientConfiguration {
                 }
             }
         }
+        ZoroRuntimeLogger.log("step", "attachBaseContext: hook init start");
         HookManager.get().init();
+        ZoroRuntimeLogger.log("step", "attachBaseContext: hook init done");
     }
 
     public void doCreate() {
+        ZoroRuntimeLogger.log("step", "doCreate: start");
         // fix contentProvider
         if (isBlackProcess()) {
             ContentProviderDelegate.init();
+            ZoroRuntimeLogger.log("step", "doCreate: content provider init");
         }
         if (!isServerProcess()) {
             ServiceManager.initBlackManager();
+            ZoroRuntimeLogger.log("step", "doCreate: black manager init");
         }
+        ZoroRuntimeLogger.log("step", "doCreate: done");
     }
 
     public static Object mainThread() {

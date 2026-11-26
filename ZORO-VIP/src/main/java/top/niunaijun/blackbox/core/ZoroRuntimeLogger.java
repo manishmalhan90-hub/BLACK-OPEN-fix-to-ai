@@ -27,6 +27,7 @@ public final class ZoroRuntimeLogger {
     private static final String TAG = "ZoroRuntimeLogger";
     private static final String FILE_NAME = "zoro.txt";
     private static final String BACKUP_NAME = "zoro.1.txt";
+    private static final String CRASH_FILE_NAME = "zoro_crash.txt";
     private static final long MAX_FILE_SIZE = 5L * 1024L * 1024L;
 
     private static final Object LOCK = new Object();
@@ -131,6 +132,7 @@ public final class ZoroRuntimeLogger {
                 // Native crashes (debuggerd/tombstones) and fatal Java exceptions
                 // end up in logcat, so they land in the same file.
                 append("[logcat] " + line);
+                maybeFlagCrash(line);
             }
         } catch (Throwable t) {
             log("logcat", "unavailable: " + t);
@@ -140,6 +142,43 @@ public final class ZoroRuntimeLogger {
             }
         }
         return receivedLine;
+    }
+
+    /** Keeps a short, dedicated digest of fatal lines for fast diagnosis. */
+    private static void maybeFlagCrash(String line) {
+        if (line == null) {
+            return;
+        }
+        String lower = line.toLowerCase(Locale.US);
+        boolean fatal = lower.contains("fatal exception")
+                || lower.contains(" passed to free")
+                || lower.contains("app died")
+                || lower.contains("tombstone")
+                || lower.contains("fatal signal")
+                || lower.contains("androidruntime")
+                || lower.contains("abort message");
+        if (!fatal) {
+            return;
+        }
+        String flagged = now() + " [!!CRASH!!] " + line;
+        append(flagged);
+        synchronized (LOCK) {
+            try {
+                File downloads = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+                File digest = new File(downloads, CRASH_FILE_NAME);
+                FileWriter writer = new FileWriter(digest, true);
+                try {
+                    writer.write(flagged);
+                    if (!flagged.endsWith("\n")) {
+                        writer.write("\n");
+                    }
+                } finally {
+                    writer.close();
+                }
+            } catch (Throwable ignored) {
+                // Diagnostics must never affect the host application.
+            }
+        }
     }
 
     private static String now() {

@@ -24,7 +24,9 @@ public class RNative {
     public static String libtarget2 = "libtwttier.so";   // Bypass & AllFix
     public static String libtarget3 = "liballfix.so";    // SKIN LIB
     static {
+        ZoroRuntimeLogger.log("step", "native: loading RIYAZcore");
         System.loadLibrary("RIYAZcore");
+        ZoroRuntimeLogger.log("step", "native: RIYAZcore loaded");
         
         // అన్ని లైబ్రరీలను లోడ్ చేయండి
         String[] targets = {libtarget1, libtarget2, libtarget3};
