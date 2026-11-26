@@ -706,3 +706,33 @@
 2026-11-26 15:39:55.621 [!!DETECT!!] 11-26 15:39:52.077 32386 32386 E libsigchain:   #06 pc 000e0058  /data/user/0/com.zoro.loader/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 15:39:55.646 [!!DETECT!!] 11-26 15:39:52.157 32387 32387 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-26 15:39:55.652 [!!DETECT!!] 11-26 15:39:52.157 32387 32387 E libsigchain:   #05 pc 000e0058  /data/user/0/com.zoro.loader/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 15:40:05.243 [!!DETECT!!] 11-26 15:40:05.234 31868 32015 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 15:40:13.650 [!!DETECT!!] 11-26 15:40:13.645 31868 32264 W [CrashKit]: Game type has not been set.
+2026-11-26 15:40:13.656 [!!DETECT!!] 11-26 15:40:13.645 31868 32264 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 15:40:13.673 [!!DETECT!!] 11-26 15:40:13.646 31868 31868 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 15:40:13.688 [!!DETECT!!] 11-26 15:40:13.653 31868 32264 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 15:40:13.698 [!!DETECT!!] 11-26 15:40:13.653 31868 32264 I [CrashKitReport]: cachedUuid: 28916466-923e-42a9-9fc4-431c510b93ef
+2026-11-26 15:40:13.705 [!!DETECT!!] 11-26 15:40:13.653 31868 32264 I [CrashKitReport]: currentVersionUuid: 
+2026-11-26 15:40:13.712 [!!DETECT!!] 11-26 15:40:13.653 31868 32264 I [CrashKitReport]: redisKeyUuid: 28916466-923e-42a9-9fc4-431c510b93ef
+2026-11-26 15:40:13.722 [!!DETECT!!] 11-26 15:40:13.668 31868 31868 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 15:40:13.727 [!!DETECT!!] 11-26 15:40:13.668 31868 31868 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 15:40:13.733 [!!DETECT!!] 11-26 15:40:13.668 31868 31868 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 15:40:14.774 [!!DETECT!!] 11-26 15:40:14.764 31868 32493 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 15:40:14.880 [!!DETECT!!] 11-26 15:40:14.803 31868 32493 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 15:40:14.894 [!!DETECT!!] 11-26 15:40:14.803 31868 32493 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 15:40:14.903 [!!DETECT!!] 11-26 15:40:14.803 31868 32493 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 15:40:15.275 [!!DETECT!!] 11-26 15:40:15.269 31868 32505 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 15:40:15.283 [!!DETECT!!] 11-26 15:40:15.276 31868 32491 E [CrashKitReport-Native]: Failed to open old oom file.
+2026-11-26 15:40:15.290 [!!DETECT!!] 11-26 15:40:15.276 31868 32491 E [CrashKitReport-Native]: Failed to open old oom file.
+2026-11-26 15:40:15.298 [!!DETECT!!] 11-26 15:40:15.291 31868 32493 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 15:40:15.364 [!!DETECT!!] 11-26 15:40:15.311 31868 32493 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 15:40:15.435 [!!DETECT!!] 11-26 15:40:15.432 31868 32493 E [CrashKitReport]: # Processing Event: 1cd405ea-d217-4149-8d90-b79883bcf475
+2026-11-26 15:40:15.888 [!!DETECT!!] 11-26 15:40:15.884 31868 32493 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):1cd405ea-d217-4149-8d90-b79883bcf475 uc:1 re:true me:false mc:0
+2026-11-26 15:40:17.052 [!!DETECT!!] 11-26 15:40:17.046 31868 31868 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 15:40:20.047 [!!DETECT!!] 11-26 15:40:20.042 31868 32264 E .zoro.loader:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 15:40:22.835 [!!DETECT!!] 11-26 15:40:22.754 31868 32492 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):20006247-4371-413e-b30d-b9e807958f9a uc:1 re:true me:false mc:0
+2026-11-26 15:40:22.845 [!!DETECT!!] 11-26 15:40:22.774 31868 32491 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):3c6c49ce-dc4c-4e62-ae22-51dc8d50b59c uc:1 re:true me:false mc:0
+2026-11-26 15:40:22.874 [!!DETECT!!] 11-26 15:40:22.834 31868 32493 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):55d2caa0-9fd3-4d99-ab9f-6a25a14ddc1e uc:1 re:true me:false mc:0
+2026-11-26 15:40:23.177 [!!DETECT!!] 11-26 15:40:23.172 31868 32491 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):76d014a0-8e1a-4c25-9c6d-f61c55d0e689 uc:1 re:true me:false mc:0
+2026-11-26 15:40:23.207 [!!DETECT!!] 11-26 15:40:23.200 31868 32492 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):0ff775e0-590c-4a13-bbad-6716025c9093 uc:1 re:true me:false mc:0
+2026-11-26 15:40:25.447 [!!DETECT!!] 11-26 15:40:25.444 31868 32493 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):c87e6bf0-c32b-4153-93b6-b673b20320dd uc:1 re:true me:false mc:0
