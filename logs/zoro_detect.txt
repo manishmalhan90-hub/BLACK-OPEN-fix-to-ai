@@ -2226,3 +2226,6 @@
 2026-11-26 16:35:56.018 [!!DETECT!!] 11-26 16:35:56.010  7003  7647 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):89b44265-7ba2-43d5-8324-f264f1dfe3ee uc:1 re:true me:false mc:0
 2026-11-26 16:35:58.536 [!!DETECT!!] 11-26 16:35:58.532  7003  7647 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):03f47fae-1b22-4549-99f5-f3e2117cea14 uc:1 re:true me:false mc:0
 2026-11-26 16:36:03.769 [!!DETECT!!] 11-26 16:36:03.752  7003  7076 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:36:43.230 [!!DETECT!!] 11-26 16:36:42.975  7003  7008 E [CrashKitReport-Native]: get signal 6
+2026-11-26 16:36:43.244 [!!DETECT!!] 11-26 16:36:42.975  7003  7008 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 16:36:43.261 [!!DETECT!!] 11-26 16:36:43.020  7003  7008 E [CrashKitReport-Native]: try to unwind full native stack
