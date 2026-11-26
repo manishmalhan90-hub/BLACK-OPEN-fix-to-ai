@@ -2,7 +2,6 @@ package top.niunaijun.blackbox.utils.auth;
 
 import android.app.Activity;
 import android.content.Context;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -13,33 +12,46 @@ import java.lang.reflect.Method;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
+
 /**
- * Forces the game's IMSDK Twitter login mode to its SDK/app path.
+ * Forces both Twitter/X and Facebook login to the game's built-in web flow.
  *
- * <p>The game reads {@code IMSDK_TWITTER_LOGIN_USING_WEB} from its in-memory
- * IMSDK config cache. When that value is true, login2Channel() chooses the
- * system Custom Tab/WebView flow, which is the old web login we removed.
- * Setting it to false makes the game use TwitterKit's own in-app flow
- * (SSOActivity when available, otherwise OAuthActivity).</p>
+ * <p>This supersedes the earlier SDK/app handoff. The game reads these values
+ * from the in-memory IMSDK config cache. With them forced early:</p>
  *
- * <p>The previous build only forced the cache when the custom-tab activity was
- * already created, i.e. after the login path had been chosen. This version
- * initialises the IMSDK config early and keeps a lightweight watchdog that
- * re-applies the values, including after a server config refresh overwrites
- * the cache.</p>
+ * <ul>
+ *   <li>{@code IMSDK_TWITTER_LOGIN_USING_WEB=true} keeps Twitter in web mode.</li>
+ *   <li>{@code IMSDK_TWITTER_LOGIN_MODE_SWITCH=0} prevents a switch to the X app.</li>
+ *   <li>{@code IMSDK_TWITTER_PRIOR_LOGIN_MODE=1} selects web on first launch.</li>
+ *   <li>{@code IMSDK_TWITTER_USE_BROWSER_LOGIN=0} avoids Chrome Custom Tabs,
+ *       whose external redirect back into the virtual process was never
+ *       delivered; the built-in WebView handles the callback itself.</li>
+ *   <li>{@code IMSDK_FACEBOOK_LOGIN_USING_WEB=true} keeps Facebook in web mode.</li>
+ *   <li>{@code IMSDK_FACEBOOK_USE_BROWSER_LOGIN=0} applies the same WebView fix
+ *       to Facebook.</li>
+ * </ul>
+ *
+ * <p>The config is initialised before the first login tap and re-applied on a
+ * short watchdog because a server config refresh can replace the cache.</p>
  *
  * <p>This only edits in-memory config values. It never touches credentials,
  * never writes tokens, and does not bypass any anti-cheat check.</p>
  */
 public final class TwitterLoginModeFix {
 
-    private static final String TAG = "TwitterLoginModeFix";
+    private static final String TAG = "WebLoginModeFix";
     private static final String CONFIG_CLASS = "com.itop.imsdk.android.api.config.IMSDKConfig";
-    private static final String KEY_USE_WEB = "IMSDK_TWITTER_LOGIN_USING_WEB";
-    private static final String KEY_MODE_SWITCH = "IMSDK_TWITTER_LOGIN_MODE_SWITCH";
-    private static final String KEY_PRIOR_MODE = "IMSDK_TWITTER_PRIOR_LOGIN_MODE";
-    private static final String KEY_BROWSER_LOGIN = "IMSDK_TWITTER_USE_BROWSER_LOGIN";
-    private static final long WATCHDOG_DELAY_MS = 1000L;
+    private static final long WATCHDOG_DELAY_MS = 500L;
+
+    private static final String[][] FORCED_VALUES = {
+            {"IMSDK_TWITTER_LOGIN_USING_WEB", "true"},
+            {"IMSDK_TWITTER_LOGIN_MODE_SWITCH", "0"},
+            {"IMSDK_TWITTER_PRIOR_LOGIN_MODE", "1"},
+            {"IMSDK_TWITTER_USE_BROWSER_LOGIN", "0"},
+            {"IMSDK_FACEBOOK_LOGIN_USING_WEB", "true"},
+            {"IMSDK_FACEBOOK_USE_BROWSER_LOGIN", "0"}
+    };
 
     private static final Handler HANDLER = new Handler(Looper.getMainLooper());
     private static final AtomicBoolean sScheduled = new AtomicBoolean(false);
@@ -48,15 +60,16 @@ public final class TwitterLoginModeFix {
     private static final AtomicBoolean sLogged = new AtomicBoolean(false);
     private static final AtomicBoolean sEffectiveLogged = new AtomicBoolean(false);
 
+    private static WeakReference<Activity> sLastActivity = new WeakReference<Activity>(null);
+
     private TwitterLoginModeFix() {
     }
 
     public static void apply(Context context) {
-        TwitterLoginRedirect.logEnvironment();
-        String mode = TwitterLoginRedirect.mode();
-        if ("web".equals(mode) || "system".equals(mode) || "webview".equals(mode)) {
-            return;
+        if (context instanceof Activity) {
+            sLastActivity = new WeakReference<Activity>((Activity) context);
         }
+        TwitterLoginRedirect.logEnvironment();
         ClassLoader cl = classLoader(context);
         initializeIfNeeded(context, cl);
         force(cl);
@@ -70,20 +83,26 @@ public final class TwitterLoginModeFix {
 
     /** Create the game's IMSDK config object before the first login tap. */
     private static void initializeIfNeeded(Context context, ClassLoader cl) {
-        if (sInitDone.get() || !(context instanceof Activity) || cl == null) {
+        if (sInitDone.get() || cl == null) {
+            return;
+        }
+        Activity activity = sLastActivity.get();
+        if (activity == null || !(context instanceof Activity)) {
             return;
         }
         try {
             Class<?> config = Class.forName(CONFIG_CLASS, false, cl);
             Method init = config.getDeclaredMethod("initialize", Activity.class);
             init.setAccessible(true);
-            init.invoke(null, (Activity) context);
+            init.invoke(null, activity);
             sInitDone.set(true);
             if (sInitLogged.compareAndSet(false, true)) {
-                TwitterLoginRedirect.log("IMSDK config initialized early by loader watchdog");
+                String message = "IMSDK config initialized early by loader web login fix";
+                ZoroRuntimeLogger.logLogin("web-login-fix", message);
+                Log.d(TAG, message);
             }
         } catch (Throwable ignored) {
-            // This context may be the loader app itself; the game context will retry.
+            // The game may create its own config later; the watchdog retries.
         }
     }
 
@@ -111,29 +130,29 @@ public final class TwitterLoginModeFix {
                         continue;
                     }
                     Map cache = (Map) value;
-                    cache.put(KEY_USE_WEB, "false");
-                    cache.put(KEY_MODE_SWITCH, "0");
-                    cache.put(KEY_PRIOR_MODE, "2");
-                    cache.put(KEY_BROWSER_LOGIN, "0");
+                    for (String[] entry : FORCED_VALUES) {
+                        cache.put(entry[0], entry[1]);
+                    }
                     updated++;
                 } catch (Throwable ignored) {
-                    // One cache map may not exist yet; the other is enough.
+                    // One cache may not exist yet; the other is enough.
                 }
             }
             if (updated == 0) {
                 return false;
             }
             if (sLogged.compareAndSet(false, true)) {
-                String message = "IMSDK Twitter mode forced to SDK/app: " + KEY_USE_WEB
-                        + "=false, " + KEY_MODE_SWITCH + "=0, " + KEY_PRIOR_MODE
-                        + "=2, " + KEY_BROWSER_LOGIN + "=0";
-                TwitterLoginRedirect.log(message);
+                StringBuilder sb = new StringBuilder("web login forced for both channels:");
+                for (String[] entry : FORCED_VALUES) {
+                    sb.append(' ').append(entry[0]).append('=').append(entry[1]);
+                }
+                String message = sb.toString();
+                ZoroRuntimeLogger.logLogin("web-login-fix", message);
                 Log.d(TAG, message);
             }
             if (sEffectiveLogged.compareAndSet(false, true)) {
-                String effective = effectiveUseWeb(cl);
-                String message = "effective IMSDK_TWITTER_LOGIN_USING_WEB=" + effective;
-                TwitterLoginRedirect.log(message);
+                String message = "effective web login config: " + snapshot(cl);
+                ZoroRuntimeLogger.logLogin("web-login-fix", message);
                 Log.d(TAG, message);
             }
             return true;
@@ -142,19 +161,44 @@ public final class TwitterLoginModeFix {
         }
     }
 
-    private static String effectiveUseWeb(ClassLoader cl) {
+    /** Read back the effective values for the dedicated login log. */
+    public static String snapshot(ClassLoader cl) {
+        StringBuilder sb = new StringBuilder();
         try {
+            if (cl == null) {
+                return "unknown";
+            }
             Class<?> config = Class.forName(CONFIG_CLASS, false, cl);
-            Method m = config.getDeclaredMethod("getOrMetaData", String.class, String.class, boolean.class);
-            m.setAccessible(true);
-            return String.valueOf(m.invoke(null, KEY_USE_WEB, KEY_USE_WEB, true));
+            for (String[] entry : FORCED_VALUES) {
+                String value;
+                try {
+                    Method m = config.getDeclaredMethod("getOrMetaData", String.class,
+                            String.class, boolean.class);
+                    m.setAccessible(true);
+                    value = String.valueOf(m.invoke(null, entry[0], entry[0], false));
+                } catch (Throwable ignored) {
+                    try {
+                        Method m = config.getDeclaredMethod("getOrMetaData", String.class,
+                                String.class, int.class);
+                        m.setAccessible(true);
+                        value = String.valueOf(m.invoke(null, entry[0], entry[0], 0));
+                    } catch (Throwable ignored2) {
+                        value = "unknown";
+                    }
+                }
+                if (sb.length() > 0) {
+                    sb.append(", ");
+                }
+                sb.append(entry[0]).append('=').append(value);
+            }
         } catch (Throwable t) {
-            return "unknown";
+            return "unavailable: " + t;
         }
+        return sb.toString();
     }
 
     /**
-     * Keep forcing the value. IMSDK can replace its cache when a server config
+     * Keep forcing the values. IMSDK can replace its cache when a server config
      * response arrives, so a one-shot write is not enough.
      */
     private static void scheduleWatchdog(final Context context, final ClassLoader fallback) {

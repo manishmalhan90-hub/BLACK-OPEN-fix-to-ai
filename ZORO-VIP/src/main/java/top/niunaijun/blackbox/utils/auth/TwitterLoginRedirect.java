@@ -25,17 +25,10 @@ import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
  * true "logged in inside the X app" SSO. The game therefore always falls back
  * to TwitterKit's own OAuthActivity when that activity is missing.</p>
  *
- * <p>Default behaviour is "sdk": let the game's in-app TwitterKit flow run,
- * never inject plaintext credentials, and never force the old system-webview
- * login. {@code /sdcard/twitter_mode.txt} may contain:</p>
- *
- * <ul>
- *   <li>{@code sdk} (default) - allow the game in-app OAuthActivity.</li>
- *   <li>{@code app} / {@code sso} - only if the legacy X SSO activity really
- *       exists; otherwise fall back to the in-app OAuthActivity.</li>
- *   <li>{@code web} - diagnostics only, leaves legacy web/custom-tab login
- *       untouched.</li>
- * </ul>
+ * <p>The loader now forces the game's built-in web login for both Twitter and
+ * Facebook; the legacy X app handoff is never used. This class only observes
+ * and logs intents, and keeps the old opt-in app mode diagnostics for
+ * completeness. It never injects plaintext credentials.</p>
  */
 public final class TwitterLoginRedirect {
 
@@ -111,14 +104,21 @@ public final class TwitterLoginRedirect {
         }
         String mode = mode();
         log("environment: mode=" + mode + ", X app installed=" + twitterAppInstalled()
-                + ", legacy SSO activity=" + legacySsoAvailable());
+                + ", legacy SSO activity=" + legacySsoAvailable()
+                + ", forced web login=twitter+facebook");
         if (appModeEnabled() && !legacySsoAvailable()) {
             log("legacy X SSO unavailable; using game in-app OAuthActivity (no plaintext credentials)");
         }
     }
 
-    /** Observe a Twitter auth intent without changing it. */
+    /** Observe a login/browser intent without changing it. */
     public static void observe(Intent intent) {
+        if (isWebAuthBrowserIntent(intent)) {
+            log("observed web-auth browser intent: action=" + intent.getAction()
+                    + " | pkg=" + (intent.getPackage() == null ? "(default)" : intent.getPackage())
+                    + " | host=" + hostOf(intent.getDataString()));
+            return;
+        }
         if (!isTwitterAuthIntent(intent)) {
             return;
         }
@@ -127,23 +127,36 @@ public final class TwitterLoginRedirect {
         Bundle extras = intent.getExtras();
         String channel = extras == null ? "" : String.valueOf(extras.get("channel"));
         String data = intent.getDataString() == null ? "" : intent.getDataString();
-        String host = data;
-        try {
-            android.net.Uri uri = android.net.Uri.parse(data);
-            if (uri.getHost() != null) {
-                host = uri.getHost();
-            }
-        } catch (Throwable ignored) {
-        }
         log("observed Twitter auth intent: " + component
                 + " | channel=" + channel
-                + (data.isEmpty() ? "" : " | host=" + host));
-        if (appModeEnabled() && !legacySsoAvailable()) {
-            log("X app lacks legacy SSO activity; falling back to game in-app OAuthActivity");
-        } else if (webModeEnabled()) {
-            log("legacy web/custom-tab mode enabled by " + MODE_FILE);
-        } else {
-            log("default sdk mode: allowing game in-app OAuthActivity");
+                + (data.isEmpty() ? "" : " | host=" + hostOf(data)));
+        log("loader forces built-in WebView web login for Twitter and Facebook"
+                + (appModeEnabled() ? " (legacy app mode ignored)" : ""));
+    }
+
+    private static boolean isWebAuthBrowserIntent(Intent intent) {
+        if (intent == null || !Intent.ACTION_VIEW.equals(intent.getAction())) {
+            return false;
+        }
+        String data = intent.getDataString();
+        if (data == null) {
+            return false;
+        }
+        String lower = data.toLowerCase(Locale.ROOT);
+        return (lower.startsWith("http://") || lower.startsWith("https://"))
+                && (lower.contains("globh.com") || lower.contains("twitter.com")
+                || lower.contains("x.com") || lower.contains("facebook.com"));
+    }
+
+    private static String hostOf(String data) {
+        if (data == null || data.isEmpty()) {
+            return "(none)";
+        }
+        try {
+            String host = android.net.Uri.parse(data).getHost();
+            return host == null ? "(none)" : host;
+        } catch (Throwable t) {
+            return "(invalid)";
         }
     }
 
@@ -254,6 +267,7 @@ public final class TwitterLoginRedirect {
         Log.d(TAG, msg);
         try {
             ZoroRuntimeLogger.log("twitter-login", msg);
+            ZoroRuntimeLogger.logLogin("login-intent", msg);
         } catch (Throwable ignored) {
         }
     }

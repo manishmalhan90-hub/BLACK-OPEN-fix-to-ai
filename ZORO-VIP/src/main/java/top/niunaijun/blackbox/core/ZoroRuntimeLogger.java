@@ -26,6 +26,8 @@ import java.util.Locale;
  *  - Download/zoro_detect.txt: detection-related evidence only (logging only,
  *    no hiding or bypassing).
  *  - Download/zoro_tombstone.txt: raw logcat crash buffer, when available.
+ *  - Download/zoro_login.txt: dedicated, deep digest for Twitter/Facebook web
+ *    login flow, config values, redirects and WebView/browser errors.
  *
  * This is logging only - it does not hide, alter or bypass anything.
  */
@@ -36,6 +38,7 @@ public final class ZoroRuntimeLogger {
     private static final String CRASH_FILE_NAME = "zoro_crash.txt";
     private static final String DETECT_FILE_NAME = "zoro_detect.txt";
     private static final String TOMBSTONE_FILE_NAME = "zoro_tombstone.txt";
+    private static final String LOGIN_FILE_NAME = "zoro_login.txt";
     private static final long MAX_FILE_SIZE = 5L * 1024L * 1024L;
 
     private static final Object LOCK = new Object();
@@ -66,6 +69,8 @@ public final class ZoroRuntimeLogger {
                     now() + " === detection evidence started | logging only ===\n");
             createDiagnosticsFile(TOMBSTONE_FILE_NAME,
                     now() + " === native crash buffer started ===\n");
+            createDiagnosticsFile(LOGIN_FILE_NAME,
+                    now() + " === web login diagnostics started | " + sProcess + " ===\n");
             startLogcatReader();
             startCrashReader();
         } catch (Throwable t) {
@@ -75,6 +80,15 @@ public final class ZoroRuntimeLogger {
 
     public static void log(String source, String message) {
         append(now() + " [" + sProcess + "/" + android.os.Process.myPid() + "] " + source + ": " + message);
+    }
+
+    /** Dedicated digest for Twitter/Facebook web login diagnostics. */
+    public static void logLogin(String source, String message) {
+        if (message == null) {
+            return;
+        }
+        appendToFile(LOGIN_FILE_NAME, now() + " [" + sProcess + "/"
+                + android.os.Process.myPid() + "] " + source + ": " + message);
     }
 
     public static void logThrowable(String source, Throwable throwable) {
@@ -197,6 +211,7 @@ public final class ZoroRuntimeLogger {
                 if (flag) {
                     maybeFlagCrash(line);
                 }
+                maybeFlagLogin(line);
             }
         } catch (Throwable t) {
             log("logcat", "unavailable: " + t);
@@ -280,6 +295,38 @@ public final class ZoroRuntimeLogger {
         }
         return lower.contains("unknown bits set in runtime_flags")
                 || lower.contains("attempt to load writable file");
+    }
+
+    /** Copies login-related logcat lines into the dedicated web login digest. */
+    private static void maybeFlagLogin(String line) {
+        if (line == null) {
+            return;
+        }
+        String lower = line.toLowerCase(Locale.US);
+        if (!isLoginLine(lower)) {
+            return;
+        }
+        appendToFile(LOGIN_FILE_NAME, now() + " [!!LOGIN!!] " + line);
+    }
+
+    private static boolean isLoginLine(String lower) {
+        if (lower.contains("twitter") || lower.contains("facebook")
+                || lower.contains("oauth") || lower.contains("customtab")
+                || lower.contains("weblogin") || lower.contains("web login")
+                || lower.contains("login2channel") || lower.contains("login failure")
+                || lower.contains("authresultdispatcher")) {
+            return true;
+        }
+        if (lower.contains("imsdkcpplistener onresult") && lower.contains("thirdretmsg")) {
+            return true;
+        }
+        return lower.contains("err_") || lower.contains("net::")
+                || lower.contains("renderer process")
+                || lower.contains("aw_browser_terminator")
+                || lower.contains("activity destroyed")
+                || lower.contains("missing configuration")
+                || lower.contains("browser unavailable")
+                || lower.contains("user_cancelled");
     }
 
     private static String now() {
