@@ -100,7 +100,14 @@ public final class ZoroRuntimeLogger {
         printWriter.println(now() + " [" + sProcess + "/" + android.os.Process.myPid() + "] EXCEPTION [" + source + "]");
         throwable.printStackTrace(printWriter);
         printWriter.flush();
-        append(stringWriter.toString());
+        String text = stringWriter.toString();
+        append(text);
+        String lower = (String.valueOf(source) + " " + throwable.getMessage()
+                + " " + text).toLowerCase(Locale.US);
+        if (lower.contains("login") || lower.contains("twitter") || lower.contains("facebook")
+                || lower.contains("auth") || lower.contains("oauth") || lower.contains("webview")) {
+            appendToFile(LOGIN_FILE_NAME, now() + " [!!LOGIN EXCEPTION!!] " + text);
+        }
     }
 
     private static void append(String text) {
