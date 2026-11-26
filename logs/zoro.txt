@@ -10600,3 +10600,1195 @@
 [logcat] 11-26 21:28:38.785  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
 [logcat] 11-26 21:28:38.794  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
 [logcat] 11-26 21:28:38.801  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.810  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.818  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.826  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.835  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.844  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.853  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.868  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.877  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.885  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.918 31785 31792 W com.google: Suspending all threads took: 5.388ms
+[logcat] 11-26 21:28:38.926  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.934  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.942  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.951  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.959  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.969  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.976  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.985  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:38.993  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.001  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.009  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.017  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.027  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.034  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.042  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.051  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.059  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.067  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.076  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.084  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.094  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.101  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.110  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.127  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.135  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.635  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.643  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.650  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.659  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.667  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.675  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.684  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.692  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.701  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.709  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.717  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.726  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.734  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.743  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.750  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.767  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.781  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.781  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:39.781  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:40.174  3832  3832 D WebLoginHost: page finished | host=m.facebook.com
+[logcat] 11-26 21:28:40.658  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:40.658  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:40.756  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:40.854  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.037  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.037  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.067  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.067  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.491  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.491  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.815  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.815  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:41.816  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.698  3832  3832 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : warmUpIntegrityToken(608683999913)
+[logcat] 11-26 21:28:42.701  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : Initiate binding to the service.
+[logcat] 11-26 21:28:42.786  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.807  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.807  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.807  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.807  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.861  3832  3832 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.expressintegrityservice.ExpressIntegrityService})
+[logcat] 11-26 21:28:42.862  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : linkToDeath
+[logcat] 11-26 21:28:42.886  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:42.887  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.364  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.385  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.485  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.803  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137617638, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:43.803  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:43.804  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137617639, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:43.805  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:43.805  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:43.897  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.897  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.926  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.926  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.935  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.944  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.959  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:43.975  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:44.192  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:44.900  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.220  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.220  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.231  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.231  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.231  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.231  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.241  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.242  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.242  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.242  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.244  3832  3846 I PlayCore: UID: [11320]  PID: [3832] OnWarmUpIntegrityTokenCallback : onWarmUpExpressIntegrityToken
+[logcat] 11-26 21:28:45.246  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : Unbind from service.
+[logcat] 11-26 21:28:45.246  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.250  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.264  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.266  3832  3832 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : requestExpressIntegrityToken(3351950350257462792)
+[logcat] 11-26 21:28:45.267  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : Initiate binding to the service.
+[logcat] 11-26 21:28:45.286  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.292  3832  3832 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.expressintegrityservice.ExpressIntegrityService})
+[logcat] 11-26 21:28:45.293  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : linkToDeath
+[logcat] 11-26 21:28:45.306  3832  3844 I PlayCore: UID: [11320]  PID: [3832] OnRequestIntegrityTokenCallback : onRequestExpressIntegrityToken
+[logcat] 11-26 21:28:45.306  3832  4298 I PlayCore: UID: [11320]  PID: [3832] StandardIntegrity : Unbind from service.
+[logcat] 11-26 21:28:45.309  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.333  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.336  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.336  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.336  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.336  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.347  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.373  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.391  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.410  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.425  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.450  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.466  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.503  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.555  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:45.561  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.167  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137622001, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:48.167  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:48.214  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137622049, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:48.215  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:48.215  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:48.247  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.247  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.247  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.247  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:48.365  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.339  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137625174, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:51.339  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:51.379  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137625214, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:51.380  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:51.381  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:51.416  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.416  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.417  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.417  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.417  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.417  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.515  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.515  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.515  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.515  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:51.515  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.056  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137625891, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:52.056  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:52.131  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137625965, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:52.131  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:52.132  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:52.159  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.159  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.159  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.159  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.159  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.276  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.276  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.276  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.276  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.276  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.622  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137626457, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:52.622  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:52.663  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137626497, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:52.663  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:52.664  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:52.700  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.729  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.734  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.742  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.756  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.764  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.781  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.800  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.806  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.814  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.824  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.833  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.847  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.856  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.865  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.880  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.888  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.897  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.906  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.921  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.938  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.947  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.956  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.965  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.974  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.989  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:52.998  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.019  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.026  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.035  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.040  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.055  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.066  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.084  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.091  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.099  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.106  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.115  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.124  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.132  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.148  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.157  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.167  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.172  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.182  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.190  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.205  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.236  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.303  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.304  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.354  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:53.355  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:56.928  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:56.928  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:56.928  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:56.950  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.080  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.697  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137631531, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:28:57.697  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:28:57.764  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.770  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137631604, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:28:57.770  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:28:57.771  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:28:57.772  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.795  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.803  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.823  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.823  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.823  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.824  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.831  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.831  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.839  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.839  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.846  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.846  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.855  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.855  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.862  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.862  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.870  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.870  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.878  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.878  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.890  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.891  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.895  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.895  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.909  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.910  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.919  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.920  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.936  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.936  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.945  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.945  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.954  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.954  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.962  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.962  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.970  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.971  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.978  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.979  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.987  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.987  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.995  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:57.996  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.003  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.003  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.012  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.012  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.020  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.028  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.036  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.045  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.053  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.062  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.070  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.077  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.088  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.094  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.102  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.112  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.120  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.128  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.137  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.145  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.153  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.162  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.170  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.178  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.186  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.195  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.203  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.212  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.220  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.228  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.237  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.244  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.255  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.262  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.270  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.278  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.288  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.295  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.302  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.311  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.320  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.328  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.348  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.348  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.348  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.348  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.348  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.353  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.368  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.369  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.369  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.369  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.369  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.373  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.379  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.386  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.395  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.402  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.411  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.419  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.429  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.436  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.444  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.454  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.462  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.479  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.486  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.494  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.503  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.512  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.520  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.531  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.537  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.545  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.553  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.561  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.570  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.578  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.587  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.595  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.603  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.611  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.620  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.628  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.636  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.645  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.652  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.661  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.669  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.680  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.686  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.695  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.703  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.710  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.721  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.729  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.736  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.744  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.755  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.761  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.769  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.778  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.788  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.795  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.803  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.811  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.818  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.827  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.836  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.844  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.852  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.861  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.871  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.879  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.886  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.894  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.902  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.912  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.918  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.927  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.935  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.944  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.953  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.961  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.969  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.978  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.987  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:58.995  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.003  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.011  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.021  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.028  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.037  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.045  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.055  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.077  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.086  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.094  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.102  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.110  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.119  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.127  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.136  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.144  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.154  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.161  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.169  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.177  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.186  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.196  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.203  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.212  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.218  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.227  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.236  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.244  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.252  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.260  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.268  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.277  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.288  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.294  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.302  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.310  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.318  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.819  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.827  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.835  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.844  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.852  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.860  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.868  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.877  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.887  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.893  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.902  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.910  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.921  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.928  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:28:59.948 31785 31785 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{e0abc58 V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout alpha=1.0 viewInfo = },pkg= com.google
+[logcat] 11-26 21:28:59.948 31785 31840 D skia    : setRusSupported enable 0
+[logcat] 11-26 21:28:59.963  3832  3832 D WebLoginHost: page started | host=m.facebook.com
+[logcat] 11-26 21:28:59.966 31785 31785 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@68a37ed
+[logcat] 11-26 21:28:59.975 31785 31785 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@68a37ed
+[logcat] 11-26 21:28:59.984 31785 31785 D BufferQueueConsumer: [](id:7c290000000f,api:0,p:-1,c:31785) connect: controlledByApp=false
+[logcat] 11-26 21:28:59.987 31785 31785 D BufferQueueConsumer: [VRI[Toast]#15(BLAST Consumer)15](id:7c290000000f,api:0,p:-1,c:31785) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 21:29:00.003 31785 31840 D HWUI    : createSurface new attribs array
+[logcat] 11-26 21:29:00.003 31785 31840 D libEGL  : this is from skia gles
+[logcat] 11-26 21:29:00.003 31785 31785 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x951eb88,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 21:29:00.015 31785 31840 D BLASTBufferQueue: [VRI[Toast]#15](f:0,a:1) acquireNextBufferLocked size=438x174 mFrameNumber=1 applyTransaction=true mTimestamp=137633849627356(auto) mPendingTransactions.size=0 graphicBufferId=136515535503473 transform=0
+[logcat] 11-26 21:29:00.015 31785 31840 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 21:29:00.015 31785 31785 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 21:29:00.025 31785 31840 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+[logcat] 11-26 21:29:00.030 31785 31785 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 21:29:00.520  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.520  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.520  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.521  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.533  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.533  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.533  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.533  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.548  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.549  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.594  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.622  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.622  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.622  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.665  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.665  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.666  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:00.666  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:01.548  3832  3832 D WebLoginHost: page finished | host=m.facebook.com
+[logcat] 11-26 21:29:01.947 31785 31785 D OplusScrollToTopManager: Toast,window dying
+[logcat] 11-26 21:29:01.948 31785 31785 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 21:29:01.948 31785 31785 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@9e8a083
+[logcat] 11-26 21:29:01.948 31785 31785 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@62b98b3
+[logcat] 11-26 21:29:01.949 31785 31785 D HWUI    : RenderProxy::destroy: this=0x6ea362d500, mContext=0x6e945c6e80
+[logcat] 11-26 21:29:01.950 31785 31840 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c58f40, surface=NULL
+[logcat] 11-26 21:29:01.958 31785 31785 D BLASTBufferQueue: [VRI[Toast]#15](f:0,a:1) destructor()
+[logcat] 11-26 21:29:01.958 31785 31785 D BufferQueueConsumer: [VRI[Toast]#15(BLAST Consumer)15](id:7c290000000f,api:0,p:-1,c:31785) disconnect
+[logcat] 11-26 21:29:01.985  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 137635820, mIsMoving = true, mUpdated = true
+[logcat] 11-26 21:29:01.985  3832  3832 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 21:29:01.999 31785 31840 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 21:29:01.999 31785 31840 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6e80119000
+[logcat] 11-26 21:29:01.999 31785 31840 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6f19c58b80
+[logcat] 11-26 21:29:01.999 31785 31840 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6f19c58f40
+[logcat] 11-26 21:29:02.000 31785 31840 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6e9459e700, mCurrentSurface=0x0
+[logcat] 11-26 21:29:02.034  3832  3832 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 137635869, mIsMoving = false, mUpdated = true
+[logcat] 11-26 21:29:02.035  3832  3832 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 21:29:02.035  3832  3832 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 21:29:02.087  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.668  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.668  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.669  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.669  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.694  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.694  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:03.694  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:04.477  3832  3832 D WebLoginHost: page started | host=in-comm1.globh.com
+[logcat] 11-26 21:29:04.742  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:04.952  3832  3832 D WebLoginHost: page started | host=in-comm1.globh.com
+[logcat] 11-26 21:29:04.977  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.131  3832  3832 D WebLoginHost: page finished | host=in-comm1.globh.com
+[logcat] 11-26 21:29:05.136  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.151  3832  3853 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.658  3832  3929 D WebLoginHost: login result received | kind=facebook | length=442
+[logcat] 11-26 21:29:05.684  3832  3929 D WebLoginBridge: pending result stored | kind=facebook | len=442
+[logcat] 11-26 21:29:05.686  3832  3929 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.deliverResult:29 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.sendJson:31 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.access$1900:0 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity$ResultInterface.onResult:52 android.os.MessageQueue.nativePollOnce:-2 android.os.MessageQueue.nextLegacy:934 android.os.MessageQueue.next:1046 android.os.Looper.loopOnce:221 
+[logcat] 11-26 21:29:05.704 31785  3251 D VRI[LauncherActivity]: dispatchAppVisibility visible:true mUpcomingWindowFocus:false
+[logcat] 11-26 21:29:05.724 31785 31785 D VRI[LauncherActivity]: setWindowStopped stopped:false
+[logcat] 11-26 21:29:05.728 31785 31785 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.app.LauncherActivity} checkFinished=false 2
+[logcat] 11-26 21:29:05.728 31785 31785 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 21:29:05.729 31785 31785 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.app.LauncherActivity.onResume:7 android.app.Instrumentation.callActivityOnResume:1737 android.app.Activity.performResume:9576 android.app.ActivityThread.performResumeActivity:6084 android.app.ActivityThread.handleResumeActivity:6145 android.app.servertransaction.ResumeActivityItem.execute:80 android.app.servertransaction.ActivityTransactionItem.execute:63 android.app.servertransaction.TransactionExecutor.executeLifecycleItem:174 
+[logcat] 11-26 21:29:05.737  3832  3832 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 21:29:05.740 31785 31785 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.app.LauncherActivity
+[logcat] 11-26 21:29:05.749 31785 31785 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 21:29:05.749 31785 31785 W VRI[LauncherActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-1, blastBufferQueue:null
+[logcat] 11-26 21:29:05.749 31785 31785 D BufferQueueConsumer: [](id:7c2900000010,api:0,p:-1,c:31785) connect: controlledByApp=false
+[logcat] 11-26 21:29:05.749 31785 31785 D BufferQueueConsumer: [VRI[LauncherActivity]#16(BLAST Consumer)16](id:7c2900000010,api:0,p:-1,c:31785) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 21:29:05.760 31785 31840 D HWUI    : createSurface new attribs array
+[logcat] 11-26 21:29:05.760 31785 31840 D libEGL  : this is from skia gles
+[logcat] 11-26 21:29:05.760 31785 31785 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.app.LauncherActivity)/@0x83fa9ad,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 21:29:05.769 31785  3251 D SystemCallProvider: call: RESTORE_GAME
+[logcat] 11-26 21:29:05.772 31785  3251 D ActivityStack: restoreGameTasks: moving game task 2054 to front | pkg=com.pubg.imobile
+[logcat] 11-26 21:29:05.784 31785 31840 D BLASTBufferQueue: [VRI[LauncherActivity]#16](f:0,a:1) acquireNextBufferLocked size=720x1604 mFrameNumber=1 applyTransaction=true mTimestamp=137639618353203(auto) mPendingTransactions.size=0 graphicBufferId=136515535503480 transform=0
+[logcat] 11-26 21:29:05.784 31785 31840 D VRI[LauncherActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 21:29:05.784 31785 31785 D VRI[LauncherActivity]: draw finished. seqId=0
+[logcat] 11-26 21:29:05.804  3832  3832 D WebLoginBridge: virtual game task restore requested
+[logcat] 11-26 21:29:05.830 31785 31785 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=true, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.app.LauncherActivity
+[logcat] 11-26 21:29:05.831 31785 31785 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-26 21:29:05.831 31785 31785 W VRI[LauncherActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-1, blastBufferQueue:android.graphics.BLASTBufferQueue@ca905d8
+[logcat] 11-26 21:29:05.832 31785 31785 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.app.LauncherActivity)/@0x83fa9ad,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 21:29:05.908 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.908 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.911 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.911 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.933 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.942 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.953 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.970 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:05.983 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.000 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.018 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.034 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.051 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.067 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.083 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.100 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.117 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.135 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.150 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.165 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.184 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.200 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.217 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.232 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.251 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.267 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.283 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.301 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.317 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.335 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.350 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.367 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.383 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.399 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.418 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.433 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.449 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.467 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.483 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.499 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.503  3832  4347 D VRI[TwitterWebHostActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+[logcat] 11-26 21:29:06.503  3832  3832 D VRI[TwitterWebHostActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-26 21:29:06.514  3832  3832 D HWUI    : RenderProxy::destroy: this=0x6eab43c500, mContext=0x67fdc0d140
+[logcat] 11-26 21:29:06.514  3832  3853 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c4ea00, surface=NULL
+[logcat] 11-26 21:29:06.517 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.517  3832  3832 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+[logcat] 11-26 21:29:06.535 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.552 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.587  3832  3832 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 21:29:06.588  3832  3832 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#0](f:0,a:2) destructor()
+[logcat] 11-26 21:29:06.588  3832  3832 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#0(BLAST Consumer)0](id:ef800000000,api:0,p:-1,c:3832) disconnect
+[logcat] 11-26 21:29:06.590 31785 31785 I com.google: AssetManager2(0x6e80212928) locale list changing from [] to [en-IN]
+[logcat] 11-26 21:29:06.594 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.598  3832  3832 I oogle:login_web: AssetManager2(0x6eab43ce28) locale list changing from [] to [en-IN]
+[logcat] 11-26 21:29:06.635 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.650 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.669 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.685 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.734 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.751 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.769 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.773  3832  3848 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ca1356e V.E...... R.....ID 0,0-720,1604 aid=0 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to false
+[logcat] 11-26 21:29:06.787 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.837 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.855 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.873 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.886 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.903 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.919 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.937 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.952 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.973 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:06.984 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.003 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.019 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.054 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.068 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.087 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.122 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.135 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.152 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.171 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.177 31785 31840 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c58f40, surface=NULL
+[logcat] 11-26 21:29:07.185 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.202 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.219 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.235 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.251 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.268 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.285 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.303 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.319 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.336 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.352 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.369 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.385 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.402 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.416 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.436 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.450 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.466 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.485 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.501 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.518 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.533 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.551 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.566 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.583 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.600 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.617 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.633 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.650 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.666 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.683 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.717 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.733 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.749 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.766 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.783 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.801 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.816 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.833 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.850 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.867 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.883 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.900 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.916 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.933 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.950 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.966 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:07.983 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.000 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.016 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.033 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.050 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.067 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.082 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.100 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.116 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.133 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.150 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.167 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.184 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.200 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.216 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.234 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.250 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.266 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.284 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.301 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.317 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.334 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.350 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.366 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.384 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.400 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.416 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.433 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.450 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.466 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.483 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.500 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.516 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.533 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.549 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.567 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.599 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.617 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.633 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.650 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.666 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.683 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.716 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.732 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.750 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.767 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.784 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.799 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.816 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.832 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.851 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.867 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.883 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.899 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.917 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.934 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.949 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.966 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:08.983 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.000 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.017 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.032 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.050 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.067 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.084 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.101 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.117 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.133 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.149 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.167 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.184 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.200 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.217 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.233 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.251 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.266 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.283 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.300 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.316 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.333 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.349 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.366 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.383 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.400 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.417 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.433 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.449 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.466 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.483 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.499 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.517 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.533 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.549 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.567 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.583 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.600 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.616 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.633 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.650 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.666 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.683 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.717 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.733 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.749 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.767 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.783 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.800 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.817 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.834 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.851 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.867 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.884 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.900 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.917 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.932 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.951 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.967 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:09.983 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.000 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.016 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.033 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.050 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.066 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.083 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.100 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.117 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.133 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.149 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.167 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.183 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.200 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.216 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.233 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.249 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.267 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.283 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.300 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.317 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.334 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.350 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.367 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.384 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.400 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.417 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.432 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.449 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.466 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.483 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.501 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.517 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.534 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.550 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.567 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.601 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.619 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.650 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.666 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.683 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.716 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.733 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.750 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.766 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.784 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.800 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.818 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.834 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.849 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.866 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.883 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.901 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.916 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.932 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.950 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.967 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.983 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:10.999 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.016 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.033 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.049 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.067 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.083 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.101 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.132 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.150 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.167 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.183 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.200 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.217 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.232 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.249 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.266 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.283 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.299 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.317 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.332 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.350 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.367 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.384 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.401 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.416 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.433 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.450 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.467 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.483 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.501 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.517 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.533 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.550 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.567 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.601 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.618 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.634 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.651 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.667 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.683 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.716 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.732 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.750 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.767 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.784 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.800 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.823 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.857 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.884 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.901 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.918 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.936 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.951 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.971 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:11.987 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.006 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.035 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.052 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.072 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.101 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.118 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.136 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.152 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.169 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.187 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.202 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.218 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.235 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.252 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.270 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.285 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.301 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.320 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.335 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.352 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.367 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.385 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.403 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.435 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.451 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.468 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.484 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.502 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.519 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.536 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.569 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.602 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.617 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.634 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.651 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.667 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.684 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.700 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.719 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.734 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.754 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.787 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.819 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.835 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.853 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.869 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.888 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.902 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.917 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.934 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.954 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:12.972 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.002 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.018 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.035 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.052 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.069 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.086 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.117 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.137 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.152 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.168 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.186 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.201 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.217 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.234 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.253 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.267 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.284 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.301 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.318 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.335 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.352 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.370 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.388 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.420 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.451 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.467 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.486 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.501 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.518 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.536 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.555 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.601 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.618 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.635 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.655 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.670 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.701 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.719 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.735 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.751 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.768 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.788 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.806 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.834 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.854 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.884 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.901 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.917 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.934 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.951 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.968 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:13.985 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.002 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.019 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.035 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.052 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.070 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.086 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.102 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.118 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.134 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.151 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.170 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.201 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.218 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.236 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.267 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.285 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.301 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.320 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.335 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.352 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.369 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.389 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.419 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.434 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.451 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.469 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.485 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.502 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.519 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.534 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.553 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.568 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.601 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.617 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.635 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.651 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.667 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.685 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.703 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.718 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.737 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.750 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.767 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.785 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.801 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.819 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.835 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.851 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.869 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.885 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.901 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.918 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.935 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.951 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.968 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:14.988 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.001 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.018 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.038 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.071 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.101 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.118 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.134 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.154 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.187 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.203 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.221 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.236 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.255 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.285 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.303 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.322 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.354 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.385 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.401 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.417 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.434 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.452 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.470 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.487 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.518 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.534 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.551 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.568 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.584 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.601 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.620 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.634 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.651 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.667 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.684 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.702 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.717 31785 31840 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 21:29:15.723  3832  3832 D VRI[TwitterWebHostActivity]: setWindowStopped stopped:true
+[logcat] 11-26 21:29:15.724  3832  3832 I AutofillManager: onInvisibleForAutofill(): expiringResponse
+[logcat] 11-26 21:29:15.724 31785 31785 D VRI[LauncherActivity]: setWindowStopped stopped:true
+[logcat] 11-26 21:29:15.725  3832  3832 W cr_AwContents: WebView.destroy() called while WebView is still attached to window.
+[logcat] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,window dying
+[logcat] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 21:29:15.726  3832  3832 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@2b177af
+[logcat] 11-26 21:29:15.726  3832  3832 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@517d607
+[logcat] 11-26 21:29:15.732  3832  3832 D HWUI    : RenderProxy::destroy: this=0x6eab43c500, mContext=0x67fdc0d140
+[logcat] 11-26 21:29:15.732  3832  3853 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c4ea00, surface=NULL
+[logcat] 11-26 21:29:15.734 31785 31785 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.app.LauncherActivity,window dying
+[logcat] 11-26 21:29:15.734 31785 31785 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.app.LauncherActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 21:29:15.734 31785 31785 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.app.LauncherActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@9a94862
+[logcat] 11-26 21:29:15.735 31785 31785 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@58e8b32
+[logcat] 11-26 21:29:15.736  3832  3832 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-26 21:29:15.751 31785 31785 D HWUI    : RenderProxy::destroy: this=0x6e80212c00, mContext=0x6e92f80400
+[logcat] 11-26 21:29:15.752 31785 31840 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c58b80, surface=NULL
+[logcat] 11-26 21:29:15.757 31785 31840 D BLASTBufferQueue: [VRI[LauncherActivity]#16](f:0,a:4) destructor()
+[logcat] 11-26 21:29:15.758 31785 31840 D BufferQueueConsumer: [VRI[LauncherActivity]#16(BLAST Consumer)16](id:7c2900000010,api:0,p:-1,c:31785) disconnect
+[logcat] 11-26 21:29:15.762 31785 31785 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-26 21:29:15.781  3832  3841 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: WV.ha2
+[logcat] 11-26 21:29:15.781  3832  3841 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: WV.ha2
+[logcat] 11-26 21:29:15.781  3832  3841 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[logcat] 11-26 21:29:15.798  3832  3853 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 21:29:15.798  3832  3853 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6f19c4ea00
+[logcat] 11-26 21:29:15.799  3832  3853 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6e9f282a00, mCurrentSurface=0x0
+[logcat] 11-26 21:29:31.836 31785 31840 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 21:29:31.836 31785 31840 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6e80119000
+[logcat] 11-26 21:29:31.836 31785 31840 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6f19c58b80
+[logcat] 11-26 21:29:31.839 31785 31840 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6e9459e700, mCurrentSurface=0x0
+[logcat] 11-26 21:29:35.847 31785 31840 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6f19c58b80, surface=NULL
