@@ -3424,3 +3424,34 @@
 2026-11-26 21:51:29.253 [!!LOGIN!!] 11-26 21:51:29.250 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
 2026-11-26 21:51:29.686 [!!LOGIN!!] 11-26 21:51:29.677 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
 2026-11-26 21:51:30.123 [!!LOGIN!!] 11-26 21:51:30.116 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:30.556 [!!LOGIN!!] 11-26 21:51:30.551 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:31.019 [!!LOGIN!!] 11-26 21:51:30.993 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:31.431 [!!LOGIN!!] 11-26 21:51:31.418 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:31.530 [!!LOGIN!!] 11-26 21:51:31.525 21797 22089 D WebLoginBridge: duplicate web login suppressed while stored result is pending | kind=twitter
+2026-11-26 21:51:31.867 [!!LOGIN!!] 11-26 21:51:31.856 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:32.311 [!!LOGIN!!] 11-26 21:51:32.293 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:32.735 [!!LOGIN!!] 11-26 21:51:32.728 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:33.167 [!!LOGIN!!] 11-26 21:51:33.158 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:33.609 [!!LOGIN!!] 11-26 21:51:33.594 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:34.052 [!!LOGIN!!] 11-26 21:51:34.041 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:34.480 [!!LOGIN!!] 11-26 21:51:34.473 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:34.940 [!!LOGIN!!] 11-26 21:51:34.915 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:35.372 [!!LOGIN!!] 11-26 21:51:35.358 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:35.802 [!!LOGIN!!] 11-26 21:51:35.790 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:36.245 [!!LOGIN!!] 11-26 21:51:36.232 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:36.686 [!!LOGIN!!] 11-26 21:51:36.673 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:37.127 [!!LOGIN!!] 11-26 21:51:37.114 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:37.575 [!!LOGIN!!] 11-26 21:51:37.561 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:38.018 [!!LOGIN!!] 11-26 21:51:37.999 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:38.464 [!!LOGIN!!] 11-26 21:51:38.447 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:38.890 [!!LOGIN!!] 11-26 21:51:38.883 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:39.339 [!!LOGIN!!] 11-26 21:51:39.324 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:39.358 [!!LOGIN!!] 11-26 21:51:39.347 21797 21797 D WebLoginBridge: pending result still waiting for game callback | kind=twitter | attempts=150
+2026-11-26 21:51:39.798 [!!LOGIN!!] 11-26 21:51:39.784 21797 21797 D WebLoginBridge: result delivery failed: java.lang.NoSuchMethodException: o5.a.k [boolean, int, class android.content.Intent]
+2026-11-26 21:51:39.836 [!!LOGIN!!] 11-26 21:51:39.831 21797 21808 F com.google:p0: mark_compact.cc:4496] Check failed: ret == static_cast<void*>(from_addr) (ret=0xffffffffffffffff, static_cast<void*>(from_addr)=0x6e00000000) mremap to move pages failed: Bad address. space-addr=0x6e40000000 size=1024MB
+2026-11-26 21:51:39.955 [!!LOGIN!!] 11-26 21:51:39.948 21797 21808 F com.google:p0: runtime.cc:769] Runtime aborting...
+2026-11-26 21:51:39.975 [!!LOGIN!!] 11-26 21:51:39.948 21797 21808 F com.google:p0: runtime.cc:769] "HeapTaskDaemon" prio=5 tid=6 WaitingPerformingGc
+2026-11-26 21:51:40.084 [!!LOGIN!!] 11-26 21:51:39.948 21797 21808 F com.google:p0: runtime.cc:769]   native: #07 pc 002cf8c4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::KernelPrepareRangeForUffd+480) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 21:51:40.146 [!!LOGIN!!] 11-26 21:51:39.948 21797 21808 F com.google:p0: runtime.cc:769]   native: #17 pc 006fe098  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+184)
+2026-11-26 21:51:40.177 [!!LOGIN!!] 11-26 21:51:39.949 21797 21808 F com.google:p0: runtime.cc:769]   native: #23 pc 0055bc78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 21:51:40.200 [!!LOGIN!!] 11-26 21:51:39.949 21797 21808 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
