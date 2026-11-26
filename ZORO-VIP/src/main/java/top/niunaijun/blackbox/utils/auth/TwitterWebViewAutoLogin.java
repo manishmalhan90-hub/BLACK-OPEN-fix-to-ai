@@ -43,6 +43,9 @@ public final class TwitterWebViewAutoLogin {
         }
 
         WebLoginBridge.register(activity, activity.getClassLoader());
+        // A Facebook result can outlive the virtual process after an ART abort.
+        // Recreate the IMSDK listener in this activity and replay that result.
+        WebLoginBridge.consumePendingForFacebookActivity(activity);
 
         Intent intent = activity.getIntent();
         Bundle extras = intent == null ? null : intent.getExtras();

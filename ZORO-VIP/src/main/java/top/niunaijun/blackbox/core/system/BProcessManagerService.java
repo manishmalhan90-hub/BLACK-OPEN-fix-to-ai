@@ -277,6 +277,32 @@ public class BProcessManagerService implements ISystemService {
         }
     }
 
+    /**
+     * True when at least one recorded process for a virtual package still has a
+     * live /proc entry. Stale ProcessRecords remain in the map after an ART
+     * abort, so checking the map alone is not enough before restoring a task.
+     */
+    public boolean isPackageProcessAlive(String packageName, int userId) {
+        if (packageName == null) {
+            return false;
+        }
+        synchronized (mProcessLock) {
+            int appId = BPackageManagerService.get().getAppId(packageName);
+            int buid = BUserHandle.getUid(userId, appId);
+            Map<String, ProcessRecord> processRecordMap = mProcessMap.get(buid);
+            if (processRecordMap == null || processRecordMap.isEmpty()) {
+                return false;
+            }
+            for (ProcessRecord record : processRecordMap.values()) {
+                if (record != null && record.pid > 0
+                        && new File("/proc/" + record.pid).exists()) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
+
     public void killAllByPackageName(String packageName) {
         synchronized (mProcessLock) {
             synchronized (mPidsSelfLocked) {

@@ -360,6 +360,23 @@ public class ActivityStack {
                 Log.d(TAG, "restoreGameTasks: moving game task " + target.id
                         + " to front | pkg=" + targetPackage);
                 mAms.moveTaskToFront(target.id, 0);
+                ActivityRecord topRecord = target.getTopActivityRecord();
+                final String gamePackage = targetPackage != null ? targetPackage
+                        : (topRecord != null && topRecord.info != null
+                        ? topRecord.info.packageName : null);
+                // After an ART abort the task record can survive while its
+                // process is gone. moveTaskToFront alone then leaves the user
+                // on the loader launcher, so explicitly relaunch the game.
+                if (gamePackage != null
+                        && !BProcessManagerService.get().isPackageProcessAlive(gamePackage, 0)) {
+                    Log.d(TAG, "restoreGameTasks: virtual process gone, relaunching " + gamePackage);
+                    mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            BlackBoxCore.get().launchApk(gamePackage, 0);
+                        }
+                    });
+                }
             } else {
                 Log.d(TAG, "restoreGameTasks: no safe virtual game task available");
             }

@@ -60,6 +60,7 @@ public final class WebLoginBridge {
     private static final String PENDING_FILE = "weblogin_pending.json";
     private static final long PENDING_MAX_AGE_MS = 10L * 60L * 1000L;
     private static final long PENDING_POLL_MS = 400L;
+    private static final long PENDING_FAILURE_LIMIT = PENDING_MAX_AGE_MS / PENDING_POLL_MS;
 
     private static final AtomicBoolean sReceiverRegistered = new AtomicBoolean(false);
     private static final AtomicBoolean sLoginActive = new AtomicBoolean(false);
@@ -115,9 +116,22 @@ public final class WebLoginBridge {
         // The game can restart its own WebActivity while the isolated result is
         // still in flight. Suppress that second launch instead of clearing the
         // stored result and opening a fresh WebView.
-        if (sLoginActive.get() || hasPendingResult(context)) {
-            log("duplicate web login suppressed while isolated result is pending | kind="
+        if (sLoginActive.get()) {
+            log("duplicate web login suppressed while isolated result is in flight | kind="
                     + (twitter ? "twitter" : "facebook"));
+            return true;
+        }
+        String waitingKind = pendingKind(context);
+        if (waitingKind != null) {
+            if (facebook && "facebook".equals(waitingKind)) {
+                // The ART abort restarts the game with a fresh Dalvik heap. The
+                // IMSDK WebLoginActivity's static listener is gone, so let that
+                // activity be recreated. Its onCreate hook will replay the
+                // stored result into the listener and close the WebView.
+                log("facebook pending result waiting for listener; allowing WebLoginActivity recreation");
+                return false;
+            }
+            log("duplicate web login suppressed while stored result is pending | kind=" + waitingKind);
             return true;
         }
 
@@ -489,10 +503,14 @@ public final class WebLoginBridge {
                 }
                 if (!deliver(result)) {
                     sPendingFailures++;
-                    if (sPendingFailures > 50) {
+                    if (sPendingFailures % 25 == 0) {
+                        log("pending result still waiting for game callback | kind="
+                                + pending.optString("kind") + " | attempts=" + sPendingFailures);
+                    }
+                    if (sPendingFailures > PENDING_FAILURE_LIMIT) {
                         clearPending(context);
                         sPendingFailures = 0;
-                        log("pending result discarded after repeated delivery failures");
+                        log("pending result discarded after its full retry window");
                     }
                 } else {
                     sPendingFailures = 0;
@@ -520,19 +538,64 @@ public final class WebLoginBridge {
 
     /** True while a fresh isolated result is waiting to be consumed. */
     private static boolean hasPendingResult(Context context) {
+        return pendingKind(context) != null;
+    }
+
+    /** Kind of a fresh stored result, or {@code null} when none is pending. */
+    private static String pendingKind(Context context) {
         try {
             File file = pendingFile(context);
             if (file == null || !file.exists()) {
-                return false;
+                return null;
             }
             JSONObject pending = new JSONObject(new String(
                     readAll(file), StandardCharsets.UTF_8));
             long ts = pending.optLong("ts", 0L);
             long now = System.currentTimeMillis();
-            return ts > 0L && ts <= now && now - ts <= PENDING_MAX_AGE_MS;
+            if (ts <= 0L || ts > now || now - ts > PENDING_MAX_AGE_MS) {
+                return null;
+            }
+            String kind = pending.optString("kind");
+            return TextUtils.isEmpty(kind) ? null : kind;
         } catch (Throwable ignored) {
-            return false;
+            return null;
         }
+    }
+
+    /**
+     * After an ART abort the game restarts with no static IMSDK listener. Let
+     * the game's WebLoginActivity be created again, then replay the stored
+     * Facebook result into the listener it installs in onCreate.
+     */
+    public static void consumePendingForFacebookActivity(final Activity activity) {
+        if (activity == null) {
+            return;
+        }
+        Context app = activity.getApplicationContext();
+        final Context context = app != null ? app : activity;
+        if (!"facebook".equals(pendingKind(context))) {
+            return;
+        }
+        sGameClassLoader = activity.getClassLoader();
+        register(context, sGameClassLoader);
+        log("facebook listener replay scheduled after activity recreation");
+        MAIN.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    consumePending(context);
+                } catch (Throwable t) {
+                    log("facebook listener replay failed: " + t);
+                }
+                try {
+                    if (!activity.isFinishing()) {
+                        activity.finish();
+                    }
+                } catch (Throwable ignored) {
+                    // Best effort: the activity may already be going away.
+                }
+            }
+        }, 300L);
     }
 
     private static byte[] readAll(File file) throws Exception {
@@ -664,7 +727,9 @@ public final class WebLoginBridge {
         int code = root.getInt("code");
         Object listener = facebookListener(cl);
         if (listener == null) {
-            log("facebook result dropped: listener unavailable");
+            if (sPendingFailures % 25 == 0) {
+                log("facebook result waiting: listener unavailable");
+            }
             return false;
         }
         if (code == 0) {

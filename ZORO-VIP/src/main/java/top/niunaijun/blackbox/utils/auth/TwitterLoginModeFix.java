@@ -79,7 +79,7 @@ public final class TwitterLoginModeFix {
         WebLoginBridge.startPendingConsumer(context);
         if (sBridgeLogged.compareAndSet(false, true)) {
             ZoroRuntimeLogger.logLogin("web-login-fix",
-                    "isolated web login bridge v17 active (:login_web, shared pending result, no freeze, safe restore)");
+                    "isolated web login bridge v18 active (:login_web, shared pending result, facebook listener replay, game relaunch)");
         }
         initializeIfNeeded(context, cl);
         force(cl);

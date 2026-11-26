@@ -600,9 +600,9 @@ public final class TwitterWebHostActivity extends Activity {
      * Store first, then broadcast. The receiver in the virtual process delivers
      * the JSON to the game's own callback; WebLoginBridge also polls the stored
      * copy in a shared directory so a virtual-process restart cannot lose the
-     * result. v17 never freezes the game process. If the game task was removed
-     * after an ART abort, ask the host to bring it back before this WebView goes
-     * away so the user is not left on the loader launcher.
+     * result. v18 never freezes the game process. If the game task was removed
+     * after an ART abort, ask the host to bring it back and relaunch its process
+     * before this WebView goes away so the user is not left on the launcher.
      */
     private void deliverResult(final Intent result) {
         if (mFinished) {
