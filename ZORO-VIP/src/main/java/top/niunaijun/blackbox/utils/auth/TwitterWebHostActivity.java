@@ -620,7 +620,7 @@ public final class TwitterWebHostActivity extends Activity {
                 } catch (Throwable t) {
                     log("result broadcast failed: " + t);
                 }
-                WebLoginBridge.restoreGame(this, mVirtualPackage);
+                WebLoginBridge.restoreGame(TwitterWebHostActivity.this, mVirtualPackage);
             }
         }, 80L);
         finish();
