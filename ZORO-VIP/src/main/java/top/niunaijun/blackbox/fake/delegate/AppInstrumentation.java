@@ -1,5 +1,6 @@
 package top.niunaijun.blackbox.fake.delegate;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Application;
 import android.app.Instrumentation;
@@ -9,8 +10,10 @@ import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.IBinder;
 import android.os.Looper;
 import android.os.PersistableBundle;
+import android.os.UserHandle;
 import android.util.Log;
 import black.com.cosmos.apm.framework.page.BRActivityLifeCycleHelper$ApplicationInstrumentation;
 import black.dalvik.system.BRBaseDexClassLoader;
@@ -201,7 +204,53 @@ public final class AppInstrumentation extends BaseInstrumentationDelegate implem
 		top.niunaijun.blackbox.utils.auth.TwitterLoginModeFix.apply(app);
 		super.callApplicationOnCreate(app);
 	}
-    
+
+    @Override
+    public ActivityResult execStartActivity(Context context, IBinder binder, IBinder binder1,
+                                            Activity activity, Intent intent, int requestCode,
+                                            Bundle options) throws Throwable {
+        if (top.niunaijun.blackbox.utils.auth.WebLoginBridge.redirectIfNeeded(
+                context, activity, intent, requestCode)) {
+            return null;
+        }
+        return super.execStartActivity(context, binder, binder1, activity, intent, requestCode, options);
+    }
+
+    @Override
+    public ActivityResult execStartActivity(Context context, IBinder binder, IBinder binder1,
+                                            Activity activity, Intent intent, int requestCode)
+            throws Throwable {
+        if (top.niunaijun.blackbox.utils.auth.WebLoginBridge.redirectIfNeeded(
+                context, activity, intent, requestCode)) {
+            return null;
+        }
+        return super.execStartActivity(context, binder, binder1, activity, intent, requestCode);
+    }
+
+    @Override
+    public ActivityResult execStartActivity(Context context, IBinder binder, IBinder binder1,
+                                            String who, Intent intent, int requestCode,
+                                            Bundle options) throws Throwable {
+        if (top.niunaijun.blackbox.utils.auth.WebLoginBridge.redirectIfNeeded(
+                context, null, intent, requestCode)) {
+            return null;
+        }
+        return super.execStartActivity(context, binder, binder1, who, intent, requestCode, options);
+    }
+
+    @TargetApi(17)
+    @Override
+    public ActivityResult execStartActivity(Context context, IBinder binder, IBinder binder1,
+                                            Activity activity, Intent intent, int requestCode,
+                                            Bundle options, UserHandle userHandle) throws Throwable {
+        if (top.niunaijun.blackbox.utils.auth.WebLoginBridge.redirectIfNeeded(
+                context, activity, intent, requestCode)) {
+            return null;
+        }
+        return super.execStartActivity(context, binder, binder1, activity, intent, requestCode,
+                options, userHandle);
+    }
+
     @Override
     public Activity newActivity(ClassLoader cl, String className, Intent intent) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
         try {

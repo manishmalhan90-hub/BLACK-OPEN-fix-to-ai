@@ -42,12 +42,15 @@ public final class TwitterWebViewAutoLogin {
             return;
         }
 
+        WebLoginBridge.register(activity, activity.getClassLoader());
+
         Intent intent = activity.getIntent();
         Bundle extras = intent == null ? null : intent.getExtras();
         String channel = extras == null ? "" : String.valueOf(extras.get("channel"));
         String appId = extras == null ? "" : String.valueOf(extras.get("app_id"));
         String data = intent == null || intent.getDataString() == null
                 ? "" : intent.getDataString();
+        String webUrl = extras == null ? null : extras.getString("url");
         String host = "(none)";
         if (!data.isEmpty()) {
             try {
@@ -68,6 +71,15 @@ public final class TwitterWebViewAutoLogin {
             sb.append(" | app_id=").append(appId);
         }
         sb.append(" | host=").append(host);
+        if (webUrl != null && !webUrl.isEmpty()) {
+            try {
+                String webHost = android.net.Uri.parse(webUrl).getHost();
+                sb.append(" | web_url_host=").append(webHost == null ? "(none)" : webHost);
+            } catch (Throwable ignored) {
+                sb.append(" | web_url_host=(invalid)");
+            }
+            // Never log the full OAuth URL: it contains request tokens.
+        }
         if (lower.contains("itopcustomtabactivity")) {
             sb.append(" | route=custom-tab-proxy");
         } else if (lower.contains("webloginactivity")) {

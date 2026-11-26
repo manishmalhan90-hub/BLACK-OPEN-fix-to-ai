@@ -2,6 +2,7 @@ package top.niunaijun.blackbox.core.system;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -36,6 +37,12 @@ public class SystemCallProvider extends ContentProvider {
     @Nullable
     @Override
     public Bundle call(@NonNull String method, @Nullable String arg, @Nullable Bundle extras) {
+        if ("START_WEB_LOGIN".equals(method)) {
+            // extras contain the auth URL; never print them.
+            Slog.d(TAG, "call: START_WEB_LOGIN");
+            launchWebLogin(extras);
+            return new Bundle();
+        }
         Slog.d(TAG, "call: " + method + ", " + extras);
         if ("VM".equals(method)) {
             Bundle bundle = new Bundle();
@@ -74,5 +81,26 @@ public class SystemCallProvider extends ContentProvider {
     @Override
     public int update(@NonNull Uri uri, @Nullable ContentValues values, @Nullable String selection, @Nullable String[] selectionArgs) {
         return 0;
+    }
+
+    /**
+     * Starts the WebView host in the loader's own {@code :login_web} process.
+     * Called by the virtual process through this provider so the login WebView
+     * never shares ART heap space with the game.
+     */
+    private void launchWebLogin(Bundle extras) {
+        if (extras == null || getContext() == null) {
+            return;
+        }
+        try {
+            Intent intent = new Intent();
+            intent.setComponent(new android.content.ComponentName(getContext().getPackageName(),
+                    "top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity"));
+            intent.putExtras(extras);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            getContext().startActivity(intent);
+        } catch (Throwable t) {
+            Slog.d(TAG, "launchWebLogin failed: " + t);
+        }
     }
 }

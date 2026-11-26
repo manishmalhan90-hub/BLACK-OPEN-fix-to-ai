@@ -327,6 +327,12 @@ public final class ZoroRuntimeLogger {
         if (lower.contains("imsdkcpplistener onresult") && lower.contains("thirdretmsg")) {
             return true;
         }
+        if (lower.contains("mark_compact") || lower.contains("mremap")
+                || lower.contains("runtime aborting") || lower.contains("uffd")
+                || lower.contains("heaptaskdaemon") || lower.contains("fatal signal")
+                || lower.contains("abort message") || lower.contains("bad address")) {
+            return true;
+        }
         return lower.contains("err_") || lower.contains("net::")
                 || lower.contains("renderer process")
                 || lower.contains("aw_browser_terminator")

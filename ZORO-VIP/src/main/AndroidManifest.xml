@@ -266,7 +266,15 @@
             android:theme="@style/BTheme"
             android:name="top.niunaijun.blackbox.proxy.ProxyWebActivity"
             android:exported="false" />
-        
+
+        <!-- Isolated WebView host for Twitter/Facebook login. Keeping WebView
+             out of the virtual game process avoids its ART MarkCompact abort. -->
+        <activity
+            android:name="top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity"
+            android:exported="false"
+            android:process=":login_web"
+            android:theme="@style/BTheme" />
+
         <provider
             android:name="top.niunaijun.blackbox.core.system.SystemCallProvider"
             android:authorities="${applicationId}.SystemCallProvider"

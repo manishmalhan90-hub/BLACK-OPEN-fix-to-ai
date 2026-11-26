@@ -43,6 +43,7 @@ public final class TwitterLoginModeFix {
     private static final String TAG = "WebLoginModeFix";
     private static final String CONFIG_CLASS = "com.itop.imsdk.android.api.config.IMSDKConfig";
     private static final long WATCHDOG_DELAY_MS = 500L;
+    private static final long LOGIN_WATCHDOG_DELAY_MS = 3000L;
 
     private static final String[][] FORCED_VALUES = {
             {"IMSDK_TWITTER_LOGIN_USING_WEB", "true"},
@@ -59,6 +60,8 @@ public final class TwitterLoginModeFix {
     private static final AtomicBoolean sInitLogged = new AtomicBoolean(false);
     private static final AtomicBoolean sLogged = new AtomicBoolean(false);
     private static final AtomicBoolean sEffectiveLogged = new AtomicBoolean(false);
+    private static final AtomicBoolean sBridgeLogged = new AtomicBoolean(false);
+    private static volatile boolean sLoginActive;
 
     private static WeakReference<Activity> sLastActivity = new WeakReference<Activity>(null);
 
@@ -71,9 +74,19 @@ public final class TwitterLoginModeFix {
         }
         TwitterLoginRedirect.logEnvironment();
         ClassLoader cl = classLoader(context);
+        WebLoginBridge.register(context, cl);
+        if (sBridgeLogged.compareAndSet(false, true)) {
+            ZoroRuntimeLogger.logLogin("web-login-fix",
+                    "isolated web login bridge v10 active (:login_web)");
+        }
         initializeIfNeeded(context, cl);
         force(cl);
         scheduleWatchdog(context, cl);
+    }
+
+    /** Slow the config watchdog while WebView owns the UI; less allocation/GC churn. */
+    public static void setLoginActive(boolean active) {
+        sLoginActive = active;
     }
 
     private static ClassLoader classLoader(Context context) {
@@ -220,7 +233,7 @@ public final class TwitterLoginModeFix {
                 }
                 initializeIfNeeded(ctx, cl);
                 force(cl);
-                HANDLER.postDelayed(this, WATCHDOG_DELAY_MS);
+                HANDLER.postDelayed(this, sLoginActive ? LOGIN_WATCHDOG_DELAY_MS : WATCHDOG_DELAY_MS);
             }
         }, 200L);
     }
