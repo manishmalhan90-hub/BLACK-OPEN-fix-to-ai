@@ -9490,3 +9490,99 @@
 2026-11-26 21:07:50.622 [!!DETECT!!] 11-26 21:07:47.554 16073 16073 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 21:07:50.646 [!!DETECT!!] 11-26 21:07:47.639 16074 16074 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-26 21:07:50.652 [!!DETECT!!] 11-26 21:07:47.639 16074 16074 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:08:08.174 [!!DETECT!!] 11-26 21:08:08.166 15664 15993 W [CrashKit]: Game type has not been set.
+2026-11-26 21:08:08.185 [!!DETECT!!] 11-26 21:08:08.166 15664 15993 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 21:08:08.192 [!!DETECT!!] 11-26 21:08:08.167 15664 15664 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 21:08:08.200 [!!DETECT!!] 11-26 21:08:08.169 15664 15993 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 21:08:08.208 [!!DETECT!!] 11-26 21:08:08.169 15664 15993 I [CrashKitReport]: cachedUuid: a882682c-24d3-429c-aef8-388fd09d0369
+2026-11-26 21:08:08.214 [!!DETECT!!] 11-26 21:08:08.169 15664 15993 I [CrashKitReport]: currentVersionUuid: 
+2026-11-26 21:08:08.220 [!!DETECT!!] 11-26 21:08:08.169 15664 15993 I [CrashKitReport]: redisKeyUuid: a882682c-24d3-429c-aef8-388fd09d0369
+2026-11-26 21:08:08.228 [!!DETECT!!] 11-26 21:08:08.183 15664 15664 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 21:08:08.235 [!!DETECT!!] 11-26 21:08:08.183 15664 15664 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 21:08:08.241 [!!DETECT!!] 11-26 21:08:08.183 15664 15664 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 21:08:08.255 [!!DETECT!!] 11-26 21:08:08.228 15664 16189 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 21:08:08.331 [!!DETECT!!] 11-26 21:08:08.229 15664 16189 E [CrashKitReport]: [Native] Get crash from native record.
+2026-11-26 21:08:08.354 [!!DETECT!!] 11-26 21:08:08.348 15664 16189 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 21:08:08.363 [!!DETECT!!] 11-26 21:08:08.348 15664 16189 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 21:08:08.372 [!!DETECT!!] 11-26 21:08:08.348 15664 16189 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 21:08:08.873 [!!DETECT!!] 11-26 21:08:08.864 15664 16191 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):0d00272d-3dfe-4c2a-be63-7cee895fdb08 uc:1 re:true me:false mc:0
+2026-11-26 21:08:09.216 [!!DETECT!!] 11-26 21:08:09.209 15664 16190 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 21:08:09.692 [!!DETECT!!] 11-26 21:08:09.686 15664 16199 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 21:08:11.422 [!!DETECT!!] 11-26 21:08:11.413 15664 15664 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 21:08:14.237 [!!DETECT!!] 11-26 21:08:14.215 15664 15993 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 21:08:16.685 [!!DETECT!!] 11-26 21:08:16.630 15664 16191 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):3461884a-7695-40bb-88d2-472218d015fc uc:1 re:true me:false mc:0
+2026-11-26 21:08:16.866 [!!DETECT!!] 11-26 21:08:16.653 15664 16190 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):9ccadffa-cecb-4b18-aa8f-83bca65bd79a uc:1 re:true me:false mc:0
+2026-11-26 21:08:16.875 [!!DETECT!!] 11-26 21:08:16.717 15664 16189 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):448ba2f0-6aa4-4477-a157-dd4d845bb4b8 uc:1 re:true me:false mc:0
+2026-11-26 21:08:17.066 [!!DETECT!!] 11-26 21:08:17.058 15664 16191 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):d5cabe5e-9354-4c89-8608-53b28e822cf7 uc:1 re:true me:false mc:0
+2026-11-26 21:08:17.141 [!!DETECT!!] 11-26 21:08:17.134 15664 16190 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):40bbf7bf-9c5f-487d-856e-2bf43bfe8566 uc:1 re:true me:false mc:0
+2026-11-26 21:08:19.272 [!!DETECT!!] 11-26 21:08:19.268 15664 16189 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):22d68ab4-2f19-4514-b89c-4795fd8f1aa8 uc:1 re:true me:false mc:0
+2026-11-26 21:08:24.843 [!!DETECT!!] 11-26 21:08:24.764 16467 16467 E oogle:login_web: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 21:08:24.885 [!!DETECT!!] 11-26 21:08:24.816 16467 16467 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 21:08:24.891 [!!DETECT!!] 11-26 21:08:24.816 16467 16467 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 21:08:25.610 [!!DETECT!!] 11-26 21:08:25.358 15664 15761 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 21:08:43.843 [!!DETECT!!] 11-26 21:08:43.601 15664 15680 E [CrashKitReport-Native]: get signal 6
+2026-11-26 21:08:43.869 [!!DETECT!!] 11-26 21:08:43.601 15664 15680 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 21:08:43.904 [!!DETECT!!] 11-26 21:08:43.632 15664 15680 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 21:27:37.577 [!!DETECT!!] 11-26 21:27:37.403  1669  1669 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 21:27:37.658 [!!DETECT!!] 11-26 21:27:37.529  1669  1669 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 21:27:37.663 [!!DETECT!!] 11-26 21:27:37.529  1669  1669 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 21:27:37.834 [!!DETECT!!] 11-26 21:27:37.812  1669  1669 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@9fb320b
+2026-11-26 21:27:37.868 [!!DETECT!!] 11-26 21:27:37.836  1669  1669 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@7fcf989
+2026-11-26 21:27:37.934 [!!DETECT!!] 11-26 21:27:37.903  1669  1669 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 21:27:38.207 [!!DETECT!!] 11-26 21:27:38.200  1669  1669 W System  : Attempt to load writable file: /data/user/0/com.google/files/loader/libbgmi.so. This will throw on a future Android version. Current sdk version: 36
+2026-11-26 21:27:38.271 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/data/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 21:27:38.288 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 21:27:38.299 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/data/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 21:27:38.325 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 21:27:38.332 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/misc/profiles -> /data/user/0/com.google/files/profiles
+2026-11-26 21:27:38.342 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/misc/profiles/cur/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/cur/0/com.pubg.imobile
+2026-11-26 21:27:38.354 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /data/misc/profiles/ref/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/ref/0/com.pubg.imobile
+2026-11-26 21:27:38.382 [!!DETECT!!] 11-26 21:27:38.266  1669  1669 D NativeCore: set addIORule: /sdcard -> /storage/emulated/0/SdCard
+2026-11-26 21:27:38.429 [!!DETECT!!] 11-26 21:27:38.268  1923  1923 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 21:27:38.460 [!!DETECT!!] 11-26 21:27:38.268  1923  1923 E libsigchain:   #05 pc 000dfea0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:27:38.517 [!!DETECT!!] 11-26 21:27:38.268  1923  1923 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:27:38.803 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: set addIORule: /storage/emulated/0 -> /storage/emulated/0/SdCard
+2026-11-26 21:27:38.833 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: set addIORule: /proc/1669/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 21:27:38.870 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: set addIORule: /proc/self/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 21:27:38.928 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: set enableIO
+2026-11-26 21:27:39.352 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：getLastModifiedTime0 success!
+2026-11-26 21:27:39.440 [!!DETECT!!] 11-26 21:27:38.269  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：setPermission0 success!
+2026-11-26 21:27:39.516 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：createFileExclusively0 success!
+2026-11-26 21:27:39.627 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：list0 success!
+2026-11-26 21:27:39.671 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：createDirectory0 success!
+2026-11-26 21:27:39.716 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：setLastModifiedTime0 success!
+2026-11-26 21:27:39.779 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：setReadOnly0 success!
+2026-11-26 21:27:39.811 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/io/UnixFileSystem, method：getSpace0 success!
+2026-11-26 21:27:39.859 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/lang/VMClassLoader, method：findLoadedClass success!
+2026-11-26 21:27:39.874 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: SystemPropertiesHook initialized with 23 fake props
+2026-11-26 21:27:39.900 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：android/os/SystemProperties, method：native_get success!
+2026-11-26 21:27:39.930 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：java/lang/Runtime, method：nativeLoad success!
+2026-11-26 21:27:39.977 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：access success!
+2026-11-26 21:27:40.072 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：chmod success!
+2026-11-26 21:27:40.176 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：chown success!
+2026-11-26 21:27:40.214 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：execv success!
+2026-11-26 21:27:40.262 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：execve success!
+2026-11-26 21:27:40.322 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：getxattr success!
+2026-11-26 21:27:40.460 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：lchown success!
+2026-11-26 21:27:40.562 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：link success!
+2026-11-26 21:27:40.869 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：listxattr success!
+2026-11-26 21:27:41.192 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：lstat success!
+2026-11-26 21:27:41.429 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：mkdir success!
+2026-11-26 21:27:41.476 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：mkfifo success!
+2026-11-26 21:27:41.545 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：open success!
+2026-11-26 21:27:41.638 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：readlink success!
+2026-11-26 21:27:41.690 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：realpath success!
+2026-11-26 21:27:41.757 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：remove success!
+2026-11-26 21:27:41.842 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：removexattr success!
+2026-11-26 21:27:41.861 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：rename success!
+2026-11-26 21:27:41.876 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：stat success!
+2026-11-26 21:27:41.891 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：statvfs success!
+2026-11-26 21:27:41.923 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：symlink success!
+2026-11-26 21:27:42.001 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：libcore/io/Linux, method：unlink success!
+2026-11-26 21:27:42.038 [!!DETECT!!] 11-26 21:27:38.270  1669  1669 D NativeCore: register class：android/os/Binder, method：getCallingUid success!
+2026-11-26 21:27:42.282 [!!DETECT!!] 11-26 21:27:38.350  1926  1926 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 21:27:42.313 [!!DETECT!!] 11-26 21:27:38.350  1926  1926 E libsigchain:   #05 pc 000dfeac  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:27:42.357 [!!DETECT!!] 11-26 21:27:38.350  1926  1926 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:27:42.969 [!!DETECT!!] 11-26 21:27:38.449  1975  1975 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 21:27:43.083 [!!DETECT!!] 11-26 21:27:38.449  1975  1975 E libsigchain:   #05 pc 000dfeb8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 21:27:43.233 [!!DETECT!!] 11-26 21:27:38.449  1975  1975 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
