@@ -2521,3 +2521,4 @@
 2026-11-26 17:05:50.234 [!!CRASH!!] 11-26 17:05:43.566  8758  8758 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
 2026-11-26 17:05:50.239 [!!CRASH!!] 11-26 17:05:43.566  8758  8758 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
 2026-11-26 17:05:50.244 [!!CRASH!!] 11-26 17:05:43.566  8758  8758 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 17:55:12.406 [!!CRASH!!] 11-26 17:55:12.393 32656 32656 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
