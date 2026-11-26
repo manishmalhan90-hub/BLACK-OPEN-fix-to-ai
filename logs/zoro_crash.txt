@@ -1996,3 +1996,111 @@
 2026-11-26 14:53:29.184 [!!CRASH!!] 11-26 14:53:26.389 13355 13355 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1368)
 2026-11-26 14:53:29.188 [!!CRASH!!] 11-26 14:53:26.389 13355 13355 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1579)
 2026-11-26 14:53:29.194 [!!CRASH!!] 11-26 14:53:26.389 13355 13355 E AndroidRuntime: 	... 11 more
+2026-11-26 14:53:29.455 [!!CRASH!!] 11-26 14:53:26.850 13374 13374 D AndroidRuntime: Shutting down VM
+2026-11-26 14:53:29.463 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-26 14:53:29.471 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: Process: com.zoro.loader:p0, PID: 13374
+2026-11-26 14:53:29.479 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.zoro.loader.BoxApplication package com.zoro.loader: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:29.489 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1586)
+2026-11-26 14:53:29.506 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1492)
+2026-11-26 14:53:29.518 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8614)
+2026-11-26 14:53:29.527 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+2026-11-26 14:53:29.534 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+2026-11-26 14:53:29.539 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-26 14:53:29.546 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-26 14:53:29.554 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-26 14:53:29.561 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-26 14:53:29.565 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-26 14:53:29.572 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-26 14:53:29.580 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 14:53:29.587 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: Caused by: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:29.593 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.os.Environment.getExternalStoragePublicDirectory(Environment.java:1129)
+2026-11-26 14:53:29.599 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.getLogFile(LoaderLogger.java:25)
+2026-11-26 14:53:29.606 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.append(LoaderLogger.java:30)
+2026-11-26 14:53:29.612 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.write(FLog.java:28)
+2026-11-26 14:53:29.618 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.error(FLog.java:23)
+2026-11-26 14:53:29.624 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at com.zoro.loader.BoxApplication.attachBaseContext(BoxApplication.java:64)
+2026-11-26 14:53:29.630 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.Application.attach(Application.java:368)
+2026-11-26 14:53:29.636 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1368)
+2026-11-26 14:53:29.644 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1579)
+2026-11-26 14:53:29.649 [!!CRASH!!] 11-26 14:53:26.851 13374 13374 E AndroidRuntime: 	... 11 more
+2026-11-26 14:53:30.036 [!!CRASH!!] 11-26 14:53:27.551 13393 13393 D AndroidRuntime: Shutting down VM
+2026-11-26 14:53:30.047 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-26 14:53:30.060 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: Process: com.zoro.loader:p0, PID: 13393
+2026-11-26 14:53:30.071 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.zoro.loader.BoxApplication package com.zoro.loader: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:30.082 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1586)
+2026-11-26 14:53:30.093 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1492)
+2026-11-26 14:53:30.107 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8614)
+2026-11-26 14:53:30.127 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+2026-11-26 14:53:30.136 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+2026-11-26 14:53:30.160 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-26 14:53:30.172 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-26 14:53:30.186 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-26 14:53:30.195 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-26 14:53:30.205 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-26 14:53:30.218 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-26 14:53:30.238 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 14:53:30.253 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: Caused by: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:30.261 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.os.Environment.getExternalStoragePublicDirectory(Environment.java:1129)
+2026-11-26 14:53:30.270 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.getLogFile(LoaderLogger.java:25)
+2026-11-26 14:53:30.279 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.append(LoaderLogger.java:30)
+2026-11-26 14:53:30.295 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.write(FLog.java:28)
+2026-11-26 14:53:30.301 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.error(FLog.java:23)
+2026-11-26 14:53:30.309 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at com.zoro.loader.BoxApplication.attachBaseContext(BoxApplication.java:64)
+2026-11-26 14:53:30.314 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.Application.attach(Application.java:368)
+2026-11-26 14:53:30.328 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1368)
+2026-11-26 14:53:30.334 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1579)
+2026-11-26 14:53:30.339 [!!CRASH!!] 11-26 14:53:27.552 13393 13393 E AndroidRuntime: 	... 11 more
+2026-11-26 14:53:30.638 [!!CRASH!!] 11-26 14:53:27.932 13411 13411 D AndroidRuntime: Shutting down VM
+2026-11-26 14:53:30.646 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-26 14:53:30.654 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: Process: com.zoro.loader:p0, PID: 13411
+2026-11-26 14:53:30.661 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.zoro.loader.BoxApplication package com.zoro.loader: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:30.669 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1586)
+2026-11-26 14:53:30.678 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1492)
+2026-11-26 14:53:30.684 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8614)
+2026-11-26 14:53:30.693 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+2026-11-26 14:53:30.701 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+2026-11-26 14:53:30.705 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-26 14:53:30.713 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-26 14:53:30.720 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-26 14:53:30.728 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-26 14:53:30.735 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-26 14:53:30.741 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-26 14:53:30.747 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 14:53:30.755 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: Caused by: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:30.761 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.os.Environment.getExternalStoragePublicDirectory(Environment.java:1129)
+2026-11-26 14:53:30.767 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.getLogFile(LoaderLogger.java:25)
+2026-11-26 14:53:30.775 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.append(LoaderLogger.java:30)
+2026-11-26 14:53:30.780 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.write(FLog.java:28)
+2026-11-26 14:53:30.790 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.error(FLog.java:23)
+2026-11-26 14:53:30.797 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at com.zoro.loader.BoxApplication.attachBaseContext(BoxApplication.java:64)
+2026-11-26 14:53:30.805 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.Application.attach(Application.java:368)
+2026-11-26 14:53:30.814 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1368)
+2026-11-26 14:53:30.819 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1579)
+2026-11-26 14:53:30.827 [!!CRASH!!] 11-26 14:53:27.933 13411 13411 E AndroidRuntime: 	... 11 more
+2026-11-26 14:53:31.084 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 D AndroidRuntime: Shutting down VM
+2026-11-26 14:53:31.089 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-26 14:53:31.096 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: Process: com.zoro.loader:p0, PID: 13438
+2026-11-26 14:53:31.102 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.zoro.loader.BoxApplication package com.zoro.loader: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:31.110 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1586)
+2026-11-26 14:53:31.114 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1492)
+2026-11-26 14:53:31.122 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8614)
+2026-11-26 14:53:31.130 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+2026-11-26 14:53:31.137 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+2026-11-26 14:53:31.144 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-26 14:53:31.151 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-26 14:53:31.159 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-26 14:53:31.163 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-26 14:53:31.170 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-26 14:53:31.178 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-26 14:53:31.185 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 14:53:31.189 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: Caused by: java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+2026-11-26 14:53:31.198 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.os.Environment.getExternalStoragePublicDirectory(Environment.java:1129)
+2026-11-26 14:53:31.205 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.getLogFile(LoaderLogger.java:25)
+2026-11-26 14:53:31.213 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.zoro.loader.utils.LoaderLogger.append(LoaderLogger.java:30)
+2026-11-26 14:53:31.220 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.write(FLog.java:28)
+2026-11-26 14:53:31.227 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.zoro.loader.utils.FLog.error(FLog.java:23)
+2026-11-26 14:53:31.235 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at com.zoro.loader.BoxApplication.attachBaseContext(BoxApplication.java:64)
+2026-11-26 14:53:31.239 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.Application.attach(Application.java:368)
+2026-11-26 14:53:31.246 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1368)
+2026-11-26 14:53:31.253 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1579)
+2026-11-26 14:53:31.258 [!!CRASH!!] 11-26 14:53:28.267 13438 13438 E AndroidRuntime: 	... 11 more
