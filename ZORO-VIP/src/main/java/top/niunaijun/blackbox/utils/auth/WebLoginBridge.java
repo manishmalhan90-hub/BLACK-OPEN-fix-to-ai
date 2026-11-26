@@ -230,7 +230,7 @@ public final class WebLoginBridge {
         extras.putString("channel", intent.getStringExtra("channel"));
         extras.putInt("channel_id", intent.getIntExtra("channel_id", 0));
         extras.putString("app_id", intent.getStringExtra("app_id"));
-        extras.putInt("request_code", 0);
+        extras.putInt("request_code", 1);
         log("host-side redirecting twitter web login | host=" + safeUrlHost(url));
         try {
             String authority = hostPackage(hostContext) + ".SystemCallProvider";
@@ -368,6 +368,7 @@ public final class WebLoginBridge {
         String json = intent.getStringExtra("result_json");
         int code = intent.getIntExtra("result_code", -1);
         String msg = intent.getStringExtra("result_msg");
+        int requestCode = intent.getIntExtra("request_code", 1);
 
         ClassLoader cl = sGameClassLoader;
         if (cl == null) {
@@ -384,9 +385,10 @@ public final class WebLoginBridge {
                 } else {
                     Intent result = new Intent();
                     result.putExtra("msg", msg == null ? "" : msg);
-                    invokeTwitterFailure(cl, code, result);
+                    invokeTwitterFailure(cl, requestCode, code, result);
                     delivered = true;
-                    log("twitter web cancellation delivered (code=" + code + ")");
+                    log("twitter web cancellation delivered (request=" + requestCode
+                            + " | code=" + code + ")");
                 }
             } else if ("facebook".equals(kind)) {
                 if (json != null && !json.isEmpty()) {
@@ -439,6 +441,7 @@ public final class WebLoginBridge {
                     String msg = result.getStringExtra("result_msg");
                     pending.put("result_msg", msg == null ? "" : msg);
                 }
+                pending.put("request_code", result.getIntExtra("request_code", 1));
                 pending.put("ts", System.currentTimeMillis());
                 File temp = new File(file.getParentFile(), file.getName() + ".tmp");
                 FileOutputStream out = new FileOutputStream(temp, false);
@@ -494,6 +497,7 @@ public final class WebLoginBridge {
                 }
                 Intent result = new Intent(ACTION_RESULT);
                 result.putExtra("kind", pending.optString("kind"));
+                result.putExtra("request_code", pending.optInt("request_code", 1));
                 String json = pending.optString("result_json");
                 if (!TextUtils.isEmpty(json)) {
                     result.putExtra("result_json", json);
@@ -715,11 +719,20 @@ public final class WebLoginBridge {
         method.invoke(null, json);
     }
 
-    private static void invokeTwitterFailure(ClassLoader cl, int code, Intent result) throws Exception {
+    /**
+     * The game's real Twitter callback is {@code o5.a.k(boolean, int, int,
+     * Intent)}: web flag, request code, result code and the result Intent whose
+     * "msg" extra carries the failure text. Older builds called a nonexistent
+     * three-argument overload, so cancellations never reached the game.
+     */
+    private static void invokeTwitterFailure(ClassLoader cl, int requestCode, int code,
+                                             Intent result) throws Exception {
         Class<?> wrapper = Class.forName("o5.a", true, cl);
-        Method method = wrapper.getDeclaredMethod("k", boolean.class, int.class, Intent.class);
+        Method method = wrapper.getDeclaredMethod("k", boolean.class, int.class,
+                int.class, Intent.class);
         method.setAccessible(true);
-        method.invoke(null, true, code, result);
+        method.invoke(null, true, requestCode, code, result);
+        log("twitter failure callback invoked | request=" + requestCode + " | code=" + code);
     }
 
     private static boolean invokeFacebookResult(ClassLoader cl, String json) throws Exception {
