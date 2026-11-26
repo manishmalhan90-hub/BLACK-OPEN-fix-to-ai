@@ -124,8 +124,20 @@ public final class TwitterLoginRedirect {
         }
         String component = intent.getComponent() == null
                 ? "(no component)" : intent.getComponent().flattenToString();
+        Bundle extras = intent.getExtras();
+        String channel = extras == null ? "" : String.valueOf(extras.get("channel"));
         String data = intent.getDataString() == null ? "" : intent.getDataString();
-        log("observed Twitter auth intent: " + component + (data.isEmpty() ? "" : " | " + data));
+        String host = data;
+        try {
+            android.net.Uri uri = android.net.Uri.parse(data);
+            if (uri.getHost() != null) {
+                host = uri.getHost();
+            }
+        } catch (Throwable ignored) {
+        }
+        log("observed Twitter auth intent: " + component
+                + " | channel=" + channel
+                + (data.isEmpty() ? "" : " | host=" + host));
         if (appModeEnabled() && !legacySsoAvailable()) {
             log("X app lacks legacy SSO activity; falling back to game in-app OAuthActivity");
         } else if (webModeEnabled()) {
