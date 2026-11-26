@@ -3,6 +3,7 @@ package top.niunaijun.blackbox.utils.auth;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.ConsoleMessage;
+import android.webkit.CookieManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceError;
@@ -55,6 +57,9 @@ public final class TwitterWebHostActivity extends Activity {
             return;
         }
 
+        // Fresh WebView state for every login attempt. No tokens are logged.
+        clearLoginCache();
+
         log("host started | kind=" + mKind + " | host=" + safeHost(url));
 
         LinearLayout root = new LinearLayout(this);
@@ -99,8 +104,36 @@ public final class TwitterWebHostActivity extends Activity {
         mWebView.loadUrl(url);
     }
 
+    /** Clears WebView cache and cookies before loading the OAuth page. */
+    private void clearLoginCache() {
+        try {
+            WebView.clearCache(getApplicationContext(), true);
+            log("webview cache cleared (memory + disk)");
+        } catch (Throwable t) {
+            log("webview cache clear failed: " + t);
+        }
+        try {
+            CookieManager cookies = CookieManager.getInstance();
+            if (cookies != null) {
+                cookies.removeAllCookies(null);
+                cookies.removeSessionCookies(null);
+                cookies.setAcceptCookie(true);
+                log("webview cookies cleared");
+            }
+        } catch (Throwable t) {
+            log("webview cookie clear failed: " + t);
+        }
+    }
+
     private void configureWebView(WebView webView) {
         WebSettings settings = webView.getSettings();
+        try {
+            if (Build.VERSION.SDK_INT >= 21) {
+                CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true);
+            }
+        } catch (Throwable t) {
+            log("third-party cookie enable failed: " + t);
+        }
         settings.setDomStorageEnabled(true);
         settings.setJavaScriptEnabled(true);
         settings.setCacheMode(WebSettings.LOAD_DEFAULT);

@@ -66,6 +66,8 @@ public final class WebLoginBridge {
         if (sGameClassLoader == null) {
             sGameClassLoader = activity != null ? activity.getClassLoader() : context.getClassLoader();
         }
+        // Make sure the result receiver exists even if the early app hook was missed.
+        register(context, sGameClassLoader);
 
         String className = intent.getComponent() == null ? "" : intent.getComponent().getClassName();
         boolean twitter = "com.itop.twitterwrapper.TwitterWebActivity".equals(className);
@@ -110,15 +112,57 @@ public final class WebLoginBridge {
                 + " web login to isolated process | host=" + host + " | request=" + requestCode);
 
         try {
-            String authority = context.getPackageName() + ".SystemCallProvider";
+            // The virtual context reports the game package (com.pubg.imobile).
+            // The provider lives in the host app (com.google), so always resolve
+            // the authority from the host context, never from the virtual one.
+            String hostPackage = hostPackage(context);
+            String authority = hostPackage + ".SystemCallProvider";
             Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
             context.getContentResolver().call(uri, PROVIDER_METHOD, null, extras);
             sLoginActive.set(true);
             TwitterLoginModeFix.setLoginActive(true);
+            log("isolated login launched via " + authority);
             return true;
         } catch (Throwable t) {
-            log("isolated login launch failed: " + t);
+            log("isolated login launch failed: " + t + "; clearing virtual WebView cache before fallback");
+            clearVirtualWebViewCache(context);
             return false;
+        }
+    }
+
+    /** Resolve the real loader package, not the virtualised game package. */
+    private static String hostPackage(Context fallback) {
+        try {
+            Context host = top.niunaijun.blackbox.BlackBoxCore.getContext();
+            if (host != null) {
+                String pkg = host.getPackageName();
+                if (pkg != null && !pkg.isEmpty()) {
+                    return pkg;
+                }
+            }
+        } catch (Throwable ignored) {
+            // fall through
+        }
+        try {
+            String pkg = top.niunaijun.blackbox.BlackBoxCore.getHostPkg();
+            if (pkg != null && !pkg.isEmpty()) {
+                return pkg;
+            }
+        } catch (Throwable ignored) {
+            // fall through
+        }
+        return "com.google";
+    }
+
+    /** Last-resort cleanup if the isolated host could not be started. */
+    private static void clearVirtualWebViewCache(Context context) {
+        try {
+            android.webkit.WebView.clearCache(
+                    context.getApplicationContext() == null ? context : context.getApplicationContext(),
+                    true);
+            log("virtual WebView cache cleared before fallback");
+        } catch (Throwable t) {
+            log("virtual WebView cache clear failed: " + t);
         }
     }
 
