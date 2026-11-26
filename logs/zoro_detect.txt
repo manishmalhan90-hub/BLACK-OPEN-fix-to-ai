@@ -5792,3 +5792,29 @@
 2026-11-26 19:11:35.510 [!!DETECT!!] 11-26 19:11:31.227 29780 30111 E FA      : Failed to get conditional properties; not connected to service: frc
 2026-11-26 19:11:35.530 [!!DETECT!!] 11-26 19:11:32.135 29780 29873 W InstallReferrerClient: Connection to service is blocked.
 2026-11-26 19:11:39.591 [!!DETECT!!] 11-26 19:11:39.577 29780 29873 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 19:11:52.786 [!!DETECT!!] 11-26 19:11:52.781 29780 30158 W [CrashKit]: Game type has not been set.
+2026-11-26 19:11:52.802 [!!DETECT!!] 11-26 19:11:52.781 29780 30158 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 19:11:52.812 [!!DETECT!!] 11-26 19:11:52.782 29780 29780 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 19:11:52.818 [!!DETECT!!] 11-26 19:11:52.805 29780 30158 I [CrashKitReport]: sdk uuid first install lastAppVersionCode: , currentAppVersionCode: 21735
+2026-11-26 19:11:52.827 [!!DETECT!!] 11-26 19:11:52.805 29780 30158 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 19:11:52.832 [!!DETECT!!] 11-26 19:11:52.805 29780 30158 I [CrashKitReport]: cachedUuid: 
+2026-11-26 19:11:52.842 [!!DETECT!!] 11-26 19:11:52.805 29780 30158 I [CrashKitReport]: currentVersionUuid: 1d235c22-c3ca-410c-abc5-186df6ce27ca
+2026-11-26 19:11:52.848 [!!DETECT!!] 11-26 19:11:52.805 29780 30158 I [CrashKitReport]: redisKeyUuid: 1d235c22-c3ca-410c-abc5-186df6ce27ca
+2026-11-26 19:11:52.857 [!!DETECT!!] 11-26 19:11:52.819 29780 29780 I [CrashKitReport]: localStrategy is null
+2026-11-26 19:11:52.862 [!!DETECT!!] 11-26 19:11:52.819 29780 29780 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 19:11:52.868 [!!DETECT!!] 11-26 19:11:52.819 29780 29780 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 19:11:52.874 [!!DETECT!!] 11-26 19:11:52.819 29780 29780 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 19:11:54.576 [!!DETECT!!] 11-26 19:11:54.067 29780 31113 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 19:11:54.755 [!!DETECT!!] 11-26 19:11:54.224 29780 31113 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 19:11:54.767 [!!DETECT!!] 11-26 19:11:54.224 29780 31113 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 19:11:54.786 [!!DETECT!!] 11-26 19:11:54.225 29780 31113 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 19:11:54.862 [!!DETECT!!] 11-26 19:11:54.855 29780 31130 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 19:11:56.959 [!!DETECT!!] 11-26 19:11:56.955 29780 29780 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 19:12:00.512 [!!DETECT!!] 11-26 19:12:00.506 29780 30158 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 19:12:03.327 [!!DETECT!!] 11-26 19:12:03.320 29780 31109 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):d9dce030-58cb-4550-8c47-a224ccf22899 uc:1 re:true me:false mc:0
+2026-11-26 19:12:03.345 [!!DETECT!!] 11-26 19:12:03.340 29780 31113 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):1964cd2a-9004-4c28-882e-539bc610b591 uc:1 re:true me:false mc:0
+2026-11-26 19:12:03.353 [!!DETECT!!] 11-26 19:12:03.346 29780 31111 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):036b4a11-a4cf-41f2-b8c9-d89fe3e20b37 uc:1 re:true me:false mc:0
+2026-11-26 19:12:03.894 [!!DETECT!!] 11-26 19:12:03.890 29780 31109 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):4acd5c7e-f97d-4fb1-a3ac-9a345deb3416 uc:1 re:true me:false mc:0
+2026-11-26 19:12:06.379 [!!DETECT!!] 11-26 19:12:06.376 29780 31113 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):90ae70d6-b22b-4a27-93ab-2ef9dc6bdb2b uc:1 re:true me:false mc:0
+2026-11-26 19:12:06.787 [!!DETECT!!] 11-26 19:12:06.779 29780 31111 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):cdb27ca8-6d35-4438-b89a-f8ed3fee7250 uc:1 re:true me:false mc:0
+2026-11-26 19:12:10.633 [!!DETECT!!] 11-26 19:12:10.622 29780 29873 W InstallReferrerClient: Connection to service is blocked.
