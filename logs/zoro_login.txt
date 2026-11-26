@@ -268,3 +268,15 @@
 2026-11-26 18:31:20.850 [!!LOGIN!!] 11-26 18:31:20.470 27339 27514 D VRI[TwitterWebActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=4 didProduceBuffer=true syncBuffer=false
 2026-11-26 18:31:20.856 [!!LOGIN!!] 11-26 18:31:20.470 27339 27339 D VRI[TwitterWebActivity]: draw finished. seqId=0
 2026-11-26 18:31:21.077 [!!LOGIN!!] 11-26 18:31:21.071 27339 27400 D OplusScrollToTopManager: com.pubg.imobile/com.itop.twitterwrapper.TwitterWebActivity,This com.android.internal.policy.DecorView{e91d494 V.E...... R....... 0,0-1521,720 aid=1 alpha=1.0 viewInfo = }[TwitterWebActivity] change focus to true
+2026-11-26 18:31:32.052 [!!LOGIN!!] 11-26 18:31:32.018 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 18:31:32.493 [!!LOGIN!!] 11-26 18:31:32.468 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 18:31:32.694 [!!LOGIN!!] 11-26 18:31:32.631 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 18:31:43.075 [!!LOGIN!!] 11-26 18:31:42.701 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 18:31:43.246 [!!LOGIN!!] 11-26 18:31:42.964 27339 27339 W VRI[TwitterWebActivity]: handleResized abandoned!
+2026-11-26 18:31:45.362 [!!LOGIN!!] 11-26 18:31:45.340 27339 27346 F com.google:p0: mark_compact.cc:4496] Check failed: ret == static_cast<void*>(from_addr) (ret=0xffffffffffffffff, static_cast<void*>(from_addr)=0x6e00000000) mremap to move pages failed: Bad address. space-addr=0x6e40000000 size=1024MB
+2026-11-26 18:31:45.612 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] Runtime aborting...
+2026-11-26 18:31:45.631 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769] "HeapTaskDaemon" prio=5 tid=6 WaitingPerformingGc
+2026-11-26 18:31:45.747 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #07 pc 002cf8c4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::KernelPrepareRangeForUffd+480) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 18:31:45.854 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #17 pc 006fe098  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+184)
+2026-11-26 18:31:45.891 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   native: #23 pc 0055bc78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+2026-11-26 18:31:45.920 [!!LOGIN!!] 11-26 18:31:45.579 27339 27346 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
