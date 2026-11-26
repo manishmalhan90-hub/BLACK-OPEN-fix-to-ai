@@ -5630,3 +5630,6 @@
 2026-11-26 18:57:42.734 [!!DETECT!!] 11-26 18:57:42.529 18718 18728 E [CrashKitReport-Native]: get signal 6
 2026-11-26 18:57:42.742 [!!DETECT!!] 11-26 18:57:42.530 18718 18728 E [CrashKitReport-Native]: last errno is 14
 2026-11-26 18:57:42.750 [!!DETECT!!] 11-26 18:57:42.555 18718 18728 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 18:58:16.602 [!!DETECT!!] 11-26 18:58:16.597 18718 18718 E [CrashKitReport-Native]: get signal 3
+2026-11-26 18:58:16.607 [!!DETECT!!] 11-26 18:58:16.597 18718 18718 E [CrashKitReport-Native]: last errno is 11
+2026-11-26 18:58:16.616 [!!DETECT!!] 11-26 18:58:16.598 18718 18718 E [CrashKitReport-Native]: Catch a sigquit now.
