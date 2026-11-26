@@ -87,7 +87,7 @@ public final class TwitterLoginModeFix {
             return;
         }
         Activity activity = sLastActivity.get();
-        if (activity == null || !(context instanceof Activity)) {
+        if (activity == null) {
             return;
         }
         try {
