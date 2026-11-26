@@ -4188,3 +4188,423 @@
 [logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
 [logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
 [logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: Process: com.pubg.imobile, PID: 17580
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: Process: com.pubg.imobile, PID: 17746
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: Process: com.pubg.imobile, PID: 17916
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: Process: com.pubg.imobile, PID: 18087
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: Process: com.pubg.imobile, PID: 18259
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: Process: com.pubg.imobile, PID: 18427
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: Process: com.pubg.imobile, PID: 18598
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: Process: com.pubg.imobile, PID: 15909
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:35.532 15909 15909 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: Process: com.pubg.imobile, PID: 16085
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:36.645 16085 16085 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: Process: com.pubg.imobile, PID: 16253
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:37.750 16253 16253 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: Process: com.pubg.imobile, PID: 16420
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:38.963 16420 16420 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: Process: com.pubg.imobile, PID: 16590
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:40.252 16590 16590 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: Process: com.pubg.imobile, PID: 16868
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:41.562 16868 16868 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: Process: com.pubg.imobile, PID: 17073
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: Process: com.pubg.imobile, PID: 17241
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:44.120 17241 17241 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: Process: com.pubg.imobile, PID: 17414
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:45.514 17414 17414 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: Process: com.pubg.imobile, PID: 17580
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:46.738 17580 17580 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: Process: com.pubg.imobile, PID: 17746
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:47.965 17746 17746 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: Process: com.pubg.imobile, PID: 17916
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:49.115 17916 17916 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: Process: com.pubg.imobile, PID: 18087
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:50.280 18087 18087 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: Process: com.pubg.imobile, PID: 18259
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:51.542 18259 18259 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: Process: com.pubg.imobile, PID: 18427
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:52.802 18427 18427 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: Process: com.pubg.imobile, PID: 18598
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
