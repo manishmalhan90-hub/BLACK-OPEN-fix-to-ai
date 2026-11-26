@@ -5139,3 +5139,6 @@
 2026-11-26 19:39:37.146 [!!CRASH!!] 11-26 19:39:28.476 26809 26809 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
 2026-11-26 19:39:37.156 [!!CRASH!!] 11-26 19:39:28.476 26809 26809 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
 2026-11-26 19:39:37.174 [!!CRASH!!] 11-26 19:39:28.476 26809 26809 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-26 20:34:29.773 [!!CRASH!!] 11-26 20:34:29.759 12119 12543 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58bf7e78 in tid 12543 (NativeThread), pid 12119 (MainThread-UE4)
+2026-11-26 20:34:30.129 [!!CRASH!!] 11-26 20:34:30.102 12827 12827 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+2026-11-26 20:34:31.634 [!!CRASH!!] 11-26 20:34:31.514 11620 11992 D BProcessManager: App Died: com.pubg.imobile
