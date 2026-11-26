@@ -1297,3 +1297,162 @@
 2026-11-26 16:09:11.800 [!!DETECT!!] 11-26 16:09:11.791  7305  7725 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):97ccd1cd-5f80-4a8d-bdcc-17f733791904 uc:1 re:true me:false mc:0
 2026-11-26 16:09:14.048 [!!DETECT!!] 11-26 16:09:14.040  7305  7723 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f90b1e99-d596-4901-96cc-0fb8cdf292aa uc:1 re:true me:false mc:0
 2026-11-26 16:09:18.405 [!!DETECT!!] 11-26 16:09:18.399  7305  7387 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:09:46.597 [!!DETECT!!] 11-26 16:09:46.344  7305  7313 E [CrashKitReport-Native]: get signal 6
+2026-11-26 16:09:46.609 [!!DETECT!!] 11-26 16:09:46.344  7305  7313 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 16:09:46.621 [!!DETECT!!] 11-26 16:09:46.352  7305  7313 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 16:10:45.684 [!!DETECT!!] 11-26 16:10:45.332  9110  9110 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 16:10:45.777 [!!DETECT!!] 11-26 16:10:45.558  9110  9110 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 16:10:45.782 [!!DETECT!!] 11-26 16:10:45.559  9110  9110 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 16:10:45.952 [!!DETECT!!] 11-26 16:10:45.919  9110  9110 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@d700677
+2026-11-26 16:10:45.987 [!!DETECT!!] 11-26 16:10:45.957  9110  9110 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@4bd3f0c
+2026-11-26 16:10:46.008 [!!DETECT!!] 11-26 16:10:45.982  9110  9110 W StorageManager: Missing package names; no storage volumes available
+2026-11-26 16:10:46.108 [!!DETECT!!] 11-26 16:10:46.102  9110  9110 W System  : Attempt to load writable file: /data/user/0/com.google/files/loader/libbgmi.so. This will throw on a future Android version. Current sdk version: 36
+2026-11-26 16:10:46.144 [!!DETECT!!] 11-26 16:10:46.131  9165  9165 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:46.150 [!!DETECT!!] 11-26 16:10:46.131  9165  9165 E libsigchain:   #05 pc 000dfea0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:46.158 [!!DETECT!!] 11-26 16:10:46.131  9165  9165 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:46.168 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/data/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 16:10:46.173 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-26 16:10:46.179 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/data/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 16:10:46.185 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-26 16:10:46.191 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/misc/profiles -> /data/user/0/com.google/files/profiles
+2026-11-26 16:10:46.197 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/misc/profiles/cur/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/cur/0/com.pubg.imobile
+2026-11-26 16:10:46.202 [!!DETECT!!] 11-26 16:10:46.147  9110  9110 D NativeCore: set addIORule: /data/misc/profiles/ref/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/ref/0/com.pubg.imobile
+2026-11-26 16:10:46.208 [!!DETECT!!] 11-26 16:10:46.148  9110  9110 D NativeCore: set addIORule: /sdcard -> /storage/emulated/0/SdCard
+2026-11-26 16:10:46.214 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: set addIORule: /storage/emulated/0 -> /storage/emulated/0/SdCard
+2026-11-26 16:10:46.218 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: set addIORule: /proc/9110/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 16:10:46.223 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: set addIORule: /proc/self/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-26 16:10:46.228 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: set enableIO
+2026-11-26 16:10:46.239 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：getLastModifiedTime0 success!
+2026-11-26 16:10:46.247 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：setPermission0 success!
+2026-11-26 16:10:46.256 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：createFileExclusively0 success!
+2026-11-26 16:10:46.263 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：list0 success!
+2026-11-26 16:10:46.274 [!!DETECT!!] 11-26 16:10:46.150  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：createDirectory0 success!
+2026-11-26 16:10:46.288 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：setLastModifiedTime0 success!
+2026-11-26 16:10:46.301 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：setReadOnly0 success!
+2026-11-26 16:10:46.309 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：java/io/UnixFileSystem, method：getSpace0 success!
+2026-11-26 16:10:46.315 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：java/lang/VMClassLoader, method：findLoadedClass success!
+2026-11-26 16:10:46.327 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: SystemPropertiesHook initialized with 23 fake props
+2026-11-26 16:10:46.347 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：android/os/SystemProperties, method：native_get success!
+2026-11-26 16:10:46.359 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：java/lang/Runtime, method：nativeLoad success!
+2026-11-26 16:10:46.372 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：access success!
+2026-11-26 16:10:46.380 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：chmod success!
+2026-11-26 16:10:46.393 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：chown success!
+2026-11-26 16:10:46.405 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：execv success!
+2026-11-26 16:10:46.415 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：execve success!
+2026-11-26 16:10:46.425 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：getxattr success!
+2026-11-26 16:10:46.432 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：lchown success!
+2026-11-26 16:10:46.441 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：link success!
+2026-11-26 16:10:46.462 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：listxattr success!
+2026-11-26 16:10:46.475 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：lstat success!
+2026-11-26 16:10:46.494 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：mkdir success!
+2026-11-26 16:10:46.530 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：mkfifo success!
+2026-11-26 16:10:46.552 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：open success!
+2026-11-26 16:10:46.565 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：readlink success!
+2026-11-26 16:10:46.586 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：realpath success!
+2026-11-26 16:10:46.615 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：remove success!
+2026-11-26 16:10:46.644 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：removexattr success!
+2026-11-26 16:10:46.651 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：rename success!
+2026-11-26 16:10:46.678 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：stat success!
+2026-11-26 16:10:46.691 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：statvfs success!
+2026-11-26 16:10:46.726 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：symlink success!
+2026-11-26 16:10:46.800 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：libcore/io/Linux, method：unlink success!
+2026-11-26 16:10:46.857 [!!DETECT!!] 11-26 16:10:46.151  9110  9110 D NativeCore: register class：android/os/Binder, method：getCallingUid success!
+2026-11-26 16:10:47.191 [!!DETECT!!] 11-26 16:10:46.185  9166  9166 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.275 [!!DETECT!!] 11-26 16:10:46.185  9166  9166 E libsigchain:   #05 pc 000dfeac  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.310 [!!DETECT!!] 11-26 16:10:46.185  9166  9166 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.388 [!!DETECT!!] 11-26 16:10:46.228  9171  9171 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.402 [!!DETECT!!] 11-26 16:10:46.228  9171  9171 E libsigchain:   #05 pc 000dfeb8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.417 [!!DETECT!!] 11-26 16:10:46.228  9171  9171 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.541 [!!DETECT!!] 11-26 16:10:46.274  9173  9173 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.548 [!!DETECT!!] 11-26 16:10:46.274  9173  9173 E libsigchain:   #05 pc 000dfec4  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.556 [!!DETECT!!] 11-26 16:10:46.274  9173  9173 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.604 [!!DETECT!!] 11-26 16:10:46.326  9199  9199 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.620 [!!DETECT!!] 11-26 16:10:46.326  9199  9199 E libsigchain:   #05 pc 000dfed0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.634 [!!DETECT!!] 11-26 16:10:46.326  9199  9199 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.673 [!!DETECT!!] 11-26 16:10:46.347  9110  9191 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:10:47.732 [!!DETECT!!] 11-26 16:10:46.390  9216  9216 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.740 [!!DETECT!!] 11-26 16:10:46.390  9216  9216 E libsigchain:   #05 pc 000dfedc  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.748 [!!DETECT!!] 11-26 16:10:46.390  9216  9216 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.827 [!!DETECT!!] 11-26 16:10:46.443  9230  9230 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.837 [!!DETECT!!] 11-26 16:10:46.443  9230  9230 E libsigchain:   #05 pc 000dfee8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.843 [!!DETECT!!] 11-26 16:10:46.443  9230  9230 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.943 [!!DETECT!!] 11-26 16:10:46.567  9266  9266 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:47.953 [!!DETECT!!] 11-26 16:10:46.567  9266  9266 E libsigchain:   #05 pc 000dfef4  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:47.961 [!!DETECT!!] 11-26 16:10:46.567  9266  9266 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.207 [!!DETECT!!] 11-26 16:10:46.661  9295  9295 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.212 [!!DETECT!!] 11-26 16:10:46.662  9295  9295 E libsigchain:   #05 pc 000dff00  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.220 [!!DETECT!!] 11-26 16:10:46.662  9295  9295 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.264 [!!DETECT!!] 11-26 16:10:46.771  9296  9296 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.272 [!!DETECT!!] 11-26 16:10:46.771  9296  9296 E libsigchain:   #05 pc 000dff0c  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.285 [!!DETECT!!] 11-26 16:10:46.771  9296  9296 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.339 [!!DETECT!!] 11-26 16:10:46.874  9297  9297 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.344 [!!DETECT!!] 11-26 16:10:46.874  9297  9297 E libsigchain:   #05 pc 000dff18  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.351 [!!DETECT!!] 11-26 16:10:46.874  9297  9297 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.403 [!!DETECT!!] 11-26 16:10:47.021  9300  9300 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.408 [!!DETECT!!] 11-26 16:10:47.021  9300  9300 E libsigchain:   #05 pc 000dff24  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.415 [!!DETECT!!] 11-26 16:10:47.021  9300  9300 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.454 [!!DETECT!!] 11-26 16:10:47.157  9311  9311 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.459 [!!DETECT!!] 11-26 16:10:47.157  9311  9311 E libsigchain:   #05 pc 000dff30  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.464 [!!DETECT!!] 11-26 16:10:47.157  9311  9311 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.479 [!!DETECT!!] 11-26 16:10:47.193  9110  9110 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 16:10:48.486 [!!DETECT!!] 11-26 16:10:47.195  9110  9110 D nativeloader: Load /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so using class loader ns clns-10 (caller=/data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/base.apk): ok
+2026-11-26 16:10:48.582 [!!DETECT!!] 11-26 16:10:47.368  9315  9315 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.587 [!!DETECT!!] 11-26 16:10:47.368  9315  9315 E libsigchain:   #05 pc 000dff3c  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.596 [!!DETECT!!] 11-26 16:10:47.368  9315  9315 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.626 [!!DETECT!!] 11-26 16:10:47.514  9320  9320 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.635 [!!DETECT!!] 11-26 16:10:47.514  9320  9320 E libsigchain:   #05 pc 000dff48  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.641 [!!DETECT!!] 11-26 16:10:47.514  9320  9320 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.663 [!!DETECT!!] 11-26 16:10:47.611  9321  9321 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.670 [!!DETECT!!] 11-26 16:10:47.611  9321  9321 E libsigchain:   #05 pc 000dff54  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.677 [!!DETECT!!] 11-26 16:10:47.611  9321  9321 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.704 [!!DETECT!!] 11-26 16:10:47.746  9322  9322 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.716 [!!DETECT!!] 11-26 16:10:47.746  9322  9322 E libsigchain:   #05 pc 000dff60  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.724 [!!DETECT!!] 11-26 16:10:47.746  9322  9322 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.807 [!!DETECT!!] 11-26 16:10:47.834  9323  9323 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:48.815 [!!DETECT!!] 11-26 16:10:47.834  9323  9323 E libsigchain:   #05 pc 000dff6c  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.824 [!!DETECT!!] 11-26 16:10:47.834  9323  9323 E libsigchain:   #06 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:48.998 [!!DETECT!!] 11-26 16:10:47.904  9324  9324 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.036 [!!DETECT!!] 11-26 16:10:47.904  9324  9324 E libsigchain:   #05 pc 000e0054  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.147 [!!DETECT!!] 11-26 16:10:47.998  9326  9326 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.158 [!!DETECT!!] 11-26 16:10:47.998  9326  9326 E libsigchain:   #05 pc 000dff94  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.167 [!!DETECT!!] 11-26 16:10:47.998  9326  9326 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.348 [!!DETECT!!] 11-26 16:10:48.103  9327  9327 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.356 [!!DETECT!!] 11-26 16:10:48.103  9327  9327 E libsigchain:   #05 pc 000dffa0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.372 [!!DETECT!!] 11-26 16:10:48.103  9327  9327 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.569 [!!DETECT!!] 11-26 16:10:48.189  9334  9334 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.575 [!!DETECT!!] 11-26 16:10:48.189  9334  9334 E libsigchain:   #05 pc 000dffac  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.583 [!!DETECT!!] 11-26 16:10:48.189  9334  9334 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.613 [!!DETECT!!] 11-26 16:10:48.229  9110  9110 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 16:10:49.647 [!!DETECT!!] 11-26 16:10:48.230  9110  9110 D nativeloader: Load /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so using class loader ns clns-10 (caller=/data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/base.apk): ok
+2026-11-26 16:10:49.656 [!!DETECT!!] 11-26 16:10:48.230  9110  9110 I [CrashKitReport-Native]: get system java classes success
+2026-11-26 16:10:49.674 [!!DETECT!!] 11-26 16:10:48.230  9110  9110 I [CrashKitReport-Native]: backup java classes success
+2026-11-26 16:10:49.790 [!!DETECT!!] 11-26 16:10:48.264  9339  9339 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.798 [!!DETECT!!] 11-26 16:10:48.264  9339  9339 E libsigchain:   #05 pc 000dffb8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.804 [!!DETECT!!] 11-26 16:10:48.264  9339  9339 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.846 [!!DETECT!!] 11-26 16:10:48.339  9343  9343 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:49.855 [!!DETECT!!] 11-26 16:10:48.339  9343  9343 E libsigchain:   #05 pc 000dffc4  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:49.862 [!!DETECT!!] 11-26 16:10:48.339  9343  9343 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.083 [!!DETECT!!] 11-26 16:10:48.408  9356  9356 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.092 [!!DETECT!!] 11-26 16:10:48.408  9356  9356 E libsigchain:   #05 pc 000dffd0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.101 [!!DETECT!!] 11-26 16:10:48.408  9356  9356 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.207 [!!DETECT!!] 11-26 16:10:48.481  9364  9364 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.214 [!!DETECT!!] 11-26 16:10:48.481  9364  9364 E libsigchain:   #05 pc 000dffe0  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.219 [!!DETECT!!] 11-26 16:10:48.481  9364  9364 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.247 [!!DETECT!!] 11-26 16:10:48.555  9396  9396 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.253 [!!DETECT!!] 11-26 16:10:48.555  9396  9396 E libsigchain:   #05 pc 000dffe8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.258 [!!DETECT!!] 11-26 16:10:48.555  9396  9396 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.352 [!!DETECT!!] 11-26 16:10:48.631  9401  9401 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.357 [!!DETECT!!] 11-26 16:10:48.631  9401  9401 E libsigchain:   #05 pc 000dfff8  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.362 [!!DETECT!!] 11-26 16:10:48.631  9401  9401 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.519 [!!DETECT!!] 11-26 16:10:48.709  9110  9191 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 16:10:50.538 [!!DETECT!!] 11-26 16:10:48.713  9404  9404 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.543 [!!DETECT!!] 11-26 16:10:48.713  9404  9404 E libsigchain:   #05 pc 000e0000  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.548 [!!DETECT!!] 11-26 16:10:48.713  9404  9404 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.728 [!!DETECT!!] 11-26 16:10:48.862  9414  9414 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.732 [!!DETECT!!] 11-26 16:10:48.862  9414  9414 E libsigchain:   #05 pc 000e0010  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.738 [!!DETECT!!] 11-26 16:10:48.862  9414  9414 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.756 [!!DETECT!!] 11-26 16:10:49.225  9425  9425 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.761 [!!DETECT!!] 11-26 16:10:49.225  9425  9425 E libsigchain:   #05 pc 000e0018  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.766 [!!DETECT!!] 11-26 16:10:49.225  9425  9425 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 16:10:50.788 [!!DETECT!!] 11-26 16:10:49.389  9428  9428 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
+2026-11-26 16:10:50.791 [!!DETECT!!] 11-26 16:10:49.389  9428  9428 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
