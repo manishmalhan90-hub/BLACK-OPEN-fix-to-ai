@@ -4751,3 +4751,4 @@
 2026-11-26 18:56:46.372 [!!CRASH!!] 11-26 18:56:02.509 17660 17660 E AndroidRuntime: 	at top.niunaijun.blackbox.fake.delegate.AppInstrumentation.callActivityOnCreate(SourceFile:1)
 2026-11-26 18:56:46.378 [!!CRASH!!] 11-26 18:56:02.509 17660 17660 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4628)
 2026-11-26 18:56:46.383 [!!CRASH!!] 11-26 18:56:02.509 17660 17660 E AndroidRuntime: 	... 13 more
+2026-11-26 18:58:27.130 [!!CRASH!!] 11-26 18:58:27.125 19855 19855 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
