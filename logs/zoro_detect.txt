@@ -6738,3 +6738,34 @@
 2026-11-26 19:37:42.391 [!!DETECT!!] 11-26 19:37:39.193 23399 23399 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-26 19:37:42.412 [!!DETECT!!] 11-26 19:37:39.272 23400 23400 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-26 19:37:42.419 [!!DETECT!!] 11-26 19:37:39.272 23400 23400 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-26 19:37:52.112 [!!DETECT!!] 11-26 19:37:52.103 23080 23167 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 19:37:57.484 [!!DETECT!!] 11-26 19:37:57.479 23080 23320 W [CrashKit]: Game type has not been set.
+2026-11-26 19:37:57.493 [!!DETECT!!] 11-26 19:37:57.479 23080 23320 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-26 19:37:57.500 [!!DETECT!!] 11-26 19:37:57.480 23080 23080 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-26 19:37:57.508 [!!DETECT!!] 11-26 19:37:57.483 23080 23320 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-26 19:37:57.517 [!!DETECT!!] 11-26 19:37:57.483 23080 23320 I [CrashKitReport]: cachedUuid: 0661d395-e9d9-4254-8f6d-7c346e4fcdb3
+2026-11-26 19:37:57.527 [!!DETECT!!] 11-26 19:37:57.483 23080 23320 I [CrashKitReport]: currentVersionUuid: 
+2026-11-26 19:37:57.534 [!!DETECT!!] 11-26 19:37:57.483 23080 23320 I [CrashKitReport]: redisKeyUuid: 0661d395-e9d9-4254-8f6d-7c346e4fcdb3
+2026-11-26 19:37:57.542 [!!DETECT!!] 11-26 19:37:57.491 23080 23080 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-26 19:37:57.550 [!!DETECT!!] 11-26 19:37:57.491 23080 23080 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-26 19:37:57.557 [!!DETECT!!] 11-26 19:37:57.491 23080 23080 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-26 19:37:57.593 [!!DETECT!!] 11-26 19:37:57.542 23080 23527 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 19:37:57.705 [!!DETECT!!] 11-26 19:37:57.543 23080 23527 E [CrashKitReport]: [Native] Get crash from native record.
+2026-11-26 19:37:57.713 [!!DETECT!!] 11-26 19:37:57.653 23080 23527 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-26 19:37:57.721 [!!DETECT!!] 11-26 19:37:57.653 23080 23527 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-26 19:37:57.729 [!!DETECT!!] 11-26 19:37:57.653 23080 23527 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-26 19:37:58.132 [!!DETECT!!] 11-26 19:37:58.123 23080 23527 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):7ff0371e-ed74-4293-b403-d1eddc956f8b uc:1 re:true me:false mc:0
+2026-11-26 19:37:58.523 [!!DETECT!!] 11-26 19:37:58.514 23080 23525 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-26 19:37:58.934 [!!DETECT!!] 11-26 19:37:58.930 23080 23542 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-26 19:38:00.634 [!!DETECT!!] 11-26 19:38:00.627 23080 23080 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-26 19:38:03.931 [!!DETECT!!] 11-26 19:38:03.918 23080 23320 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 19:38:06.720 [!!DETECT!!] 11-26 19:38:06.530 23080 23525 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):78e28a12-7182-47ed-b0d1-679b03edc66f uc:1 re:true me:false mc:0
+2026-11-26 19:38:06.729 [!!DETECT!!] 11-26 19:38:06.537 23080 23526 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):5eb8b090-f83d-46aa-9285-05b1f546044e uc:1 re:true me:false mc:0
+2026-11-26 19:38:06.760 [!!DETECT!!] 11-26 19:38:06.616 23080 23527 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):3d29ea26-b498-461d-ad9c-7ba9f7f61ed5 uc:1 re:true me:false mc:0
+2026-11-26 19:38:06.998 [!!DETECT!!] 11-26 19:38:06.990 23080 23526 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):ea4eff46-c7c0-447e-b3a4-a06fcbb9c481 uc:1 re:true me:false mc:0
+2026-11-26 19:38:07.023 [!!DETECT!!] 11-26 19:38:07.011 23080 23525 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f32504c6-9083-4f32-9e0d-8549f4eb30b8 uc:1 re:true me:false mc:0
+2026-11-26 19:38:09.094 [!!DETECT!!] 11-26 19:38:09.072 23080 23527 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):ac3f9f4e-9cf8-458a-92e9-c751e56aec2f uc:1 re:true me:false mc:0
+2026-11-26 19:38:14.707 [!!DETECT!!] 11-26 19:38:14.631 23080 23167 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 19:38:42.314 [!!DETECT!!] 11-26 19:38:42.007 23080 23086 E [CrashKitReport-Native]: get signal 6
+2026-11-26 19:38:42.335 [!!DETECT!!] 11-26 19:38:42.007 23080 23086 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 19:38:42.352 [!!DETECT!!] 11-26 19:38:42.023 23080 23086 E [CrashKitReport-Native]: try to unwind full native stack
