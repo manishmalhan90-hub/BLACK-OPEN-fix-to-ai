@@ -2033,3 +2033,19 @@
 2026-11-26 16:33:57.268 [!!DETECT!!] 11-26 16:33:57.250  5320  5960 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):01f8b51b-3255-49af-9df4-c327e6821874 uc:1 re:true me:false mc:0
 2026-11-26 16:34:03.434 [!!DETECT!!] 11-26 16:34:03.421  5320  5427 W InstallReferrerClient: Connection to service is blocked.
 2026-11-26 16:34:05.568 [!!DETECT!!] 11-26 16:34:05.559  5320  5644 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-26 16:34:13.011 [!!DETECT!!] 11-26 16:34:13.007  5320  5960 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):89e2f585-99ed-4eb9-bfd6-c146edf1c088 uc:1 re:true me:false mc:0
+2026-11-26 16:34:13.026 [!!DETECT!!] 11-26 16:34:13.016  5320  5961 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):4b0723aa-52dc-4519-a9f3-a5327aa6684b uc:1 re:true me:false mc:0
+2026-11-26 16:34:13.034 [!!DETECT!!] 11-26 16:34:13.023  5320  5962 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):457c07f3-8808-4cd8-994b-53599048ccae uc:1 re:true me:false mc:0
+2026-11-26 16:34:13.472 [!!DETECT!!] 11-26 16:34:13.465  5320  5960 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):ef8400e2-d8aa-454e-b84d-4d5bb85cc4c4 uc:1 re:true me:false mc:0
+2026-11-26 16:34:14.824 [!!DETECT!!] 11-26 16:34:14.722  5320  5331 E [CrashKitReport-Native]: get signal 6
+2026-11-26 16:34:14.830 [!!DETECT!!] 11-26 16:34:14.722  5320  5331 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 16:34:14.835 [!!DETECT!!] 11-26 16:34:14.735  5320  5331 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 16:34:24.733 [!!DETECT!!] 11-26 16:34:24.728  5320  5320 E [CrashKitReport-Native]: get signal 3
+2026-11-26 16:34:24.741 [!!DETECT!!] 11-26 16:34:24.728  5320  5320 E [CrashKitReport-Native]: last errno is 11
+2026-11-26 16:34:24.748 [!!DETECT!!] 11-26 16:34:24.729  5320  5320 E [CrashKitReport-Native]: Catch a sigquit now.
+2026-11-26 16:35:18.014 [!!DETECT!!] 11-26 16:35:17.827  7003  7003 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+2026-11-26 16:35:18.251 [!!DETECT!!] 11-26 16:35:17.992  7003  7003 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-26 16:35:18.266 [!!DETECT!!] 11-26 16:35:17.993  7003  7003 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-26 16:35:19.102 [!!DETECT!!] 11-26 16:35:18.426  7003  7003 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@d8ce2f0
+2026-11-26 16:35:19.411 [!!DETECT!!] 11-26 16:35:18.479  7003  7003 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@6a230fe
+2026-11-26 16:35:19.646 [!!DETECT!!] 11-26 16:35:18.498  7003  7003 W StorageManager: Missing package names; no storage volumes available
