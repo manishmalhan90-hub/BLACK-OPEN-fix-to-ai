@@ -3951,3 +3951,12 @@
 [logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #21 pc 0000000000623c6c  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+184) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
 [logcat] 11-26 20:34:31.175 12827 12827 F DEBUG   :       #22 pc 0000000008e62488  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
 [logcat] 11-26 20:34:31.176 12827 12827 F DEBUG   :       #23 pc 000000000c237bb8  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
+[logcat] --------- beginning of crash
+[logcat] 11-26 20:34:29.759 12119 12543 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58bf7e78 in tid 12543 (NativeThread), pid 12119 (MainThread-UE4)
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Process name is com.pubg.imobile, uid is 11318, not key_process
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : keyProcess: 0
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Revision: '0'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : ABI: 'arm64'
+[logcat] 11-26 20:34:31.174 12827 12827 F DEBUG   : Timestamp: 2026-11-26 20:34:30.127402802+0530
