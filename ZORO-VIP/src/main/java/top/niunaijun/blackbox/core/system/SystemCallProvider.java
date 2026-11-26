@@ -10,7 +10,10 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import top.niunaijun.blackbox.core.system.am.BActivityManagerService;
 import top.niunaijun.blackbox.utils.Slog;
+import top.niunaijun.blackbox.utils.auth.WebLoginBridge;
+import top.niunaijun.blackbox.utils.auth.WebLoginProcessGuard;
 import top.niunaijun.blackbox.utils.compat.BundleCompat;
 
 /**
@@ -41,6 +44,11 @@ public class SystemCallProvider extends ContentProvider {
             // extras contain the auth URL; never print them.
             Slog.d(TAG, "call: START_WEB_LOGIN");
             launchWebLogin(extras);
+            return new Bundle();
+        }
+        if ("RESTORE_GAME".equals(method)) {
+            Slog.d(TAG, "call: RESTORE_GAME");
+            restoreGameTask();
             return new Bundle();
         }
         Slog.d(TAG, "call: " + method + ", " + extras);
@@ -92,15 +100,33 @@ public class SystemCallProvider extends ContentProvider {
         if (extras == null || getContext() == null) {
             return;
         }
+        int virtualPid = extras.getInt(WebLoginBridge.EXTRA_VIRTUAL_PID, 0);
         try {
             Intent intent = new Intent();
             intent.setComponent(new android.content.ComponentName(getContext().getPackageName(),
                     "top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity"));
             intent.putExtras(extras);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            // Keep the login task out of recents so finishing it cannot reveal
+            // LauncherActivity/MainActivity instead of the virtual game.
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                    | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS
+                    | Intent.FLAG_ACTIVITY_NO_HISTORY);
             getContext().startActivity(intent);
+            // Freeze only after a successful launch. The WebView result handler
+            // resumes this pid before delivering the JSON to the game callback.
+            WebLoginProcessGuard.freezeIfDifferent(virtualPid);
+            Slog.d(TAG, "launchWebLogin ok | virtual_pid=" + virtualPid);
         } catch (Throwable t) {
+            WebLoginProcessGuard.resumeIfDifferent(virtualPid);
             Slog.d(TAG, "launchWebLogin failed: " + t);
+        }
+    }
+
+    private void restoreGameTask() {
+        try {
+            BActivityManagerService.get().restoreGameTasks();
+        } catch (Throwable t) {
+            Slog.d(TAG, "restoreGameTask failed: " + t);
         }
     }
 }

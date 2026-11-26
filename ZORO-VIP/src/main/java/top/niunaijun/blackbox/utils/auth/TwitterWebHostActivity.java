@@ -46,13 +46,16 @@ import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
  * <p>v13 keeps the OAuth flow inside the WebView: popups and {@code intent://}
  * redirects from the X login page are folded back into the same WebView, a
  * URL-delivered JSON result is accepted as a fallback, and a Retry button is
- * available if the current 2026 login page stops responding. No credentials
- * are injected and no token or full OAuth URL is ever logged.</p>
+ * available if the current 2026 login page stops responding. v15 stores the
+ * result before broadcasting, releases the guarded game process, and restores
+ * the game task before finishing. No credentials are injected and no token or
+ * full OAuth URL is ever logged.</p>
  */
 public final class TwitterWebHostActivity extends Activity {
 
     private static final String TAG = "WebLoginHost";
     private static final long STUCK_CHECK_MS = 20000L;
+    private static final long LOGIN_TIMEOUT_MS = 10L * 60L * 1000L;
     private static boolean sDataDirSet;
 
     private final Handler mMain = new Handler(Looper.getMainLooper());
@@ -64,7 +67,9 @@ public final class TwitterWebHostActivity extends Activity {
     private boolean mFinished;
     private boolean mPageFinished;
     private int mLoadAttempts;
+    private int mVirtualPid;
     private Runnable mStuckCheck;
+    private Runnable mTimeout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,13 +82,17 @@ public final class TwitterWebHostActivity extends Activity {
             mKind = "twitter";
         }
         mUrl = getIntent() == null ? null : getIntent().getStringExtra("url");
+        mVirtualPid = getIntent() == null ? 0
+                : getIntent().getIntExtra(WebLoginBridge.EXTRA_VIRTUAL_PID, 0);
         if (TextUtils.isEmpty(mUrl)) {
             log("host started without url");
             sendFailure(codeForClose(), messageForClose());
             return;
         }
 
-        log("host started | kind=" + mKind + " | host=" + safeHost(mUrl));
+        log("host started | kind=" + mKind + " | host=" + safeHost(mUrl)
+                + " | virtual_pid=" + mVirtualPid);
+        scheduleTimeout();
 
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
@@ -252,6 +261,33 @@ public final class TwitterWebHostActivity extends Activity {
         if (mStuckCheck != null) {
             mMain.removeCallbacks(mStuckCheck);
             mStuckCheck = null;
+        }
+    }
+
+    /**
+     * A user can leave the OAuth page open forever. Always release the frozen
+     * game process and report a clean cancellation rather than leaving it
+     * stopped in memory.
+     */
+    private void scheduleTimeout() {
+        cancelTimeout();
+        mTimeout = new Runnable() {
+            @Override
+            public void run() {
+                if (mFinished) {
+                    return;
+                }
+                log("login timed out; releasing virtual process");
+                sendFailure(9999, "login timed out");
+            }
+        };
+        mMain.postDelayed(mTimeout, LOGIN_TIMEOUT_MS);
+    }
+
+    private void cancelTimeout() {
+        if (mTimeout != null) {
+            mMain.removeCallbacks(mTimeout);
+            mTimeout = null;
         }
     }
 
@@ -535,28 +571,52 @@ public final class TwitterWebHostActivity extends Activity {
         if (mFinished) {
             return;
         }
-        mFinished = true;
-        cancelStuckCheck();
         Intent result = new Intent(WebLoginBridge.ACTION_RESULT);
         result.setPackage(getPackageName());
         result.putExtra("kind", mKind);
         result.putExtra("result_json", json);
-        sendBroadcast(result);
-        finish();
+        deliverResult(result);
     }
 
     private void sendFailure(int code, String message) {
         if (mFinished) {
             return;
         }
-        mFinished = true;
-        cancelStuckCheck();
         Intent result = new Intent(WebLoginBridge.ACTION_RESULT);
         result.setPackage(getPackageName());
         result.putExtra("kind", mKind);
         result.putExtra("result_code", code);
         result.putExtra("result_msg", message == null ? "" : message);
-        sendBroadcast(result);
+        deliverResult(result);
+    }
+
+    /**
+     * Store, release, and only then broadcast. The virtual process is frozen
+     * until this point, so a broadcast alone can be lost if its receiver is not
+     * scheduled yet. The stored copy is retried by WebLoginBridge in the game
+     * process. The game task is moved forward before this WebView task is
+     * finished so launcher/MainActivity are never revealed on the way out.
+     */
+    private void deliverResult(final Intent result) {
+        if (mFinished) {
+            return;
+        }
+        mFinished = true;
+        cancelStuckCheck();
+        cancelTimeout();
+        WebLoginBridge.savePending(this, result);
+        WebLoginBridge.resumeVirtualProcess(mVirtualPid);
+        WebLoginBridge.restoreGame(this);
+        mMain.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    sendBroadcast(result);
+                } catch (Throwable t) {
+                    log("result broadcast failed: " + t);
+                }
+            }
+        }, 80L);
         finish();
     }
 
@@ -597,6 +657,12 @@ public final class TwitterWebHostActivity extends Activity {
     @Override
     protected void onDestroy() {
         cancelStuckCheck();
+        cancelTimeout();
+        if (!mFinished) {
+            // System destroyed the page; never leave the game process frozen.
+            WebLoginBridge.resumeVirtualProcess(mVirtualPid);
+            mFinished = true;
+        }
         if (mWebView != null) {
             mWebView.removeAllViews();
             mWebView.destroy();

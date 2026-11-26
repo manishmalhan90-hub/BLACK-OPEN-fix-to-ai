@@ -338,6 +338,45 @@ public class ActivityStack {
         return 0;
     }
 
+    /**
+     * Bring the most recent virtual game task back to the front. Used after the
+     * isolated login page finishes so the loader launcher is never revealed.
+     */
+    public void restoreGameTasks() {
+        synchronized (mTasks) {
+            synchronizeTasks();
+            TaskRecord target = null;
+            for (TaskRecord task : mTasks.values()) {
+                if (task == null || task.activities == null) {
+                    continue;
+                }
+                for (ActivityRecord activity : task.activities) {
+                    if (activity == null || activity.info == null) {
+                        continue;
+                    }
+                    String pkg = activity.info.packageName;
+                    if (pkg != null && !pkg.equals(BlackBoxCore.getHostPkg())) {
+                        target = task;
+                        break;
+                    }
+                }
+                if (target != null) {
+                    break;
+                }
+            }
+            if (target == null) {
+                ActivityRecord top = getTopActivityRecord();
+                target = top == null ? null : top.task;
+            }
+            if (target != null) {
+                Log.d(TAG, "restoreGameTasks: moving task " + target.id + " to front");
+                mAms.moveTaskToFront(target.id, 0);
+            } else {
+                Log.d(TAG, "restoreGameTasks: no virtual task available");
+            }
+        }
+    }
+
     private ActivityRecord getTopActivityRecord() {
         synchronized (mTasks) {
             synchronizeTasks();

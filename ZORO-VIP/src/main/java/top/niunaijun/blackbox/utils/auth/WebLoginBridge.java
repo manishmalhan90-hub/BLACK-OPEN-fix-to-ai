@@ -11,6 +11,7 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Process;
 import android.text.TextUtils;
 import android.os.Handler;
 import android.os.Looper;
@@ -18,9 +19,13 @@ import android.util.Log;
 
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
 import java.util.Locale;
 import java.util.Map;
@@ -47,14 +52,37 @@ public final class WebLoginBridge {
 
     private static final String TAG = "WebLoginBridge";
     static final String ACTION_RESULT = "top.niunaijun.blackbox.weblogin.RESULT";
+    static final String EXTRA_VIRTUAL_PID = "virtual_pid";
     private static final String PROVIDER_METHOD = "START_WEB_LOGIN";
+    private static final String RESTORE_METHOD = "RESTORE_GAME";
+    private static final String PENDING_FILE = "weblogin_pending.json";
+    private static final long PENDING_MAX_AGE_MS = 10L * 60L * 1000L;
+    private static final long PENDING_POLL_MS = 400L;
 
     private static final AtomicBoolean sReceiverRegistered = new AtomicBoolean(false);
     private static final AtomicBoolean sLoginActive = new AtomicBoolean(false);
+    private static final AtomicBoolean sPendingPolling = new AtomicBoolean(false);
+    private static final Object PENDING_LOCK = new Object();
     private static final Handler MAIN = new Handler(Looper.getMainLooper());
 
     private static volatile ClassLoader sGameClassLoader;
+    private static volatile Context sAppContext;
+    private static volatile int sPendingFailures;
     private static BroadcastReceiver sReceiver;
+    private static final Runnable PENDING_POLL = new Runnable() {
+        @Override
+        public void run() {
+            try {
+                Context context = sAppContext;
+                if (context != null) {
+                    consumePending(context);
+                }
+            } catch (Throwable ignored) {
+                // Never let a stale result break the polling loop.
+            }
+            MAIN.postDelayed(this, PENDING_POLL_MS);
+        }
+    };
 
     private WebLoginBridge() {
     }
@@ -95,9 +123,12 @@ public final class WebLoginBridge {
             }
         }
 
+        // A new tap starts a new OAuth attempt; never replay an older result.
+        clearPending(context);
         Bundle extras = new Bundle();
         extras.putString("kind", twitter ? "twitter" : "facebook");
         extras.putString("url", url);
+        extras.putInt(EXTRA_VIRTUAL_PID, Process.myPid());
         extras.putString("virtual_package", activity != null
                 ? activity.getPackageName() : context.getPackageName());
         extras.putString("channel", intent.getStringExtra("channel"));
@@ -117,6 +148,11 @@ public final class WebLoginBridge {
         log("redirecting " + (twitter ? "twitter" : "facebook")
                 + " web login to isolated process | host=" + host + " | request=" + requestCode);
 
+        // Mark the game process as paused before the host freezes it. The
+        // provider call returns only after the result resumes this process, so
+        // setting the flag afterwards would leave it stuck true.
+        sLoginActive.set(true);
+        TwitterLoginModeFix.setLoginActive(true);
         try {
             // The virtual context reports the game package (com.pubg.imobile) and
             // can also carry a different uid/user. Calling the provider with that
@@ -124,11 +160,11 @@ public final class WebLoginBridge {
             // Always call through the loader's own host context.
             String authority = hostPackage(context) + ".SystemCallProvider";
             callHostProvider(context, extras);
-            sLoginActive.set(true);
-            TwitterLoginModeFix.setLoginActive(true);
             log("isolated login launched via " + authority);
             return true;
         } catch (Throwable t) {
+            sLoginActive.set(false);
+            TwitterLoginModeFix.setLoginActive(false);
             log("isolated login launch failed: " + t + "; clearing virtual WebView cache before fallback");
             clearVirtualWebViewCache(context);
             return false;
@@ -153,9 +189,11 @@ public final class WebLoginBridge {
             log("host-side twitter launch skipped: empty url");
             return false;
         }
+        clearPending(hostContext);
         Bundle extras = new Bundle();
         extras.putString("kind", "twitter");
         extras.putString("url", url);
+        extras.putInt(EXTRA_VIRTUAL_PID, 0);
         extras.putString("virtual_package", hostContext.getPackageName());
         extras.putString("channel", intent.getStringExtra("channel"));
         extras.putInt("channel_id", intent.getIntExtra("channel_id", 0));
@@ -251,6 +289,8 @@ public final class WebLoginBridge {
         if (context == null) {
             return;
         }
+        Context app = context.getApplicationContext();
+        sAppContext = app != null ? app : context;
         if (classLoader != null) {
             sGameClassLoader = classLoader;
         }
@@ -260,11 +300,16 @@ public final class WebLoginBridge {
         sReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context ctx, Intent intent) {
+                if (ctx != null && sAppContext == null) {
+                    Context app = ctx.getApplicationContext();
+                    sAppContext = app != null ? app : ctx;
+                }
                 deliver(intent);
             }
         };
         IntentFilter filter = new IntentFilter(ACTION_RESULT);
         Context app = context.getApplicationContext();
+        startPendingConsumer(app != null ? app : context);
         try {
             if (Build.VERSION.SDK_INT >= 33) {
                 app.registerReceiver(sReceiver, filter, null, MAIN, Context.RECEIVER_NOT_EXPORTED);
@@ -279,46 +324,220 @@ public final class WebLoginBridge {
         }
     }
 
-    private static void deliver(Intent intent) {
+    /** Deliver to the game callback. Returns true only when a callback was invoked. */
+    private static boolean deliver(Intent intent) {
         if (intent == null) {
-            return;
+            return false;
         }
         String kind = intent.getStringExtra("kind");
         String json = intent.getStringExtra("result_json");
         int code = intent.getIntExtra("result_code", -1);
         String msg = intent.getStringExtra("result_msg");
-        sLoginActive.set(false);
-        TwitterLoginModeFix.setLoginActive(false);
 
         ClassLoader cl = sGameClassLoader;
         if (cl == null) {
             log("result dropped: game classloader unavailable");
-            return;
+            return false;
         }
+        boolean delivered = false;
         try {
             if ("twitter".equals(kind)) {
                 if (json != null && !json.isEmpty()) {
                     invokeTwitterResult(cl, json);
+                    delivered = true;
                     log("twitter web result delivered to IMSDK callback");
                 } else {
                     Intent result = new Intent();
                     result.putExtra("msg", msg == null ? "" : msg);
                     invokeTwitterFailure(cl, code, result);
+                    delivered = true;
                     log("twitter web cancellation delivered (code=" + code + ")");
                 }
             } else if ("facebook".equals(kind)) {
                 if (json != null && !json.isEmpty()) {
-                    invokeFacebookResult(cl, json);
-                    log("facebook web result delivered to IMSDK callback");
+                    delivered = invokeFacebookResult(cl, json);
+                    if (delivered) {
+                        log("facebook web result delivered to IMSDK callback");
+                    }
                 } else {
-                    invokeFacebookFailure(cl, code, msg);
-                    log("facebook web cancellation delivered (code=" + code + ")");
+                    delivered = invokeFacebookFailure(cl, code, msg);
+                    if (delivered) {
+                        log("facebook web cancellation delivered (code=" + code + ")");
+                    }
                 }
             }
         } catch (Throwable t) {
             ZoroRuntimeLogger.logThrowable("login-bridge", t);
             log("result delivery failed: " + t);
         }
+        if (delivered) {
+            sLoginActive.set(false);
+            TwitterLoginModeFix.setLoginActive(false);
+            sPendingFailures = 0;
+            clearPending(sAppContext);
+            restoreGame(sAppContext);
+        }
+        return delivered;
+    }
+
+    /** The isolated process stores every result before broadcasting it. */
+    public static void savePending(Context context, Intent result) {
+        if (context == null || result == null) {
+            return;
+        }
+        synchronized (PENDING_LOCK) {
+            File file = pendingFile(context);
+            if (file == null) {
+                return;
+            }
+            try {
+                JSONObject pending = new JSONObject();
+                String kind = result.getStringExtra("kind");
+                pending.put("kind", kind == null ? "" : kind);
+                String json = result.getStringExtra("result_json");
+                if (json != null && !json.isEmpty()) {
+                    pending.put("result_json", json);
+                } else {
+                    pending.put("result_code", result.getIntExtra("result_code", -1));
+                    String msg = result.getStringExtra("result_msg");
+                    pending.put("result_msg", msg == null ? "" : msg);
+                }
+                pending.put("ts", System.currentTimeMillis());
+                File temp = new File(file.getParentFile(), file.getName() + ".tmp");
+                FileOutputStream out = new FileOutputStream(temp, false);
+                try {
+                    out.write(pending.toString().getBytes(StandardCharsets.UTF_8));
+                    out.flush();
+                } finally {
+                    out.close();
+                }
+                if (file.exists() && !file.delete()) {
+                    log("old pending result could not be removed");
+                }
+                if (!temp.renameTo(file)) {
+                    log("pending result rename failed");
+                }
+                log("pending result stored | kind=" + pending.getString("kind")
+                        + (json == null ? 0 : json.length()));
+            } catch (Throwable t) {
+                ZoroRuntimeLogger.logThrowable("login-bridge", t);
+                log("pending result store failed: " + t);
+            }
+        }
+    }
+
+    /** Retry delivery of a stored result after the virtual process resumes. */
+    public static void consumePending(Context context) {
+        if (context == null) {
+            return;
+        }
+        synchronized (PENDING_LOCK) {
+            File file = pendingFile(context);
+            if (file == null || !file.exists()) {
+                return;
+            }
+            try {
+                byte[] bytes = new byte[(int) file.length()];
+                FileInputStream in = new FileInputStream(file);
+                try {
+                    int read = in.read(bytes);
+                    if (read != bytes.length) {
+                        return;
+                    }
+                } finally {
+                    in.close();
+                }
+                JSONObject pending = new JSONObject(new String(bytes, StandardCharsets.UTF_8));
+                long ts = pending.optLong("ts", 0L);
+                long now = System.currentTimeMillis();
+                if (ts <= 0L || ts > now || now - ts > PENDING_MAX_AGE_MS) {
+                    clearPending(context);
+                    log("stale pending result discarded");
+                    return;
+                }
+                Intent result = new Intent(ACTION_RESULT);
+                result.putExtra("kind", pending.optString("kind"));
+                String json = pending.optString("result_json");
+                if (!TextUtils.isEmpty(json)) {
+                    result.putExtra("result_json", json);
+                } else {
+                    result.putExtra("result_code", pending.optInt("result_code", -1));
+                    result.putExtra("result_msg", pending.optString("result_msg"));
+                }
+                if (!deliver(result)) {
+                    sPendingFailures++;
+                    if (sPendingFailures > 50) {
+                        clearPending(context);
+                        sPendingFailures = 0;
+                        log("pending result discarded after repeated delivery failures");
+                    }
+                } else {
+                    sPendingFailures = 0;
+                }
+            } catch (Throwable t) {
+                log("pending result read failed: " + t);
+            }
+        }
+    }
+
+    public static void startPendingConsumer(Context context) {
+        Context app = context == null ? null : context.getApplicationContext();
+        Context target = app != null ? app : context;
+        if (target == null) {
+            return;
+        }
+        sAppContext = target;
+        if (!sPendingPolling.compareAndSet(false, true)) {
+            return;
+        }
+        MAIN.postDelayed(PENDING_POLL, PENDING_POLL_MS);
+        log("pending result retry started");
+    }
+
+    public static void clearPending(Context context) {
+        synchronized (PENDING_LOCK) {
+            File file = pendingFile(context);
+            if (file != null && file.exists() && !file.delete()) {
+                log("pending result clear failed");
+            }
+        }
+    }
+
+    private static File pendingFile(Context context) {
+        if (context == null) {
+            return null;
+        }
+        Context app = context.getApplicationContext();
+        Context target = app != null ? app : context;
+        File dir = target.getFilesDir();
+        return dir == null ? null : new File(dir, PENDING_FILE);
+    }
+
+    /** Ask the host process to bring the existing virtual game task forward. */
+    public static void restoreGame(Context context) {
+        try {
+            String authority = hostPackage(context) + ".SystemCallProvider";
+            Uri uri = new Uri.Builder().scheme("content").authority(authority).build();
+            Context host = null;
+            try {
+                host = top.niunaijun.blackbox.BlackBoxCore.getContext();
+            } catch (Throwable ignored) {
+                // Use the supplied context below.
+            }
+            ContentResolver resolver = host != null ? host.getContentResolver()
+                    : (context != null ? context.getContentResolver() : null);
+            if (resolver == null) {
+                return;
+            }
+            resolver.call(uri, RESTORE_METHOD, null, new Bundle());
+            log("virtual game task restore requested");
+        } catch (Throwable t) {
+            log("virtual game task restore failed: " + t);
+        }
+    }
+
+    public static void resumeVirtualProcess(int pid) {
+        WebLoginProcessGuard.resumeIfDifferent(pid);
     }
 
     private static void invokeTwitterResult(ClassLoader cl, String json) throws Exception {
@@ -335,13 +554,13 @@ public final class WebLoginBridge {
         method.invoke(null, true, code, result);
     }
 
-    private static void invokeFacebookResult(ClassLoader cl, String json) throws Exception {
+    private static boolean invokeFacebookResult(ClassLoader cl, String json) throws Exception {
         JSONObject root = new JSONObject(json);
         int code = root.getInt("code");
         Object listener = facebookListener(cl);
         if (listener == null) {
             log("facebook result dropped: listener unavailable");
-            return;
+            return false;
         }
         if (code == 0) {
             JSONObject msgObject = root.getJSONObject("msg");
@@ -357,17 +576,19 @@ public final class WebLoginBridge {
             invokeListener(listener, "onResult", result);
         }
         clearFacebookListener(cl);
+        return true;
     }
 
-    private static void invokeFacebookFailure(ClassLoader cl, int code, String msg) throws Exception {
+    private static boolean invokeFacebookFailure(ClassLoader cl, int code, String msg) throws Exception {
         Object listener = facebookListener(cl);
         if (listener == null) {
             log("facebook cancellation dropped: listener unavailable");
-            return;
+            return false;
         }
         Object result = newIMSDKResult(cl, code, code, msg == null ? "" : msg);
         invokeListener(listener, "onResult", result);
         clearFacebookListener(cl);
+        return true;
     }
 
     private static Object facebookListener(ClassLoader cl) throws Exception {
