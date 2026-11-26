@@ -11,6 +11,7 @@ import java.util.List;
 import dalvik.system.DexFile;
 import top.niunaijun.blackbox.BlackBoxCore;
 import top.niunaijun.blackbox.app.BActivityThread;
+import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
 import top.niunaijun.blackbox.utils.compat.DexFileCompat;
 
 public class RNative {
@@ -33,11 +34,14 @@ public class RNative {
                 try {
                     System.load(file.getAbsolutePath());
                     Log.i(TAG, "Loaded: " + target);
+                    ZoroRuntimeLogger.log("native-load", "loaded " + target);
                 } catch (Throwable e) {
                     Log.e(TAG, "Failed to load: " + target, e);
+                    ZoroRuntimeLogger.logThrowable("native-load:" + target, e);
                 }
             } else {
                 Log.w(TAG, "File not found: " + file.getAbsolutePath());
+                ZoroRuntimeLogger.log("native-load", "missing " + file.getAbsolutePath());
             }
         }
     }

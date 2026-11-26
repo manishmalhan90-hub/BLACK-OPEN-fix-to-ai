@@ -39,6 +39,7 @@ import top.niunaijun.blackbox.app.LauncherActivity;
 import top.niunaijun.blackbox.app.configuration.AppLifecycleCallback;
 import top.niunaijun.blackbox.app.configuration.ClientConfiguration;
 import top.niunaijun.blackbox.core.GmsCore;
+import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
 import top.niunaijun.blackbox.core.env.BEnvironment;
 import top.niunaijun.blackbox.core.system.DaemonService;
 import top.niunaijun.blackbox.core.system.ServiceManager;
@@ -162,6 +163,9 @@ public class BlackBoxCore extends ClientConfiguration {
         } else {
             mProcessType = ProcessType.BAppClient;
         }
+
+        ZoroRuntimeLogger.init(getContext(), processName);
+        ZoroRuntimeLogger.log("process", mProcessType.name());
 
         if (BlackBoxCore.get().isBlackProcess()) {
             BEnvironment.load();

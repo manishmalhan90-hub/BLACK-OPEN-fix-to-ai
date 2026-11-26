@@ -1,6 +1,7 @@
 package top.niunaijun.blackbox.core;
 
 import top.niunaijun.blackbox.BlackBoxCore;
+import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
 
 /**
  * Created by Milk on 4/30/21.
@@ -24,6 +25,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
 
     @Override
     public void uncaughtException(Thread t, Throwable e) {
+        ZoroRuntimeLogger.logThrowable("java-uncaught", e);
         if (BlackBoxCore.get().getExceptionHandler() != null) {
             BlackBoxCore.get().getExceptionHandler().uncaughtException(t, e);
         }
