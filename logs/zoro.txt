@@ -30980,3 +30980,1130 @@
 [logcat] 11-26 20:38:16.586 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
 [logcat] 11-26 20:38:17.862 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
 [logcat] 11-26 20:38:17.866 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:19.227 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:19.232 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:20.592 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:20.598 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:21.957 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:21.962 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:22.299 19315 19662 I TDM     : [TDM][I][2026-11-26 20:38:22 299][0x6fea767ea0][(TDeviceInfoHolder.cpp:128) IsDeviceInfoEnable] : local enable device info: 
+[logcat] 11-26 20:38:22.299 19315 19662 I TDM     : [TDM][I][2026-11-26 20:38:22 299][0x6fea767ea0][(TDeviceInfoHolder.cpp:138) IsDeviceInfoEnable] : is enable device info: 0
+[logcat] 11-26 20:38:22.299 19315 19662 I TDM     : [TDM][I][2026-11-26 20:38:22 299][0x6fea767ea0][(TBlueDataReportManager.cpp:112) HTTPRouteProc] : router url: https://tdm.globh.com:8013/tdm/v1/route, post body : {"app_id":1002112598,"app_ver":"4.7.0(21735)","tdm_ver":"1.12.004.59","tdm_type":1,"dev_uuid":"","bundle_id":"com.pubg.imobile","user_id":"","ts":1795705702,"sig":"2cc0e5178c7b6ed6673f874a15cdbc39"}
+[logcat] 11-26 20:38:22.299 19315 19662 I TDM     : [TDM][I][2026-11-26 20:38:22 299][0x6fea767ea0][(HttpCurl.cpp:259) HttpPost] : Http post from http curl, url:https://tdm.globh.com:8013/tdm/v1/route, post body:{"app_id":1002112598,"app_ver":"4.7.0(21735)","tdm_ver":"1.12.004.59","tdm_type":1,"dev_uuid":"","bundle_id":"com.pubg.imobile","user_id":"","ts":1795705702,"sig":"2cc0e5178c7b6ed6673f874a15cdbc39"}, extraJson:{"connectTimeout":3000,"readTimeout":10000}
+[logcat] 11-26 20:38:23.311 19315 19632 D MediaPlayer: MediaPlayer
+[logcat] 11-26 20:38:23.322 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:23.326 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:23.348 19315 19632 D BLASTBufferQueue: [5013468 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2](f:0,a:1) producer disconnected before acquireNextBufferLocked
+[logcat] 11-26 20:38:23.348 19315 19632 D BLASTBufferQueue: [5013468 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2](f:0,a:1) acquireNextBufferLocked size=1604x720 mFrameNumber=1 applyTransaction=true mTimestamp=134597182764175(auto) mPendingTransactions.size=0 graphicBufferId=82957293322253 transform=4
+[logcat] 11-26 20:38:24.657 19104 19108 W com.google: Suspending all threads took: 10.011ms
+[logcat] 11-26 20:38:24.688 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:24.692 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:24.847 19315 19400 W InstallReferrerClient: Connection to service is blocked.
+[logcat] 11-26 20:38:25.303 19315 19662 I TDM     : [TDM][I][2026-11-26 20:38:25 303][0x6fea767ea0][(TDMHTTPClient.cpp:289) SendJsonPostRequest] : Http network call back
+[logcat] 11-26 20:38:25.304 19315 19662 I TDM     : [TDM][E][2026-11-26 20:38:25 304][0x6fea767ea0][(TBlueDataReportManager.cpp:243) OnHTTPRouteResp] : OnHTTPRouteResp ret != 0 or respBody is empty
+[logcat] 11-26 20:38:26.054 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:26.063 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:27.419 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:27.426 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:28.786 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:28.793 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:29.361 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134603195, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:29.361 19315 19315 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:29.376 19315 19315 D ViewExtract: [OplusViewExtractManager] OplusViewExtractManager init com.pubg.imobile
+[logcat] 11-26 20:38:29.436 19315 19315 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@866a13a
+[logcat] 11-26 20:38:29.436 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134603271, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:29.436 19315 19315 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:29.847 19315 19632 D AudioManagerExtImpl: getStreamVolume packageName=com.google, index=140, streamType=3
+[logcat] 11-26 20:38:29.857 19315 19813 E LoadedApk: performReceive() called targeting raw IIntentReceiver for Intent { act=android.intent.action.BATTERY_CHANGED flg=0x70000010 (has extras) }
+[logcat] 11-26 20:38:29.861 19315 19813 E LoadedApk: performReceive() called targeting raw IIntentReceiver for Intent { act=android.intent.action.HEADSET_PLUG flg=0x50000010 (has extras) }
+[logcat] 11-26 20:38:29.888 19315 19632 W [CrashKit]: Game type has not been set.
+[logcat] 11-26 20:38:29.888 19315 19632 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+[logcat] 11-26 20:38:29.889 19315 19315 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+[logcat] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: sdk uuid deviceId: 
+[logcat] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: cachedUuid: 2d959e97-87bf-409e-a8af-4aa43e54ce8b
+[logcat] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: currentVersionUuid: 
+[logcat] 11-26 20:38:29.893 19315 19632 I [CrashKitReport]: redisKeyUuid: 2d959e97-87bf-409e-a8af-4aa43e54ce8b
+[logcat] 11-26 20:38:29.893 19315 19632 D GameActitivy: AndroidThunkJava_InitFIRIds START
+[logcat] 11-26 20:38:29.903 19315 19315 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+[logcat] 11-26 20:38:29.903 19315 19315 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+[logcat] 11-26 20:38:29.903 19315 19315 I [CrashKitReport-Native]: Initialization of native log have been completed.
+[logcat] 11-26 20:38:29.910 19315 19567 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+[logcat] 11-26 20:38:29.925 19315 19567 E FA      : Failed to get app instance id
+[logcat] 11-26 20:38:29.928 19315 19813 E LoadedApk: performReceive() called targeting raw IIntentReceiver for Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 xflg=0x4 (has extras) }
+[logcat] 11-26 20:38:30.149 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:30.152 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:30.264 19315 19324 I com.google:p0: Background concurrent mark compact GC freed 5328KB AllocSpace bytes, 13(324KB) LOS objects, 50% free, 6104KB/11MB, paused 1.393ms,2.377ms total 114.318ms
+[logcat] 11-26 20:38:30.954 19315 20046 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at android.os.StatFs.doStat(StatFs.java:53)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at android.os.StatFs.<init>(StatFs.java:43)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.crashreport.common.info.e.i(SourceFile:20)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.crashreport.common.info.a.s(SourceFile:9)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.proguard.h.a(SourceFile:53)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.crashreport.biz.b.c(SourceFile:327)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.crashreport.biz.b.a(SourceFile:1)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at com.uqm.crashkit.crashreport.biz.b$c.run(SourceFile:3)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:323)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.lang.Thread.run(Thread.java:1571)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: Caused by: android.system.ErrnoException: statvfs failed: ENOENT (No such file or directory)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at libcore.io.Linux.statvfs(Native Method)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at libcore.io.ForwardingOs.statvfs(ForwardingOs.java:612)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at libcore.io.BlockGuardOs.statvfs(BlockGuardOs.java:443)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at libcore.io.ForwardingOs.statvfs(ForwardingOs.java:612)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at top.niunaijun.blackbox.fake.hook.ClassInvocationStub.invoke(SourceFile:43)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at top.niunaijun.blackbox.fake.service.libcore.OsStub.invoke(SourceFile:42)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at java.lang.reflect.Proxy.invoke(Proxy.java:1009)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at $Proxy108.statvfs(Unknown Source)
+[logcat] 11-26 20:38:30.955 19315 20046 W System.err: 	at android.system.Os.statvfs(Os.java:971)
+[logcat] 11-26 20:38:30.956 19315 20046 W System.err: 	at android.os.StatFs.doStat(StatFs.java:51)
+[logcat] 11-26 20:38:30.956 19315 20046 W System.err: 	... 13 more
+[logcat] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+[logcat] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+[logcat] 11-26 20:38:30.970 19315 20046 W libc    : Access denied finding property "vendor.cloudgame.game"
+[logcat] 11-26 20:38:31.259 19315 19632 I TDM     : [TDM][I][2026-11-26 20:38:31 259][0x6fea767ea0][(TBlueData.cpp:339) SetLogLevel] : LogLevel:4
+[logcat] 11-26 20:38:31.260 19315 19632 I TDM     : [TDM][I][2026-11-26 20:38:31 260][0x6fea767ea0][(TLog.cpp:306) SetTLogLevel] : LogLevel:4
+[logcat] 11-26 20:38:31.514 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:31.517 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:31.568 19315 20075 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+[logcat] 11-26 20:38:31.965 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:31.988 19315 19632 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:38:31.988 19315 19632 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:38:32.004 19315 19632 I HDmpve  : SetLogLevel:4
+[logcat] 11-26 20:38:32.004 19315 19632 I HDmpve  : SetLogLevel after:4
+[logcat] 11-26 20:38:32.363 19104 19104 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{f2da6be V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout alpha=1.0 viewInfo = },pkg= com.google
+[logcat] 11-26 20:38:32.364 19104 19141 D skia    : setRusSupported enable 0
+[logcat] 11-26 20:38:32.374 19104 19104 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@9eec23b
+[logcat] 11-26 20:38:32.377 19104 19104 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@9eec23b
+[logcat] 11-26 20:38:32.386 19104 19104 D BufferQueueConsumer: [](id:4aa000000007,api:0,p:-1,c:19104) connect: controlledByApp=false
+[logcat] 11-26 20:38:32.386 19104 19104 D BufferQueueConsumer: [VRI[Toast]#7(BLAST Consumer)7](id:4aa000000007,api:0,p:-1,c:19104) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:38:32.391 19104 19141 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:38:32.391 19104 19141 D libEGL  : this is from skia gles
+[logcat] 11-26 20:38:32.394 19104 19104 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x79ff70,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:38:32.400 19104 19141 D BLASTBufferQueue: [VRI[Toast]#7](f:0,a:1) acquireNextBufferLocked size=438x174 mFrameNumber=1 applyTransaction=true mTimestamp=134606234140483(auto) mPendingTransactions.size=0 graphicBufferId=82051055222840 transform=0
+[logcat] 11-26 20:38:32.400 19104 19141 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:32.400 19104 19104 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 20:38:32.429 19315 19315 D NATIVE_TAG: IMSDKCppListener onResult : {"imsdkRetCode":1,"imsdkRetMsg":"Success","thirdRetCode":1,"thirdRetMsg":"SUCCESS","channelId":0,"cityNumber":0,"countryName":"","countryNumber":356,"gameId":0,"guidTokenExpire":0,"guidUserSex":0,"provinceNumber":0}
+[logcat] 11-26 20:38:32.432 19104 19141 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+[logcat] 11-26 20:38:32.432 19104 19104 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-26 20:38:32.880 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:32.884 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:33.053 19315 19315 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+[logcat] 11-26 20:38:34.247 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:34.254 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:34.364 19104 19104 D OplusScrollToTopManager: Toast,window dying
+[logcat] 11-26 20:38:34.364 19104 19104 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 20:38:34.364 19104 19104 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@e2de7b8
+[logcat] 11-26 20:38:34.364 19104 19104 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@e78dd58
+[logcat] 11-26 20:38:34.367 19104 19104 D HWUI    : RenderProxy::destroy: this=0x6e8d417d00, mContext=0x6e938400c0
+[logcat] 11-26 20:38:34.367 19104 19141 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e94da7900, surface=NULL
+[logcat] 11-26 20:38:34.371 19104 19104 D BLASTBufferQueue: [VRI[Toast]#7](f:0,a:1) destructor()
+[logcat] 11-26 20:38:34.371 19104 19104 D BufferQueueConsumer: [VRI[Toast]#7(BLAST Consumer)7](id:4aa000000007,api:0,p:-1,c:19104) disconnect
+[logcat] 11-26 20:38:35.612 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:35.619 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:36.181 19315 19315 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=3, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 1604, 720), relayoutAsync=true, flags=0, newFlags=840969496, title=com.pubg.imobile/com.epicgames.ue4.GameActivity
+[logcat] 11-26 20:38:36.181 19315 19315 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-26 20:38:36.182 19315 19315 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@7d50217
+[logcat] 11-26 20:38:36.647 19315 19632 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+[logcat] 11-26 20:38:36.647 19315 19632 E libOpenSLES: Do not support Atmos game content
+[logcat] 11-26 20:38:36.647 19315 19632 W libOpenSLES: Leaving Engine::CreateAudioPlayer (SL_RESULT_CONTENT_UNSUPPORTED)
+[logcat] 11-26 20:38:36.647 19315 19632 D DA4MG   : Height channels supported (0).
+[logcat] 11-26 20:38:36.976 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:36.981 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:37.426 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:37.427 19315 19315 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{7e44c87 V.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[GameActivity],pkg= com.pubg.imobile
+[logcat] 11-26 20:38:37.427 19315 19519 D skia    : setRusSupported enable 0
+[logcat] 11-26 20:38:37.436 19315 19315 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@baf2a23
+[logcat] 11-26 20:38:37.436 19315 19315 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@baf2a23
+[logcat] 11-26 20:38:37.437 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:37.437 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:37.454 19315 19315 D BufferQueueConsumer: [](id:4b7300000003,api:0,p:-1,c:19315) connect: controlledByApp=false
+[logcat] 11-26 20:38:37.454 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#3(BLAST Consumer)3](id:4b7300000003,api:0,p:-1,c:19315) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:38:37.456 19315 19519 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:38:37.456 19315 19519 D libEGL  : this is from skia gles
+[logcat] 11-26 20:38:37.458 19315 19315 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.pubg.imobile/com.epicgames.ue4.GameActivity)/@0xd284a4d,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:38:37.468 19315 19519 D BLASTBufferQueue: [VRI[GameActivity]#3](f:0,a:1) acquireNextBufferLocked size=704x458 mFrameNumber=1 applyTransaction=true mTimestamp=134611302501099(auto) mPendingTransactions.size=0 graphicBufferId=82957293322254 transform=4
+[logcat] 11-26 20:38:37.469 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:37.469 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:37.473 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:37.474 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:37.494 19315 19315 D VRI[GameActivity]: onFocusEvent false
+[logcat] 11-26 20:38:37.545 19315 19315 D VRI[GameActivity]: onFocusEvent true
+[logcat] 11-26 20:38:38.132 19315 19632 V GetApkAbsPath: getapkpath success, path:/data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/base.apk
+[logcat] 11-26 20:38:38.135 19315 19632 E HDmpve  : [2026-11-26 20:38:38 135800] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:166|init| User_Data=
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136159] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:172|init| apollopath=/storage/emulated/0/SdCard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136389] | Error | [HDmpve] |0x6dad3f8480| hdmpve_version_config.h:95|dump| mVersionGetMode=[1]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136468] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:304|init| dns_mode_type=1
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136517] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:212|init| dolphin_engine_type=6
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136616] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:241|init| [OptiHttpConfig_OptiHttpConfigAverageShardingSize 3145728]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136671] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:235|init| [OptiHttpConfig_EnableAverageShardingStrategy 100]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136715] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:247|init| [OptiHttpConfig_EnableDynamicExpansionMaxTask 100]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136760] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:253|init| [OptiHttpConfig_EnableReuseRedirectHttp 100]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136805] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:258|init| [OptiHttpConfig_bUseDLProConfig 1]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136849] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:268|init| [OptiHttpConfig_uDLMaxPerTaskNum 25]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136893] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:263|init| [OptiHttpConfig_uDLMaxTaskNum 1]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136935] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:273|init| [OptiHttpConfig_uDLPollingTime 5000]
+[logcat] 11-26 20:38:38.136 19315 19632 E HDmpve  : [2026-11-26 20:38:38 136992] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:298|init| download_json_retrytimes [4]
+[logcat] 11-26 20:38:38.137 19315 19632 E HDmpve  : [2026-11-26 20:38:38 137043] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:288|init| download_json_timeout [10000000]
+[logcat] 11-26 20:38:38.137 19315 19632 E HDmpve  : [2026-11-26 20:38:38 137090] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:293|init| download_json_type [2]
+[logcat] 11-26 20:38:38.137 19315 19632 E HDmpve  : [2026-11-26 20:38:38 137140] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:158|init| m_update_type=20
+[logcat] 11-26 20:38:38.341 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:38.343 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:38.497 19315 19354 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,This com.android.internal.policy.DecorView{52588c2 V.E...... R.....I. 0,0-1604,720 aid=1073741825 alpha=1.0 viewInfo = }[GameActivity] change focus to false
+[logcat] 11-26 20:38:38.546 19315 19354 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,This com.android.internal.policy.DecorView{7e44c87 V.E...... R....... 0,0-704,458 alpha=1.0 viewInfo = }[GameActivity] change focus to true
+[logcat] 11-26 20:38:38.700 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134612535, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:38.700 19315 19315 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:38.750 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134612584, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:38.750 19315 19315 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:38.750 19315 19315 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:38:38.751 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,window dying
+[logcat] 11-26 20:38:38.751 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 20:38:38.751 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@50e1a99
+[logcat] 11-26 20:38:38.751 19315 19315 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@27dcb20
+[logcat] 11-26 20:38:38.752 19315 19315 D HWUI    : RenderProxy::destroy: this=0x6d63e71800, mContext=0x6d63f14400
+[logcat] 11-26 20:38:38.752 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d64189b00, surface=NULL
+[logcat] 11-26 20:38:38.753 19315 19315 D BLASTBufferQueue: [VRI[GameActivity]#3](f:0,a:1) destructor()
+[logcat] 11-26 20:38:38.753 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#3(BLAST Consumer)3](id:4b7300000003,api:0,p:-1,c:19315) disconnect
+[logcat] 11-26 20:38:38.782 19315 19315 D VRI[GameActivity]: onFocusEvent true
+[logcat] 11-26 20:38:38.785 19315 19315 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:38:38.785 19315 19315 I ImeTracker: com.google:cbf962b2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-26 20:38:38.897 19315 19632 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:38:38.897 19315 19632 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:38:38.908 19315 19632 E HDmpve  : [2026-11-26 20:38:38 908770] | Error | [HDmpve] |0x6dad3f8480| HdmpveDolphinVersionAction.cpp:107|DoAction| use dns mode type 1
+[logcat] 11-26 20:38:38.912 19315 20108 E HDmpve  : [2026-11-26 20:38:38 912026] | Error | [HDmpve] |0x6df616a480| HdmpveDolphinVersionAction.cpp:225|NormalConnectVersionSvr| NormalConnectVersionSvr Start...
+[logcat] 11-26 20:38:38.921 19315 20108 E HDmpve  : [2026-11-26 20:38:38 921773] | Error | [HDmpve] |0x6df616a480| HDmpveConnector.cpp:89|CHDmpveConnector| accountService is null
+[logcat] 11-26 20:38:38.923 19315 20108 I HDmpve  : after Thread: CThreadBase: Start m_bThreadRun.Set(true)
+[logcat] 11-26 20:38:38.923 19315 20108 I HDmpve  : after Thread: CThreadBase::Resume m_bPause.Set(false)
+[logcat] 11-26 20:38:38.923 19315 20108 I HDmpve  : after Thread: CThreadBase::Resume m_PauseEvent.Set()
+[logcat] 11-26 20:38:38.931 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:38.931 19315 19315 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{a45cf96 V.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[GameActivity],pkg= com.pubg.imobile
+[logcat] 11-26 20:38:38.932 19315 19519 D skia    : setRusSupported enable 0
+[logcat] 11-26 20:38:38.938 19315 19315 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@b1014ed
+[logcat] 11-26 20:38:38.939 19315 19315 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@b1014ed
+[logcat] 11-26 20:38:38.939 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:38.939 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@19eff44 hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:38.952 19315 19315 D BufferQueueConsumer: [](id:4b7300000004,api:0,p:-1,c:19315) connect: controlledByApp=false
+[logcat] 11-26 20:38:38.952 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#4(BLAST Consumer)4](id:4b7300000004,api:0,p:-1,c:19315) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:38:38.954 19315 19519 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:38:38.954 19315 19519 D libEGL  : this is from skia gles
+[logcat] 11-26 20:38:38.955 19315 19315 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.pubg.imobile/com.epicgames.ue4.GameActivity)/@0x2d7a07a,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:38:38.960 19315 19519 D BLASTBufferQueue: [VRI[GameActivity]#4](f:0,a:1) acquireNextBufferLocked size=722x374 mFrameNumber=1 applyTransaction=true mTimestamp=134612794663561(auto) mPendingTransactions.size=0 graphicBufferId=82957293322266 transform=4
+[logcat] 11-26 20:38:38.960 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:38.960 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:38.962 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+[logcat] 11-26 20:38:38.963 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:38.974 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,window dying
+[logcat] 11-26 20:38:38.974 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 20:38:38.974 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@68424a0
+[logcat] 11-26 20:38:38.974 19315 19315 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@ae04bc6
+[logcat] 11-26 20:38:38.975 19315 19315 D HWUI    : RenderProxy::destroy: this=0x6eafe20a00, mContext=0x6d966587c0
+[logcat] 11-26 20:38:38.975 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d96610700, surface=NULL
+[logcat] 11-26 20:38:38.975 19315 19315 D BLASTBufferQueue: [VRI[GameActivity]#0](f:0,a:1) destructor()
+[logcat] 11-26 20:38:38.975 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#0(BLAST Consumer)0](id:4b7300000000,api:0,p:-1,c:19315) disconnect
+[logcat] 11-26 20:38:39.003 19315 19315 D VRI[GameActivity]: onFocusEvent true
+[logcat] 11-26 20:38:39.202 19315 19324 I com.google:p0: Background concurrent mark compact GC freed 5337KB AllocSpace bytes, 5(308KB) LOS objects, 49% free, 7338KB/14MB, paused 3.022ms,1.006ms total 135.120ms
+[logcat] 11-26 20:38:39.203 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d96610700, surface=NULL
+[logcat] 11-26 20:38:39.203 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d64189b00, surface=NULL
+[logcat] 11-26 20:38:39.241 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134613076, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:39.241 19315 19315 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:39.299 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134613134, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:39.300 19315 19315 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:39.300 19315 19315 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:38:39.300 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,window dying
+[logcat] 11-26 20:38:39.300 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 20:38:39.301 19315 19315 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@a77a218
+[logcat] 11-26 20:38:39.301 19315 19315 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@2053db3
+[logcat] 11-26 20:38:39.301 19315 19315 D HWUI    : RenderProxy::destroy: this=0x6d63e72d00, mContext=0x6d3a3ba8c0
+[logcat] 11-26 20:38:39.301 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d3a3a8a00, surface=NULL
+[logcat] 11-26 20:38:39.302 19315 19315 D BLASTBufferQueue: [VRI[GameActivity]#4](f:0,a:1) destructor()
+[logcat] 11-26 20:38:39.302 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#4(BLAST Consumer)4](id:4b7300000004,api:0,p:-1,c:19315) disconnect
+[logcat] 11-26 20:38:39.335 19315 19315 D VRI[GameActivity]: onFocusEvent true
+[logcat] 11-26 20:38:39.336 19315 19315 V threaded_app: WindowFocusChanged: 0x6d9660fa80 -- 1
+[logcat] 11-26 20:38:39.336 19315 19633 D UE4     : Case APP_CMD_GAINED_FOCUS
+[logcat] 11-26 20:38:39.340 19315 19315 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:38:39.340 19315 19315 I ImeTracker: com.google:dfa7bd85: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-26 20:38:39.424 19315 19315 D NATIVE_TAG: IMSDKCppListener onResult : {"imsdkRetCode":1,"imsdkRetMsg":"Success","thirdRetCode":1,"thirdRetMsg":"SUCCESS","noticesList":[],"noticesNum":0}
+[logcat] 11-26 20:38:39.522 19315 20108 E HDmpve  : [2026-11-26 20:38:39 522188] | Error | [HDmpve] |0x6df616a480| HdmpveDolphinVersionAction.cpp:502|NormalConnectVersionSvr| Normal Version spend time:[0]
+[logcat] 11-26 20:38:39.522 19315 20108 E HDmpve  : [2026-11-26 20:38:39 522435] | Error | [HDmpve] |0x6df616a480| HdmpveDolphinVersionAction.cpp:504|NormalConnectVersionSvr| NormalConnectVersionSvr End...
+[logcat] 11-26 20:38:39.522 19315 20108 E HDmpve  : [2026-11-26 20:38:39 522503] | Error | [HDmpve] |0x6df616a480| HdmpveDolphinVersionAction.cpp:1559|GetConfigUrls| not use cloud config
+[logcat] 11-26 20:38:39.522 19315 20108 E HDmpve  : [2026-11-26 20:38:39 522561] | Error | [HDmpve] |0x6df616a480| HdmpveDolphinVersionAction.cpp:1561|GetConfigUrls| the config use_new_json_protocol_ is false 
+[logcat] 11-26 20:38:39.586 19315 20047 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f7965725-abf2-4240-8173-2f1121e25acd uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:39.635 19104 19141 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e94da7900, surface=NULL
+[logcat] 11-26 20:38:39.652 19315 19632 E HDmpve  : [2026-11-26 20:38:39 652852] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:166|init| User_Data=
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653019] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:172|init| apollopath=/storage/emulated/0/SdCard/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653135] | Error | [HDmpve] |0x6dad3f8480| hdmpve_version_config.h:95|dump| mVersionGetMode=[1]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653208] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:304|init| dns_mode_type=1
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653304] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:212|init| dolphin_engine_type=6
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653484] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:241|init| [OptiHttpConfig_OptiHttpConfigAverageShardingSize 3145728]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653561] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:235|init| [OptiHttpConfig_EnableAverageShardingStrategy 100]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653606] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:247|init| [OptiHttpConfig_EnableDynamicExpansionMaxTask 100]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653648] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:253|init| [OptiHttpConfig_EnableReuseRedirectHttp 100]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653690] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:258|init| [OptiHttpConfig_bUseDLProConfig 1]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653774] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:268|init| [OptiHttpConfig_uDLMaxPerTaskNum 9]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653819] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:263|init| [OptiHttpConfig_uDLMaxTaskNum 3]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653872] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:273|init| [OptiHttpConfig_uDLPollingTime 5000]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653939] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:298|init| download_json_retrytimes [4]
+[logcat] 11-26 20:38:39.653 19315 19632 E HDmpve  : [2026-11-26 20:38:39 653987] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:288|init| download_json_timeout [10000000]
+[logcat] 11-26 20:38:39.654 19315 19632 E HDmpve  : [2026-11-26 20:38:39 654032] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:293|init| download_json_type [2]
+[logcat] 11-26 20:38:39.654 19315 19632 E HDmpve  : [2026-11-26 20:38:39 654172] | Error | [HDmpve] |0x6dad3f8480| action_factory.cpp:158|init| m_update_type=21
+[logcat] 11-26 20:38:39.699 19315 19632 E HDmpve  : [2026-11-26 20:38:39 699553] | Error | [HDmpve] |0x6dad3f8480| hdmpve_client_data_report.cpp:75|StartReport| TDM report over!
+[logcat] 11-26 20:38:39.699 19315 19632 E HDmpve  : [2026-11-26 20:38:39 699652] | Error | [HDmpve] |0x6dad3f8480| action_mgr.cpp:523|OnReportFinish| OnReport data Finish!
+[logcat] 11-26 20:38:39.704 19315 19632 E HDmpve  : [2026-11-26 20:38:39 704114] | Error | [HDmpve] |0x6dad3f8480| HdmpveDolphinVersionAction.cpp:107|DoAction| use dns mode type 1
+[logcat] 11-26 20:38:39.706 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:39.708 19315 20130 E HDmpve  : [2026-11-26 20:38:39 708405] | Error | [HDmpve] |0x6ea4465480| HdmpveDolphinVersionAction.cpp:225|NormalConnectVersionSvr| NormalConnectVersionSvr Start...
+[logcat] 11-26 20:38:39.709 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:39.712 19315 20130 E HDmpve  : [2026-11-26 20:38:39 712865] | Error | [HDmpve] |0x6ea4465480| HDmpveConnector.cpp:89|CHDmpveConnector| accountService is null
+[logcat] 11-26 20:38:39.715 19315 20130 I HDmpve  : after Thread: CThreadBase: Start m_bThreadRun.Set(true)
+[logcat] 11-26 20:38:39.715 19315 20130 I HDmpve  : after Thread: CThreadBase::Resume m_bPause.Set(false)
+[logcat] 11-26 20:38:39.715 19315 20130 I HDmpve  : after Thread: CThreadBase::Resume m_PauseEvent.Set()
+[logcat] 11-26 20:38:39.725 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):2a7f3acd-a0e8-4d82-a2fd-95478fddd288 uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:39.729 19315 20046 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):b1ae39a1-0edd-4193-a089-442e39f5bc40 uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:40.168 19315 20047 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f4c22913-cc35-4452-b514-338b91992847 uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:40.235 19315 20130 E HDmpve  : [2026-11-26 20:38:40 235116] | Error | [HDmpve] |0x6ea4465480| HdmpveDolphinVersionAction.cpp:502|NormalConnectVersionSvr| Normal Version spend time:[0]
+[logcat] 11-26 20:38:40.235 19315 20130 E HDmpve  : [2026-11-26 20:38:40 235420] | Error | [HDmpve] |0x6ea4465480| HdmpveDolphinVersionAction.cpp:504|NormalConnectVersionSvr| NormalConnectVersionSvr End...
+[logcat] 11-26 20:38:40.235 19315 20130 E HDmpve  : [2026-11-26 20:38:40 235537] | Error | [HDmpve] |0x6ea4465480| HdmpveDolphinVersionAction.cpp:1559|GetConfigUrls| not use cloud config
+[logcat] 11-26 20:38:40.235 19315 20130 E HDmpve  : [2026-11-26 20:38:40 235679] | Error | [HDmpve] |0x6ea4465480| HdmpveDolphinVersionAction.cpp:1561|GetConfigUrls| the config use_new_json_protocol_ is false 
+[logcat] 11-26 20:38:40.239 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:40.261 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):aa95bcea-a65b-4eac-9fbc-182eb9c4c184 uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:40.262 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:40.320 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:40.337 19315 19354 D OplusScrollToTopManager: com.pubg.imobile/com.epicgames.ue4.GameActivity,This com.android.internal.policy.DecorView{3a08e90 V.E...... R.....I. 0,0-1604,720 aid=0 alpha=1.0 viewInfo = }[GameActivity] change focus to true
+[logcat] 11-26 20:38:40.339 19315 19632 E HDmpve  : [2026-11-26 20:38:40 339799] | Error | [HDmpve] |0x6dad3f8480| hdmpve_client_data_report.cpp:75|StartReport| TDM report over!
+[logcat] 11-26 20:38:40.339 19315 19632 E HDmpve  : [2026-11-26 20:38:40 339889] | Error | [HDmpve] |0x6dad3f8480| action_mgr.cpp:523|OnReportFinish| OnReport data Finish!
+[logcat] 11-26 20:38:40.854 19315 19315 W Thread-89: type=1400 audit(0.0:136093): avc:  denied  { getattr } for  path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:untrusted_app_27:s0:c38,c261,c512,c768 tcontext=u:object_r:untrusted_app_all_devpts:s0:c74,c257,c512,c768 tclass=chr_file permissive=0 app=com.google
+[logcat] 11-26 20:38:40.854 19315 19315 W Thread-89: type=1400 audit(0.0:136094): avc:  denied  { getattr } for  path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:untrusted_app_27:s0:c38,c261,c512,c768 tcontext=u:object_r:untrusted_app_all_devpts:s0:c74,c257,c512,c768 tclass=chr_file permissive=0 app=com.google
+[logcat] 11-26 20:38:40.862 19315 19315 W Thread-89: type=1400 audit(0.0:136095): avc:  denied  { getattr } for  path="/dev/pts/0" dev="devpts" ino=3 scontext=u:r:untrusted_app_27:s0:c38,c261,c512,c768 tcontext=u:object_r:untrusted_app_all_devpts:s0:c74,c257,c512,c768 tclass=chr_file permissive=0 app=com.google
+[logcat] 11-26 20:38:41.072 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:41.078 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:41.235 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:41.247 19315 19632 D GameActivity: AndroidThunkJava_GetNativeVersion
+[logcat] 11-26 20:38:42.336 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):664fee84-cf48-486c-9a63-fcb9f91224bd uc:1 re:true me:false mc:0
+[logcat] 11-26 20:38:42.437 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:42.440 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:43.083 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:43.100 19315 19632 D GameActitivy: AndroidThunkJava_GetFIRAppInstanceId START
+[logcat] 11-26 20:38:43.803 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:43.808 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:45.168 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:38:45.171 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:38:46.167 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134620002, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:46.168 19315 19315 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:46.168 19315 19633 V threaded_app: New input event: type=2
+[logcat] 11-26 20:38:46.180 19315 19633 V threaded_app: New input event: type=2
+[logcat] 11-26 20:38:46.216 19315 19315 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134620051, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:46.217 19315 19633 V threaded_app: New input event: type=2
+[logcat] 11-26 20:38:46.217 19315 19315 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:46.309 19315 19632 D TwitterWrapper: Twitter initialize success
+[logcat] 11-26 20:38:46.331 19315 19632 D ActivityManagerCommonProxy: Hook in : Intent { flg=0x10000000 xflg=0x4 cmp=com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity }
+[logcat] 11-26 20:38:46.342 19104 19212 D ActivityStack: startActivityLocked : ActivityInfo{c1e7cc3 com.itop.imsdk.android.base.IMSDKProxyActivity}
+[logcat] 11-26 20:38:46.347 19104 19212 E ActivityStack: StartProcess pkg=com.pubg.imobile activity=com.itop.imsdk.android.base.IMSDKProxyActivity process=com.pubg.imobile
+[logcat] 11-26 20:38:46.354 19104 19212 I com.google: AssetManager2(0x6dd0abff28) locale list changing from [] to [en-IN]
+[logcat] 11-26 20:38:46.356 19104 19212 D ActivityStack: ActivityInfo{c1e7cc3 com.itop.imsdk.android.base.IMSDKProxyActivity}, windowIsTranslucent: true
+[logcat] 11-26 20:38:46.394 19315 19315 I PowerHalMgrImpl: perfLockAcq is supported. 
+[logcat] 11-26 20:38:46.394 19315 19315 V threaded_app: Pause: 0x6d9660fa80
+[logcat] 11-26 20:38:46.395 19315 19633 V threaded_app: activityState=13
+[logcat] 11-26 20:38:46.395 19315 19633 D UE4     : Case APP_CMD_PAUSE
+[logcat] 11-26 20:38:46.395 19315 19315 V SystemSensorManagerExtImpl: unRegisterListener by com.epicgames.ue4.GameActivity@19eff44
+[logcat] 11-26 20:38:46.400 19315 19567 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+[logcat] 11-26 20:38:46.403 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:38:46.405 19315 19315 I HDmpve  : onPause
+[logcat] 11-26 20:38:46.405 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:38:46.405 19315 19315 I HDmpvePluginManger: onPause
+[logcat] 11-26 20:38:46.405 19315 19315 I RoosterJava: call rooster pause interface
+[logcat] 11-26 20:38:46.425 19315 19567 E FA      : Failed to send current screen to service
+[logcat] 11-26 20:38:46.430 19104 19212 D ActivityStack: onActivityCreated : ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity}
+[logcat] 11-26 20:38:46.432 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:38:46.450 19315 19315 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-26 20:38:46.450 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@8bec59c hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:46.450 19315 19315 D OplusPredictiveBackController: initPredictiveBackConfig for com.itop.imsdk.android.base.IMSDKProxyActivity@8bec59c initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-26 20:38:46.450 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@8bec59c hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:38:46.453 19315 19519 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6d3a3a8a00, surface=NULL
+[logcat] 11-26 20:38:46.462 19315 19315 D WebLoginBridge: redirecting twitter web login to isolated process | host=in-comm1.globh.com | request=1
+[logcat] 11-26 20:38:46.466 19104 19182 D SystemCallProvider: call: START_WEB_LOGIN
+[logcat] 11-26 20:38:46.487 19104 19182 I ZoroNative: [WebLoginGuard] freeze virtual pid=19315 ok
+[logcat] 11-26 20:38:46.500 19104 19182 D WebLoginGuard: virtual process frozen for isolated login | pid=19315
+[logcat] 11-26 20:38:46.500 19104 19182 D SystemCallProvider: launchWebLogin ok | virtual_pid=19315
+[logcat] 11-26 20:38:46.709 13694 13694 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:38:46.713 13694 13694 D OplusPredictiveBackController: initPredictiveBackConfig for top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity@b41081b initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-26 20:38:46.717 13694 13694 D WebLoginHost: host started | kind=twitter | host=in-comm1.globh.com | virtual_pid=19315
+[logcat] 11-26 20:38:46.755 13694 13694 D WebLoginHost: webview cache + storage cleared
+[logcat] 11-26 20:38:46.756 13694 13694 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 2
+[logcat] 11-26 20:38:46.756 13694 13694 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:38:46.757 13694 13694 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{ef278d5 I.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[TwitterWebHostActivity],pkg= com.google
+[logcat] 11-26 20:38:46.757 13694 13709 D skia    : setRusSupported enable 0
+[logcat] 11-26 20:38:46.767 13694 13694 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@9310278
+[logcat] 11-26 20:38:46.771 13694 13694 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@9310278
+[logcat] 11-26 20:38:46.774 13694 13694 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=0, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840957952, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+[logcat] 11-26 20:38:46.792 13694 13694 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 20:38:46.792 13694 13694 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-2, blastBufferQueue:null
+[logcat] 11-26 20:38:46.793 13694 13694 D BufferQueueConsumer: [](id:357e00000002,api:0,p:-1,c:13694) connect: controlledByApp=false
+[logcat] 11-26 20:38:46.793 13694 13694 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#2(BLAST Consumer)2](id:357e00000002,api:0,p:-1,c:13694) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:38:46.795 13694 13709 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:38:46.795 13694 13709 D libEGL  : this is from skia gles
+[logcat] 11-26 20:38:46.796 13694 13694 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity)/@0x72cd589,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:38:46.807 13694 13709 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#2](f:0,a:1) acquireNextBufferLocked size=720x1604 mFrameNumber=1 applyTransaction=true mTimestamp=134620641565330(auto) mPendingTransactions.size=0 graphicBufferId=58815282151442 transform=0
+[logcat] 11-26 20:38:46.807 13694 13709 D VRI[TwitterWebHostActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:46.807 13694 13694 D VRI[TwitterWebHostActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:46.811 13694 13694 D WebLoginHost: webview cookies cleared
+[logcat] 11-26 20:38:46.819 13694 13694 W VRI[TwitterWebHostActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-26 20:38:46.839 13694 13709 D VRI[TwitterWebHostActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:38:46.839 13694 13694 D VRI[TwitterWebHostActivity]: draw finished. seqId=0
+[logcat] 11-26 20:38:46.857 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent true
+[logcat] 11-26 20:38:46.864 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: initFrameRateConfig: 
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: 	levelsFor120hz: [120]
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor120hz: []
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: 	levelsFor90hz: [90]
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor90hz: []
+[logcat] 11-26 20:38:46.865 13694 13694 I DynamicFramerate [FRTCConfigManager]: FRTCConfigManager: FRTC_CAPABILITY = 0, package name = com.google, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, PACKAGE_ENABLE = true
+[logcat] 11-26 20:38:46.866 13694 13694 I DynamicFramerate [DynamicFrameRateController]: init info: mPackageName = com.google, mIsEnabled = true
+[logcat] 11-26 20:38:46.873 13694 13694 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:38:46.873 13694 13694 I ImeTracker: com.google:5e385b57: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-26 20:38:46.976 13694 13694 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:38:47.086 13694 13694 D WebLoginHost: page started | host=in-comm1.globh.com
+[logcat] 11-26 20:38:47.309 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:47.408 13694 13694 D WebLoginHost: page finished | host=in-comm1.globh.com
+[logcat] 11-26 20:38:47.416 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:47.452 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:47.513 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:47.538 19104 19104 I com.google: AssetManager2(0x6e8d417d28) locale list changing from [] to [en-IN]
+[logcat] 11-26 20:38:47.816 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:47.843 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:47.863 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to true
+[logcat] 11-26 20:38:48.679 13694 13694 D WebLoginHost: page started | host=api.twitter.com
+[logcat] 11-26 20:38:49.249 13694 13694 D WebLoginHost: page started | host=api.x.com
+[logcat] 11-26 20:38:49.390 13694 13694 D WebLoginHost: page finished | host=api.x.com
+[logcat] 11-26 20:38:49.423 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:49.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:49.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:49.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:49.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:49.431 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.365 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134624200, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:50.365 13694 13694 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:50.371 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134624206, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:50.372 13694 13694 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:50.372 13694 13694 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:38:50.405 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.405 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.405 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.406 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.406 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.406 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.410 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:50.542 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:51.252 13694 13694 D WebLoginHost: page started | host=x.com
+[logcat] 11-26 20:38:51.830 13694 13694 D WebLoginHost: page finished | host=x.com
+[logcat] 11-26 20:38:51.887 13694 13694 D WebLoginHost: page finished | host=x.com
+[logcat] 11-26 20:38:52.470 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:52.766 13694 13747 V SystemSensorManagerExtImpl: RegisterListener game_rotvec type:15 delay:16666us by org.chromium.device.sensors.PlatformSensor@619dcfe from com.google
+[logcat] 11-26 20:38:52.767 13694 13744 V SystemSensorManagerExtImpl: RegisterListener sc7a20 acc type:1 delay:16666us by org.chromium.device.sensors.PlatformSensor@a1700b9 from com.google
+[logcat] 11-26 20:38:52.767 13694 13740 V SystemSensorManagerExtImpl: RegisterListener rot_vec type:11 delay:16666us by org.chromium.device.sensors.PlatformSensor@4ccac5f from com.google
+[logcat] 11-26 20:38:52.771 13694 13748 V SystemSensorManagerExtImpl: RegisterListener linear_acc type:10 delay:16666us by org.chromium.device.sensors.PlatformSensor@82486ac from com.google
+[logcat] 11-26 20:38:52.771 13694 13751 V SystemSensorManagerExtImpl: RegisterListener oem-pseudo-gyro type:4 delay:16666us by org.chromium.device.sensors.PlatformSensor@d9def75 from com.google
+[logcat] 11-26 20:38:52.773 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:52.899 13694 13749 W cr_media: Requires MODIFY_AUDIO_SETTINGS and RECORD_AUDIO. No audio device will be available for recording
+[logcat] 11-26 20:38:52.899 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.900 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.901 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.907 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.907 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.908 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.912 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.913 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.916 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.917 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.925 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.925 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.926 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.932 13694 13766 D colorx  : I can't find colorx layer , let's enumerate colorx layers first.
+[logcat] 11-26 20:38:52.932 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.933 13694 13763 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11318, pid: 13694
+[logcat] 11-26 20:38:52.937 13694 13766 W Dawn    : Warning: maxDynamicUniformBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+[logcat] 11-26 20:38:52.937 13694 13766 W Dawn    : Warning: maxDynamicStorageBuffersPerPipelineLayout artificially reduced from 32 to 16 to fit dynamic offset allocation limit.
+[logcat] 11-26 20:38:53.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.716 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.716 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.716 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.732 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.732 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.733 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.742 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.742 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.742 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.746 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.747 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.747 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.757 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.757 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.758 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.762 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.762 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.762 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.772 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.772 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.772 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.784 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.784 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.784 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.790 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.790 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.790 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.832 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.832 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.832 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.840 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.840 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.840 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.855 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.855 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.855 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.872 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.872 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:53.872 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:54.556 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134628390, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:54.556 13694 13694 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 20:38:54.588 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134628423, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:54.589 13694 13694 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:54.589 13694 13694 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:38:54.611 13694 13694 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+[logcat] 11-26 20:38:54.620 13694 13694 I ImeTracker: com.google:login_web:d7181dd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+[logcat] 11-26 20:38:54.620 13694 13694 D InsetsController: show(ime(), fromIme=false)
+[logcat] 11-26 20:38:54.620 13694 13694 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+[logcat] 11-26 20:38:54.628 13694 13694 I AssistStructure: Flattened final assist data: 3204 bytes, containing 1 windows, 7 views
+[logcat] 11-26 20:38:54.641 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:54.890 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:54.991 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:55.048 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.048 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.052 13694 20195 D ImfJankInfo: reportImfJank: skip because time elapsed since last report < 5 minutes
+[logcat] 11-26 20:38:55.105 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.105 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.105 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.105 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.105 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.139 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.139 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.139 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:55.166 13694 13694 I ImeTracker: system_server:f0f05dd4: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+[logcat] 11-26 20:38:55.181 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 20:38:55.261 13694 13694 I ImeTracker: com.google:login_web:d7181dd: onShown
+[logcat] 11-26 20:38:56.185 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to false
+[logcat] 11-26 20:38:56.255 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent true
+[logcat] 11-26 20:38:56.275 13694 13747 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@a1700b9 and its name is sc7a20 acc
+[logcat] 11-26 20:38:56.275 13694 13751 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@82486ac and its name is linear_acc
+[logcat] 11-26 20:38:56.277 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@104546534 hash=27197252 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@9ca9fe5
+[logcat] 11-26 20:38:56.279 13694 13743 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@d9def75 and its name is oem-pseudo-gyro
+[logcat] 11-26 20:38:56.279 13694 13744 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@619dcfe and its name is game_rotvec
+[logcat] 11-26 20:38:56.279 13694 13748 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@4ccac5f and its name is rot_vec
+[logcat] 11-26 20:38:56.287 13694 13694 I ImeTracker: system_server:b32b4d57: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+[logcat] 11-26 20:38:56.291 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 20:38:56.319 13694 13977 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+[logcat] 11-26 20:38:56.321 13694 13977 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+[logcat] 11-26 20:38:56.364 13694 13694 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 4
+[logcat] 11-26 20:38:56.364 13694 13694 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:38:56.367 13694 13740 V SystemSensorManagerExtImpl: RegisterListener sc7a20 acc type:1 delay:16666us by org.chromium.device.sensors.PlatformSensor@a1700b9 from com.google
+[logcat] 11-26 20:38:56.368 13694 13751 V SystemSensorManagerExtImpl: RegisterListener linear_acc type:10 delay:16666us by org.chromium.device.sensors.PlatformSensor@82486ac from com.google
+[logcat] 11-26 20:38:56.368 13694 13694 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=true, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+[logcat] 11-26 20:38:56.369 13694 13694 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-26 20:38:56.369 13694 13694 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-2, blastBufferQueue:android.graphics.BLASTBufferQueue@b736fa4
+[logcat] 11-26 20:38:56.377 13694 13694 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity)/@0x72cd589,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:38:56.384 13694 13743 V SystemSensorManagerExtImpl: RegisterListener oem-pseudo-gyro type:4 delay:16666us by org.chromium.device.sensors.PlatformSensor@d9def75 from com.google
+[logcat] 11-26 20:38:56.397 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent true
+[logcat] 11-26 20:38:56.399 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@104546534 hash=27197252 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@9ca9fe5
+[logcat] 11-26 20:38:56.418 13694 13748 V SystemSensorManagerExtImpl: RegisterListener rot_vec type:11 delay:16666us by org.chromium.device.sensors.PlatformSensor@4ccac5f from com.google
+[logcat] 11-26 20:38:56.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.424 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.425 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.425 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.425 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.448 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.449 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:56.450 13694 13744 V SystemSensorManagerExtImpl: RegisterListener game_rotvec type:15 delay:16666us by org.chromium.device.sensors.PlatformSensor@619dcfe from com.google
+[logcat] 11-26 20:38:57.048 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134630882, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:38:57.048 13694 13694 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:38:57.105 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134630939, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:38:57.106 13694 13694 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:38:57.106 13694 13694 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:38:57.130 13694 13694 I ImeTracker: com.google:login_web:4cea7d20: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+[logcat] 11-26 20:38:57.131 13694 13694 D InsetsController: show(ime(), fromIme=false)
+[logcat] 11-26 20:38:57.131 13694 13694 I ImeTracker: com.google:login_web:4cea7d20: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+[logcat] 11-26 20:38:57.141 13694 13694 I ImeTracker: com.google:login_web:90c4e2eb: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+[logcat] 11-26 20:38:57.141 13694 13694 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:38:57.141 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@104546534 hash=27197252 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@9ca9fe5
+[logcat] 11-26 20:38:57.141 13694 13694 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+[logcat] 11-26 20:38:57.142 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.143 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.147 13694 13977 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+[logcat] 11-26 20:38:57.154 13694 13977 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+[logcat] 11-26 20:38:57.154 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.154 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.155 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.155 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.155 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.155 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.156 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.156 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.163 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:57.178 13694 13694 I ImeTracker: com.google:d7185538: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+[logcat] 11-26 20:38:57.398 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:57.415 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:57.420 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to true
+[logcat] 11-26 20:38:57.663 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.726 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.743 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.743 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.743 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.763 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.763 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.763 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.770 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.770 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.770 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.781 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.781 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.781 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.788 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.788 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.788 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.797 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.797 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.797 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.797 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.806 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.806 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.806 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.814 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.814 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.814 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.822 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.822 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.822 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.830 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.830 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.830 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.838 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.838 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.838 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.856 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.856 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.856 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.864 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.864 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.864 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.873 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:57.873 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.908 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.910 13694 13694 D WebLoginHost: page finished | host=x.com
+[logcat] 11-26 20:38:58.914 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.915 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.915 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.915 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.915 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.915 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:58.968 13694 13694 I ImeTracker: com.google:login_web:69cc0cca: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+[logcat] 11-26 20:38:58.968 13694 13694 D InsetsController: show(ime(), fromIme=false)
+[logcat] 11-26 20:38:58.968 13694 13694 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+[logcat] 11-26 20:38:58.999 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:59.001 13694 13977 W RemoteInputConnectionImpl: finishComposingTextFromImm on inactive InputConnection
+[logcat] 11-26 20:38:59.005 13694 13694 I AssistStructure: Flattened final assist data: 3028 bytes, containing 1 windows, 7 views
+[logcat] 11-26 20:38:59.007 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.008 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.008 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.008 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.008 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.008 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.012 13694 13694 D WebLoginHost: page finished | host=x.com
+[logcat] 11-26 20:38:59.024 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.024 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.031 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.031 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.038 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.038 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.046 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.046 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.054 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.054 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.062 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.063 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.071 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.071 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.079 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.079 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.087 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.087 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.097 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.097 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.106 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.106 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.112 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.112 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.121 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.121 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.129 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.129 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.138 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.138 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.146 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.146 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.156 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.156 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: onViewTypeAvailable 
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: java.lang.NullPointerException: Attempt to get length of null array
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3375)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Parcel.createException(Parcel.java:3353)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Parcel.readException(Parcel.java:3336)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Parcel.readException(Parcel.java:3278)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at WV.lz0.i(chromium-SystemWebViewGoogle6432.aab-stable-812704603:59)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at org.chromium.components.autofill.AutofillProvider.onServerPredictionsAvailable(chromium-SystemWebViewGoogle6432.aab-stable-812704603:69)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.MessageQueue.nextLegacy(MessageQueue.java:934)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.MessageQueue.next(MessageQueue.java:1046)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Looper.loopOnce(Looper.java:221)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:38:59.189 13694 13694 E cr_AutofillHintsService: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:38:59.410 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:59.451 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 20:38:59.482 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:38:59.504 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.504 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.546 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.546 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.546 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.546 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.546 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:38:59.711 13694 13694 I ImeTracker: system_server:bde38025: onShown
+[logcat] 11-26 20:39:00.457 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to false
+[logcat] 11-26 20:39:00.531 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent true
+[logcat] 11-26 20:39:00.556 13694 13743 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@a1700b9 and its name is sc7a20 acc
+[logcat] 11-26 20:39:00.557 13694 13748 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@82486ac and its name is linear_acc
+[logcat] 11-26 20:39:00.558 13694 13740 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@d9def75 and its name is oem-pseudo-gyro
+[logcat] 11-26 20:39:00.558 13694 13744 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@619dcfe and its name is game_rotvec
+[logcat] 11-26 20:39:00.560 13694 13747 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@4ccac5f and its name is rot_vec
+[logcat] 11-26 20:39:00.560 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@71917647 hash=211106213 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@5710234
+[logcat] 11-26 20:39:00.570 13694 13694 I ImeTracker: system_server:e4f09c13: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+[logcat] 11-26 20:39:00.573 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 20:39:00.580 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@71917647 hash=211106213 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@5710234
+[logcat] 11-26 20:39:00.588 13694 13977 W RemoteInputConnectionImpl: finishComposingTextFromImm on inactive InputConnection
+[logcat] 11-26 20:39:00.599 13694 13694 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:39:00.599 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@71917647 hash=134346845 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@77145d2
+[logcat] 11-26 20:39:00.599 13694 13694 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+[logcat] 11-26 20:39:00.631 13694 13694 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity} checkFinished=false 4
+[logcat] 11-26 20:39:00.631 13694 13694 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:00.634 13694 13743 V SystemSensorManagerExtImpl: RegisterListener sc7a20 acc type:1 delay:16666us by org.chromium.device.sensors.PlatformSensor@a1700b9 from com.google
+[logcat] 11-26 20:39:00.637 13694 13694 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=true, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+[logcat] 11-26 20:39:00.639 13694 13694 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][720,1604]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-26 20:39:00.639 13694 13694 W VRI[TwitterWebHostActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(720, 1604), format:-2, blastBufferQueue:android.graphics.BLASTBufferQueue@b736fa4
+[logcat] 11-26 20:39:00.639 13694 13694 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity)/@0x72cd589,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:39:00.648 13694 13748 V SystemSensorManagerExtImpl: RegisterListener linear_acc type:10 delay:16666us by org.chromium.device.sensors.PlatformSensor@82486ac from com.google
+[logcat] 11-26 20:39:00.649 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent true
+[logcat] 11-26 20:39:00.672 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:39:00.690 13694 13694 I ImeTracker: system_server:2b377f97: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+[logcat] 11-26 20:39:00.702 13694 13744 V SystemSensorManagerExtImpl: RegisterListener game_rotvec type:15 delay:16666us by org.chromium.device.sensors.PlatformSensor@619dcfe from com.google
+[logcat] 11-26 20:39:00.706 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:00.706 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:00.706 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:00.707 13694 13747 V SystemSensorManagerExtImpl: RegisterListener rot_vec type:11 delay:16666us by org.chromium.device.sensors.PlatformSensor@4ccac5f from com.google
+[logcat] 11-26 20:39:00.715 13694 13740 V SystemSensorManagerExtImpl: RegisterListener oem-pseudo-gyro type:4 delay:16666us by org.chromium.device.sensors.PlatformSensor@d9def75 from com.google
+[logcat] 11-26 20:39:00.765 19104 19141 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 20:39:00.765 19104 19141 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6dfd059700
+[logcat] 11-26 20:39:00.765 19104 19141 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6dfe842640
+[logcat] 11-26 20:39:00.798 19104 19141 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6e952e8c00, mCurrentSurface=0x0
+[logcat] 11-26 20:39:00.820 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@71917647 hash=134346845 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@77145d2
+[logcat] 11-26 20:39:00.841 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:39:01.144 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134634978, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:39:01.144 13694 13694 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-26 20:39:01.203 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134635037, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:39:01.203 13694 13694 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:39:01.204 13694 13694 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:39:01.222 13694 13694 I ImeTracker: com.google:login_web:a06be48: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+[logcat] 11-26 20:39:01.223 13694 13694 D InsetsController: show(ime(), fromIme=false)
+[logcat] 11-26 20:39:01.223 13694 13694 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+[logcat] 11-26 20:39:01.232 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.232 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.236 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:39:01.240 13694 13694 I ImeTracker: com.google:login_web:14290e2d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+[logcat] 11-26 20:39:01.241 13694 13694 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:39:01.241 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@71917647 hash=52805265 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@c4881f6
+[logcat] 11-26 20:39:01.241 13694 13694 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+[logcat] 11-26 20:39:01.250 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.250 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.251 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.251 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.251 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.270 13694 13694 W VRI[TwitterWebHostActivity]: handleResized abandoned!
+[logcat] 11-26 20:39:01.658 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to true
+[logcat] 11-26 20:39:01.785 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.785 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.814 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.814 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.832 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.832 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.839 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.840 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.846 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.856 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.856 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.871 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.871 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.881 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.881 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.881 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.881 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.887 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.887 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.896 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.896 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.904 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.904 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.913 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.913 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.920 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.920 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.929 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.929 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.937 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.937 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.951 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.951 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:01.956 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.828 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.837 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:02.837 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.400 13694 13740 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@a1700b9 and its name is sc7a20 acc
+[logcat] 11-26 20:39:03.400 13694 13747 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@82486ac and its name is linear_acc
+[logcat] 11-26 20:39:03.400 13694 13751 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@d9def75 and its name is oem-pseudo-gyro
+[logcat] 11-26 20:39:03.401 13694 13744 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@619dcfe and its name is game_rotvec
+[logcat] 11-26 20:39:03.401 13694 13748 V SystemSensorManagerExtImpl: unRegisterListener by org.chromium.device.sensors.PlatformSensor@4ccac5f and its name is rot_vec
+[logcat] 11-26 20:39:03.416 13694 20303 W cr_PlatformSensor: Should not get sensor events after PlatformSensorAndroid is destroyed.
+[logcat] 11-26 20:39:03.417 13694 13694 D WebLoginHost: page started | host=api.x.com
+[logcat] 11-26 20:39:03.418 13694 20303 W cr_PlatformSensor: Should not get sensor events after PlatformSensorAndroid is destroyed.
+[logcat] 11-26 20:39:03.418 13694 20303 W cr_PlatformSensor: Should not get sensor events after PlatformSensorAndroid is destroyed.
+[logcat] 11-26 20:39:03.418 13694 20303 W cr_PlatformSensor: Should not get sensor events after PlatformSensorAndroid is destroyed.
+[logcat] 11-26 20:39:03.681 13694 13694 D WebLoginHost: page finished | host=api.x.com
+[logcat] 11-26 20:39:03.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.715 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.716 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.716 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:03.722 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.519 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 134638354, mIsMoving = true, mUpdated = true
+[logcat] 11-26 20:39:04.519 13694 13694 E IJankManager: slideSceneEnd unknown scene 1002 mScene:-1
+[logcat] 11-26 20:39:04.560 13694 13694 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 134638394, mIsMoving = false, mUpdated = true
+[logcat] 11-26 20:39:04.560 13694 13694 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-26 20:39:04.561 13694 13694 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-26 20:39:04.589 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.590 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.596 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:04.727 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.331 13694 13694 D WebLoginHost: page started | host=x.com
+[logcat] 11-26 20:39:05.460 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.460 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.460 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.460 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.460 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.464 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.465 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.465 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.465 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.465 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.471 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.491 13694 13694 D WebLoginHost: page finished | host=x.com
+[logcat] 11-26 20:39:05.497 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.497 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.497 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.497 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.497 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.502 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.537 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.577 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.589 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.629 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.662 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.688 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.710 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:05.733 13694 13694 D WebLoginHost: page started | host=in-comm1.globh.com
+[logcat] 11-26 20:39:05.946 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:06.156 13694 13694 D WebLoginHost: page started | host=in-comm1.globh.com
+[logcat] 11-26 20:39:06.185 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:06.275 13694 13694 D WebLoginHost: page finished | host=in-comm1.globh.com
+[logcat] 11-26 20:39:06.282 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:06.300 13694 13709 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-26 20:39:07.066 13694 13768 D WebLoginHost: login result received | kind=twitter | length=243
+[logcat] 11-26 20:39:07.078 13694 13768 D WebLoginBridge: pending result stored | kind=twitter243
+[logcat] 11-26 20:39:07.082 13694 13768 I ZoroNative: [WebLoginGuard] resume virtual pid=19315 ok
+[logcat] 11-26 20:39:07.082 19315 19967 W AudioTrack: restartIfDisabled(2323): releaseBuffer() track 0x6f19c7fa00 disabled due to previous underrun, restarting
+[logcat] 11-26 20:39:07.082 19315 19528 I libc    : Requested dump for pid 19315 (MainThread-UE4)
+[logcat] 11-26 20:39:07.083 19315 19321 I com.google:p0: Thread[2,tid=19321,WaitingInMainSignalCatcherLoop,Thread*=0x6f19c0d000,peer=0x2004258,"Signal Catcher"]: reacting to signal 3
+[logcat] 11-26 20:39:07.083 19315 19321 I com.google:p0: 
+[logcat] 11-26 20:39:07.084 19315 19335 D VRI[GameActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:true
+[logcat] 11-26 20:39:07.088 13694 13768 D WebLoginGuard: virtual process resumed for result delivery | pid=19315
+[logcat] 11-26 20:39:07.103 19104 19112 D SystemCallProvider: call: RESTORE_GAME
+[logcat] 11-26 20:39:07.107 19104 19112 D ActivityStack: restoreGameTasks: moving task 2017 to front
+[logcat] 11-26 20:39:07.112 19315 19373 I AVIWA   : Done
+[logcat] 11-26 20:39:07.124 13694 13768 D WebLoginBridge: virtual game task restore requested
+[logcat] 11-26 20:39:07.124 13694 13768 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.deliverResult:37 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.sendJson:31 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity.access$1900:0 top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity$ResultInterface.onResult:52 android.os.MessageQueue.nativePollOnce:-2 android.os.MessageQueue.nextLegacy:934 android.os.MessageQueue.next:1046 android.os.Looper.loopOnce:221 
+[logcat] 11-26 20:39:07.174 13694 13694 D VRI[TwitterWebHostActivity]: onFocusEvent false
+[logcat] 11-26 20:39:07.212 13694 13698 W oogle:login_web: Cleared Reference was only reachable from finalizer (only reported once)
+[logcat] 11-26 20:39:07.233 13694 13709 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eacbbe140, surface=NULL
+[logcat] 11-26 20:39:07.233 19315 19324 W com.google:p0: Suspending all threads took: 146.399ms
+[logcat] 11-26 20:39:07.236 19315 19813 D VRI[GameActivity]: dispatchAppVisibility visible:true mUpcomingWindowFocus:true
+[logcat] 11-26 20:39:07.236 19315 19965 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-26 20:39:07.238 19315 19335 E LoadedApk: performReceive() called targeting raw IIntentReceiver for Intent { act=top.niunaijun.blackbox.weblogin.RESULT flg=0x10 xflg=0x4 pkg=com.google (has extras) }
+[logcat] 11-26 20:39:07.239 19315 19965 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-26 20:39:07.243 19315 19400 W InstallReferrerClient: Connection to service is blocked.
+[logcat] 11-26 20:39:07.246 19315 19315 D WebLoginBridge: isolated login launched via com.google.SystemCallProvider
+[logcat] 11-26 20:39:07.251 19315 19315 D ActivityThread: ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity} checkFinished=false 2
+[logcat] 11-26 20:39:07.252 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:07.259 19315 19315 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{1f902ef I.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[IMSDKProxyActivity],pkg= com.pubg.imobile
+[logcat] 11-26 20:39:07.259 19315 19519 D skia    : setRusSupported enable 0
+[logcat] 11-26 20:39:07.264 19315 19567 W GmsClient: unable to connect to service: com.google.android.gms.measurement.START on com.google.android.gms
+[logcat] 11-26 20:39:07.265 19315 19315 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@4f8eea6
+[logcat] 11-26 20:39:07.271 19104 19112 D ActivityStack: onActivityResumed : ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity}
+[logcat] 11-26 20:39:07.274 19315 19315 D VRI[GameActivity]: onFocusEvent false
+[logcat] 11-26 20:39:07.278 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:07.285 19315 19315 D VRI[GameActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-26 20:39:07.288 19315 19315 I com.google:p0: AssetManager2(0x6d45919228) locale list changing from [] to [en-IN]
+[logcat] 11-26 20:39:07.305 19315 19315 D VRI[IMSDKProxyActivity]: setWindowStopped stopped:true
+[logcat] 11-26 20:39:07.319 19315 19315 D VRI[GameActivity]: setWindowStopped stopped:true
+[logcat] 11-26 20:39:07.319 20563 20563 E DEBUG   : failed to readlink /proc/19315/fd/331: No such file or directory
+[logcat] 11-26 20:39:07.320 19315 19315 I SurfaceView: 83965032 surfaceDestroyed
+[logcat] 11-26 20:39:07.320 19315 19315 V threaded_app: NativeWindowDestroyed: 0x6d9660fa80 -- 0x6d81dcc010
+[logcat] 11-26 20:39:07.320 19315 19633 V threaded_app: APP_CMD_TERM_WINDOW
+[logcat] 11-26 20:39:07.320 19315 19633 D UE4     : Case APP_CMD_TERM_WINDOW, tid = 19633
+[logcat] 11-26 20:39:07.320 19315 19633 V threaded_app: APP_CMD_TERM_WINDOW
+[logcat] 11-26 20:39:07.321 19315 19315 D BLASTBufferQueue: [5013468 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2](f:0,a:4) destructor()
+[logcat] 11-26 20:39:07.321 19315 19315 D BufferQueueConsumer: [5013468 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2(BLAST Consumer)2](id:4b7300000002,api:0,p:-1,c:19315) disconnect
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: updateRecordSurfaceViewState exception: 
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: java.lang.Throwable
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImplExtImpl.updateRecordSurfaceViewState(ViewRootImplExtImpl.java:1954)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.releaseSurfaces(SurfaceView.java:1170)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.updateSurface(SurfaceView.java:1615)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.setWindowStopped(SurfaceView.java:527)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.surfaceDestroyed(SurfaceView.java:2442)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.notifySurfaceDestroyed(ViewRootImpl.java:3180)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.setWindowStopped(ViewRootImpl.java:3106)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.view.WindowManagerGlobal.setStoppedState(WindowManagerGlobal.java:761)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.Activity.performStop(Activity.java:9676)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread.callActivityOnStop(ActivityThread.java:6545)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:6525)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:6593)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.servertransaction.StopActivityItem.execute(StopActivityItem.java:43)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.servertransaction.ActivityTransactionItem.execute(ActivityTransactionItem.java:63)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:174)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:106)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:39:07.511 19315 19315 E ViewRootImplExtImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:39:07.516 19315 19315 V threaded_app: Stop: 0x6d9660fa80
+[logcat] 11-26 20:39:07.517 19315 19633 V threaded_app: activityState=14
+[logcat] 11-26 20:39:07.517 19315 19633 D UE4     : Case APP_CMD_STOP
+[logcat] 11-26 20:39:07.517 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:39:07.517 19315 19315 E HDmpve  : OnStop
+[logcat] 11-26 20:39:07.517 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:39:07.527 19315 19315 V threaded_app: SaveInstanceState: 0x6d9660fa80
+[logcat] 11-26 20:39:07.528 19315 19633 D UE4     : Case APP_CMD_SAVE_STATE
+[logcat] 11-26 20:39:07.528 19315 19633 V threaded_app: APP_CMD_SAVE_STATE
+[logcat] 11-26 20:39:07.529 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:07.531 19315 19315 I com.google:p0: AssetManager2(0x6eafe20a28) locale list changing from [] to [en-IN]
+[logcat] 11-26 20:39:07.533 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:07.537 20563 20563 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
+[logcat] 11-26 20:39:07.537 19315 19315 D VRI[GameActivity]: setWindowStopped stopped:false
+[logcat] 11-26 20:39:07.537 19315 19315 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-26 20:39:07.546 20563 20563 I crash_dump64: performing dump of process 19315 (target tid = 19315)
+[logcat] 11-26 20:39:07.550 19315 19315 V threaded_app: Start: 0x6d9660fa80
+[logcat] 11-26 20:39:07.556 19315 19633 V threaded_app: activityState=10
+[logcat] 11-26 20:39:07.556 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:39:07.556 19315 19315 E HDmpve  : OnStart
+[logcat] 11-26 20:39:07.556 19315 19315 I         : genericobserver pos:0 className:com.blue.dm.hdmpve.lifecycle.PluginReportLifecycle
+[logcat] 11-26 20:39:07.556 19315 19315 D FirebaseRemoteConfigImplJava: devmode false
+[logcat] 11-26 20:39:07.556 19315 19315 D FirebaseRemoteConfigImplJava: cacheseconds 900
+[logcat] 11-26 20:39:07.556 19315 19633 D UE4     : Case APP_CMD_START
+[logcat] 11-26 20:39:07.561 19315 19315 D VRI[IMSDKProxyActivity]: setWindowStopped stopped:false
+[logcat] 11-26 20:39:07.561 19315 19315 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-26 20:39:07.562 19315 19315 D ActivityThread: ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity} checkFinished=false 2
+[logcat] 11-26 20:39:07.562 19315 19315 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:07.579 20563 20563 I crash_dump64: ***crash_dump->dump_backtrace***
+[logcat] 11-26 20:39:07.592 19104 19112 D ActivityStack: onActivityResumed : ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity}
+[logcat] 11-26 20:39:07.612 19315 19315 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:39:07.612 19315 19315 D NativeCore: SystemProperties.native_get: gsm.sim.operator.numeric => 40410
+[logcat] 11-26 20:39:07.637 19315 19315 D WebLoginBridge: twitter web result delivered to IMSDK callback
+[logcat] 11-26 20:39:07.638 19104 19182 D SystemCallProvider: call: RESTORE_GAME
+[logcat] 11-26 20:39:07.641 19104 19182 D ActivityStack: restoreGameTasks: moving task 2017 to front
+[logcat] 11-26 20:39:07.668 19315 19315 D WebLoginBridge: virtual game task restore requested
+[logcat] 11-26 20:39:07.689 19315 19315 I Choreographer: Skipped 49 frames!  The application may be doing too much work on its main thread.
+[logcat] 11-26 20:39:07.689 19315 19315 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@4f8eea6
+[logcat] 11-26 20:39:07.690 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@8bec59c hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:39:07.690 19315 19315 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@8bec59c hasOnBackInvokedCallBackEnabled
+[logcat] 11-26 20:39:07.691 19315 19315 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=1, smallestScreenWidthDp=0, residentWS=false, scenario=0, bounds=Rect(0, 0 - 1604, 720), relayoutAsync=false, flags=0, newFlags=840957960, title=com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity
+[logcat] 11-26 20:39:07.715 19315 19315 D VRI[IMSDKProxyActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1521, 720), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1521, requestedHeight:720, transformHint:4, installOrientation:0, displayRotation:1, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[83,0][1604,720] display=[83,0][1604,720] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 20:39:07.715 19315 19315 W VRI[IMSDKProxyActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1521, 720), lastSurfaceSize:Point(0, 0), format:-2, blastBufferQueue:null
+[logcat] 11-26 20:39:07.715 19315 19315 D BufferQueueConsumer: [](id:4b7300000005,api:0,p:-1,c:19315) connect: controlledByApp=false
+[logcat] 11-26 20:39:07.715 19315 19315 D BufferQueueConsumer: [VRI[IMSDKProxyActivity]#5(BLAST Consumer)5](id:4b7300000005,api:0,p:-1,c:19315) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:39:07.718 19315 19519 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:39:07.718 19315 19519 D libEGL  : this is from skia gles
+[logcat] 11-26 20:39:07.719 19315 19315 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity)/@0x814daec,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:39:07.719 19315 19315 I Quality : UISlowBinder:111654849
+[logcat] 11-26 20:39:07.729 19315 19519 D BLASTBufferQueue: [VRI[IMSDKProxyActivity]#5](f:0,a:1) acquireNextBufferLocked size=1521x720 mFrameNumber=1 applyTransaction=true mTimestamp=134641563183793(auto) mPendingTransactions.size=0 graphicBufferId=82957293322281 transform=7
+[logcat] 11-26 20:39:07.729 19315 19519 D VRI[IMSDKProxyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:39:07.730 19315 19315 D VRI[IMSDKProxyActivity]: draw finished. seqId=0
+[logcat] 11-26 20:39:07.731 19315 19315 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=1, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 1604, 720), relayoutAsync=false, flags=0, newFlags=840969480, title=com.pubg.imobile/com.epicgames.ue4.GameActivity
+[logcat] 11-26 20:39:07.747 19315 19315 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:true, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:4, installOrientation:0, displayRotation:1, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 20:39:07.748 19315 19315 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:null
+[logcat] 11-26 20:39:07.748 19315 19315 D BufferQueueConsumer: [](id:4b7300000006,api:0,p:-1,c:19315) connect: controlledByApp=false
+[logcat] 11-26 20:39:07.748 19315 19315 D BufferQueueConsumer: [VRI[GameActivity]#6(BLAST Consumer)6](id:4b7300000006,api:0,p:-1,c:19315) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:39:07.750 19315 19315 E OplusDisplayModeManager: has been initialized.
+[logcat] 11-26 20:39:07.750 19315 19519 D BLASTBufferQueue: [VRI[GameActivity]#1](f:0,a:1) destructor()
+[logcat] 11-26 20:39:07.750 19315 19519 D BufferQueueConsumer: [VRI[GameActivity]#1(BLAST Consumer)1](id:4b7300000001,api:0,p:-1,c:19315) disconnect
+[logcat] 11-26 20:39:07.751 19315 19519 D HWUI    : createSurface new attribs array
+[logcat] 11-26 20:39:07.751 19315 19519 D libEGL  : this is from skia gles
+[logcat] 11-26 20:39:07.754 19315 19315 D SurfaceView: 83965032, SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity], layerid: 68151 createBlastSurfaceControls
+[logcat] 11-26 20:39:07.755 19315 19315 D BufferQueueConsumer: [](id:4b7300000007,api:0,p:-1,c:19315) connect: controlledByApp=false
+[logcat] 11-26 20:39:07.755 19315 19315 D BufferQueueConsumer: [5013468 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#7(BLAST Consumer)7](id:4b7300000007,api:0,p:-1,c:19315) setMaxAcquiredBufferCount: 5
+[logcat] 11-26 20:39:07.755 19315 19315 I SurfaceView: 83965032 visibleChanged -- surfaceCreated 
+[logcat] 11-26 20:39:07.755 19315 19315 V threaded_app: NativeWindowCreated: 0x6d9660fa80 -- 0x6d967e8410
+[logcat] 11-26 20:39:07.757 19315 19633 V threaded_app: APP_CMD_INIT_WINDOW
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: updateRecordSurfaceViewState exception: 
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: java.lang.Throwable
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImplExtImpl.updateRecordSurfaceViewState(ViewRootImplExtImpl.java:1954)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.updateSurface(SurfaceView.java:1576)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.setWindowStopped(SurfaceView.java:527)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.SurfaceView.surfaceCreated(SurfaceView.java:2432)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.notifySurfaceCreated(ViewRootImpl.java:3163)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4958)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:3593)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:12031)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1852)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1861)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1373)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.Choreographer.doFrame(Choreographer.java:1230)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1835)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.os.Handler.handleCallback(Handler.java:1027)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.os.Handler.dispatchMessage(Handler.java:108)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-26 20:39:07.758 19315 19315 E ViewRootImplExtImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] 11-26 20:39:07.758 19315 19315 V threaded_app: NativeWindowResized: 0x6d9660fa80 -- 0x6d967e8410
+[logcat] 11-26 20:39:07.758 19315 19315 D SurfaceView: 83965032 handleSyncNoBuffer
+[logcat] 11-26 20:39:07.758 19315 19315 V threaded_app: NativeWindowRedrawNeeded: 0x6d9660fa80 -- 0x6d967e8410
+[logcat] 11-26 20:39:07.758 19315 19633 D UE4     : Case APP_CMD_INIT_WINDOW
+[logcat] 11-26 20:39:07.758 19315 19633 D UE4     : Case APP_CMD_WINDOW_RESIZED
+[logcat] 11-26 20:39:07.758 19315 19633 D UE4     : Case APP_CMD_WINDOW_REDRAW_NEEDED
+[logcat] 11-26 20:39:07.758 19315 19315 D SurfaceView: 83965032 finishedDrawing
+[logcat] 11-26 20:39:07.758 19315 19315 D SurfaceView: 83965032 performDrawFinished mAttachedToWindow true
+[logcat] 11-26 20:39:07.759 19315 19315 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.pubg.imobile/com.epicgames.ue4.GameActivity)/@0xa2323d6,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:39:07.759 19315 19315 D SurfaceView: 83965032 draw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 0
+[logcat] 11-26 20:39:07.759 19315 19315 D SurfaceView: 83965032 clearSurfaceViewPort mCornerRadius 0.0
+[logcat] 11-26 20:39:07.759 19315 19315 D SurfaceView: 83965032 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 0
+[logcat] 11-26 20:39:07.759 19315 19315 I Quality : UISlowBinder:127774849
+[logcat] 11-26 20:39:07.765 19315 19519 D BLASTBufferQueue: [VRI[GameActivity]#6](f:0,a:1) acquireNextBufferLocked size=1604x720 mFrameNumber=1 applyTransaction=true mTimestamp=134641599657332(auto) mPendingTransactions.size=0 graphicBufferId=82957293322288 transform=7
+[logcat] 11-26 20:39:07.765 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:39:07.766 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:39:07.768 19315 19315 V threaded_app: WindowFocusChanged: 0x6d9660fa80 -- 0
+[logcat] 11-26 20:39:07.768 19315 19633 D UE4     : Case APP_CMD_LOST_FOCUS
+[logcat] 11-26 20:39:07.772 19315 19315 W VRI[GameActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-26 20:39:07.772 19315 19315 W VRI[IMSDKProxyActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-26 20:39:07.772 19315 19315 I ImeTracker: com.google:992f0afd: onFailed at PHASE_CLIENT_HANDLE_SET_IME_VISIBILITY
+[logcat] 11-26 20:39:07.776 19315 19315 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=1, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 1604, 720), relayoutAsync=true, flags=0, newFlags=840969480, title=com.pubg.imobile/com.epicgames.ue4.GameActivity
+[logcat] 11-26 20:39:07.776 19315 19315 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:4, installOrientation:0, displayRotation:1, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-26 20:39:07.777 19315 19315 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@c82ceab
+[logcat] 11-26 20:39:07.777 19315 19315 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.pubg.imobile/com.epicgames.ue4.GameActivity)/@0xa2323d6,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-26 20:39:07.777 19315 19519 D VRI[GameActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+[logcat] 11-26 20:39:07.778 19315 19315 D VRI[GameActivity]: draw finished. seqId=0
+[logcat] 11-26 20:39:07.778 19315 19567 E FA      : Failed to send current screen to service
+[logcat] 11-26 20:39:07.778 19315 19567 E FA      : Failed to send current screen to service
+[logcat] 11-26 20:39:07.778 19315 19567 E FA      : Failed to send current screen to service
+[logcat] 11-26 20:39:07.784 19315 19519 D VRI[IMSDKProxyActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+[logcat] 11-26 20:39:07.784 19315 19315 D VRI[IMSDKProxyActivity]: draw finished. seqId=0
+[logcat] 11-26 20:39:07.786 19315 19315 D FirebaseRemoteConfigImplJava: remoteConfig complete with success
+[logcat] 11-26 20:39:07.802 19315 19813 E FrameEvents: addRelease: Did not find frame.
+[logcat] 11-26 20:39:07.828 19315 19315 D VRI[IMSDKProxyActivity]: onFocusEvent true
+[logcat] 11-26 20:39:07.835 19315 19315 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-26 20:39:07.835 19315 19315 I ImeTracker: com.google:ab0a505a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-26 20:39:08.164 19315 19632 D Surface : Surface::dispatchSetGameApi
+[logcat] 11-26 20:39:08.164 19315 19632 D Surface : dispatchSetGameApi pid[19315] tid[19632] GameApi[0]
+[logcat] 11-26 20:39:08.164 19315 19632 D Surface : dispatchSetGameApi res:0
+[logcat] 11-26 20:39:08.164 19315 19632 D libEGL  : set game api gles successfully
+[logcat] 11-26 20:39:08.177 13694 13705 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,This com.android.internal.policy.DecorView{ef278d5 V.E...... R....... 0,0-720,1604 aid=2 alpha=1.0 viewInfo = }[TwitterWebHostActivity] change focus to false
+[logcat] 11-26 20:39:08.261 19315 19336 D Looper  : dumpMergedQueue
+[logcat] 11-26 20:39:08.261 19315 19336 D OplusLooperMsgDispatcher: dumpMsgWhenAnr
+[logcat] 11-26 20:39:08.299 19104 19112 D VRI[LauncherActivity]: dispatchAppVisibility visible:true mUpcomingWindowFocus:false
+[logcat] 11-26 20:39:08.436 13694 13776 D VRI[TwitterWebHostActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+[logcat] 11-26 20:39:08.437 13694 13694 D VRI[TwitterWebHostActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-26 20:39:08.458 13694 13694 D HWUI    : RenderProxy::destroy: this=0x6f07bf4800, mContext=0x6ea0b8c3c0
+[logcat] 11-26 20:39:08.458 13694 13709 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eacbbf680, surface=NULL
+[logcat] 11-26 20:39:08.462 13694 13694 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity
+[logcat] 11-26 20:39:08.471 13694 13694 D VRI[TwitterWebHostActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-26 20:39:08.472 13694 13694 D BLASTBufferQueue: [VRI[TwitterWebHostActivity]#2](f:0,a:1) destructor()
+[logcat] 11-26 20:39:08.472 13694 13694 D BufferQueueConsumer: [VRI[TwitterWebHostActivity]#2(BLAST Consumer)2](id:357e00000002,api:0,p:-1,c:13694) disconnect
+[logcat] 11-26 20:39:08.476 13694 13694 D VRI[TwitterWebHostActivity]: setWindowStopped stopped:true
+[logcat] 11-26 20:39:08.478 13694 13709 D HWUI    : RenderThread::destroyRenderingContext: this=0x6f07a3f680
+[logcat] 11-26 20:39:08.478 13694 13709 D HWUI    : SkiaOpenGLPipeline::onContextDestroyed: this=0x6eacbbf680
+[logcat] 11-26 20:39:08.479 13694 13709 D HWUI    : EglManager::destroy: mEglDisplay=0xb400006f07aa4900, mEglContext=0x6ea0bd6b00, mCurrentSurface=0x0
+[logcat] 11-26 20:39:08.485 13694 13694 I AutofillManager: onInvisibleForAutofill(): expiringResponse
+[logcat] 11-26 20:39:08.488 13694 13694 W cr_AwContents: WebView.destroy() called while WebView is still attached to window.
+[logcat] 11-26 20:39:08.489 13694 13694 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,window dying
+[logcat] 11-26 20:39:08.489 13694 13694 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-26 20:39:08.489 13694 13694 D OplusScrollToTopManager: com.google/top.niunaijun.blackbox.utils.auth.TwitterWebHostActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@e15ca1d
+[logcat] 11-26 20:39:08.489 13694 13694 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@1afce24
+[logcat] 11-26 20:39:08.490 13694 13694 D HWUI    : RenderProxy::destroy: this=0x6f07bf4800, mContext=0x6ea0b8c3c0
+[logcat] 11-26 20:39:08.491 13694 13709 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eacbbf680, surface=NULL
+[logcat] 11-26 20:39:08.491 13694 13694 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-26 20:39:08.531 19104 19104 D VRI[LauncherActivity]: setWindowStopped stopped:false
+[logcat] 11-26 20:39:08.537 19104 19104 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.app.LauncherActivity} checkFinished=false 2
+[logcat] 11-26 20:39:08.537 19104 19104 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-26 20:39:08.538 19104 19104 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 top.niunaijun.blackbox.app.LauncherActivity.onResume:7 android.app.Instrumentation.callActivityOnResume:1737 android.app.Activity.performResume:9576 android.app.ActivityThread.performResumeActivity:6084 android.app.ActivityThread.handleResumeActivity:6145 android.app.servertransaction.ResumeActivityItem.execute:80 android.app.servertransaction.ActivityTransactionItem.execute:63 android.app.servertransaction.TransactionExecutor.executeLifecycleItem:174 
+[logcat] 11-26 20:39:08.554 19104 19112 D BProcessManager: App Died: com.pubg.imobile
+[logcat] 11-26 20:39:08.554 19104 19112 I Process : Sending signal. PID: 19315 SIG: 9
+[logcat] 11-26 20:39:08.561 19104 19104 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/top.niunaijun.blackbox.app.LauncherActivity
