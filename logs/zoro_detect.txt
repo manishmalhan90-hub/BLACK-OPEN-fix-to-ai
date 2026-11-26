@@ -9143,3 +9143,4 @@
 2026-11-26 20:38:40.176 [!!DETECT!!] 11-26 20:38:40.168 19315 20047 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):f4c22913-cc35-4452-b514-338b91992847 uc:1 re:true me:false mc:0
 2026-11-26 20:38:40.265 [!!DETECT!!] 11-26 20:38:40.261 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):aa95bcea-a65b-4eac-9fbc-182eb9c4c184 uc:1 re:true me:false mc:0
 2026-11-26 20:38:42.340 [!!DETECT!!] 11-26 20:38:42.336 19315 20045 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):664fee84-cf48-486c-9a63-fcb9f91224bd uc:1 re:true me:false mc:0
+2026-11-26 20:39:07.266 [!!DETECT!!] 11-26 20:39:07.243 19315 19400 W InstallReferrerClient: Connection to service is blocked.
