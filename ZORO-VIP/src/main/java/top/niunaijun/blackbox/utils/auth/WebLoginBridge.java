@@ -52,7 +52,7 @@ public final class WebLoginBridge {
 
     private static final String TAG = "WebLoginBridge";
     static final String ACTION_RESULT = "top.niunaijun.blackbox.weblogin.RESULT";
-    static final String EXTRA_VIRTUAL_PID = "virtual_pid";
+    public static final String EXTRA_VIRTUAL_PID = "virtual_pid";
     private static final String PROVIDER_METHOD = "START_WEB_LOGIN";
     private static final String RESTORE_METHOD = "RESTORE_GAME";
     private static final String PENDING_FILE = "weblogin_pending.json";
@@ -308,7 +308,6 @@ public final class WebLoginBridge {
             }
         };
         IntentFilter filter = new IntentFilter(ACTION_RESULT);
-        Context app = context.getApplicationContext();
         startPendingConsumer(app != null ? app : context);
         try {
             if (Build.VERSION.SDK_INT >= 33) {
