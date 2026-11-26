@@ -5,15 +5,14 @@ import android.util.Log;
 
 import java.util.Locale;
 
-import top.niunaijun.blackbox.core.ZoroRuntimeLogger;
-
 /**
  * Diagnostics only.
  *
- * The old version read plaintext credentials from /sdcard/twitter_creds.txt and
- * injected JavaScript into Twitter's WebView. That is removed: it was web login,
- * handled passwords unacceptably, and is not needed now that the game's own
- * in-app OAuthActivity is allowed to run.
+ * <p>The old version read plaintext credentials from /sdcard/twitter_creds.txt
+ * and injected JavaScript into Twitter's WebView. That code is gone: it was
+ * web login, handled passwords unacceptably, and is not used by the current
+ * SDK/app login path. This class now only records which Twitter activity the
+ * game created so a fresh login attempt is visible in the uploaded logs.</p>
  */
 public final class TwitterWebViewAutoLogin {
     private static final String TAG = "TwitterWebViewAutoLogin";
@@ -26,14 +25,11 @@ public final class TwitterWebViewAutoLogin {
             return;
         }
         String name = activity.getClass().getName();
-        if (name.toLowerCase(Locale.ROOT).contains("twitter")
-                || name.toLowerCase(Locale.ROOT).contains("oauth")) {
-            String message = "in-app OAuth activity started: " + name;
+        String lower = name.toLowerCase(Locale.ROOT);
+        if (lower.contains("twitter") || lower.contains("oauth") || lower.contains("customtab")) {
+            String message = "Twitter auth activity created: " + name;
+            TwitterLoginRedirect.log(message);
             Log.d(TAG, message);
-            try {
-                ZoroRuntimeLogger.log("twitter-login", message);
-            } catch (Throwable ignored) {
-            }
         }
     }
 }

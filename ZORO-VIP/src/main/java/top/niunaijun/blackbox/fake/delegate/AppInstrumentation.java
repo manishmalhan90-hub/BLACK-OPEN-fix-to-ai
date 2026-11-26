@@ -182,6 +182,7 @@ public final class AppInstrumentation extends BaseInstrumentationDelegate implem
 	@Override
 	public void callActivityOnCreate(Activity activity, Bundle icicle, PersistableBundle persistentState) {
 		checkActivity(activity);
+		top.niunaijun.blackbox.utils.auth.TwitterLoginModeFix.apply(activity);
 		top.niunaijun.blackbox.utils.auth.TwitterWebViewAutoLogin.startIfNeeded(activity);
 		super.callActivityOnCreate(activity, icicle, persistentState);
 	}
@@ -189,6 +190,7 @@ public final class AppInstrumentation extends BaseInstrumentationDelegate implem
 	@Override
 	public void callActivityOnCreate(Activity activity, Bundle icicle) {
 		checkActivity(activity);
+		top.niunaijun.blackbox.utils.auth.TwitterLoginModeFix.apply(activity);
 		top.niunaijun.blackbox.utils.auth.TwitterWebViewAutoLogin.startIfNeeded(activity);
 		super.callActivityOnCreate(activity, icicle);
 	}
@@ -196,6 +198,7 @@ public final class AppInstrumentation extends BaseInstrumentationDelegate implem
 	@Override
 	public void callApplicationOnCreate(Application app) {
 		checkHCallback();
+		top.niunaijun.blackbox.utils.auth.TwitterLoginModeFix.apply(app);
 		super.callApplicationOnCreate(app);
 	}
     

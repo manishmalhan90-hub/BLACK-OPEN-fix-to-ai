@@ -107,6 +107,7 @@ public class ActivityStack {
             synchronizeTasks();
         }
 
+        top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.observe(intent);
         if (top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.shouldIntercept(intent)) {
             top.niunaijun.blackbox.utils.auth.TwitterLoginRedirect.intercept(intent);
             return 0;
