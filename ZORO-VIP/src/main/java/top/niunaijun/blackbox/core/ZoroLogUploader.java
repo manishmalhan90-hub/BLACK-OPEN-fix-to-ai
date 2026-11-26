@@ -28,6 +28,7 @@ public final class ZoroLogUploader {
     }
 
     private static final String API = "https://api.github.com";
+    private static final Object UPLOAD_LOCK = new Object();
 
     private ZoroLogUploader() {
     }
@@ -50,21 +51,42 @@ public final class ZoroLogUploader {
                         throw new IllegalStateException("Log file not found: " + file.getAbsolutePath());
                     }
 
-                    byte[] bytes = readAll(file);
-                    String sha = getExistingSha(owner, repo, branch, remotePath, token);
-                    JSONObject body = new JSONObject();
-                    body.put("message", "Update " + remotePath + " from device");
-                    body.put("branch", branch);
-                    body.put("content", Base64.encodeToString(bytes, Base64.DEFAULT));
-                    if (sha != null) {
-                        body.put("sha", sha);
-                    }
+                    // Serialising GET+PUT prevents two sync threads from using the
+                    // same stale SHA. A fresh SHA on retry also handles conflicts
+                    // caused by commits made while the app was running.
+                    synchronized (UPLOAD_LOCK) {
+                        byte[] bytes = readAll(file);
+                        JSONObject body = new JSONObject();
+                        body.put("message", "Update " + remotePath + " from device");
+                        body.put("branch", branch);
+                        body.put("content", Base64.encodeToString(bytes, Base64.DEFAULT));
 
-                    int code = putFile(owner, repo, remotePath, token, body.toString().getBytes("UTF-8"));
-                    ok[0] = code >= 200 && code < 300;
-                    message[0] = ok[0]
-                            ? "Uploaded " + remotePath + " to " + owner + "/" + repo
-                            : "GitHub returned HTTP " + code;
+                        int code = 0;
+                        String error = "";
+                        for (int attempt = 0; attempt < 3; attempt++) {
+                            String sha = getExistingSha(owner, repo, branch, remotePath, token);
+                            if (sha != null) {
+                                body.put("sha", sha);
+                            } else {
+                                body.remove("sha");
+                            }
+                            String[] result = putFile(owner, repo, remotePath, token,
+                                    body.toString().getBytes("UTF-8"));
+                            code = Integer.parseInt(result[0]);
+                            if (code >= 200 && code < 300) {
+                                break;
+                            }
+                            error = result[1];
+                            if (code != 409) {
+                                break;
+                            }
+                        }
+                        ok[0] = code >= 200 && code < 300;
+                        message[0] = ok[0]
+                                ? "Uploaded " + remotePath + " to " + owner + "/" + repo
+                                : "GitHub returned HTTP " + code
+                                + (error == null || error.trim().isEmpty() ? "" : " - " + error.trim());
+                    }
                 } catch (Throwable t) {
                     message[0] = t.getMessage() == null ? t.toString() : t.getMessage();
                 }
@@ -84,10 +106,13 @@ public final class ZoroLogUploader {
     private static String getExistingSha(String owner, String repo, String branch,
                                          String path, String token) throws Exception {
         String url = API + "/repos/" + owner + "/" + repo + "/contents/" + path
-                + "?ref=" + URLEncoder.encode(branch, "UTF-8");
+                + "?ref=" + URLEncoder.encode(branch, "UTF-8")
+                + "&t=" + System.currentTimeMillis();
         HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
         connection.setRequestMethod("GET");
         applyHeaders(connection, token);
+        connection.setUseCaches(false);
+        connection.setRequestProperty("Cache-Control", "no-cache");
         try {
             int code = connection.getResponseCode();
             if (code == 404) {
@@ -103,7 +128,8 @@ public final class ZoroLogUploader {
         }
     }
 
-    private static int putFile(String owner, String repo, String path, String token, byte[] body)
+    /** Returns {HTTP code, short response body} so 409 conflicts can be diagnosed. */
+    private static String[] putFile(String owner, String repo, String path, String token, byte[] body)
             throws Exception {
         String url = API + "/repos/" + owner + "/" + repo + "/contents/" + path;
         HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
@@ -118,7 +144,13 @@ public final class ZoroLogUploader {
             } finally {
                 out.close();
             }
-            return connection.getResponseCode();
+            int code = connection.getResponseCode();
+            InputStream errorStream = connection.getErrorStream();
+            String error = errorStream == null ? "" : readString(errorStream);
+            if (error.length() > 300) {
+                error = error.substring(0, 300);
+            }
+            return new String[]{String.valueOf(code), error};
         } finally {
             connection.disconnect();
         }
