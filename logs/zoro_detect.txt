@@ -3576,3 +3576,7 @@
 2026-11-26 17:10:07.187 [!!DETECT!!] 11-26 17:10:07.172 16783 17617 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):23a56a0f-b6cf-4122-9ee3-37791cc21421 uc:1 re:true me:false mc:0
 2026-11-26 17:10:09.573 [!!DETECT!!] 11-26 17:10:09.563 16783 17616 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):18be312f-9247-443a-897f-738e7957a1f9 uc:1 re:true me:false mc:0
 2026-11-26 17:10:13.549 [!!DETECT!!] 11-26 17:10:13.540 16783 16883 W InstallReferrerClient: Connection to service is blocked.
+2026-11-26 17:10:42.299 [!!DETECT!!] 11-26 17:10:42.155 16783 16796 E [CrashKitReport-Native]: get signal 6
+2026-11-26 17:10:42.309 [!!DETECT!!] 11-26 17:10:42.155 16783 16796 E [CrashKitReport-Native]: last errno is 14
+2026-11-26 17:10:42.320 [!!DETECT!!] 11-26 17:10:42.168 16783 16796 E [CrashKitReport-Native]: try to unwind full native stack
+2026-11-26 17:10:55.418 [!!DETECT!!] 11-26 17:10:55.200 18441 18441 E com.google: Unknown bits set in runtime_flags: 0x40000000
