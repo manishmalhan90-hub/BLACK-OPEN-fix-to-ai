@@ -1126,3 +1126,4 @@
 2026-11-26 18:57:42.643 [!!LOGIN!!] 11-26 18:57:42.527 18718 18728 F com.google:p0: runtime.cc:769]   native: #17 pc 006fe098  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+184)
 2026-11-26 18:57:42.681 [!!LOGIN!!] 11-26 18:57:42.527 18718 18728 F com.google:p0: runtime.cc:769]   native: #23 pc 0055bc78  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc+12) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
 2026-11-26 18:57:42.705 [!!LOGIN!!] 11-26 18:57:42.527 18718 18728 F com.google:p0: runtime.cc:769]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:764)
+2026-11-26 19:11:23.807 [!!LOGIN!!] 11-26 19:11:23.712 29780 29780 D TwitterLoginRedirect: environment: mode=sdk, X app installed=false, legacy SSO activity=false, forced web login=twitter+facebook
