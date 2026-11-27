@@ -11866,3 +11866,48 @@
 2026-11-27 06:55:09.050 [!!DETECT!!] 11-27 06:55:05.616  9933  9933 E libsigchain:   #06 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
 2026-11-27 06:55:09.195 [!!DETECT!!] 11-27 06:55:05.745  9949  9949 E libsigchain:   #04 pc 000a7990  /apex/com.android.runtime/lib64/bionic/libc.so (system+416) (BuildId: 4cf6e860254939889eacd20c5a4dfd94)
 2026-11-27 06:55:09.201 [!!DETECT!!] 11-27 06:55:05.745  9949  9949 E libsigchain:   #05 pc 000e0058  /data/user/0/com.google/files/loader/libbgmi.so (+0) (BuildId: 7078465b92b6a44020166d87a6325ed6193b07da)
+2026-11-27 06:55:25.846 [!!DETECT!!] 11-27 06:55:25.828  9684  9897 W [CrashKit]: Game type has not been set.
+2026-11-27 06:55:25.861 [!!DETECT!!] 11-27 06:55:25.828  9684  9897 W [CrashKit]: Trying :com.epicgames.ue4.GameActivity
+2026-11-27 06:55:25.878 [!!DETECT!!] 11-27 06:55:25.830  9684  9684 W [CrashKitReport]: appContext: not null, appId: 7769b99233, isDebug: false, crashKitStrategy: not null
+2026-11-27 06:55:25.888 [!!DETECT!!] 11-27 06:55:25.837  9684  9897 I [CrashKitReport]: sdk uuid deviceId: 
+2026-11-27 06:55:25.903 [!!DETECT!!] 11-27 06:55:25.837  9684  9897 I [CrashKitReport]: cachedUuid: bc50e3d6-63dd-4573-a744-b04638f2079a
+2026-11-27 06:55:25.916 [!!DETECT!!] 11-27 06:55:25.837  9684  9897 I [CrashKitReport]: currentVersionUuid: 
+2026-11-27 06:55:25.927 [!!DETECT!!] 11-27 06:55:25.837  9684  9897 I [CrashKitReport]: redisKeyUuid: bc50e3d6-63dd-4573-a744-b04638f2079a
+2026-11-27 06:55:25.946 [!!DETECT!!] 11-27 06:55:25.851  9684  9684 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libCrashKit.so
+2026-11-27 06:55:25.955 [!!DETECT!!] 11-27 06:55:25.851  9684  9684 I [CrashKitReport-Native]: Initiate native log with buffer size 30720.
+2026-11-27 06:55:25.965 [!!DETECT!!] 11-27 06:55:25.851  9684  9684 I [CrashKitReport-Native]: Initialization of native log have been completed.
+2026-11-27 06:55:26.946 [!!DETECT!!] 11-27 06:55:26.928  9684 10183 W System.err: java.lang.IllegalArgumentException: Invalid path: /storage/emulated/0/SdCard
+2026-11-27 06:55:27.032 [!!DETECT!!] 11-27 06:55:26.977  9684 10183 W libc    : Access denied finding property "vendor.gamematrix.hardware_type"
+2026-11-27 06:55:27.039 [!!DETECT!!] 11-27 06:55:26.977  9684 10183 W libc    : Access denied finding property "vendor.gamematrix.cluster"
+2026-11-27 06:55:27.045 [!!DETECT!!] 11-27 06:55:26.977  9684 10183 W libc    : Access denied finding property "vendor.cloudgame.game"
+2026-11-27 06:55:27.447 [!!DETECT!!] 11-27 06:55:27.442  9684 10190 D [CrashKitReport]: Check and upload mmkv crash if exists. 
+2026-11-27 06:55:29.344 [!!DETECT!!] 11-27 06:55:29.337  9684  9684 D NativeCore: nativeLoad: /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libanogs.so
+2026-11-27 06:55:33.148 [!!DETECT!!] 11-27 06:55:33.135  9684  9897 E com.google:p0: loadExtlib: failed to dlopen lib: libgameextimpl.so, message = dlopen failed: library "libgameextimpl.so" not found
+2026-11-27 06:55:36.048 [!!DETECT!!] 11-27 06:55:36.042  9684 10184 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):109d03c7-baa6-4708-b695-67ea9553f0bc uc:1 re:true me:false mc:0
+2026-11-27 06:55:36.064 [!!DETECT!!] 11-27 06:55:36.050  9684 10183 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):6424843c-d4a1-43d4-a173-ec866bff49c3 uc:1 re:true me:false mc:0
+2026-11-27 06:55:36.091 [!!DETECT!!] 11-27 06:55:36.087  9684 10185 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):af558aa2-4977-4a8a-a092-0a5fe8ba8cfb uc:1 re:true me:false mc:0
+2026-11-27 06:55:36.457 [!!DETECT!!] 11-27 06:55:36.447  9684 10184 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):95d57da6-47f6-4a30-8f33-58ef270cb7b0 uc:1 re:true me:false mc:0
+2026-11-27 06:55:36.475 [!!DETECT!!] 11-27 06:55:36.460  9684 10183 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):a42c765d-0634-4d45-bb05-b97a19f3e6ed uc:1 re:true me:false mc:0
+2026-11-27 06:55:38.832 [!!DETECT!!] 11-27 06:55:38.822  9684 10185 W [CrashKitReport]: [uploadFinished]REPORT ID(expUid):55e1b39b-d257-4d84-887c-2724621a14b9 uc:1 re:true me:false mc:0
+2026-11-27 06:55:43.175 [!!DETECT!!] 11-27 06:55:43.167  9684  9774 W InstallReferrerClient: Connection to service is blocked.
+2026-11-27 07:22:19.670 [!!DETECT!!] 11-27 07:22:19.340 27826 27826 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+2026-11-27 07:22:19.763 [!!DETECT!!] 11-27 07:22:19.467 27826 27826 W libc    : Access denied finding property "ro.odm.prev.product.name"
+2026-11-27 07:22:19.766 [!!DETECT!!] 11-27 07:22:19.468 27826 27826 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+2026-11-27 07:22:19.858 [!!DETECT!!] 11-27 07:22:19.777 27826 27826 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@1fa5c0c
+2026-11-27 07:22:19.879 [!!DETECT!!] 11-27 07:22:19.803 27826 27826 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@2c58fb3
+2026-11-27 07:22:20.026 [!!DETECT!!] 11-27 07:22:19.956 27826 27826 W StorageManager: Missing package names; no storage volumes available
+2026-11-27 07:22:20.276 [!!DETECT!!] 11-27 07:22:20.273 27826 27826 W System  : Attempt to load writable file: /data/user/0/com.google/files/loader/libbgmi.so. This will throw on a future Android version. Current sdk version: 36
+2026-11-27 07:22:20.363 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/data/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-27 07:22:20.426 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+2026-11-27 07:22:20.459 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/data/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-27 07:22:20.478 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+2026-11-27 07:22:20.514 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/misc/profiles -> /data/user/0/com.google/files/profiles
+2026-11-27 07:22:20.575 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/misc/profiles/cur/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/cur/0/com.pubg.imobile
+2026-11-27 07:22:20.613 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /data/misc/profiles/ref/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/ref/0/com.pubg.imobile
+2026-11-27 07:22:20.635 [!!DETECT!!] 11-27 07:22:20.335 27826 27826 D NativeCore: set addIORule: /sdcard -> /storage/emulated/0/SdCard
+2026-11-27 07:22:20.670 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: set addIORule: /storage/emulated/0 -> /storage/emulated/0/SdCard
+2026-11-27 07:22:20.732 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: set addIORule: /proc/27826/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-27 07:22:20.784 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: set addIORule: /proc/self/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+2026-11-27 07:22:20.842 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: set enableIO
+2026-11-27 07:22:20.869 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: register class：java/io/UnixFileSystem, method：getLastModifiedTime0 success!
+2026-11-27 07:22:20.972 [!!DETECT!!] 11-27 07:22:20.338 27826 27826 D NativeCore: register class：java/io/UnixFileSystem, method：setPermission0 success!
