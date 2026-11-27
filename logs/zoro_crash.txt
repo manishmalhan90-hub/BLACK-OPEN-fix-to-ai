@@ -5359,3 +5359,4 @@
 2026-11-26 20:38:00.263 [!!CRASH!!] 11-26 20:37:42.876 17073 17073 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
 2026-11-26 20:39:07.834 [!!CRASH!!] 11-26 20:39:07.537 20563 20563 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
 2026-11-26 20:39:08.579 [!!CRASH!!] 11-26 20:39:08.554 19104 19112 D BProcessManager: App Died: com.pubg.imobile
+2026-11-26 21:53:23.741 [!!CRASH!!] 11-26 21:53:23.700 22894 22903 D BProcessManager: App Died: com.pubg.imobile
