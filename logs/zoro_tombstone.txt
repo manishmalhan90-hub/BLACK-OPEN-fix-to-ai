@@ -4608,3 +4608,236 @@
 [logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
 [logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
 [logcat] 11-26 20:37:54.386 18598 18598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Revision: '0'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : ABI: 'arm64'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Timestamp: 2026-11-27 06:54:34.682418173+0530
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process uptime: 20s
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cmdline: com.pubg.imobile
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : pid: 7410, tid: 7753, name: NativeThread  >>> com.pubg.imobile <<<
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : uid: 11322
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0000000000000038
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cause: null pointer dereference
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x0  0000006ea8f7ce50  x1  0000000000000008  x2  0000006ea8f7ce50  x3  0000006ea8f7bf80
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x4  0000006ea8f7bff8  x5  0000000000000004  x6  00000000029640e8  x7  0000000000000010
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x8  0000000000000000  x9  0000000000000000  x10 0000006ea8f7cdd0  x11 0000000000000001
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x12 0000000000000008  x13 0000000000000100  x14 0000000000000013  x15 0000000000080000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x16 0000006f4bd002d0  x17 0000006f4b320414  x18 0000006d5a3e4000  x19 0000006ea8f7bde0
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x20 0000006ea8f7d800  x21 0000000000000000  x22 0000006ea8f7ce50  x23 000000000001000a
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x24 0000000000002711  x25 0000000000000000  x26 b400006f5c47c900  x27 0000000000000000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x28 0000006ea8f7d800  x29 0000006ea8f7bac0
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     lr  0000006f4b698b38  sp  0000006ea8f7ba60  pc  0000006f4b320520  pst 0000000040001000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   : 25 total frames
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   : backtrace:
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #00 pc 000000000024f520  /apex/com.android.art/lib64/libart.so (art::ArtMethod::GetOatMethodQuickCode(art::PointerSize)+268) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #01 pc 00000000005c7b34  /apex/com.android.art/lib64/libart.so (void art::StackVisitor::WalkStack<(art::StackVisitor::CountTransitions)1, false>(bool)+408) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #02 pc 00000000005c75d0  /apex/com.android.art/lib64/libart.so (art::Thread::VisitRoots(art::RootVisitor*, art::VisitRootFlags)+1400) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #03 pc 00000000005c66f4  /apex/com.android.art/lib64/libart.so (art::gc::collector::MarkCompact::CheckpointMarkThreadRoots::Run(art::Thread*)+148) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #04 pc 00000000002c3654  /apex/com.android.art/lib64/libart.so (art::Thread::RunCheckpointFunction()+192) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #05 pc 000000000033d668  /apex/com.android.art/lib64/libart.so (artTestSuspendFromCode+224) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #06 pc 0000000000287c5c  /apex/com.android.art/lib64/libart.so (art_quick_test_suspend+156) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #07 pc 00000000006aa744  /apex/com.android.art/lib64/libart.so (ExecuteNterpImpl+1796) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #08 pc 00000000009ac2e0  /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/oat/arm64/base.vdex (top.niunaijun.blackbox.core.RNative.getCallingUid+0)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #09 pc 0000000000270fc0  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #10 pc 0000000000270024  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+1304) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #11 pc 000000000064924c  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallStaticIntMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+176) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #12 pc 0000000000060770  /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/lib/arm64/libRIYAZcore.so (BuildId: 260571db00489da0b471615e865b69bd1706c4c3)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #13 pc 00000000000606c8  /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/lib/arm64/libRIYAZcore.so (BuildId: 260571db00489da0b471615e865b69bd1706c4c3)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #14 pc 00000000008d04f0  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.PropertyInvalidatedCache$CacheMap.get+80)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #15 pc 000000000077a354  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.PropertyInvalidatedCache.query+260)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #16 pc 0000000000c5b0fc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.IpcDataCache.query+44)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #17 pc 00000000006bf93c  /apex/com.android.art/lib64/libart.so (nterp_helper+2124) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #18 pc 000000000021d7de  /system/framework/oplus-framework.jar (android.media.AudioManagerExtImpl.isBluetoothA2dpOnCacheAPP+54)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #19 pc 0000000000b8ac2c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.media.AudioManager.isBluetoothA2dpOn+124)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #20 pc 0000000000270cf4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #21 pc 000000000026eed4  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+872) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #22 pc 0000000000623c6c  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+184) (BuildId: a47994c420371ffbd05d16fc9a15ac9f)
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #23 pc 0000000008e62488  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :       #24 pc 000000000c237bb8  /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64/libUE4.so
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Revision: '0'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : ABI: 'arm64'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Timestamp: 2026-11-27 06:54:34.682418173+0530
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process uptime: 20s
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cmdline: com.pubg.imobile
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : pid: 7410, tid: 7753, name: NativeThread  >>> com.pubg.imobile <<<
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : uid: 11322
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0000000000000038
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cause: null pointer dereference
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x0  0000006ea8f7ce50  x1  0000000000000008  x2  0000006ea8f7ce50  x3  0000006ea8f7bf80
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x4  0000006ea8f7bff8  x5  0000000000000004  x6  00000000029640e8  x7  0000000000000010
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x8  0000000000000000  x9  0000000000000000  x10 0000006ea8f7cdd0  x11 0000000000000001
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: Process: com.pubg.imobile, PID: 7851
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: Process: com.pubg.imobile, PID: 8349
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: Process: com.pubg.imobile, PID: 8549
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:44.706  8549  8549 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: Process: com.pubg.imobile, PID: 8717
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:47.266  8717  8717 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Revision: '0'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : ABI: 'arm64'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Timestamp: 2026-11-27 06:54:34.682418173+0530
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: Process: com.pubg.imobile, PID: 8870
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:49.632  8870  8870 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Revision: '0'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : ABI: 'arm64'
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: FATAL EXCEPTION: main
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: Process: com.pubg.imobile, PID: 9072
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+[logcat] 11-27 06:54:52.078  9072  9072 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] --------- beginning of crash
+[logcat] --------- beginning of crash
+[logcat] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process name is com.pubg.imobile, uid is 11322, not key_process
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : keyProcess: 0
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Build fingerprint: 'OPPO/CPH2665IN/OP5B05L1:16/BP2A.250605.015/U.R4T2.3f6490d-18a58a2-19636d1:user/release-keys'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Revision: '0'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : ABI: 'arm64'
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Timestamp: 2026-11-27 06:54:34.682418173+0530
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Process uptime: 20s
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cmdline: com.pubg.imobile
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : pid: 7410, tid: 7753, name: NativeThread  >>> com.pubg.imobile <<<
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : uid: 11322
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0000000000000038
+[logcat] 11-27 06:54:35.619  7812  7812 F DEBUG   : Cause: null pointer dereference
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x0  0000006ea8f7ce50  x1  0000000000000008  x2  0000006ea8f7ce50  x3  0000006ea8f7bf80
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x4  0000006ea8f7bff8  x5  0000000000000004  x6  00000000029640e8  x7  0000000000000010
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x8  0000000000000000  x9  0000000000000000  x10 0000006ea8f7cdd0  x11 0000000000000001
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x12 0000000000000008  x13 0000000000000100  x14 0000000000000013  x15 0000000000080000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x16 0000006f4bd002d0  x17 0000006f4b320414  x18 0000006d5a3e4000  x19 0000006ea8f7bde0
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x20 0000006ea8f7d800  x21 0000000000000000  x22 0000006ea8f7ce50  x23 000000000001000a
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x24 0000000000002711  x25 0000000000000000  x26 b400006f5c47c900  x27 0000000000000000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     x28 0000006ea8f7d800  x29 0000006ea8f7bac0
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   :     lr  0000006f4b698b38  sp  0000006ea8f7ba60  pc  0000006f4b320520  pst 0000000040001000
+[logcat] 11-27 06:54:35.620  7812  7812 F DEBUG   : 25 total frames
