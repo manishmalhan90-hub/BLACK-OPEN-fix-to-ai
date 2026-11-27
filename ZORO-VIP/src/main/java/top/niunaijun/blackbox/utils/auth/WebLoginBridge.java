@@ -68,6 +68,8 @@ public final class WebLoginBridge {
     private static final AtomicBoolean sLoginActive = new AtomicBoolean(false);
     private static final AtomicBoolean sResultConsumed = new AtomicBoolean(false);
     private static final AtomicBoolean sPendingPolling = new AtomicBoolean(false);
+    /** Only WebLoginActivity.onCreate may replay an orphan Facebook result. */
+    private static final AtomicBoolean sFacebookOrphanReplay = new AtomicBoolean(false);
     private static final Object PENDING_LOCK = new Object();
     private static final Handler MAIN = new Handler(Looper.getMainLooper());
 
@@ -123,6 +125,27 @@ public final class WebLoginBridge {
                     + (twitter ? "twitter" : "facebook"));
             return true;
         }
+
+        // v21: an ART abort can kill the owner process after the isolated WebView
+        // already produced a result. Reuse that result on the next login attempt
+        // in the fresh process instead of opening another WebView, which would
+        // hit the same GC abort again.
+        String orphanKind = replayableOrphanKind(context);
+        if (orphanKind != null && orphanKind.equals(twitter ? "twitter" : "facebook")) {
+            log("orphan web result replay scheduled on fresh login attempt | kind=" + orphanKind);
+            if ("facebook".equals(orphanKind)) {
+                // WebLoginActivity.onCreate installs the static IMSDK listener.
+                // Its hook replays the stored result and closes the activity.
+                return false;
+            }
+            consumePending(context);
+            if (!hasStoredPending(context)) {
+                return true;
+            }
+            // No usable callback in this process; discard and start a fresh login.
+            clearPending(context);
+        }
+
         String waitingKind = pendingKind(context);
         if (waitingKind != null) {
             if (facebook && "facebook".equals(waitingKind)) {
@@ -504,21 +527,28 @@ public final class WebLoginBridge {
                     return;
                 }
                 if (!pendingOwnerAlive(pending)) {
+                    // Facebook's listener only exists after WebLoginActivity is
+                    // recreated. Do not burn the orphan from the background poll.
+                    if ("facebook".equals(pending.optString("kind"))
+                            && !sFacebookOrphanReplay.get()) {
+                        return;
+                    }
+                    if (!pending.optBoolean("orphan_rescued", false)) {
+                        pending.put("orphan_rescued", true);
+                        writePending(context, pending);
+                        log("orphan web result replay attempt | kind=" + pending.optString("kind"));
+                        if (!deliver(pendingResultIntent(pending))) {
+                            log("orphan web result kept for next login attempt | kind="
+                                    + pending.optString("kind"));
+                            return;
+                        }
+                    }
                     clearPending(context);
                     sPendingFailures = 0;
                     log("pending result discarded: owner process gone");
                     return;
                 }
-                Intent result = new Intent(ACTION_RESULT);
-                result.putExtra("kind", pending.optString("kind"));
-                result.putExtra("request_code", pending.optInt("request_code", 1));
-                String json = pending.optString("result_json");
-                if (!TextUtils.isEmpty(json)) {
-                    result.putExtra("result_json", json);
-                } else {
-                    result.putExtra("result_code", pending.optInt("result_code", -1));
-                    result.putExtra("result_msg", pending.optString("result_msg"));
-                }
+                Intent result = pendingResultIntent(pending);
                 if (!deliver(result)) {
                     sPendingFailures++;
                     if (sPendingFailures % 25 == 0) {
@@ -537,6 +567,77 @@ public final class WebLoginBridge {
             } catch (Throwable t) {
                 log("pending result read failed: " + t);
             }
+        }
+    }
+
+    private static Intent pendingResultIntent(JSONObject pending) {
+        Intent result = new Intent(ACTION_RESULT);
+        result.putExtra("kind", pending.optString("kind"));
+        result.putExtra("request_code", pending.optInt("request_code", 1));
+        String json = pending.optString("result_json");
+        if (!TextUtils.isEmpty(json)) {
+            result.putExtra("result_json", json);
+        } else {
+            result.putExtra("result_code", pending.optInt("result_code", -1));
+            result.putExtra("result_msg", pending.optString("result_msg"));
+        }
+        return result;
+    }
+
+    private static void writePending(Context context, JSONObject pending) {
+        synchronized (PENDING_LOCK) {
+            File file = pendingFile(context);
+            if (file == null) {
+                return;
+            }
+            try {
+                File temp = new File(file.getParentFile(), file.getName() + ".tmp");
+                FileOutputStream out = new FileOutputStream(temp, false);
+                try {
+                    out.write(pending.toString().getBytes(StandardCharsets.UTF_8));
+                    out.flush();
+                } finally {
+                    out.close();
+                }
+                if (file.exists() && !file.delete()) {
+                    log("old pending result could not be removed");
+                }
+                if (!temp.renameTo(file)) {
+                    log("pending result rename failed");
+                }
+            } catch (Throwable t) {
+                ZoroRuntimeLogger.logThrowable("login-bridge", t);
+                log("pending result rewrite failed: " + t);
+            }
+        }
+    }
+
+    private static boolean hasStoredPending(Context context) {
+        File file = pendingFile(context);
+        return file != null && file.exists();
+    }
+
+    /** Fresh orphan result whose owner died but which was not replayed yet. */
+    private static String replayableOrphanKind(Context context) {
+        try {
+            File file = pendingFile(context);
+            if (file == null || !file.exists()) {
+                return null;
+            }
+            JSONObject pending = new JSONObject(new String(readAll(file), StandardCharsets.UTF_8));
+            long ts = pending.optLong("ts", 0L);
+            long now = System.currentTimeMillis();
+            if (ts <= 0L || ts > now || now - ts > PENDING_MAX_AGE_MS) {
+                clearPending(context);
+                return null;
+            }
+            if (pendingOwnerAlive(pending) || pending.optBoolean("orphan_rescued", false)) {
+                return null;
+            }
+            String kind = pending.optString("kind");
+            return TextUtils.isEmpty(kind) ? null : kind;
+        } catch (Throwable ignored) {
+            return null;
         }
     }
 
@@ -619,12 +720,17 @@ public final class WebLoginBridge {
         }
         Context app = activity.getApplicationContext();
         final Context context = app != null ? app : activity;
-        if (!"facebook".equals(pendingKind(context))) {
+        String replayKind = replayableOrphanKind(context);
+        if (replayKind == null) {
+            replayKind = pendingKind(context);
+        }
+        if (!"facebook".equals(replayKind)) {
             return;
         }
         sGameClassLoader = activity.getClassLoader();
         register(context, sGameClassLoader);
         log("facebook listener replay scheduled after activity recreation");
+        sFacebookOrphanReplay.set(true);
         MAIN.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -632,6 +738,8 @@ public final class WebLoginBridge {
                     consumePending(context);
                 } catch (Throwable t) {
                     log("facebook listener replay failed: " + t);
+                } finally {
+                    sFacebookOrphanReplay.set(false);
                 }
                 try {
                     if (!activity.isFinishing()) {
