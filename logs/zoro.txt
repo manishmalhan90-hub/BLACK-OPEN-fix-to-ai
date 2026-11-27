@@ -1759,3 +1759,965 @@
 [logcat] 11-27 06:54:02.263  5540  6006 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
 [logcat] 11-27 06:54:03.621  5540  6006 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
 [logcat] 11-27 06:54:03.629  5540  6006 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-27 06:54:04.813  5540  5540 D WebLoginBridge: pending result still waiting for game callback | kind=facebook | attempts=150
+[logcat] 11-27 06:54:04.985  5540  6006 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-27 06:54:04.990  5540  6006 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-27 06:54:05.228  5540  5540 D WebLoginBridge: facebook result waiting: listener unavailable
+[logcat] 11-27 06:54:05.995  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171539830, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:05.995  5540  5540 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:06.050  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171539885, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:06.050  5540  5540 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:06.175  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171540009, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:06.175  5540  5540 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:06.249  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171540084, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:06.249  5540  5540 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:06.350  5540  6006 V AudioManagerExtImpl: isBluetoothA2dpOnCacheAPP result = false, uid = 10001
+[logcat] 11-27 06:54:06.351  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171540185, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:06.351  5540  5540 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:06.355  5540  6006 D AudioManager: isBluetoothScoOn()=false, calling application:com.google
+[logcat] 11-27 06:54:06.425  5540  5540 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171540259, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:06.425  5540  5540 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:06.968  5540  5540 D VRI[IMSDKProxyActivity]: onFocusEvent false
+[logcat] 11-27 06:54:07.477  5540  5561 D VRI[GameActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+[logcat] 11-27 06:54:07.477  5540  5540 D VRI[GameActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-27 06:54:07.479  5540  5540 I SurfaceView: 80213481 surfaceDestroyed
+[logcat] 11-27 06:54:07.479  5540  5540 V threaded_app: NativeWindowDestroyed: 0x6db4e620c0 -- 0x6e8e62e810
+[logcat] 11-27 06:54:07.479  5540  5823 V threaded_app: APP_CMD_TERM_WINDOW
+[logcat] 11-27 06:54:07.479  5540  5823 D UE4     : Case APP_CMD_TERM_WINDOW, tid = 5823
+[logcat] 11-27 06:54:07.479  5540  5823 V threaded_app: APP_CMD_TERM_WINDOW
+[logcat] 11-27 06:54:07.480  5540  5540 D BLASTBufferQueue: [4c7f5e9 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2](f:0,a:4) destructor()
+[logcat] 11-27 06:54:07.480  5540  5540 D BufferQueueConsumer: [4c7f5e9 SurfaceView[com.pubg.imobile/com.epicgames.ue4.GameActivity]#2(BLAST Consumer)2](id:15a400000002,api:0,p:-1,c:5540) disconnect
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: updateRecordSurfaceViewState exception: 
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: java.lang.Throwable
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewRootImplExtImpl.updateRecordSurfaceViewState(ViewRootImplExtImpl.java:1954)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.SurfaceView.releaseSurfaces(SurfaceView.java:1170)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.SurfaceView.updateSurface(SurfaceView.java:1615)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.SurfaceView.onWindowVisibilityChanged(SurfaceView.java:573)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.View.dispatchWindowVisibilityChanged(View.java:17378)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1675)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1675)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1675)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1675)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4271)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:3593)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:12031)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1852)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1861)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1373)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.Choreographer.doFrame(Choreographer.java:1230)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1835)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.os.Handler.handleCallback(Handler.java:1027)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.os.Handler.dispatchMessage(Handler.java:108)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.os.Looper.loopOnce(Looper.java:302)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.os.Looper.loop(Looper.java:412)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+[logcat] 11-27 06:54:07.481  5540  5540 E ViewRootImplExtImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+=== ZORO runtime log started | pid=7208 | process=com.google | 2026-11-27 06:54:09.952 ===
+2026-11-27 06:54:09.961 [com.google/7208] process: Main
+2026-11-27 06:54:09.963 [com.google/7208] step: attachBaseContext: hook init start
+2026-11-27 06:54:09.965 [com.google/7208] step: attachBaseContext: hook init done
+[logcat] --------- beginning of system
+[logcat] 11-27 06:52:55.863  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:55.863  5261  5313 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+[logcat] 11-27 06:52:55.915  5261  5261 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: updateDebugToClass OnBackInvokedDispatcher.DEBUG = false
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: updateDebugToClass InsetsController.DEBUG = false
+[logcat] 11-27 06:52:55.923  5261  5261 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+[logcat] 11-27 06:52:56.028  5261  5261 D ActivityThread: ComponentInfo{com.google/com.google.activity.LoginActivity} checkFinished=false 2
+[logcat] 11-27 06:52:56.028  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:56.035  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:56.100  5261  5261 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+2026-11-27 06:54:10.035 [com.google/7208] step: doCreate: start
+[logcat] 11-27 06:52:56.100  5261  5261 W VRI[LoginActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+2026-11-27 06:54:10.038 [com.google/7208] step: doCreate: black manager init
+[logcat] 11-27 06:52:56.125  5261  5261 W VRI[LoginActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2026-11-27 06:54:10.041 [com.google/7208] step: doCreate: done
+[logcat] 11-27 06:52:57.405  5261  5261 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@5ac53a8
+[logcat] 11-27 06:52:58.480  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:58.512  5261  5261 D ActivityThread: ComponentInfo{com.google/com.google.activity.MainActivity} checkFinished=false 2
+[logcat] 11-27 06:52:58.512  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:58.520  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:52:58.541  5261  5261 D VRI[MainActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:52:58.542  5261  5261 W VRI[MainActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:52:58.572  5261  5261 W VRI[MainActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:52:58.895  5261  5261 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:01.071  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:01.246  5261  5261 I Quality : InflateViewInfo:166012077,FrameLayout
+[logcat] 11-27 06:53:01.271  5261  5261 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.app.LauncherActivity} checkFinished=false 2
+[logcat] 11-27 06:53:01.272  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:01.293  5261  5261 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:01.318  5261  5261 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:01.322  5261  5261 W VRI[LauncherActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:53:01.399  5261  5261 W VRI[LauncherActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:01.451  5540  5540 V Configuration: Updating configuration, locales updated from [] to [en_IN]
+[logcat] 11-27 06:53:01.522  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+[logcat] 11-27 06:53:01.713  5261  5261 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:01.738  5261  5261 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:02.213  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+[logcat] 11-27 06:53:02.557  5540  5540 I DisplayManager: Implicitly registering for refresh rate
+[logcat] 11-27 06:53:02.716  5540  5721 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+[logcat] 11-27 06:53:02.716  5540  5721 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+[logcat] 11-27 06:53:02.716  5540  5721 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+[logcat] 11-27 06:53:02.717  5540  5721 D OplusInputMethodUtil: updateDebugToClass OnBackInvokedDispatcher.DEBUG = false
+[logcat] 11-27 06:53:02.717  5540  5721 D OplusInputMethodUtil: updateDebugToClass InsetsController.DEBUG = false
+[logcat] 11-27 06:53:02.717  5540  5721 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+[logcat] 11-27 06:53:02.723  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:03.154  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.SplashActivity@7fabd0 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:03.154  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.SplashActivity@7fabd0 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:03.319  5540  5540 D ActivityThread: ComponentInfo{com.pubg.imobile/com.epicgames.ue4.SplashActivity} checkFinished=true 1
+[logcat] 11-27 06:53:03.349  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:03.354  5540  5540 D ActivityThread: ComponentInfo{com.pubg.imobile/com.epicgames.ue4.SplashActivity} checkFinished=true 1
+[logcat] 11-27 06:53:03.417  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:04.474  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:04.474  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:04.534  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:04.560  5540  5540 D InsetsController: Setting requestedVisibleTypes to -16 (was -9)
+[logcat] 11-27 06:53:04.674  5540  5540 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+[logcat] 11-27 06:53:05.259  5540  5540 D ActivityThread: ComponentInfo{com.pubg.imobile/com.epicgames.ue4.GameActivity} checkFinished=false 2
+[logcat] 11-27 06:53:05.259  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:05.411  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:53:05.419  5540  5540 I Quality : UISlowBinder:330560073
+[logcat] 11-27 06:53:05.449  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:05.449  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:05.464  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:05.465  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:1, blastBufferQueue:null
+[logcat] 11-27 06:53:05.480  5540  5540 I Quality : UISlowBinder:343393226
+[logcat] 11-27 06:53:05.493  5540  5540 W VRI[GameActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:06.224  5261  5261 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:06.236  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:06.242  5540  5540 W VRI[GameActivity]: handleResized, msg:, frameChanged:true, configChanged:true, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:06.242  5540  5540 W VRI[GameActivity]: handleResized, msg:, frameChanged:true, configChanged:true, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:06.243  5540  5540 D ActivityThread: ComponentInfo{com.pubg.imobile/com.epicgames.ue4.SplashActivity} checkFinished=true 1
+[logcat] 11-27 06:53:06.256  5261  5261 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:06.257  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:false, transformHintChanged:true, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:1604, requestedHeight:720, transformHint:4, installOrientation:0, displayRotation:1, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:06.257  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(720, 1604), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:06.269  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(720, 1604), format:-1, blastBufferQueue:android.graphics.BLASTBufferQueue@1f283a2
+[logcat] 11-27 06:53:06.579  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:06.587  5540  5540 W VRI[GameActivity]: handleResized, msg:, frameChanged:false, configChanged:true, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:06.588  5540  5540 W VRI[GameActivity]: handleResized, msg:, frameChanged:false, configChanged:true, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:06.594  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:true, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:06.594  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:06.603  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:-1, blastBufferQueue:android.graphics.BLASTBufferQueue@1f283a2
+[logcat] 11-27 06:53:09.367  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:09.367  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:09.668  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:09.668  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:12.282  5540  5540 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@c6355d1
+[logcat] 11-27 06:53:12.553  5540  5540 D InsetsController: Setting requestedVisibleTypes to -13 (was -16)
+[logcat] 11-27 06:53:12.566  5540  5540 D InsetsController: Setting requestedVisibleTypes to -9 (was -13)
+[logcat] 11-27 06:53:12.567  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:-1, blastBufferQueue:android.graphics.BLASTBufferQueue@1f283a2
+[logcat] 11-27 06:53:12.575  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:12.575  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:12.585  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:12.585  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:12.924  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:12.924  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:32.402  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:32.402  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:33.333  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:33.348  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:33.348  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:35.182  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:35.194  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][1604,720]}, relayoutAsync:true, mSyncSeqId:0
+[logcat] 11-27 06:53:35.194  5540  5540 W VRI[GameActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1604, 720), lastSurfaceSize:Point(1604, 720), format:1, blastBufferQueue:android.graphics.BLASTBufferQueue@f0036ec
+[logcat] 11-27 06:53:36.026  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:36.037  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:36.037  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.epicgames.ue4.GameActivity@627fd2b hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:47.680  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:47.701  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@1eb4971 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:47.702  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@1eb4971 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:47.715  5540  5540 D ActivityThread: ComponentInfo{com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity} checkFinished=false 2
+[logcat] 11-27 06:53:47.715  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:47.732  5540  5540 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:53:47.733  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@1eb4971 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:47.733  5540  5540 D OplusPredictiveBackController: should not HookOnBackInvokedCallbackEnabled for application com.itop.imsdk.android.base.IMSDKProxyActivity@1eb4971 hasOnBackInvokedCallBackEnabled
+[logcat] 11-27 06:53:47.752  5540  5540 D VRI[IMSDKProxyActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1521, 720), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1521, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:true, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][1521,720] display=[0,0][1521,720] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:53:47.752  5540  5540 W VRI[IMSDKProxyActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(1521, 720), lastSurfaceSize:Point(0, 0), format:-2, blastBufferQueue:null
+[logcat] 11-27 06:53:47.763  5540  5540 W VRI[IMSDKProxyActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:53:47.805  5540  5540 W VRI[GameActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:47.805  5540  5540 W VRI[IMSDKProxyActivity]: handleResized abandoned!
+[logcat] 11-27 06:53:50.756  5540  5585 D TransparentWindowDetector: Detect Empty window:com.pubg.imobile/com.itop.imsdk.android.base.IMSDKProxyActivity
+[logcat] 11-27 06:54:07.570  5540  5540 D VRI[GameActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1604, 720), mLastSurfaceSize:Point(1604, 720), mWidth:1604, mHeight:720, requestedWidth:1604, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:false, attr.flag:-2122251904, tmpFrames:ClientWindowFrames{frame=[0,0][1604,720] display=[0,0][1604,720] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:08.047  5540  5540 D VRI[IMSDKProxyActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1521, 720), mLastSurfaceSize:Point(1521, 720), mWidth:1521, mHeight:720, requestedWidth:1521, requestedHeight:720, transformHint:7, installOrientation:0, displayRotation:3, isSurfaceValid:false, attr.flag:25231616, tmpFrames:ClientWindowFrames{frame=[0,0][1521,720] display=[0,0][1521,720] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] --------- beginning of main
+[logcat] 11-27 06:54:09.993  7208  7208 D Settings: loaded Package: com.pubg.imobile
+[logcat] 11-27 06:54:09.996  7208  7208 D BroadcastManager: register: com.pubg.imobile, size: 17
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=activity_manager}]
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: activity_manager, top.niunaijun.blackbox.core.system.am.BActivityManagerService@b2c2c75
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=job_manager}]
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: job_manager, top.niunaijun.blackbox.core.system.am.BJobManagerService@ed8c40a
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=package_manager}]
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@7c2b47b
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=storage_manager}]
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: storage_manager, top.niunaijun.blackbox.core.system.os.BStorageManagerService@3068298
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=user_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: user_manager, top.niunaijun.blackbox.core.system.user.BUserManagerService@f201af1
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=xposed_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: xposed_manager, top.niunaijun.blackbox.core.system.pm.BXposedManagerService@4716d6
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=account_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: account_manager, top.niunaijun.blackbox.core.system.accounts.BAccountManagerService@6be1d57
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=location_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: location_manager, top.niunaijun.blackbox.core.system.location.BLocationManagerService@42d3044
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=notification_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: notification_manager, top.niunaijun.blackbox.core.system.notification.BNotificationManagerService@48a752d
+[logcat] 11-27 06:54:10.047  7208  7208 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:10.048  7208  7208 D LICENSE_DEBUG: KEY: MANISH->4e15d8fc66
+[logcat] 11-27 06:54:10.051  7208  7208 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:10.057  7208  7242 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+[logcat] 11-27 06:54:10.059  7208  7208 I HWUI    : SupportApps size 0
+[logcat] 11-27 06:54:10.060  7208  7208 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.061  7208  7208 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:10.063  7208  7245 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+[logcat] 11-27 06:54:10.063  7208  7208 I com.google: AssetManager2(0x6eb042c028) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:10.064  7208  7245 D OplusGraphicsEvent: addEventListener success!
+[logcat] 11-27 06:54:10.064  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.065  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:10.065  7208  7245 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+[logcat] 11-27 06:54:10.065  7208  7245 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+[logcat] 11-27 06:54:10.072  7208  7208 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+[logcat] 11-27 06:54:10.072  7208  7208 I com.google: AssetManager2(0x6eb042c928) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:10.089  7208  7208 D OplusPredictiveBackController: initPredictiveBackConfig for com.google.activity.LoginActivity@fc92fc3 initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-27 06:54:10.091  7208  7208 I oplus.android.OplusFrameworkFactoryImpl: Unknow feature:IOplusTextViewRTLUtilForUG
+[logcat] 11-27 06:54:10.096  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.096  7208  7245 D ExtensionsLoader: Opened libeglextimpl.so
+[logcat] 11-27 06:54:10.096  7208  7245 D PreCache: [IPreCacheRus]loadRUSConfigs#102 failed to transact: -22 prc:com.google
+[logcat] 11-27 06:54:10.098  7208  7208 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+[logcat] 11-27 06:54:10.110  7208  7208 D skia    : SkJpegCodec::onGetPixels + (500, 500)
+[logcat] 11-27 06:54:10.114  7208  7208 D skia    : SkJpegCodec::onGetPixels -
+[logcat] 11-27 06:54:10.116  7208  7208 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+[logcat] 11-27 06:54:10.119  7208  7208 D CompatChangeReporter: Compat change id reported: 37756858; UID 11322; state: ENABLED
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass OnBackInvokedDispatcher.DEBUG = false
+[logcat] 11-27 06:54:10.125  7208  7208 D OplusInputMethodUtil: updateDebugToClass InsetsController.DEBUG = false
+[logcat] 11-27 06:54:10.125  7208  7208 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+[logcat] 11-27 06:54:10.170  7208  7208 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+[logcat] 11-27 06:54:10.170  7208  7208 D ScrollOptimizationHelper: will not debug for debug is false
+[logcat] 11-27 06:54:10.171  7267  7267 W libprocessgroup: JoinCgroup: controller schedtune is not found
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.175  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:10.175  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:10.176  7208  7208 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system_ext/framework/mediatek-framework.jar): ok
+[logcat] 11-27 06:54:10.176  7208  7208 I PowerHalWrapper: PowerHalWrapper.getInstance 
+[logcat] 11-27 06:54:10.176  7208  7208 I PowerHalWrapper: PowerHalWrapper.getInstance 
+[logcat] 11-27 06:54:10.177  7208  7208 I M-ProMotion: M-ProMotion is disabled
+[logcat] 11-27 06:54:10.177  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:10.177  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:10.194  7208  7208 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@a81c562
+[logcat] 11-27 06:54:10.198  7208  7208 E [UAH_CLIENT]: uahInit enter
+[logcat] 11-27 06:54:10.199  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.200  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.200  7208  7208 E [UAH_CLIENT]: Urcc is not declared, AServiceManager_isDeclared:0
+[logcat] 11-27 06:54:10.200  7208  7208 E [UAH_CLIENT]: uah_get_urcc_hal_and_link_to_death error:-1
+[logcat] 11-27 06:54:10.200  7208  7208 I [UAH_CLIENT]: UahGetFeatureStatus enter
+[logcat] 11-27 06:54:10.201  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.201  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.201  7208  7208 E [UAH_CLIENT]: Urcc is not declared, AServiceManager_isDeclared:0
+[logcat] 11-27 06:54:10.201  7208  7208 E [UAH_CLIENT]: uah_get_urcc_hal_and_link_to_death error:-1
+[logcat] 11-27 06:54:10.207  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{236716b V.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[⚡Online Lib downloading⚡],pkg= com.google
+[logcat] 11-27 06:54:10.211  7208  7208 W HWUI    : Unknown dataspace 0
+[logcat] 11-27 06:54:10.211  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.213  7208  7245 D ExtensionsLoader: Opened libhwuiextimpl.so
+[logcat] 11-27 06:54:10.213  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:10.228  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@a567399
+[logcat] 11-27 06:54:10.231  7208  7208 D ActivityThread: ComponentInfo{com.google/com.google.activity.LoginActivity} checkFinished=false 2
+[logcat] 11-27 06:54:10.231  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:10.232  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{ba8d33b I.E...... R.....ID 0,0-0,0 alpha=1.0 viewInfo = }[LoginActivity],pkg= com.google
+[logcat] 11-27 06:54:10.233  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:10.236  7208  7274 I PowerHalWrapper: PowerHalWrapper.getInstance 
+[logcat] 11-27 06:54:10.238  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@1688404
+[logcat] 11-27 06:54:10.239  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:10.241  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@a567399
+[logcat] 11-27 06:54:10.266  7208  7208 E com.google: [perfctl] 7208 7208 FPSGO ver:0
+[logcat] 11-27 06:54:10.266  7208  7208 E com.google: [perfctl] 0 0 0 0
+[logcat] 11-27 06:54:10.266  7208  7208 D BufferQueueConsumer: [](id:1c2800000000,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:10.266  7208  7208 D BufferQueueConsumer: [VRI[⚡Online Lib downloading⚡]#0(BLAST Consumer)0](id:1c2800000000,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:10.268  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:10.269  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:10.270  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=⚡Online Lib downloading⚡)/@0xa741a0,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:10.290  7208  7245 I GrallocExtra: gralloc_extra_query:is_SW3D 0
+[logcat] 11-27 06:54:10.290  7208  7245 D BLASTBufferQueue: [VRI[⚡Online Lib downloading⚡]#0](f:0,a:1) acquireNextBufferLocked size=812x445 mFrameNumber=1 applyTransaction=true mTimestamp=171544124995223(auto) mPendingTransactions.size=0 graphicBufferId=30958124269568 transform=0
+[logcat] 11-27 06:54:10.291  7208  7245 D VRI[⚡Online Lib downloading⚡]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:10.291  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.292  7208  7245 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+[logcat] 11-27 06:54:10.292  7208  7208 D VRI[⚡Online Lib downloading⚡]: draw finished. seqId=0
+[logcat] 11-27 06:54:10.293  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@1688404
+[logcat] 11-27 06:54:10.300  7208  7208 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=0, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840957952, title=com.google/com.google.activity.LoginActivity
+[logcat] 11-27 06:54:10.303  7208  7282 D LibMBrainProxy: Init Paramters
+[logcat] 11-27 06:54:10.303  7208  7282 W ServiceManagerCppClient: Failed to get isDeclared for vendor.mediatek.hardware.mbrain.IMBrain/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.307  7208  7208 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:10.309  7208  7208 W VRI[LoginActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:54:10.309  7208  7208 D BufferQueueConsumer: [](id:1c2800000001,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:10.309  7208  7208 D BufferQueueConsumer: [VRI[LoginActivity]#1(BLAST Consumer)1](id:1c2800000001,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:10.311  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:10.311  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:10.313  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/com.google.activity.LoginActivity)/@0xdc210c7,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:10.330  7208  7245 D BLASTBufferQueue: [VRI[LoginActivity]#1](f:0,a:1) acquireNextBufferLocked size=720x1604 mFrameNumber=1 applyTransaction=true mTimestamp=171544164696454(auto) mPendingTransactions.size=0 graphicBufferId=30958124269579 transform=0
+[logcat] 11-27 06:54:10.330  7208  7245 D VRI[LoginActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:10.333  7208  7208 D VRI[LoginActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:10.333  7208  7208 D VRI[⚡Online Lib downloading⚡]: onFocusEvent true
+[logcat] 11-27 06:54:10.337  7208  7245 D VRI[⚡Online Lib downloading⚡]: Received frameCommittedCallback lastAttemptedDrawFrameNum=6 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:10.338  7208  7208 D VRI[⚡Online Lib downloading⚡]: draw finished. seqId=0
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: initFrameRateConfig: 
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: 	levelsFor120hz: [120]
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor120hz: []
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: 	levelsFor90hz: [90]
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: 	thresholdsFor90hz: []
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [FRTCConfigManager]: FRTCConfigManager: FRTC_CAPABILITY = 0, package name = com.google, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, PACKAGE_ENABLE = true
+[logcat] 11-27 06:54:10.339  7208  7208 I DynamicFramerate [DynamicFrameRateController]: init info: mPackageName = com.google, mIsEnabled = true
+[logcat] 11-27 06:54:11.341  7208  7226 D OplusScrollToTopManager: ⚡Online Lib downloading⚡,This com.android.internal.policy.DecorView{236716b V.E...... R....... 0,0-684,317 alpha=1.0 viewInfo = }[⚡Online Lib downloading⚡] change focus to true
+[logcat] 11-27 06:54:11.811  7208  7208 D OplusScrollToTopManager: ⚡Online Lib downloading⚡,window dying
+[logcat] 11-27 06:54:11.811  7208  7208 D OplusScrollToTopManager: ⚡Online Lib downloading⚡,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-27 06:54:11.812  7208  7208 D OplusScrollToTopManager: ⚡Online Lib downloading⚡, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@189bfc7
+[logcat] 11-27 06:54:11.812  7208  7208 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@7ebdc70
+[logcat] 11-27 06:54:11.812  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6eb042de00, mContext=0x6e96038d40
+[logcat] 11-27 06:54:11.812  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eb0422800, surface=NULL
+[logcat] 11-27 06:54:11.827  7208  7208 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+[logcat] 11-27 06:54:11.828  7208  7224 D BLASTBufferQueue: [VRI[⚡Online Lib downloading⚡]#0](f:0,a:1) destructor()
+[logcat] 11-27 06:54:11.828  7208  7224 D BufferQueueConsumer: [VRI[⚡Online Lib downloading⚡]#0(BLAST Consumer)0](id:1c2800000000,api:0,p:-1,c:7208) disconnect
+[logcat] 11-27 06:54:11.830  7208  7208 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{54b4619 V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout alpha=1.0 viewInfo = },pkg= com.google
+[logcat] 11-27 06:54:11.833  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:11.842  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@50a52ea
+[logcat] 11-27 06:54:11.846  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@50a52ea
+[logcat] 11-27 06:54:11.857  7208  7208 D BufferQueueConsumer: [](id:1c2800000002,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:11.857  7208  7208 D BufferQueueConsumer: [VRI[Toast]#2(BLAST Consumer)2](id:1c2800000002,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:11.858  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:11.859  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:11.860  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0xa409953,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:11.865  7208  7245 D BLASTBufferQueue: [VRI[Toast]#2](f:0,a:1) acquireNextBufferLocked size=590x174 mFrameNumber=1 applyTransaction=true mTimestamp=171545699686608(auto) mPendingTransactions.size=0 graphicBufferId=30958124269582 transform=0
+[logcat] 11-27 06:54:11.865  7208  7245 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:11.865  7208  7208 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-27 06:54:11.867  7208  7208 D VRI[LoginActivity]: onFocusEvent true
+[logcat] 11-27 06:54:11.881  7208  7245 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:11.881  7208  7208 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-27 06:54:11.883  7208  7208 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-27 06:54:11.883  7208  7208 I ImeTracker: com.google:374d70a7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-27 06:54:12.206  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171546040, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:12.206  7208  7208 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:12.214  7208  7208 D ViewExtract: [OplusViewExtractManager] OplusViewExtractManager init com.google
+[logcat] 11-27 06:54:12.256  7208  7208 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@1261dfa
+[logcat] 11-27 06:54:12.256  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171546090, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:12.256  7208  7208 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:12.256  7208  7208 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-27 06:54:12.270  7208  7208 W drawable: Bad element under <shape>: thickness
+[logcat] 11-27 06:54:12.278  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{14efe55 V.ED..... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[LoginActivity],pkg= com.google
+[logcat] 11-27 06:54:12.278  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:12.288  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@f7a1936
+[logcat] 11-27 06:54:12.290  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@f7a1936
+[logcat] 11-27 06:54:12.301  7208  7208 D BufferQueueConsumer: [](id:1c2800000003,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:12.301  7208  7208 D BufferQueueConsumer: [VRI[LoginActivity]#3(BLAST Consumer)3](id:1c2800000003,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:12.303  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:12.303  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:12.303  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/com.google.activity.LoginActivity)/@0x8c41f2f,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:12.308  7208  7245 D BLASTBufferQueue: [VRI[LoginActivity]#3](f:0,a:1) acquireNextBufferLocked size=272x272 mFrameNumber=1 applyTransaction=true mTimestamp=171546142697377(auto) mPendingTransactions.size=0 graphicBufferId=30958124269589 transform=0
+[logcat] 11-27 06:54:12.308  7208  7245 D VRI[LoginActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:12.308  7208  7208 D VRI[LoginActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:12.321  7208  7208 D VRI[LoginActivity]: onFocusEvent false
+[logcat] 11-27 06:54:12.332  7208  7245 D VRI[LoginActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:12.332  7208  7208 D VRI[LoginActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:12.351  7208  7208 D VRI[LoginActivity]: onFocusEvent true
+[logcat] 11-27 06:54:12.365  7208  7208 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-27 06:54:12.365  7208  7208 I ImeTracker: com.google:646fb4c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-27 06:54:13.248  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity,window dying
+[logcat] 11-27 06:54:13.248  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-27 06:54:13.248  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@9a00a04
+[logcat] 11-27 06:54:13.248  7208  7208 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@46e9a4
+[logcat] 11-27 06:54:13.250  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6e8c390600, mContext=0x6e84471d00
+[logcat] 11-27 06:54:13.250  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e879fc440, surface=NULL
+[logcat] 11-27 06:54:13.268  7208  7224 D BLASTBufferQueue: [VRI[LoginActivity]#3](f:0,a:1) destructor()
+[logcat] 11-27 06:54:13.268  7208  7224 D BufferQueueConsumer: [VRI[LoginActivity]#3(BLAST Consumer)3](id:1c2800000003,api:0,p:-1,c:7208) disconnect
+[logcat] 11-27 06:54:13.293  7208  7208 D ActivityClient: activity finished by caller: android.app.Activity.finish:7649 android.app.Activity.finish:7666 com.google.activity.LoginActivity.lambda$login$4$com-google-activity-LoginActivity:224 com.google.activity.LoginActivity$$ExternalSyntheticLambda1.handleMessage:2 android.os.Handler.dispatchMessage:111 android.os.Looper.loopOnce:302 android.os.Looper.loop:412 android.app.ActivityThread.main:9992 java.lang.reflect.Method.invoke:-2 com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run:613 
+[logcat] 11-27 06:54:13.301  7208  7208 I PowerHalMgrImpl: perfLockAcq is supported. 
+[logcat] 11-27 06:54:13.314  7208  7208 D VRI[LoginActivity]: onFocusEvent true
+[logcat] 11-27 06:54:13.316  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:13.319  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:13.320  7208  7208 D OplusPredictiveBackController: initPredictiveBackConfig for com.google.activity.MainActivity@516a7a0 initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-27 06:54:13.333  7208  7226 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity,This com.android.internal.policy.DecorView{ba8d33b V.E...... R....... 0,0-720,1604 aid=0 alpha=1.0 viewInfo = }[LoginActivity] change focus to false
+2026-11-27 06:54:13.334 [com.google/7208] step: doCreate: start
+2026-11-27 06:54:13.339 [com.google/7208] step: doCreate: black manager init
+2026-11-27 06:54:13.341 [com.google/7208] step: doCreate: done
+[logcat] 11-27 06:54:13.353  7208  7208 D ActivityThread: ComponentInfo{com.google/com.google.activity.MainActivity} checkFinished=false 2
+[logcat] 11-27 06:54:13.353  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:13.354  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{5d5f853 I.E...... R.....ID 0,0-0,0 alpha=1.0 viewInfo = }[MainActivity],pkg= com.google
+[logcat] 11-27 06:54:13.354  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:13.360  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@daa1ecb
+[logcat] 11-27 06:54:13.361  7208  7208 D VRI[LoginActivity]: onFocusEvent false
+[logcat] 11-27 06:54:13.362  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:13.368  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@daa1ecb
+[logcat] 11-27 06:54:13.374  7208  7208 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=0, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840957952, title=com.google/com.google.activity.MainActivity
+[logcat] 11-27 06:54:13.384  7208  7208 D VRI[MainActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:13.385  7208  7208 W VRI[MainActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:54:13.385  7208  7208 D BufferQueueConsumer: [](id:1c2800000004,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:13.385  7208  7208 D BufferQueueConsumer: [VRI[MainActivity]#4(BLAST Consumer)4](id:1c2800000004,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:13.386  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:13.386  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:13.389  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/com.google.activity.MainActivity)/@0xe616b84,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:13.399  7208  7245 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) acquireNextBufferLocked size=720x1604 mFrameNumber=1 applyTransaction=true mTimestamp=171547233532224(auto) mPendingTransactions.size=0 graphicBufferId=30958124269600 transform=0
+[logcat] 11-27 06:54:13.399  7208  7245 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:13.399  7208  7208 D VRI[MainActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:13.408  7208  7208 W VRI[MainActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:54:13.420  7208  7245 D VRI[MainActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:13.420  7208  7208 D VRI[MainActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:13.449  7208  7208 D VRI[MainActivity]: onFocusEvent true
+[logcat] 11-27 06:54:13.475  7208  7208 D InsetsController: hide(ime(), fromIme=false)
+[logcat] 11-27 06:54:13.475  7208  7208 I ImeTracker: com.google:5eadcff2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-27 06:54:13.726  7208  7224 D VRI[LoginActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+[logcat] 11-27 06:54:13.727  7208  7208 D VRI[LoginActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-27 06:54:13.735  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6eb042e400, mContext=0x6e96056a80
+[logcat] 11-27 06:54:13.735  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eb0422940, surface=NULL
+[logcat] 11-27 06:54:13.736  7208  7208 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/com.google.activity.LoginActivity
+[logcat] 11-27 06:54:13.741  7208  7208 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:13.741  7208  7208 D BLASTBufferQueue: [VRI[LoginActivity]#1](f:0,a:1) destructor()
+[logcat] 11-27 06:54:13.741  7208  7208 D BufferQueueConsumer: [VRI[LoginActivity]#1(BLAST Consumer)1](id:1c2800000001,api:0,p:-1,c:7208) disconnect
+[logcat] 11-27 06:54:13.743  7208  7208 D VRI[LoginActivity]: setWindowStopped stopped:true
+[logcat] 11-27 06:54:13.748  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity,window dying
+[logcat] 11-27 06:54:13.748  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-27 06:54:13.748  7208  7208 D OplusScrollToTopManager: com.google/com.google.activity.LoginActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@1cb9d5f
+[logcat] 11-27 06:54:13.748  7208  7208 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@5b19e94
+[logcat] 11-27 06:54:13.748  7208  7208 D OplusCursorFeedback: editorDetachFromWindow android.widget.Editor@41f23ac
+[logcat] 11-27 06:54:13.748  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6eb042e400, mContext=0x6e96056a80
+[logcat] 11-27 06:54:13.749  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6eb0422940, surface=NULL
+[logcat] 11-27 06:54:13.749  7208  7208 D ViewRootImpl: Skipping stats log for color mode
+[logcat] 11-27 06:54:14.413  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171548247, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:14.413  7208  7208 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:14.457  7208  7226 D OplusScrollToTopManager: com.google/com.google.activity.MainActivity,This com.android.internal.policy.DecorView{5d5f853 V.E...... R....... 0,0-720,1604 aid=1 alpha=1.0 viewInfo = }[MainActivity] change focus to true
+[logcat] 11-27 06:54:14.463  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171548298, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:14.463  7208  7208 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:14.463  7208  7208 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-27 06:54:15.312  7208  7208 D OplusScrollToTopManager: Toast,window dying
+[logcat] 11-27 06:54:15.312  7208  7208 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+[logcat] 11-27 06:54:15.312  7208  7208 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@bc71899
+[logcat] 11-27 06:54:15.312  7208  7208 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@70cdc78
+[logcat] 11-27 06:54:15.313  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6e87d1a800, mContext=0x6e8459a580
+[logcat] 11-27 06:54:15.313  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e8c346dc0, surface=NULL
+[logcat] 11-27 06:54:15.314  7208  7208 D BLASTBufferQueue: [VRI[Toast]#2](f:0,a:1) destructor()
+[logcat] 11-27 06:54:15.314  7208  7208 D BufferQueueConsumer: [VRI[Toast]#2(BLAST Consumer)2](id:1c2800000002,api:0,p:-1,c:7208) disconnect
+[logcat] 11-27 06:54:15.323  7208  7208 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{f51e436 V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout alpha=1.0 viewInfo = },pkg= com.google
+[logcat] 11-27 06:54:15.323  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:15.330  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@9725a09
+[logcat] 11-27 06:54:15.333  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@9725a09
+[logcat] 11-27 06:54:15.340  7208  7208 D BufferQueueConsumer: [](id:1c2800000005,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:15.341  7208  7208 D BufferQueueConsumer: [VRI[Toast]#5(BLAST Consumer)5](id:1c2800000005,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:15.342  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:15.342  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:15.343  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x7f71028,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:15.347  7208  7245 D BLASTBufferQueue: [VRI[Toast]#5](f:0,a:1) acquireNextBufferLocked size=369x174 mFrameNumber=1 applyTransaction=true mTimestamp=171549181852531(auto) mPendingTransactions.size=0 graphicBufferId=30958124269603 transform=0
+[logcat] 11-27 06:54:15.347  7208  7245 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:15.347  7208  7208 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-27 06:54:15.355  7208  7245 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:15.355  7208  7208 D VRI[Toast]: draw finished. seqId=0
+[logcat] 11-27 06:54:15.437  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 0, mVsyncTime = 171549271, mIsMoving = true, mUpdated = true
+[logcat] 11-27 06:54:15.437  7208  7208 E IJankManager: slideSceneEnd unknown scene 1000 mScene:-1
+[logcat] 11-27 06:54:15.495  7208  7208 I DynamicFramerate [AnimationSpeedAware]: onEventHandled: info: InputEventInfo: mX = 0, mY = 0, mAction = 1, mVsyncTime = 171549330, mIsMoving = false, mUpdated = true
+[logcat] 11-27 06:54:15.496  7208  7208 D OplusViewDragTouchViewHelper: dispatchTouchView action = 1
+[logcat] 11-27 06:54:15.496  7208  7208 D ViewRootImplExtImpl: the up motion event handled by client, just return
+[logcat] 11-27 06:54:15.564  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:15.567  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:15.567  7208  7208 D OplusPredictiveBackController: initPredictiveBackConfig for top.niunaijun.blackbox.app.LauncherActivity@b0addb8 initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-27 06:54:15.586  7208  7208 I com.google: AssetManager2(0x6e961fed28) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.587  7208  7208 I WebViewFactory: Loading com.google.android.webview version 158.0.8127.46 (code 812704603)
+[logcat] 11-27 06:54:15.591  7208  7208 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+[logcat] 11-27 06:54:15.591  7208  7208 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+[logcat] 11-27 06:54:15.595  7208  7208 D nativeloader: Configuring clns-10 for other apk /data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/lib/arm64:/data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+[logcat] 11-27 06:54:15.631  7208  7208 I cr_WVCFactoryProvider: version=158.0.8127.46 (812704603) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+[logcat] 11-27 06:54:15.635  7208  7208 D nativeloader: Load /data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/base.apk!/lib/arm64-v8a/libwebviewchromium.so using class loader ns clns-10 (caller=/data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/base.apk): ok
+[logcat] 11-27 06:54:15.637  7208  7208 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-10 (caller=/data/app/~~xse4LgyL0Qn-x_6N8gI1pg==/com.google.android.webview-zydyTF1R_AC3m5Bq1WvgAg==/base.apk): ok
+[logcat] 11-27 06:54:15.641  7208  7356 I chromium: [1127/065415.640982:INFO:android_webview/browser/variations/variations_seed_loader.cc:63] Failed to open file for reading.: No such file or directory (2)
+[logcat] 11-27 06:54:15.643  7208  7208 I com.google: AssetManager2(0x6f5c584728) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.644  7208  7208 I com.google: AssetManager2(0x6e845b6d28) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.646  7208  7208 I com.google: AssetManager2(0x6e81493328) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.652  7208  7208 I cr_LibraryLoader: Successfully loaded native library
+[logcat] 11-27 06:54:15.653  7208  7208 I cr_CachingUmaRecorder: Flushed 47 samples from 22 histograms, 0 samples were dropped.
+[logcat] 11-27 06:54:15.655  7208  7208 I cr_ChildProcLH: ScopedServiceBindingBatch.tryActivate: false
+[logcat] 11-27 06:54:15.658  7208  7208 I cr_CombinedPProvider: #registerProvider() provider:WV.kj@86d1dc7 isPolicyCacheEnabled:false policyProvidersSize:0
+[logcat] 11-27 06:54:15.658  7208  7208 I cr_PolicyProvider: #setManagerAndSource() 0
+[logcat] 11-27 06:54:15.659  7208  7356 I cr_policy: registerReceiver succeeded after 1ms
+[logcat] 11-27 06:54:15.661  7208  7208 I cr_DisplayManager: Is Display Topology available: false
+[logcat] 11-27 06:54:15.661  7208  7208 I com.google: AssetManager2(0x6e81494e28) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.662  7208  7208 D WindowContextController: attachToDisplayArea  type = 2 ,displayId = 0 ,options = null ,mToken = android.window.WindowTokenClient@731a760
+[logcat] 11-27 06:54:15.664  7208  7208 I com.google: AssetManager2(0x6df8994228) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.676  7208  7208 I cr_CombinedPProvider: #linkNativeInternal() 1
+[logcat] 11-27 06:54:15.677  7208  7208 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+[logcat] 11-27 06:54:15.677  7208  7208 I cr_PolicyProvider: #notifySettingsAvailable() 0
+[logcat] 11-27 06:54:15.678  7208  7208 I cr_CombinedPProvider: #onSettingsAvailable() 0
+[logcat] 11-27 06:54:15.678  7208  7208 I cr_CombinedPProvider: #flushPolicies()
+[logcat] 11-27 06:54:15.768  7208  7208 I Quality : InflateViewInfo:192457461,FrameLayout
+[logcat] 11-27 06:54:15.784  7208  7208 I com.google: AssetManager2(0x6df8994828) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:15.791  7208  7208 D ActivityThread: ComponentInfo{com.google/top.niunaijun.blackbox.app.LauncherActivity} checkFinished=false 2
+[logcat] 11-27 06:54:15.791  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:15.792  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{d476f0e I.E...... R.....ID 0,0-0,0 alpha=1.0 viewInfo = }[LauncherActivity],pkg= com.google
+[logcat] 11-27 06:54:15.792  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:15.793  7208  7372 D AudioSystem: onNewService: media.audio_policy service obtained 0x6df9261c00
+[logcat] 11-27 06:54:15.795  7208  7372 D AudioSystem: getService: IAudioPolicyService retrieved: 0x6df9261c00  cached: 0x6df9261c00
+[logcat] 11-27 06:54:15.799  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@b9fd4b
+[logcat] 11-27 06:54:15.800  7208  7208 D VRI[MainActivity]: onFocusEvent false
+[logcat] 11-27 06:54:15.805  7208  7395 D ActivityStack: startActivityLocked : ActivityInfo{1fa1841 com.epicgames.ue4.SplashActivity}
+[logcat] 11-27 06:54:15.807  7208  7395 E ActivityStack: StartProcess pkg=com.pubg.imobile activity=com.epicgames.ue4.SplashActivity process=com.pubg.imobile
+[logcat] 11-27 06:54:15.809  7208  7208 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+[logcat] 11-27 06:54:15.809  7208  7208 I cr_PolicyProvider: #notifySettingsAvailable() 0
+[logcat] 11-27 06:54:15.809  7208  7208 I cr_CombinedPProvider: #onSettingsAvailable() 0
+[logcat] 11-27 06:54:15.809  7208  7208 I cr_CombinedPProvider: #flushPolicies()
+[logcat] 11-27 06:54:15.810  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:15.811  7208  7395 D BProcessManager: init bUid = 10001, bPid = 0
+[logcat] 11-27 06:54:15.811  7208  7395 D BProcessManager: initProcess: com.pubg.imobile
+[logcat] 11-27 06:54:15.812  7208  7208 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@b9fd4b
+[logcat] 11-27 06:54:15.816  7208  7208 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=0, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840957952, title=com.google/top.niunaijun.blackbox.app.LauncherActivity
+[logcat] 11-27 06:54:15.816  7208  7372 D AudioManagerExtImpl: mLastUnFakeScoUid 11322 mFakeScoUid -1
+[logcat] 11-27 06:54:15.818  7208  7397 I CameraManagerExtImpl: packagename is com.google
+[logcat] 11-27 06:54:15.819  7208  7397 I OplusCameraManager: saveOpPackageName, mOpPackageName: com.google
+[logcat] 11-27 06:54:15.822  7208  7397 I OplusCameraManagerGlobal: setClientInfo, packageName: com.google, uid: 11322, pid: 7208
+[logcat] 11-27 06:54:15.822  7208  7397 I OplusCameraManagerGlobal: Connecting to camera service
+[logcat] 11-27 06:54:15.831  7208  7208 D VRI[LauncherActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:15.834  7208  7208 W VRI[LauncherActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1604), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+[logcat] 11-27 06:54:15.834  7208  7208 D BufferQueueConsumer: [](id:1c2800000006,api:0,p:-1,c:7208) connect: controlledByApp=false
+[logcat] 11-27 06:54:15.834  7208  7208 D BufferQueueConsumer: [VRI[LauncherActivity]#6(BLAST Consumer)6](id:1c2800000006,api:0,p:-1,c:7208) setMaxAcquiredBufferCount: 5
+[logcat] 11-27 06:54:15.835  7208  7245 D HWUI    : createSurface new attribs array
+[logcat] 11-27 06:54:15.835  7208  7245 D libEGL  : this is from skia gles
+[logcat] 11-27 06:54:15.836  7208  7397 I CameraManagerGlobal: Connecting to camera service
+[logcat] 11-27 06:54:15.838  7208  7208 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.google/top.niunaijun.blackbox.app.LauncherActivity)/@0x25893b1,currentBufferRatio=1.0,desiredRatio=1.0
+[logcat] 11-27 06:54:15.874  7208  7391 W chromium: [WARNING:android_webview/browser/gfx/display_webview.cc:33] WebView overlays are enabled!
+[logcat] 11-27 06:54:15.876  7410  7410 I libc    : SetHeapTaggingLevel: tag level set to 0
+[logcat] 11-27 06:54:15.876  7208  7245 D BLASTBufferQueue: [VRI[LauncherActivity]#6](f:0,a:1) acquireNextBufferLocked size=720x1604 mFrameNumber=1 applyTransaction=true mTimestamp=171549711250608(auto) mPendingTransactions.size=0 graphicBufferId=30958124269611 transform=0
+[logcat] 11-27 06:54:15.877  7208  7245 D VRI[LauncherActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:15.877  7208  7208 D VRI[LauncherActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:15.894  7410  7410 E com.google:p0: Unknown bits set in runtime_flags: 0x40000000
+[logcat] 11-27 06:54:15.895  7410  7410 I com.google:p0: Using generational CollectorTypeCMC GC.
+[logcat] 11-27 06:54:15.939  7410  7410 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+[logcat] 11-27 06:54:15.943  7208  7388 W AudioCapabilities: Unsupported mediaType audio/x-adpcm-dvi-ima
+[logcat] 11-27 06:54:15.944  7208  7388 W AudioCapabilities: Unsupported mediaType audio/x-adpcm-ms
+[logcat] 11-27 06:54:15.945  7208  7208 D VRI[LauncherActivity]: onFocusEvent true
+[logcat] 11-27 06:54:15.945  7208  7208 W VRI[LauncherActivity]: handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+[logcat] 11-27 06:54:15.945  7208  7388 W AudioCapabilities: Unsupported mediaType audio/alac
+[logcat] 11-27 06:54:15.954  7410  7410 D OplusActivityThreadExtImpl: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.SupressionGC [int, int]
+[logcat] 11-27 06:54:15.959  7208  7245 D VRI[LauncherActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+[logcat] 11-27 06:54:15.959  7208  7208 D VRI[LauncherActivity]: draw finished. seqId=0
+[logcat] 11-27 06:54:15.961  7410  7410 I OneTrace: Mark active for pid=7410? true
+[logcat] 11-27 06:54:15.961  7410  7410 D cutils-dev: otrace_set_tracing_enabled? true tag:0
+[logcat] 11-27 06:54:15.964  7410  7410 D cutils-dev: properties changed in otrace_seq_number_changed!
+[logcat] 11-27 06:54:15.976  7208  7208 D InsetsController: hide(ime(), fromIme=false)
+=== ZORO runtime log started | pid=7410 | process=com.google:p0 | 2026-11-27 06:54:16.154 ===
+[logcat] 11-27 06:54:15.977  7208  7208 I ImeTracker: com.google:e5f87b86: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+[logcat] 11-27 06:54:15.995  7208  7388 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+[logcat] 11-27 06:54:15.996  7208  7388 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+2026-11-27 06:54:16.171 [com.google:p0/7410] process: BAppClient
+[logcat] 11-27 06:54:16.007  7208  7388 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+2026-11-27 06:54:16.180 [com.google:p0/7410] step: attachBaseContext: hook init start
+[logcat] 11-27 06:54:16.025  7410  7428 D OplusActivityManager: get AMS extension: android.os.BinderProxy@af22965
+[logcat] 11-27 06:54:16.033  7410  7428 D OplusAppHeapManager: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.updateProcessValue [int, int, int]
+[logcat] 11-27 06:54:16.042  7410  7410 D CompactWindowAppManager: initCompactApplicationInfo CompactMode: , NormalMode: 
+[logcat] 11-27 06:54:16.050  7208  7388 W AudioCapabilities: Unsupported mime audio/x-adpcm-dvi-ima
+[logcat] 11-27 06:54:16.050  7208  7388 W AudioCapabilities: Unsupported mime audio/x-adpcm-dvi-ima
+[logcat] 11-27 06:54:16.050  7208  7388 W AudioCapabilities: Unsupported mime audio/x-adpcm-ms
+[logcat] 11-27 06:54:16.051  7208  7388 W AudioCapabilities: Unsupported mime audio/x-adpcm-ms
+[logcat] 11-27 06:54:16.051  7208  7388 W AudioCapabilities: Unsupported mime audio/alac
+[logcat] 11-27 06:54:16.051  7208  7388 W AudioCapabilities: Unsupported mime audio/alac
+[logcat] --------- beginning of main
+[logcat] 11-27 06:54:16.054  7208  7388 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+[logcat] 11-27 06:54:16.054  7208  7388 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+[logcat] 11-27 06:54:16.054  7208  7388 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+[logcat] 11-27 06:54:09.993  7208  7208 D Settings: loaded Package: com.pubg.imobile
+[logcat] 11-27 06:54:16.055  7208  7388 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+[logcat] 11-27 06:54:09.996  7208  7208 D BroadcastManager: register: com.pubg.imobile, size: 17
+[logcat] 11-27 06:54:16.055  7208  7388 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+[logcat] 11-27 06:54:16.056  7410  7410 V Configuration: Updating configuration, locales updated from [] to [en_IN]
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=activity_manager}]
+[logcat] 11-27 06:54:16.057  7410  7410 D OplusScrollToTopManager: setIsInWhiteList false
+[logcat] 11-27 06:54:16.058  7410  7410 D OplusViewDebugManager: OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@9ffd2eb [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS true]
+[logcat] 11-27 06:54:16.071  7410  7410 W libc    : Access denied finding property "ro.odm.prev.product.name"
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: activity_manager, top.niunaijun.blackbox.core.system.am.BActivityManagerService@b2c2c75
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=job_manager}]
+[logcat] 11-27 06:54:16.072  7410  7410 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: job_manager, top.niunaijun.blackbox.core.system.am.BJobManagerService@ed8c40a
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=package_manager}]
+[logcat] 11-27 06:54:16.073  7410  7410 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+[logcat] 11-27 06:54:16.085  7410  7410 D nativeloader: Configuring clns-9 for other apk /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/lib/arm64:/data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@7c2b47b
+[logcat] 11-27 06:54:16.085  7410  7410 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libapuwareaiste.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libmvpu_config.mtk.so:libmvpu_engine_30.mtk.so:libmvpu_pattern_30.mtk.so:libmvpu_cic_ci_compiler_30.mtk.so:libmvpu_runtime_30.mtk.so:libmvpu_clc_30_mvpu_debuginfo.mtk.so:libmvpu_clc_30_mvpu_elf.mtk.so:libmvpu_clc_30_mvpu_utility.mtk.so:libneuronservice_adapter.mtk.so:libneuron_sys_util.mtk.so:libmvpuop30_mtk_nn.mtk.so:libneuron
+[logcat] 11-27 06:54:16.094  7410  7410 I com.google:p0: AssetManager2(0x6f5c584428) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=storage_manager}]
+[logcat] 11-27 06:54:10.037  7208  7208 D BlackBoxCore: getService: storage_manager, top.niunaijun.blackbox.core.system.os.BStorageManagerService@3068298
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment: Currently set values for:
+[logcat] 11-27 06:54:10.037  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=user_manager}]
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: user_manager, top.niunaijun.blackbox.core.system.user.BUserManagerService@f201af1
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=xposed_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: xposed_manager, top.niunaijun.blackbox.core.system.pm.BXposedManagerService@4716d6
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment: com.google is not listed in per-application setting
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment: ANGLE allowlist from config: 
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=account_manager}]
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment: com.google is not listed in ANGLE allowlist or settings, returning default
+[logcat] 11-27 06:54:16.102  7410  7410 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+[logcat] 11-27 06:54:16.106  7410  7410 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: account_manager, top.niunaijun.blackbox.core.system.accounts.BAccountManagerService@6be1d57
+[logcat] 11-27 06:54:16.112  7410  7410 D nativeloader: Load /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/lib/arm64/libMCoreEsp.so using class loader ns clns-9 (caller=/data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/base.apk): ok
+[logcat] 11-27 06:54:16.112  7410  7410 I ZoroNative: [JNI_OnLoad] libMCoreEsp loaded v19 (com.google, twitter cancel callback fix)
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=location_manager}]
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: location_manager, top.niunaijun.blackbox.core.system.location.BLocationManagerService@42d3044
+[logcat] 11-27 06:54:16.171  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.038  7208  7208 D SystemCallProvider: call: VM, Bundle[{_G_|_server_name_=notification_manager}]
+[logcat] 11-27 06:54:16.171  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.179  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.038  7208  7208 D BlackBoxCore: getService: notification_manager, top.niunaijun.blackbox.core.system.notification.BNotificationManagerService@48a752d
+[logcat] 11-27 06:54:16.179  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.047  7208  7208 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:16.217  7208  7289 D VRI[MainActivity]: dispatchAppVisibility visible:false mUpcomingWindowFocus:false
+[logcat] 11-27 06:54:10.048  7208  7208 D LICENSE_DEBUG: KEY: MANISH->4e15d8fc66
+[logcat] 11-27 06:54:16.233  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.051  7208  7208 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:10.057  7208  7242 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+[logcat] 11-27 06:54:16.233  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.059  7208  7208 I HWUI    : SupportApps size 0
+[logcat] 11-27 06:54:16.233  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.234  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.060  7208  7208 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:16.244  7208  7208 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+[logcat] 11-27 06:54:16.244  7208  7208 D VRI[MainActivity]: setWindowStopped stopped:true
+[logcat] 11-27 06:54:10.061  7208  7208 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+[logcat] 11-27 06:54:16.247  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.248  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:16.254  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILauncherAppsProxy@e39ed4e
+[logcat] 11-27 06:54:16.254  7208  7208 D HWUI    : RenderProxy::destroy: this=0x6e87d1ba00, mContext=0x6e81443c80
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:16.254  7208  7245 D HWUI    : SkiaOpenGLPipeline::setSurface: this=0x6e84505d00, surface=NULL
+[logcat] 11-27 06:54:10.061  7208  7208 E SchedAssist: open sharedFd failed with error=Permission denied
+[logcat] 11-27 06:54:10.063  7208  7245 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+[logcat] 11-27 06:54:16.255  7208  7245 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) destructor()
+[logcat] 11-27 06:54:10.063  7208  7208 I com.google: AssetManager2(0x6eb042c028) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:16.255  7208  7245 D BufferQueueConsumer: [VRI[MainActivity]#4(BLAST Consumer)4](id:1c2800000004,api:0,p:-1,c:7208) disconnect
+[logcat] 11-27 06:54:10.064  7208  7245 D OplusGraphicsEvent: addEventListener success!
+[logcat] 11-27 06:54:16.256  7208  7208 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, residentWS=false, scenario=0, bounds=Rect(0, 0 - 720, 1604), relayoutAsync=false, flags=0, newFlags=840969472, title=com.google/com.google.activity.MainActivity
+[logcat] 11-27 06:54:10.064  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:16.258  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IJobServiceProxy@1246f68
+[logcat] --------- beginning of system
+[logcat] 11-27 06:54:16.261  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IFingerprintManagerProxy@d0a4803
+[logcat] 11-27 06:54:16.263  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IClipboardManagerProxy@b2c2c75
+[logcat] 11-27 06:54:10.065  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:16.264  7208  7208 D VRI[MainActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1604), mLastSurfaceSize:Point(720, 1604), mWidth:720, mHeight:1604, requestedWidth:720, requestedHeight:1604, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1604] display=[0,0][720,1604] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+[logcat] 11-27 06:54:10.065  7208  7245 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+[logcat] 11-27 06:54:16.269  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.065  7208  7245 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+[logcat] 11-27 06:54:16.269  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.072  7208  7208 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+[logcat] 11-27 06:54:10.072  7208  7208 I com.google: AssetManager2(0x6eb042c928) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:16.271  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.delegate.AppInstrumentation@6be1d57
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:16.276  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWindowManagerProxy@b9d37f3
+[logcat] 11-27 06:54:16.279  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:16.286  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.088  7208  7208 E OplusPredictiveBackController:  NoSuchMethodException 
+[logcat] 11-27 06:54:16.291  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityManagerProxy@cebc1c8
+[logcat] 11-27 06:54:16.295  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.089  7208  7208 D OplusPredictiveBackController: initPredictiveBackConfig for com.google.activity.LoginActivity@fc92fc3 initPredictiveBackConfig mShouldInterceptKeyEvent false
+[logcat] 11-27 06:54:10.091  7208  7208 I oplus.android.OplusFrameworkFactoryImpl: Unknow feature:IOplusTextViewRTLUtilForUG
+[logcat] 11-27 06:54:16.301  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.096  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:16.301  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.096  7208  7245 D ExtensionsLoader: Opened libeglextimpl.so
+[logcat] 11-27 06:54:16.313  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.096  7208  7245 D PreCache: [IPreCacheRus]loadRUSConfigs#102 failed to transact: -22 prc:com.google
+[logcat] 11-27 06:54:16.322  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.324  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppOpsManagerProxy@a7c0c5b
+[logcat] 11-27 06:54:10.098  7208  7208 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+[logcat] 11-27 06:54:10.110  7208  7208 D skia    : SkJpegCodec::onGetPixels + (500, 500)
+[logcat] 11-27 06:54:16.330  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.114  7208  7208 D skia    : SkJpegCodec::onGetPixels -
+[logcat] 11-27 06:54:16.330  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.338  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.116  7208  7208 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+[logcat] 11-27 06:54:16.339  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.libcore.OsStub@8ba7e09
+[logcat] 11-27 06:54:10.119  7208  7208 D CompatChangeReporter: Compat change id reported: 37756858; UID 11322; state: ENABLED
+[logcat] 11-27 06:54:16.346  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+[logcat] 11-27 06:54:16.348  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiManagerProxy@183f1c5
+[logcat] 11-27 06:54:16.355  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+[logcat] 11-27 06:54:16.355  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.362  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+[logcat] 11-27 06:54:16.367  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@cb947d
+[logcat] 11-27 06:54:10.124  7208  7208 D OplusInputMethodUtil: updateDebugToClass OnBackInvokedDispatcher.DEBUG = false
+[logcat] 11-27 06:54:16.369  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IBluetoothManagerProxy@18d20be
+[logcat] 11-27 06:54:10.125  7208  7208 D OplusInputMethodUtil: updateDebugToClass InsetsController.DEBUG = false
+[logcat] 11-27 06:54:16.371  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+2026-11-27 06:54:16.534 [com.google:p0/7410] step: attachBaseContext: hook init done
+[logcat] 11-27 06:54:16.372  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyRegistryProxy@efed43b
+[logcat] 11-27 06:54:10.125  7208  7208 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+[logcat] 11-27 06:54:16.375  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppWidgetManagerProxy@5cf96ed
+[logcat] 11-27 06:54:16.377  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocationManagerProxy@ca1356e
+[logcat] 11-27 06:54:10.170  7208  7208 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+[logcat] 11-27 06:54:16.381  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.382  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAlarmManagerProxy@bec1821
+[logcat] 11-27 06:54:10.170  7208  7208 D ScrollOptimizationHelper: will not debug for debug is false
+[logcat] 11-27 06:54:10.171  7267  7267 W libprocessgroup: JoinCgroup: controller schedtune is not found
+[logcat] 11-27 06:54:16.384  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAudioManagerProxy@3769ed2
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.395  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.395  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.396  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDevicePolicyManagerProxy@6c30c1b
+[logcat] 11-27 06:54:10.173  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.406  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+2026-11-27 06:54:16.584 [com.google:p0/7410] twitter-login: environment: mode=sdk, X app installed=false, legacy SSO activity=false, forced web login=twitter+facebook
+[logcat] 11-27 06:54:16.413  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.415  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityClientProxy@c1ce393
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.419  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocaleManagerProxy@7757dda
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:16.420  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAutofillManagerProxy@428e3e7
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.422  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.422  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:16.423  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.INotificationManagerProxy@2dc4939
+[logcat] 11-27 06:54:16.429  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.432  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccessibilityManagerProxy@99118a
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.434  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IConnectivityManagerProxy@14247e2
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.437  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaRouterServiceProxy@e3cd55c
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:16.438  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.441  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVpnManagerProxy@6dce706
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+[logcat] 11-27 06:54:16.443  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDisplayManagerProxy@e0d5363
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+[logcat] 11-27 06:54:16.446  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.ContentServiceStub@998b678
+[logcat] 11-27 06:54:10.174  7267  7267 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+[logcat] 11-27 06:54:16.450  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaSessionManagerProxy@4cb5f42
+2026-11-27 06:54:16.681 [com.google:p0/7410] step: doCreate: start
+[logcat] 11-27 06:54:16.454  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IShortcutManagerProxy@c0631bc
+[logcat] 11-27 06:54:10.175  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:16.455  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.175  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:16.455  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+2026-11-27 06:54:16.694 [com.google:p0/7410] step: doCreate: content provider init
+[logcat] 11-27 06:54:16.457  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IGraphicsStatsProxy@9c6066
+[logcat] 11-27 06:54:10.176  7208  7208 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system_ext/framework/mediatek-framework.jar): ok
+[logcat] 11-27 06:54:16.458  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDeviceIdentifiersPolicyProxy@cd84fa7
+2026-11-27 06:54:16.706 [com.google:p0/7410] step: doCreate: black manager init
+[logcat] 11-27 06:54:16.460  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPermissionManagerProxy@c1a56f9
+[logcat] 11-27 06:54:10.176  7208  7208 I PowerHalWrapper: PowerHalWrapper.getInstance 
+2026-11-27 06:54:16.710 [com.google:p0/7410] step: doCreate: done
+[logcat] 11-27 06:54:16.464  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.INetworkManagementServiceProxy@9f0d0d8
+[logcat] 11-27 06:54:16.466  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.176  7208  7208 I PowerHalWrapper: PowerHalWrapper.getInstance 
+[logcat] 11-27 06:54:10.177  7208  7208 I M-ProMotion: M-ProMotion is disabled
+[logcat] 11-27 06:54:16.468  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@5f3a6a2
+[logcat] 11-27 06:54:10.177  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:16.469  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityTaskManagerProxy@8cf7f33
+[logcat] 11-27 06:54:10.177  7267  7267 W libprocessgroup: Unknown profile action: SetClamps
+[logcat] 11-27 06:54:16.474  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyManagerProxy@bb1a1ab
+[logcat] 11-27 06:54:10.194  7208  7208 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@a81c562
+[logcat] 11-27 06:54:10.198  7208  7208 E [UAH_CLIENT]: uahInit enter
+[logcat] 11-27 06:54:16.481  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.199  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:10.200  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:16.481  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.487  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.200  7208  7208 E [UAH_CLIENT]: Urcc is not declared, AServiceManager_isDeclared:0
+[logcat] 11-27 06:54:10.200  7208  7208 E [UAH_CLIENT]: uah_get_urcc_hal_and_link_to_death error:-1
+[logcat] 11-27 06:54:16.492  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@5d6e820
+[logcat] 11-27 06:54:16.494  7410  7410 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@5d6e820
+[logcat] 11-27 06:54:10.200  7208  7208 I [UAH_CLIENT]: UahGetFeatureStatus enter
+2026-11-27 06:54:16.776 [com.google:p0/7410] step: native: loading RIYAZcore
+[logcat] 11-27 06:54:10.201  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:16.494  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPackageManagerProxy@792664c
+[logcat] 11-27 06:54:10.201  7208  7208 W ServiceManagerCppClient: Failed to get isDeclared for vendor.oplus.hardware.urcc.IUrcc/default: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+[logcat] 11-27 06:54:16.502  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccountManagerProxy@21e5711
+2026-11-27 06:54:16.785 [com.google:p0/7410] step: native: RIYAZcore loaded
+[logcat] 11-27 06:54:16.506  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageStatsManagerProxy@6d49313
+[logcat] 11-27 06:54:10.201  7208  7208 E [UAH_CLIENT]: Urcc is not declared, AServiceManager_isDeclared:0
+[logcat] 11-27 06:54:16.507  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.507  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.510  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPowerManagerProxy@2319f05
+[logcat] 11-27 06:54:10.201  7208  7208 E [UAH_CLIENT]: uah_get_urcc_hal_and_link_to_death error:-1
+2026-11-27 06:54:16.807 [com.google:p0/7410] native-load: loaded libbgmi.so
+[logcat] 11-27 06:54:16.514  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVibratorServiceProxy@8b97b67
+2026-11-27 06:54:16.810 [com.google:p0/7410] native-load: missing /data/user/0/com.google/files/loader/libtwttier.so
+[logcat] 11-27 06:54:16.516  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.HCallbackStub@8fc24b9
+[logcat] 11-27 06:54:10.207  7208  7208 D WindowManager: Add to mViews: com.android.internal.policy.DecorView{236716b V.E...... R.....I. 0,0-0,0 alpha=1.0 viewInfo = }[⚡Online Lib downloading⚡],pkg= com.google
+[logcat] 11-27 06:54:16.517  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IUserManagerProxy@fb15375
+2026-11-27 06:54:16.813 [com.google:p0/7410] native-load: missing /data/user/0/com.google/files/loader/liballfix.so
+[logcat] 11-27 06:54:10.211  7208  7208 W HWUI    : Unknown dataspace 0
+[logcat] 11-27 06:54:16.522  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.522  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IBackupManagerProxy@820c57
+[logcat] 11-27 06:54:10.211  7208  7245 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+[logcat] 11-27 06:54:10.213  7208  7245 D ExtensionsLoader: Opened libhwuiextimpl.so
+[logcat] 11-27 06:54:16.528  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageManagerProxy@fd6ffb0
+[logcat] 11-27 06:54:10.213  7208  7245 D skia    : setRusSupported enable 0
+[logcat] 11-27 06:54:16.531  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:10.228  7208  7208 D ViewRootImplExtImpl: onDisplayChanged -1 for VRI android.view.ViewRootImpl@a567399
+[logcat] 11-27 06:54:16.531  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@6629eba
+[logcat] 11-27 06:54:10.231  7208  7208 D ActivityThread: ComponentInfo{com.google/com.google.activity.LoginActivity} checkFinished=false 2
+[logcat] 11-27 06:54:16.532  7410  7410 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@6629eba
+[logcat] 11-27 06:54:10.231  7208  7208 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+[logcat] 11-27 06:54:16.532  7410  7410 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPhoneSubInfoProxy@b7f14c8
+[logcat] 11-27 06:54:16.539  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.539  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.547  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.548  7208  7224 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+[logcat] 11-27 06:54:16.549  7410  7410 D BlackBoxCore: getService: package_manager, android.os.BinderProxy@14da2e3
+[logcat] 11-27 06:54:16.552  7410  7410 D PackageManagerStub: 10000 , null GetPackagesForUid: []
+[logcat] 11-27 06:54:16.552  7410  7410 W StorageManager: Missing package names; no storage volumes available
+[logcat] 11-27 06:54:16.554  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.569  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.581  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.582  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.584  7410  7410 D TwitterLoginRedirect: environment: mode=sdk, X app installed=false, legacy SSO activity=false, forced web login=twitter+facebook
+[logcat] 11-27 06:54:16.586  7208  7395 I com.google: AssetManager2(0x6dd338dc28) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:16.589  7208  7395 D ActivityStack: ActivityInfo{1fa1841 com.epicgames.ue4.SplashActivity}, windowIsTranslucent: false
+[logcat] 11-27 06:54:16.589  7208  7224 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+[logcat] 11-27 06:54:16.590  7410  7410 D BlackBoxCore: getService: storage_manager, android.os.BinderProxy@4ca63a4
+[logcat] 11-27 06:54:16.590  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.608  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.608  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.618  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.624  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.634  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.634  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.643  7410  7410 D WebLoginBridge: pending result retry started
+[logcat] 11-27 06:54:16.655  7208  7219 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+[logcat] 11-27 06:54:16.656  7410  7410 D BlackBoxCore: getService: activity_manager, android.os.BinderProxy@2ce4ec3
+[logcat] 11-27 06:54:16.659  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.667  7410  7428 D SurfaceSyncGroup: preCreateSurfaceSyncGroupTimerThread
+[logcat] 11-27 06:54:16.668  7208  7208 D VRI[LauncherActivity]: onFocusEvent false
+[logcat] 11-27 06:54:16.676  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.676  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.687  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.699  7208  7224 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+[logcat] 11-27 06:54:16.700  7410  7410 D BlackBoxCore: getService: job_manager, android.os.BinderProxy@c970dff
+[logcat] 11-27 06:54:16.700  7208  7219 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+[logcat] 11-27 06:54:16.701  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.701  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.701  7410  7410 D BlackBoxCore: getService: user_manager, android.os.BinderProxy@4ced7cc
+[logcat] 11-27 06:54:16.702  7208  7289 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+[logcat] 11-27 06:54:16.702  7410  7410 D BlackBoxCore: getService: xposed_manager, android.os.BinderProxy@59a3a15
+[logcat] 11-27 06:54:16.703  7208  7224 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+[logcat] 11-27 06:54:16.704  7410  7410 D BlackBoxCore: getService: account_manager, android.os.BinderProxy@19b512a
+[logcat] 11-27 06:54:16.704  7208  7289 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+[logcat] 11-27 06:54:16.705  7410  7410 D BlackBoxCore: getService: location_manager, android.os.BinderProxy@2588b1b
+[logcat] 11-27 06:54:16.706  7208  7219 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+[logcat] 11-27 06:54:16.706  7410  7410 D BlackBoxCore: getService: notification_manager, android.os.BinderProxy@bf7a4b8
+[logcat] 11-27 06:54:16.710  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.720  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.722  7410  7410 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:16.723  7410  7410 D LICENSE_DEBUG: KEY: MANISH->4e15d8fc66
+[logcat] 11-27 06:54:16.728  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.728  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.732  7410  7410 I ZoroNative: [BoxApp] license key requested
+[logcat] 11-27 06:54:16.738  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.744  7410  7458 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+[logcat] 11-27 06:54:16.746  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.757  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.757  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.764  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.772  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.773  7410  7410 I com.google:p0: AssetManager2(0x6f5c584a28) locale list changing from [] to [en-IN]
+[logcat] 11-27 06:54:16.784  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.784  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.785  7410  7410 D nativeloader: Load /data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/lib/arm64/libRIYAZcore.so using class loader ns clns-9 (caller=/data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/base.apk!classes2.dex): ok
+[logcat] 11-27 06:54:16.791  7410  7410 W System  : Attempt to load writable file: /data/user/0/com.google/files/loader/libbgmi.so. This will throw on a future Android version. Current sdk version: 36
+[logcat] 11-27 06:54:16.786  7410  7410 W om.pubg.imobile: type=1400 audit(0.0:218280): avc:  granted  { execute } for  path="/data/user/0/com.google/files/loader/libbgmi.so" dev="dm-76" ino=3354972 scontext=u:r:untrusted_app_27:s0:c42,c261,c512,c768 tcontext=u:object_r:app_data_file:s0:c42,c261,c512,c768 tclass=file app=com.google
+[logcat] 11-27 06:54:16.794  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.806  7410  7410 D nativeloader: Load /data/user/0/com.google/files/loader/libbgmi.so using class loader ns clns-9 (caller=/data/app/~~ZND1ZR_I2KglF6KGK5Y84g==/com.google-CrtT50teAH6g-8TcLr7CsQ==/base.apk!classes2.dex): ok
+[logcat] 11-27 06:54:16.806  7466  7466 E libsigchain: Setting SIGSEGV to SIG_DFL
+[logcat] 11-27 06:54:16.807  7410  7410 I RNative : Loaded: libbgmi.so
+[logcat] 11-27 06:54:16.810  7410  7410 W RNative : File not found: /data/user/0/com.google/files/loader/libtwttier.so
+[logcat] 11-27 06:54:16.811  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.811  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.813  7410  7410 W RNative : File not found: /data/user/0/com.google/files/loader/liballfix.so
+[logcat] 11-27 06:54:16.818  7410  7410 D NativeCore: NativeCore init.
+[logcat] 11-27 06:54:16.822  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.832  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/data/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile/lib -> /data/app/~~DsCdvh-H91h101-rMGhgzA==/com.pubg.imobile-EN6onBXv8uFrUH-cRhCyVA==/lib/arm64
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/data/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/user/0/com.pubg.imobile -> /data/user/0/com.google/files/data/user/0/com.pubg.imobile
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/misc/profiles -> /data/user/0/com.google/files/profiles
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/misc/profiles/cur/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/cur/0/com.pubg.imobile
+[logcat] 11-27 06:54:16.840  7410  7410 D NativeCore: set addIORule: /data/misc/profiles/ref/0/com.pubg.imobile -> /data/user/0/com.google/files/profiles/ref/0/com.pubg.imobile
+[logcat] 11-27 06:54:16.841  7410  7410 D NativeCore: set addIORule: /sdcard -> /storage/emulated/0/SdCard
+[logcat] 11-27 06:54:16.842  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.842  7208  7245 E GPUAUX  : [AUX]GuiExtAuxCheckAuxPath:682: Null anb
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: set addIORule: /storage/emulated/0 -> /storage/emulated/0/SdCard
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: set addIORule: /proc/7410/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: set addIORule: /proc/self/cmdline -> /data/user/0/com.google/files/proc/0/cmdline
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: set enableIO
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：getLastModifiedTime0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：setPermission0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：createFileExclusively0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：list0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：createDirectory0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50000102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：setLastModifiedTime0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：setReadOnly0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200102,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/io/UnixFileSystem, method：getSpace0 success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50280108,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/lang/VMClassLoader, method：findLoadedClass success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: SystemPropertiesHook initialized with 23 fake props
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x5028010a,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：android/os/SystemProperties, method：native_get success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x5020010a,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：java/lang/Runtime, method：nativeLoad success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：libcore/io/Linux, method：access success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：libcore/io/Linux, method：chmod success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：libcore/io/Linux, method：chown success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：libcore/io/Linux, method：execv success!
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.846  7410  7410 D NativeCore: register class：libcore/io/Linux, method：execve success!
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: register class：libcore/io/Linux, method：getxattr success!
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: register class：libcore/io/Linux, method：lchown success!
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: register class：libcore/io/Linux, method：link success!
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: AccessFlag:flags = 0x50200101,flag = 0x100
+[logcat] 11-27 06:54:16.847  7410  7410 D NativeCore: register class：libcore/io/Linux, method：listxattr success!
