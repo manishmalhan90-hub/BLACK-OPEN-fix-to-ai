@@ -5360,3 +5360,44 @@
 2026-11-26 20:39:07.834 [!!CRASH!!] 11-26 20:39:07.537 20563 20563 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdNativeBacktrace
 2026-11-26 20:39:08.579 [!!CRASH!!] 11-26 20:39:08.554 19104 19112 D BProcessManager: App Died: com.pubg.imobile
 2026-11-26 21:53:23.741 [!!CRASH!!] 11-26 21:53:23.700 22894 22903 D BProcessManager: App Died: com.pubg.imobile
+2026-11-27 06:54:34.395 [!!CRASH!!] 11-27 06:54:34.387  7410  7753 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x38 in tid 7753 (NativeThread), pid 7410 (MainThread-UE4)
+2026-11-27 06:54:34.666 [!!CRASH!!] 11-27 06:54:34.661  7812  7812 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+2026-11-27 06:54:36.141 [!!CRASH!!] 11-27 06:54:35.864  7208  7743 D BProcessManager: App Died: com.pubg.imobile
+2026-11-27 06:54:47.500 [!!CRASH!!] 11-27 06:54:39.469  7851  7851 D AndroidRuntime: Shutting down VM
+2026-11-27 06:54:47.506 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-27 06:54:47.510 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: Process: com.pubg.imobile, PID: 7851
+2026-11-27 06:54:47.529 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+2026-11-27 06:54:47.538 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+2026-11-27 06:54:47.542 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+2026-11-27 06:54:47.549 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+2026-11-27 06:54:47.554 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+2026-11-27 06:54:47.559 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+2026-11-27 06:54:47.568 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+2026-11-27 06:54:47.575 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+2026-11-27 06:54:47.580 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-27 06:54:47.586 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-27 06:54:47.591 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-27 06:54:47.596 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-27 06:54:47.602 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-27 06:54:47.607 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-27 06:54:47.612 [!!CRASH!!] 11-27 06:54:39.470  7851  7851 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-27 06:54:47.922 [!!CRASH!!] 11-27 06:54:39.738  7208  7289 D BProcessManager: App Died: com.pubg.imobile
+2026-11-27 06:54:51.208 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 D AndroidRuntime: Shutting down VM
+2026-11-27 06:54:51.218 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: FATAL EXCEPTION: main
+2026-11-27 06:54:51.226 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: Process: com.pubg.imobile, PID: 8349
+2026-11-27 06:54:51.234 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.ComponentName android.content.Intent.getComponent()' on a null object reference
+2026-11-27 06:54:51.246 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4479)
+2026-11-27 06:54:51.263 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4851)
+2026-11-27 06:54:51.272 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:242)
+2026-11-27 06:54:51.286 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:138)
+2026-11-27 06:54:51.300 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:108)
+2026-11-27 06:54:51.306 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:85)
+2026-11-27 06:54:51.317 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3131)
+2026-11-27 06:54:51.324 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:115)
+2026-11-27 06:54:51.331 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:302)
+2026-11-27 06:54:51.338 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:412)
+2026-11-27 06:54:51.345 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9992)
+2026-11-27 06:54:51.352 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+2026-11-27 06:54:51.358 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+2026-11-27 06:54:51.363 [!!CRASH!!] 11-27 06:54:42.039  8349  8349 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+2026-11-27 06:54:51.668 [!!CRASH!!] 11-27 06:54:42.302  7208  8115 D BProcessManager: App Died: com.pubg.imobile
