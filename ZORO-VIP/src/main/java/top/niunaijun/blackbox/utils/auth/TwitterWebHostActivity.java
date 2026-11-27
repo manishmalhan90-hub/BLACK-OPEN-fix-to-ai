@@ -584,6 +584,7 @@ public final class TwitterWebHostActivity extends Activity {
         result.setPackage(getPackageName());
         result.putExtra("kind", mKind);
         result.putExtra("request_code", mRequestCode);
+        result.putExtra(WebLoginBridge.EXTRA_OWNER_PID, mVirtualPid);
         result.putExtra("result_json", json);
         deliverResult(result);
     }
@@ -596,6 +597,7 @@ public final class TwitterWebHostActivity extends Activity {
         result.setPackage(getPackageName());
         result.putExtra("kind", mKind);
         result.putExtra("request_code", mRequestCode);
+        result.putExtra(WebLoginBridge.EXTRA_OWNER_PID, mVirtualPid);
         result.putExtra("result_code", code);
         result.putExtra("result_msg", message == null ? "" : message);
         deliverResult(result);

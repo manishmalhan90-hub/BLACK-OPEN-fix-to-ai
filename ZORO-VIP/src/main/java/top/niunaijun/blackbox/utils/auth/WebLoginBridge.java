@@ -54,6 +54,8 @@ public final class WebLoginBridge {
     private static final String TAG = "WebLoginBridge";
     static final String ACTION_RESULT = "top.niunaijun.blackbox.weblogin.RESULT";
     public static final String EXTRA_VIRTUAL_PID = "virtual_pid";
+    /** PID of the virtual process that started the isolated login. */
+    public static final String EXTRA_OWNER_PID = "owner_pid";
     private static final String PROVIDER_METHOD = "START_WEB_LOGIN";
     private static final String RESTORE_METHOD = "RESTORE_GAME";
     private static final String DONE_METHOD = "WEB_LOGIN_DONE";
@@ -442,6 +444,12 @@ public final class WebLoginBridge {
                     pending.put("result_msg", msg == null ? "" : msg);
                 }
                 pending.put("request_code", result.getIntExtra("request_code", 1));
+                // A result whose owner process died cannot be delivered. Record
+                // the owner so every consumer can discard it immediately instead
+                // of blocking the next login attempt for minutes.
+                int ownerPid = result.getIntExtra(EXTRA_OWNER_PID,
+                        result.getIntExtra(EXTRA_VIRTUAL_PID, 0));
+                pending.put("owner_pid", ownerPid > 0 ? ownerPid : 0);
                 pending.put("ts", System.currentTimeMillis());
                 File temp = new File(file.getParentFile(), file.getName() + ".tmp");
                 FileOutputStream out = new FileOutputStream(temp, false);
@@ -493,6 +501,12 @@ public final class WebLoginBridge {
                 if (ts <= 0L || ts > now || now - ts > PENDING_MAX_AGE_MS) {
                     clearPending(context);
                     log("stale pending result discarded");
+                    return;
+                }
+                if (!pendingOwnerAlive(pending)) {
+                    clearPending(context);
+                    sPendingFailures = 0;
+                    log("pending result discarded: owner process gone");
                     return;
                 }
                 Intent result = new Intent(ACTION_RESULT);
@@ -557,12 +571,40 @@ public final class WebLoginBridge {
             long ts = pending.optLong("ts", 0L);
             long now = System.currentTimeMillis();
             if (ts <= 0L || ts > now || now - ts > PENDING_MAX_AGE_MS) {
+                clearPending(context);
+                return null;
+            }
+            if (!pendingOwnerAlive(pending)) {
+                log("stale pending result discarded | owner process gone");
+                clearPending(context);
                 return null;
             }
             String kind = pending.optString("kind");
             return TextUtils.isEmpty(kind) ? null : kind;
         } catch (Throwable ignored) {
             return null;
+        }
+    }
+
+    /**
+     * Results are only deliverable to the virtual process that started the
+     * login. After an ART abort its PID is gone, so a stored result must not
+     * suppress a fresh Twitter or Facebook login attempt.
+     */
+    private static boolean pendingOwnerAlive(JSONObject pending) {
+        if (!pending.has("owner_pid")) {
+            // A v19 file has no owner and can only be an undeliverable leftover.
+            return false;
+        }
+        int pid = pending.optInt("owner_pid", 0);
+        if (pid <= 0) {
+            // Unknown owner (host-side fallback): age alone decides.
+            return true;
+        }
+        try {
+            return new File("/proc/" + pid).exists();
+        } catch (Throwable ignored) {
+            return true;
         }
     }
 

@@ -57,6 +57,9 @@ import top.niunaijun.blackbox.utils.compat.ActivityManagerCompat;
 public class ActivityStack {
     public static final String TAG = "ActivityStack";
 
+    /** Avoid a relaunch storm when a restored activity keeps crashing. */
+    private static long sLastGameRelaunch;
+
     private final ActivityManager mAms;
     private final Map<Integer, TaskRecord> mTasks = new LinkedHashMap<>();
     private final Set<ActivityRecord> mLaunchingActivities = new HashSet<>();
@@ -369,13 +372,20 @@ public class ActivityStack {
                 // on the loader launcher, so explicitly relaunch the game.
                 if (gamePackage != null
                         && !BProcessManagerService.get().isPackageProcessAlive(gamePackage, 0)) {
-                    Log.d(TAG, "restoreGameTasks: virtual process gone, relaunching " + gamePackage);
-                    mHandler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            BlackBoxCore.get().launchApk(gamePackage, 0);
-                        }
-                    });
+                    long now = System.currentTimeMillis();
+                    if (now - sLastGameRelaunch < 8000L) {
+                        Log.d(TAG, "restoreGameTasks: relaunch suppressed by cooldown | pkg="
+                                + gamePackage + " | wait_ms=" + (8000L - (now - sLastGameRelaunch)));
+                    } else {
+                        sLastGameRelaunch = now;
+                        Log.d(TAG, "restoreGameTasks: virtual process gone, relaunching " + gamePackage);
+                        mHandler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                BlackBoxCore.get().launchApk(gamePackage, 0);
+                            }
+                        });
+                    }
                 }
             } else {
                 Log.d(TAG, "restoreGameTasks: no safe virtual game task available");
